@@ -779,4 +779,15 @@ The next lesson is what came out.
 - Asprem, Egil. *Arguing with Angels: Enochian Magic and Modern Occulture* (SUNY Press, 2012) — critical reception and modern scholarship.
 - Nicholl, Charles. "The Last Years of Edward Kelley, Alchemist to the Emperor", *London Review of Books* 23, no. 8 (19 April 2001) — the standard modern account of the Rudolfine aftermath.
 - Evans, R. J. W. *Rudolf II and His World: A Study in Intellectual History, 1576–1612* (Oxford: Clarendon Press, 1973).
-- Tait, Hugh, et al. "The Lord of the Smoking Mirror: Objects Associated with John Dee in the British Museum", *Studies in History and Philosophy of Science Part A* 43 (2012) — the authoritati
+- Tait, Hugh, et al. "The Lord of the Smoking Mirror: Objects Associated with John Dee in the British Museum", *Studies in History and Philosophy of Science Part A* 43 (2012) — the authoritative object study for the British Museum artifacts.
+- Smith, Pamela H. *The Business of Alchemy: Science and Culture in the Holy Roman Empire* (Princeton University Press, 1994).
+
+---
+
+*This lesson has been reviewed against the Archive's verification protocol (see SOURCE_PACK_2_VERIFICATION_PASS). Certain details remain marked as contested or unresolved and will be revisited at later ranks.*
+
+---
+
+*Lesson 1.2 complete. The Archive continues.*
+
+:::

@@ -806,4 +806,8 @@ Let them be strange.
 
 ---
 
-*This lesson has been rev
+*This lesson has been reviewed against the Archive's verification protocol (see SOURCE_PACK_2_VERIFICATION_PASS and SOURCE_PACK_3_LESSON_1_3). Source Pack #4 will provide page-level anchoring and the rigor layer for all claims. Certain details remain held for later ranks and will be revisited there.*
+
+---
+
+*Lesson 1.4 complete. The Archive continues.*

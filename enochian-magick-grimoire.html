@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enochian Magick — The Complete Seeker's Grimoire</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=UnifrakturMaguntia&display=swap');
+
+:root {
+  --ink:        #080604;
+  --deep:       #0d0a05;
+  --parchment:  #140f07;
+  --gold:       #c9a84c;
+  --gold-light: #e8cc7d;
+  --gold-pale:  #f5e8c0;
+  --gold-dim:   #7a6230;
+  --amber:      #a06820;
+  --ember:      #7a3510;
+  --blood:      #5c1a10;
+  --ash:        #3a3020;
+  --fog:        rgba(245,232,192,0.07);
+  --line:       rgba(201,168,76,0.18);
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--deep);
+  color: var(--gold-pale);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.85;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+/* ── NOISE OVERLAY ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.6;
+}
+
+/* ══════════════════════════════════════════
+   ANIMATED STAR FIELD
+══════════════════════════════════════════ */
+.starfield {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--gold);
+  animation: twinkle var(--dur, 4s) ease-in-out infinite;
+  animation-delay: var(--delay, 0s);
+  opacity: 0;
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0; transform: scale(0.5); }
+  50%       { opacity: var(--peak, 0.4); transform: scale(1); }
+}
+
+/* ══════════════════════════════════════════
+   HERO
+══════════════════════════════════════════ */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 40px 100px;
+  overflow: hidden;
+}
+
+.hero-aura {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 40%, rgba(201,168,76,0.07) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 80% at 20% 100%, rgba(92,26,16,0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 80% at 80% 0%,   rgba(92,26,16,0.10) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* Enochian circle SVG behind hero text */
+.hero-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  opacity: 0.045;
+  animation: slowSpin 120s linear infinite;
+  pointer-events: none;
+}
+@keyframes slowSpin { to { transform: translate(-50%,-50%) rotate(360deg); } }
+
+.hero-eyebrow {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 9px;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 28px;
+  opacity: 0.75;
+  animation: fadeUp 1.4s ease both;
+}
+
+.hero-fraktur {
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: clamp(48px, 10vw, 88px);
+  color: var(--gold-light);
+  line-height: 1.1;
+  margin-bottom: 12px;
+  text-shadow:
+    0 0 60px rgba(201,168,76,0.35),
+    0 0 120px rgba(201,168,76,0.15);
+  animation: fadeUp 1.4s 0.2s ease both;
+}
+
+.hero-sub {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(13px, 2vw, 17px);
+  letter-spacing: 4px;
+  color: var(--gold);
+  opacity: 0.7;
+  margin-bottom: 48px;
+  animation: fadeUp 1.4s 0.4s ease both;
+}
+
+.hero-divider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto 40px;
+  width: 100%;
+  max-width: 500px;
+  animation: fadeUp 1.4s 0.5s ease both;
+}
+.hero-divider-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim));
+}
+.hero-divider-line.r { background: linear-gradient(90deg, var(--gold-dim), transparent); }
+.hero-divider-glyph { color: var(--gold); font-size: 22px; opacity: 0.8; }
+
+.hero-deck {
+  font-style: italic;
+  font-size: clamp(16px, 2.5vw, 21px);
+  color: rgba(245,232,192,0.72);
+  max-width: 660px;
+  line-height: 1.75;
+  animation: fadeUp 1.4s 0.6s ease both;
+}
+
+.hero-scroll-hint {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 5px;
+  color: var(--gold);
+  opacity: 0.4;
+  animation: pulse 3s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:0.3} 50%{opacity:0.7} }
+
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(28px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+/* ══════════════════════════════════════════
+   LAYOUT
+══════════════════════════════════════════ */
+.grimoire {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 40px 120px;
+}
+
+/* ══════════════════════════════════════════
+   CHAPTER HEADERS
+══════════════════════════════════════════ */
+.chapter-break {
+  text-align: center;
+  padding: 80px 0 56px;
+  position: relative;
+}
+
+.chapter-roman {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 8px;
+  color: var(--amber);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+
+.chapter-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(20px, 4vw, 34px);
+  font-weight: 700;
+  color: var(--gold-light);
+  line-height: 1.25;
+  margin-bottom: 20px;
+  text-shadow: 0 0 40px rgba(201,168,76,0.2);
+}
+
+.chapter-rule {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin: 24px auto 0;
+  max-width: 400px;
+}
+.chapter-rule-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line));
+}
+.chapter-rule-line.r { background: linear-gradient(90deg, var(--line), transparent); }
+.chapter-rule-diamond {
+  width: 7px;
+  height: 7px;
+  border: 1px solid var(--gold-dim);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+/* ══════════════════════════════════════════
+   BODY COPY
+══════════════════════════════════════════ */
+.prose { margin-bottom: 28px; }
+.prose p {
+  font-size: 17.5px;
+  color: rgba(245,232,192,0.85);
+  margin-bottom: 20px;
+  line-height: 1.9;
+}
+.prose p:first-of-type::first-letter {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 62px;
+  float: left;
+  line-height: 0.75;
+  padding-right: 10px;
+  padding-top: 8px;
+  color: var(--gold-light);
+  text-shadow: 0 0 20px rgba(201,168,76,0.4);
+}
+.prose strong { color: var(--gold-light); font-weight: 600; }
+.prose em     { color: rgba(245,232,192,0.9); font-style: italic; }
+
+/* ══════════════════════════════════════════
+   ILLUMINATED PULLQUOTE
+══════════════════════════════════════════ */
+.illuminated {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 36px 48px;
+  margin: 44px 0;
+  text-align: center;
+  position: relative;
+  background: linear-gradient(180deg, rgba(201,168,76,0.03) 0%, transparent 100%);
+}
+.illuminated::before, .illuminated::after {
+  content: '✦';
+  position: absolute;
+  top: -8px;
+  color: var(--gold);
+  font-size: 12px;
+  background: var(--deep);
+  padding: 0 10px;
+}
+.illuminated::before { left: 40px; }
+.illuminated::after  { right: 40px; }
+
+.illuminated-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: clamp(18px, 3vw, 24px);
+  color: var(--gold-light);
+  line-height: 1.6;
+  font-weight: 300;
+}
+.illuminated-source {
+  margin-top: 14px;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: var(--gold-dim);
+  text-transform: uppercase;
+}
+
+/* ══════════════════════════════════════════
+   SIDEBAR / MARGINALIA BOX
+══════════════════════════════════════════ */
+.marginalia {
+  float: right;
+  width: 240px;
+  margin: 8px 0 24px 32px;
+  border: 1px solid rgba(201,168,76,0.2);
+  border-top: 2px solid var(--gold-dim);
+  padding: 20px 22px;
+  background: rgba(201,168,76,0.03);
+  clear: right;
+}
+.marginalia-label {
+  font-family: 'Cinzel', serif;
+  font-size: 8px;
+  letter-spacing: 5px;
+  color: var(--amber);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+.marginalia p {
+  font-size: 13.5px;
+  color: rgba(245,232,192,0.65);
+  font-style: italic;
+  line-height: 1.65;
+  margin-bottom: 8px;
+}
+
+/* ══════════════════════════════════════════
+   ENOCHIAN KEY DISPLAY
+══════════════════════════════════════════ */
+.key-display {
+  background: rgba(0,0,0,0.4);
+  border: 1px solid var(--line);
+  padding: 40px 48px;
+  margin: 36px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.key-display::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.07) 0%, transparent 60%);
+  pointer-events: none;
+}
+.key-number {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 6px;
+  color: var(--amber);
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+.key-enochian {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(14px, 2.5vw, 18px);
+  color: var(--gold);
+  letter-spacing: 3px;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+.key-english {
+  font-style: italic;
+  font-size: 15px;
+  color: rgba(245,232,192,0.55);
+  line-height: 1.7;
+}
+.key-note {
+  margin-top: 16px;
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--gold-dim);
+  opacity: 0.7;
+}
+
+/* ══════════════════════════════════════════
+   ENTITY / FIGURE CARDS
+══════════════════════════════════════════ */
+.figure-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 32px 0;
+}
+.figure-card {
+  border: 1px solid var(--line);
+  padding: 28px 28px 24px;
+  background: linear-gradient(145deg, rgba(201,168,76,0.04) 0%, rgba(0,0,0,0.3) 100%);
+  position: relative;
+  transition: border-color 0.3s, transform 0.3s;
+}
+.figure-card:hover {
+  border-color: rgba(201,168,76,0.4);
+  transform: translateY(-2px);
+}
+.figure-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+}
+.figure-glyph {
+  font-size: 30px;
+  margin-bottom: 12px;
+  opacity: 0.8;
+}
+.figure-name {
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: var(--gold-light);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.figure-title {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--amber);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  opacity: 0.8;
+}
+.figure-desc {
+  font-size: 14.5px;
+  color: rgba(245,232,192,0.72);
+  line-height: 1.7;
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════════
+   AETHYR TABLE
+══════════════════════════════════════════ */
+.aethyr-intro {
+  font-style: italic;
+  font-size: 15px;
+  color: rgba(245,232,192,0.6);
+  text-align: center;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.aethyr-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3px;
+  margin: 28px 0;
+  background: rgba(201,168,76,0.05);
+  border: 1px solid var(--line);
+  padding: 3px;
+}
+.aethyr-cell {
+  background: rgba(8,6,4,0.7);
+  padding: 12px 8px;
+  text-align: center;
+  border: 1px solid rgba(201,168,76,0.07);
+  transition: background 0.25s, border-color 0.25s;
+  cursor: default;
+}
+.aethyr-cell:hover {
+  background: rgba(201,168,76,0.1);
+  border-color: rgba(201,168,76,0.3);
+}
+.aethyr-cell.apex {
+  background: rgba(201,168,76,0.08);
+  border-color: rgba(201,168,76,0.3);
+}
+.aethyr-cell.abyss {
+  background: rgba(92,26,16,0.15);
+  border-color: rgba(92,26,16,0.4);
+}
+.aethyr-num {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  color: var(--gold-dim);
+  margin-bottom: 3px;
+  letter-spacing: 1px;
+}
+.aethyr-name {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  color: var(--gold-light);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.aethyr-meaning {
+  font-size: 10px;
+  color: rgba(245,232,192,0.45);
+  font-style: italic;
+  margin-top: 3px;
+  line-height: 1.3;
+}
+
+/* ══════════════════════════════════════════
+   THREE SCHOOLS
+══════════════════════════════════════════ */
+.schools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  margin: 32px 0;
+  background: var(--line);
+}
+.school {
+  background: var(--deep);
+  padding: 32px 24px;
+  text-align: center;
+  transition: background 0.3s;
+}
+.school:hover { background: rgba(201,168,76,0.04); }
+.school-sigil { font-size: 34px; margin-bottom: 16px; }
+.school-era {
+  font-family: 'Cinzel', serif;
+  font-size: 8px;
+  letter-spacing: 4px;
+  color: var(--amber);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.school-name {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--gold-light);
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+.school-desc {
+  font-size: 14px;
+  color: rgba(245,232,192,0.65);
+  font-style: italic;
+  line-height: 1.7;
+}
+
+/* ══════════════════════════════════════════
+   BULLET LISTS
+══════════════════════════════════════════ */
+.sacred-list {
+  list-style: none;
+  margin: 16px 0 28px;
+}
+.sacred-list li {
+  padding: 8px 0 8px 28px;
+  position: relative;
+  font-size: 16.5px;
+  color: rgba(245,232,192,0.82);
+  border-bottom: 1px solid rgba(201,168,76,0.06);
+  line-height: 1.7;
+}
+.sacred-list li:last-child { border-bottom: none; }
+.sacred-list li::before {
+  content: '◈';
+  position: absolute;
+  left: 0;
+  color: var(--gold-dim);
+  font-size: 10px;
+  top: 12px;
+}
+.sacred-list li strong { color: var(--gold-light); }
+
+/* ══════════════════════════════════════════
+   DANGER / WARNING BOX
+══════════════════════════════════════════ */
+.danger-box {
+  border: 1px solid rgba(92,26,16,0.6);
+  border-left: 3px solid var(--blood);
+  background: rgba(92,26,16,0.08);
+  padding: 28px 32px;
+  margin: 32px 0;
+  position: relative;
+}
+.danger-label {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 5px;
+  color: #c04a2a;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+.danger-box p {
+  font-size: 16px;
+  color: rgba(245,232,192,0.75);
+  line-height: 1.8;
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════════
+   THE BIG QUESTION BOXES
+══════════════════════════════════════════ */
+.questions {
+  background: rgba(201,168,76,0.04);
+  border: 1px solid var(--line);
+  padding: 32px 36px;
+  margin: 32px 0;
+}
+.questions-header {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 6px;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  opacity: 0.7;
+}
+.q-item {
+  font-style: italic;
+  font-size: 17px;
+  color: rgba(245,232,192,0.8);
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px solid rgba(201,168,76,0.07);
+  position: relative;
+  line-height: 1.65;
+}
+.q-item:last-child { border-bottom: none; }
+.q-item::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--gold-dim);
+}
+
+/* ══════════════════════════════════════════
+   READING LIST
+══════════════════════════════════════════ */
+.books {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 28px 0;
+}
+.book {
+  border: 1px solid var(--line);
+  padding: 22px 24px;
+  background: rgba(0,0,0,0.3);
+  transition: border-color 0.3s, background 0.3s;
+}
+.book:hover {
+  border-color: rgba(201,168,76,0.35);
+  background: rgba(201,168,76,0.04);
+}
+.book-num {
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: var(--amber);
+  margin-bottom: 8px;
+  opacity: 0.7;
+}
+.book-title {
+  font-family: 'Cinzel', serif;
+  font-size: 13px;
+  color: var(--gold-light);
+  margin-bottom: 4px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.book-author {
+  font-size: 12px;
+  color: rgba(245,232,192,0.5);
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.book-note {
+  font-size: 13px;
+  color: rgba(245,232,192,0.62);
+  line-height: 1.6;
+}
+
+/* ══════════════════════════════════════════
+   HORIZONTAL RULE
+══════════════════════════════════════════ */
+.ornament-rule {
+  border: none;
+  text-align: center;
+  margin: 56px 0;
+  position: relative;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line), transparent);
+}
+.ornament-rule::after {
+  content: '✧  ✦  ✧';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--deep);
+  padding: 0 20px;
+  color: var(--gold-dim);
+  font-size: 11px;
+  letter-spacing: 6px;
+  white-space: nowrap;
+}
+
+/* ══════════════════════════════════════════
+   CLOSING COLOPHON
+══════════════════════════════════════════ */
+.colophon {
+  text-align: center;
+  padding: 80px 40px;
+  border: 1px solid var(--line);
+  margin-top: 60px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(201,168,76,0.04) 0%, transparent 100%);
+}
+.colophon::before, .colophon::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+  transform: translateX(-50%);
+}
+.colophon::before { top: 0; }
+.colophon::after  { bottom: 0; }
+.colophon-glyph { font-size: 36px; margin-bottom: 24px; opacity: 0.7; }
+.colophon h2 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(18px, 3vw, 26px);
+  color: var(--gold-light);
+  margin-bottom: 20px;
+}
+.colophon p {
+  font-style: italic;
+  font-size: 17px;
+  color: rgba(245,232,192,0.65);
+  max-width: 560px;
+  margin: 0 auto 14px;
+  line-height: 1.8;
+}
+.colophon-tag {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 4px;
+  color: var(--gold-dim);
+  border: 1px solid rgba(201,168,76,0.2);
+  padding: 6px 16px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+/* ══════════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════════ */
+@media(max-width:680px){
+  .grimoire { padding: 0 20px 80px; }
+  .figure-grid { grid-template-columns: 1fr; }
+  .schools { grid-template-columns: 1fr; }
+  .books { grid-template-columns: 1fr; }
+  .aethyr-grid { grid-template-columns: repeat(3,1fr); }
+  .marginalia { float: none; width: 100%; margin: 0 0 24px 0; }
+  .illuminated { padding: 28px 24px; }
+  .key-display { padding: 28px 24px; }
+}
+</style>
+</head>
+<body>
+
+<!-- STARFIELD -->
+<div class="starfield" id="starfield"></div>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-aura"></div>
+
+  <!-- Rotating Enochian circle -->
+  <svg class="hero-circle" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="250" cy="250" r="230" stroke="#c9a84c" stroke-width="1"/>
+    <circle cx="250" cy="250" r="200" stroke="#c9a84c" stroke-width="0.5" stroke-dasharray="4 8"/>
+    <circle cx="250" cy="250" r="160" stroke="#c9a84c" stroke-width="1"/>
+    <circle cx="250" cy="250" r="80"  stroke="#c9a84c" stroke-width="0.5"/>
+    <polygon points="250,30 450,370 50,370"  stroke="#c9a84c" stroke-width="0.75" fill="none"/>
+    <polygon points="250,470 50,130 450,130" stroke="#c9a84c" stroke-width="0.75" fill="none"/>
+    <line x1="250" y1="20" x2="250" y2="480" stroke="#c9a84c" stroke-width="0.4" stroke-dasharray="3 10"/>
+    <line x1="20"  y1="250" x2="480" y2="250" stroke="#c9a84c" stroke-width="0.4" stroke-dasharray="3 10"/>
+    <line x1="74"  y1="74"  x2="426" y2="426" stroke="#c9a84c" stroke-width="0.3" stroke-dasharray="2 12"/>
+    <line x1="426" y1="74"  x2="74"  y2="426" stroke="#c9a84c" stroke-width="0.3" stroke-dasharray="2 12"/>
+    <text x="250" y="258" text-anchor="middle" fill="#c9a84c" font-size="14" font-family="serif" letter-spacing="6">OL SONF VORSG</text>
+    <!-- outer sigils -->
+    <text x="250" y="48"  text-anchor="middle" fill="#c9a84c" font-size="10" font-family="serif">✦</text>
+    <text x="452" y="255" text-anchor="middle" fill="#c9a84c" font-size="10" font-family="serif">✦</text>
+    <text x="48"  y="255" text-anchor="middle" fill="#c9a84c" font-size="10" font-family="serif">✦</text>
+    <text x="250" y="472" text-anchor="middle" fill="#c9a84c" font-size="10" font-family="serif">✦</text>
+  </svg>
+
+  <div class="hero-eyebrow">A Free Seeker's Grimoire</div>
+  <div class="hero-fraktur">Enochian Magick</div>
+  <div class="hero-sub">The Language of Angels · The Watchers · The Architecture of Heaven</div>
+
+  <div class="hero-divider">
+    <div class="hero-divider-line"></div>
+    <span class="hero-divider-glyph">⊕</span>
+    <div class="hero-divider-line r"></div>
+  </div>
+
+  <p class="hero-deck">
+    In 1582, a royal advisor and a visionary scryer sat before a black mirror in Elizabethan London
+    and began receiving transmissions they claimed came directly from angels.
+    What followed was the most complex, strange, and electrifying magical system ever recorded —
+    one that has never been fully explained.
+    <br><br>
+    This is the story of what they found. And why it still matters.
+  </p>
+
+  <div class="hero-scroll-hint">↓ &nbsp; SCROLL TO BEGIN &nbsp; ↓</div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     GRIMOIRE BODY
+══════════════════════════════════════════ -->
+<main class="grimoire">
+
+  <!-- ══ CHAPTER I ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Chapter I</div>
+    <div class="chapter-title">The Two Men Who Opened a Door</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="figure-grid">
+    <div class="figure-card">
+      <div class="figure-glyph">🔭</div>
+      <div class="figure-name">Dr. John Dee</div>
+      <div class="figure-title">1527 – 1608/09 · Royal Philosopher</div>
+      <div class="figure-desc">Mathematician, navigator, astrologer, and advisor to Queen Elizabeth I. He chose the date of her coronation by the stars and coined the term "the British Empire." His private library at Mortlake held over 4,000 volumes — larger than Oxford's at the time. He was, by any measure, the most learned man in England. And he spent the last decades of his life trying to speak to angels.</div>
+    </div>
+    <div class="figure-card">
+      <div class="figure-glyph">🔮</div>
+      <div class="figure-name">Edward Kelley</div>
+      <div class="figure-title">1555 – 1597 · Scryer &amp; Alchemist</div>
+      <div class="figure-desc">A deeply strange figure — possibly a forger, almost certainly a fugitive, with ears cropped as punishment for unknown crimes. Yet he could gaze into a polished obsidian mirror or a crystal "shewstone" and perceive things no one else could see. He became Dee's indispensable partner and the voice through which the angels chose to speak. Their relationship would end in ruin.</div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>Most magical traditions are archaeological. They borrow, translate, and reconstruct — drawing from Hermeticism, Neoplatonism, Kabbalah, Vedic texts, or Shamanic lineages stretching back thousands of years. They are inheritances. Enochian Magick is something else entirely. It did not arrive through libraries or lineages. It was <strong>transmitted</strong>.</p>
+    <p>Beginning in 1582, Dee and Kelley conducted a series of séances they called "angelic conferences." Dee would pray, Kelley would gaze into the mirror, and entities — which identified themselves as angels — would appear and begin dictating. Letters. Words. Entire alphabets. Tables of incomprehensible complexity. Maps of heaven. A complete cosmological system unlike anything recorded before or since.</p>
+    <p>Dee wrote everything down. Obsessively. Over years of sessions, the transmissions accumulated into what would eventually become one of the most elaborate magical systems in Western history — a system that modern practitioners are <em>still</em> unpacking.</p>
+  </div>
+
+  <div class="illuminated">
+    <div class="illuminated-text">"I see one standing before me, and he sayeth: the time is come that I will speak, and I will not be silent."</div>
+    <div class="illuminated-source">From Dee's Angelic Diaries, 1582</div>
+  </div>
+
+  <div class="prose">
+    <p>Before we go further, understand what made Dee exceptional — and what made his obsession so profound. This was not a man running from reason. He was a rigorous mathematician, a practitioner of what we might now call proto-science. He believed that <strong>mathematics was the divine language of creation</strong> — that God had written the universe in numbers and geometry. He was right, in a way Newton would later formalize.</p>
+    <p>But Dee believed something had been lost. Something irretrievably human — a primordial contact with the source of all knowledge — had been severed. He traced it to two catastrophes: <strong>the Fall of Adam</strong> and the <strong>destruction of the Tower of Babel</strong>. Before the Fall, Adam had spoken directly with God in a language that perfectly named all things. After Babel, that language shattered into ten thousand fragments — and humanity has been stumbling through the wreckage ever since.</p>
+    <p>His mission was not occult self-aggrandizement. It was genuinely, desperately theological: to recover the language that had been lost. To rebuild the broken bridge between humanity and heaven. And if that required sitting before a black mirror with a scarred drifter from Bristol — then so be it.</p>
+  </div>
+
+  <hr class="ornament-rule">
+
+  <!-- ══ CHAPTER II ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Chapter II</div>
+    <div class="chapter-title">The Angelic Language</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>The angels called their language <em>Angelical</em> — or sometimes <em>Enochian</em>, after the biblical patriarch Enoch, who was said to have walked with God and received divine knowledge before being taken bodily into heaven without dying. The system contains 21 letters with their own distinct script, a grammar of unusual elegance, and words whose phonetic resonance practitioners describe as physically affecting — as though the sounds themselves act directly on the nervous system.</p>
+    <p>The angels insisted this was not an invented code. It was the original tongue — the <em>first</em> language, spoken before human language fractured at Babel. Whether that claim is literal, metaphorical, or somewhere in between is one of the great open questions of occult history.</p>
+  </div>
+
+  <div class="marginalia">
+    <div class="marginalia-label">⟡ Linguistic Note</div>
+    <p>Modern linguists who have analyzed Enochian find it does not follow the statistical patterns of invented or coded languages. It has its own internal grammar, phoneme distribution, and syntactic logic. This does not prove divine origin — but it does suggest Dee and Kelley were not simply making it up.</p>
+  </div>
+
+  <div class="key-display">
+    <div class="key-number">The First Enochian Key — Opening Lines</div>
+    <div class="key-enochian">
+      OL SONF VORSG, GOHO IAD BALT,<br>
+      LANSH CALZ VONPHO — SOBRA Z-OL ROR<br>
+      I TA NAZPSAD, GIRAA TAA MICMA
+    </div>
+    <div class="key-english">
+      "I reign over you, saith the God of Justice, in power exalted above the firmaments of wrath — in whose hands the Sun is as a sword and the Moon as a penetrating fire."
+    </div>
+    <div class="key-note">First of the 19 Calls · Elemental World · Received by Kelley, recorded by Dee · 1584</div>
+  </div>
+
+  <div class="prose">
+    <p>The <strong>19 Calls</strong> (sometimes called the <em>Keys</em>) are the operational core of the Enochian system — spoken invocations used to open, access, and navigate different levels of spiritual reality. Think of them as passwords. Each one unlocks a door. Say the wrong one in the wrong sequence, the traditions warn, and you will not find what you were looking for.</p>
+  </div>
+
+  <ul class="sacred-list">
+    <li><strong>Calls 1 &amp; 2</strong> — Invocations of the primordial divine powers that govern the system itself. Used to open any working and establish contact.</li>
+    <li><strong>Calls 3–18</strong> — Each governs one of the 16 sub-quadrants of the four elemental Watchtower tablets: Fire, Water, Air, and Earth in their various combinations. These are the most frequently used in ceremonial practice.</li>
+    <li><strong>Call 19</strong> — The anomaly. The "One Call." It alone opens the 30 Aethyrs — the ascending spiritual realms above the elemental world. It is the same text used for all 30 Aethyrs; what changes is the name of the Aethyr you declare at the beginning.</li>
+  </ul>
+
+  <div class="illuminated">
+    <div class="illuminated-text">Language is not merely how we describe reality. Language is how reality becomes accessible to us. The Enochian system is built on this premise — that the right sounds, in the right sequence, unlock doors in the architecture of existence.</div>
+    <div class="illuminated-source">Core Principle of Enochian Theory</div>
+  </div>
+
+  <hr class="ornament-rule">
+
+  <!-- ══ CHAPTER III ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Chapter III</div>
+    <div class="chapter-title">The Watchtowers &amp; the Architecture of Heaven</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>The angels didn't just give Dee and Kelley a language. They gave them a <em>map</em>. A complete cosmological architecture — a vision of how reality itself is structured from the lowest material plane to the highest divine light. This map has two primary components: the <strong>Watchtower Tablets</strong> and the <strong>Thirty Aethyrs</strong>.</p>
+    <p>The four Watchtower Tablets are enormous grids of letters, each governing one of the classical elements: Fire, Water, Air, Earth. They are populated by legions of angelic beings organized in strict hierarchical order — from great governors down to sub-ministers of staggering specificity. The Golden Dawn later systematized these tablets into the ceremonial framework still used today.</p>
+    <p>But the Aethyrs are where the system reaches its full, vertiginous depth.</p>
+  </div>
+
+  <p class="aethyr-intro">The Thirty Aethyrs — ascending realms from ordinary consciousness (30) to divine union (1)</p>
+
+  <div class="aethyr-grid">
+    <div class="aethyr-cell"><div class="aethyr-num">30</div><div class="aethyr-name">TEX</div><div class="aethyr-meaning">Ordinary waking mind</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">29</div><div class="aethyr-name">RII</div><div class="aethyr-meaning">Threshold crossing</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">28</div><div class="aethyr-name">BAG</div><div class="aethyr-meaning">Elemental forces</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">27</div><div class="aethyr-name">ZAA</div><div class="aethyr-meaning">Astral landscape</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">26</div><div class="aethyr-name">DES</div><div class="aethyr-meaning">Karmic mirror</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">25</div><div class="aethyr-name">VTI</div><div class="aethyr-meaning">Angelic assembly</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">24</div><div class="aethyr-name">NIA</div><div class="aethyr-meaning">Occult knowledge</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">23</div><div class="aethyr-name">TOR</div><div class="aethyr-meaning">Dissolution begins</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">22</div><div class="aethyr-name">LIN</div><div class="aethyr-meaning">Vision of law</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">21</div><div class="aethyr-name">ASP</div><div class="aethyr-meaning">Initiatory ordeals</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">20</div><div class="aethyr-name">KHR</div><div class="aethyr-meaning">Severe testing</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">19</div><div class="aethyr-name">POP</div><div class="aethyr-meaning">Vision of justice</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">18</div><div class="aethyr-name">ZEN</div><div class="aethyr-meaning">Angelic warriors</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">17</div><div class="aethyr-name">TAN</div><div class="aethyr-meaning">Higher intuition</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">16</div><div class="aethyr-name">LEA</div><div class="aethyr-meaning">Vision of beauty</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">15</div><div class="aethyr-name">OXO</div><div class="aethyr-meaning">Universal law</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">14</div><div class="aethyr-name">UTA</div><div class="aethyr-meaning">Celestial powers</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">13</div><div class="aethyr-name">ZIM</div><div class="aethyr-meaning">Archetypal forces</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">12</div><div class="aethyr-name">LOE</div><div class="aethyr-meaning">Vision of masters</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">11</div><div class="aethyr-name">ICH</div><div class="aethyr-meaning">Veil approaches</div></div>
+    <div class="aethyr-cell abyss"><div class="aethyr-num">10</div><div class="aethyr-name">ZAX</div><div class="aethyr-meaning">The Abyss · Choronzon</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">9</div><div class="aethyr-name">ZIP</div><div class="aethyr-meaning">Beyond the Abyss</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">8</div><div class="aethyr-name">ZID</div><div class="aethyr-meaning">Holy Guardian Angel</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">7</div><div class="aethyr-name">DEO</div><div class="aethyr-meaning">Vision of God-forms</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">6</div><div class="aethyr-name">MAZ</div><div class="aethyr-meaning">Divine mysteries</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">5</div><div class="aethyr-name">LIT</div><div class="aethyr-meaning">Cosmic harmony</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">4</div><div class="aethyr-name">PAZ</div><div class="aethyr-meaning">Divine beauty</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">3</div><div class="aethyr-name">ZOM</div><div class="aethyr-meaning">Union of opposites</div></div>
+    <div class="aethyr-cell"><div class="aethyr-num">2</div><div class="aethyr-name">ARN</div><div class="aethyr-meaning">Pre-creation void</div></div>
+    <div class="aethyr-cell apex"><div class="aethyr-num">1</div><div class="aethyr-name">LIL</div><div class="aethyr-meaning">Union with the divine</div></div>
+  </div>
+
+  <div class="prose">
+    <p>The journey through the Aethyrs is not a metaphor. Practitioners who have worked this system — from Dee's era through to the present — describe it as a genuine progression of expanded and transformed consciousness. Each Aethyr has its own inhabitants, its own trials, its own symbolic landscape. The lower Aethyrs can be navigated by anyone with sincere intent. The higher Aethyrs are inaccessible to the unprepared — and in several cases, have been described as actively hostile to the uninitiated.</p>
+    <p>The most notorious is <strong>ZAX</strong> — the 10th Aethyr. This is the Abyss. Every system of mystical ascent, from the Qabalistic Qliphoth to Buddhist descriptions of the void, has something like the Abyss — a moment where the self must dissolve before it can transcend. In Enochian cosmology, the guardian of ZAX is <strong>Choronzon</strong>: a being described as the Dweller in the Abyss, whose power is dispersion. He does not destroy. He scatters. He fragments the identity into endless self-referential thought loops until the seeker is lost in the hall of mirrors of their own ego.</p>
+    <p>Aleister Crowley claimed to have crossed the Abyss in 1909 in the Algerian desert, conducting the full scrying of all 30 Aethyrs and recording the results in <em>The Vision and the Voice</em> — one of the most intense pieces of visionary literature ever written. His account of ZAX remains deeply unsettling to read.</p>
+  </div>
+
+  <div class="danger-box">
+    <div class="danger-label">⚠ The Abyss — ZAX</div>
+    <p>Choronzon is described not as a force of evil in the conventional sense, but as the primordial principle of dispersal — the entropy of consciousness. In ZAX, all structure breaks down. The danger is not destruction but infinite fragmentation: the mind encounters itself endlessly, mistaking the reflection for the real. This is why Crowley described the ordeal as the annihilation of the ego — not its mere suppression, but its complete dissolution. What passes through ZAX is not the same as what entered it.</p>
+  </div>
+
+  <hr class="ornament-rule">
+
+  <!-- ══ CHAPTER IV ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Chapter IV</div>
+    <div class="chapter-title">The Strange Collapse — When the Angels Asked Too Much</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>The sessions between Dee and Kelley were not uniformly revelatory. They were often disturbing, contradictory, and deeply troubling to Dee's theological sensibilities. The angels contradicted themselves. They issued commands that violated Dee's sense of ethics. They predicted events that did not occur. They seemed, at times, to be testing — or manipulating — the very men they had chosen as vessels.</p>
+    <p>The breaking point came in 1587. After years of increasingly unsettling transmissions, an angel — identified as Madimi — issued an instruction that shattered everything: <strong>Dee and Kelley were commanded to share their wives.</strong></p>
+    <p>Dee — a deeply devout Protestant who had entered this work out of genuine theological conviction — recorded his anguish in his diary. He did not want to comply. The angels insisted. He eventually, reluctantly, agreed. Kelley appears to have been less reluctant. The act ended the partnership. Their collaboration never fully recovered, and within a few years both men's lives had unraveled spectacularly.</p>
+  </div>
+
+  <div class="questions">
+    <div class="questions-header">⟡ The Questions the System Forces You to Ask</div>
+    <div class="q-item">Were Dee and Kelley genuinely in contact with angelic intelligences? Or with something wearing that mask?</div>
+    <div class="q-item">Could Kelley — consciously or unconsciously — have been generating the transmissions himself? And if so, what does that tell us about the nature of the unconscious?</div>
+    <div class="q-item">Why do so many visionaries who claim divine contact eventually receive instructions that transgress their own moral limits? Is this a test? A corruption? A feature of how contact works?</div>
+    <div class="q-item">Is the breakdown of Dee and Kelley's partnership evidence of fraud, psychological collapse, or something stranger — that genuine contact with the "other" is inherently destabilizing to the human mind?</div>
+    <div class="q-item">If the Enochian system was received — rather than invented — why is it internally coherent enough to function as a complete cosmological model?</div>
+  </div>
+
+  <div class="prose">
+    <p>Kelley died in 1597, possibly during a failed escape from imprisonment in Bohemia. Dee died in poverty and near-obscurity in 1608 or 1609, having sold his beloved library piece by piece to survive. The angelic system they transmitted together lay largely dormant for nearly three centuries — preserved in manuscripts no one fully understood — until it was rediscovered and reignited by the Hermetic Order of the Golden Dawn in the late 19th century.</p>
+  </div>
+
+  <hr class="ornament-rule">
+
+  <!-- ══ CHAPTER V ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Chapter V</div>
+    <div class="chapter-title">Enoch, the Watchers &amp; the Forbidden Knowledge</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>The name <em>Enochian</em> points backward to a figure at the very edge of canonical scripture — the seventh patriarch, Enoch, who appears in Genesis for a single cryptic verse: <em>"And Enoch walked with God, and he was not, for God took him."</em> No death. No burial. A man who simply ascended. Who was taken.</p>
+    <p>The <strong>Book of Enoch</strong> — a text excluded from the mainstream biblical canon but preserved by Ethiopian Christians and rediscovered in the 18th century — fills in the story with disturbing detail. Enoch receives cosmic tours from archangels. He is shown the structure of heaven, the movements of stars, the mechanics of weather and time. He is, in essence, given a download of forbidden knowledge — the technical architecture of creation.</p>
+    <p>And then there are the <strong>Watchers</strong>.</p>
+  </div>
+
+  <div class="illuminated">
+    <div class="illuminated-text">"And it came to pass when the children of men had multiplied, that in those days were born unto them beautiful daughters. And the angels, the children of heaven, saw and lusted after them."</div>
+    <div class="illuminated-source">Book of Enoch, Chapter VI</div>
+  </div>
+
+  <div class="prose">
+    <p>The Watchers are a class of angelic beings — 200 of them, according to Enoch — who descended from their station in the heavens and took human women as wives. Their leader was <strong>Semyaza</strong>. Another, <strong>Azazel</strong>, taught humanity to forge weapons of metal and craft ornaments of vanity. Others taught sorcery, astrology, the reading of omens, the cutting of roots, enchantments.</p>
+    <p>In other words: the Watchers gave humanity its occult knowledge. The entire edifice of magic, divination, and esoteric science traces, in this mythological framework, to beings who <em>broke the rules of heaven</em> to share what they knew. The gift came with a cost. The world was flooded. The Watchers were bound in valleys of darkness. Their offspring — the Nephilim, giants of spirit if not necessarily of body — haunted the earth as disembodied intelligences.</p>
+    <p>Dee's system carries this mythology in its very name. He believed Enoch had possessed the original divine language before the Fall — and that the angels he was contacting were offering its restoration. Whether those angels were of the same order as the Watchers — beings willing to transgress cosmic boundaries to transmit forbidden knowledge — is a question Dee may not have fully confronted. Given what was eventually asked of him, perhaps he should have.</p>
+  </div>
+
+  <ul class="sacred-list">
+    <li><strong>Semyaza</strong> — leader of the 200 Watchers who descended to Mount Hermon. In some traditions, bound beneath mountains until the final judgment.</li>
+    <li><strong>Azazel</strong> — taught humans metallurgy, weapon-making, and feminine adornment. In later texts, becomes associated with scapegoating ritual and the desert. His name echoes in the Yom Kippur goat sent into the wilderness.</li>
+    <li><strong>Penemue</strong> — taught the art of writing. The transmission of knowledge through marks on a surface. Some traditions consider this the original sin — that writing itself fractured the living transmission of wisdom into dead symbols.</li>
+    <li><strong>Baraqiel</strong> — taught astrology. The reading of destiny in the configuration of stars. The sky as text.</li>
+    <li><strong>Sariel</strong> — taught the course of the Moon. Calendrical knowledge. The measurement of time.</li>
+  </ul>
+
+  <hr class="ornament-rule">
+
+  <!-- ══ CHAPTER VI ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Chapter VI</div>
+    <div class="chapter-title">Three Schools — How the System Evolved</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>Enochian Magick did not arrive complete and finished. It has evolved through three distinct interpretive schools, each one emphasizing different aspects of the original material — and each one producing a genuinely different practice.</p>
+  </div>
+
+  <div class="schools">
+    <div class="school">
+      <div class="school-sigil">📜</div>
+      <div class="school-era">1582 – 1583 · Original Transmission</div>
+      <div class="school-name">The Dee Purists</div>
+      <div class="school-desc">Return to the raw source material — the five Books of Mystery, Dee's diaries, Liber Logaeth. No interpolation. No synthesis with Kabbalah or ceremonial magic. The system as received, not as interpreted. This school holds that every addition corrupts the signal.</div>
+    </div>
+    <div class="school">
+      <div class="school-sigil">⚗️</div>
+      <div class="school-era">1888 – 1900 · Victorian Occult Revival</div>
+      <div class="school-name">The Golden Dawn</div>
+      <div class="school-desc">The Hermetic Order of the Golden Dawn synthesized Enochian with Kabbalah, tarot, astrology, and ceremonial magic into a unified initiatory system. This is the version most modern practitioners first encounter — rigorous, structured, and deeply influential on nearly all Western esotericism that followed.</div>
+    </div>
+    <div class="school">
+      <div class="school-sigil">☀️</div>
+      <div class="school-era">1907 – 1913 · The Aethyric Expeditions</div>
+      <div class="school-name">Crowley / Thelema</div>
+      <div class="school-desc">Aleister Crowley approached Enochian as a technology for ego-dissolution and mystical self-transformation. His <em>Vision and the Voice</em> — the record of scrying all 30 Aethyrs in Algeria — reframed the system as a map of initiation: the journey to the Abyss and what lies beyond it. Intense, brilliant, and not for the faint of spirit.</div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>A fourth tendency has emerged in recent decades — what might be called the <strong>Cognitive / Chaos Magic</strong> approach — which treats Enochian not as a theological system but as a technology of consciousness. In this view, it doesn't matter whether the angels are real external beings or sophisticated constructs of the deep unconscious. What matters is that the system <em>works</em>: that engaging with it consistently produces measurable shifts in consciousness, perception, and creative capacity. This is the most intellectually honest position for someone unwilling to make metaphysical commitments — and paradoxically, it often produces the most rigorous practice.</p>
+  </div>
+
+  <hr class="ornament-rule">
+
+  <!-- ══ CHAPTER VII ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Chapter VII</div>
+    <div class="chapter-title">Why This Matters Now</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="prose">
+    <p>We live inside languages we did not choose and did not design. The algorithms that sort our attention. The interfaces that frame our desire. The memes that shape our categories of meaning. The feeds that determine which fragments of reality we encounter and which are silently withheld. Every layer of mediation between us and raw experience is a <em>language</em> — and every language is a <em>filter</em>. It decides what you can see, what you can say, what you can even think.</p>
+    <p>Dee believed his civilization was living inside a broken language — fractured by Babel, impoverished by the Fall, increasingly distant from the source of all knowing. He thought the only solution was to recover the original tongue — the one that didn't just describe reality but was <em>continuous</em> with it. The one in which speaking and creating were the same act.</p>
+    <p>We are not so different from him. We live in an information environment of staggering complexity and stupefying shallowness. We have access to more data than any civilization in history and we are, by almost every measure, more confused, more anxious, and more epistemically adrift than our grandparents were. The problem Dee identified — the loss of a symbolic literacy capable of making genuine contact with reality — has not been solved. It has been catastrophically amplified.</p>
+  </div>
+
+  <div class="illuminated">
+    <div class="illuminated-text">The angels gave Dee a language. Today we live inside languages made by machines. The question is not whether language changes consciousness. The question is: <em>who is writing the language that is changing us?</em></div>
+    <div class="illuminated-source">The Core Question of Our Moment</div>
+  </div>
+
+  <div class="prose">
+    <p>This is why Enochian Magick is not a curiosity or a historical footnote. It is a mirror. It shows us what happens when a civilization reaches the end of its symbolic capacity — when its inherited languages no longer make adequate contact with the depth of reality — and one man, brilliant and desperate and half-mad with longing, decides to go around the official channels entirely and ask the source directly.</p>
+    <p>You may or may not believe in angels. You may or may not believe that the transmissions Kelley received were genuine. None of that matters for the first question — which is simply: <em>what is the nature of the symbolic systems you currently inhabit, and who built them, and what are they trying to do to you?</em></p>
+    <p>Enochian Magick is, at its core, the record of a man who refused to accept the available answers. Who looked at the official languages of his civilization — theological, philosophical, scientific — and found them insufficient. And who chose, instead, to sit in a dark room before a black mirror and wait for something to speak.</p>
+    <p>Whatever you believe about what answered him: that kind of courage deserves respect.</p>
+  </div>
+
+  <hr class="ornament-rule">
+
+  <!-- ══ READING LIST ══ -->
+  <div class="chapter-break">
+    <div class="chapter-roman">Sacred Library</div>
+    <div class="chapter-title">Where to Go From Here</div>
+    <div class="chapter-rule">
+      <div class="chapter-rule-line"></div>
+      <div class="chapter-rule-diamond"></div>
+      <div class="chapter-rule-line r"></div>
+    </div>
+  </div>
+
+  <div class="prose" style="margin-bottom:8px;">
+    <p>These are the texts that matter. Read them in roughly this order. Each one will make the next one richer.</p>
+  </div>
+
+  <div class="books">
+    <div class="book">
+      <div class="book-num">01 · Start Here</div>
+      <div class="book-title">Enochian Vision Magick</div>
+      <div class="book-author">Lon Milo DuQuette</div>
+      <div class="book-note">The clearest, most accessible introduction to the actual system. DuQuette cuts through centuries of esoteric obfuscation and gives you a working framework you can begin using. Essential.</div>
+    </div>
+    <div class="book">
+      <div class="book-num">02 · The Primary Source</div>
+      <div class="book-title">Five Books of Mystery (Mysteriorum Libri Quinque)</div>
+      <div class="book-author">John Dee · Edited by Joseph Peterson</div>
+      <div class="book-note">Dee's own diaries of the angelic sessions. Dense, strange, and occasionally overwhelming — but there is nothing like reading the original transmissions in Dee's own voice. Peterson's edition has excellent footnotes.</div>
+    </div>
+    <div class="book">
+      <div class="book-num">03 · Crowley's Masterwork</div>
+      <div class="book-title">The Vision and the Voice</div>
+      <div class="book-author">Aleister Crowley</div>
+      <div class="book-note">The record of Crowley scrying all 30 Aethyrs in 1909. Uneven, brilliant, hallucinatory, and at moments genuinely terrifying. The sections on ZAX and the Abyss are unlike anything else in occult literature.</div>
+    </div>
+    <div class="book">
+      <div class="book-num">04 · The Scholarly Account</div>
+      <div class="book-title">Arguing with Angels</div>
+      <div class="book-author">Gyorgy Szonyi</div>
+      <div class="book-note">The best academic treatment of Dee's angelic conversations. Situates the work in its historical and intellectual context without dismissing it. For the intellectually rigorous seeker who wants both worlds.</div>
+    </div>
+    <div class="book">
+      <div class="book-num">05 · The Reference</div>
+      <div class="book-title">The Complete Enochian Dictionary</div>
+      <div class="book-author">Donald Laycock</div>
+      <div class="book-note">Every known Enochian word, its etymology, and grammatical function. Laycock's analysis remains the most thorough linguistic study of the language. If you want to actually work with the Keys, you need this.</div>
+    </div>
+    <div class="book">
+      <div class="book-num">06 · The Living Transmission</div>
+      <div class="book-title">Liber Logaeth</div>
+      <div class="book-author">John Dee (Sloane MS 3189)</div>
+      <div class="book-note">The raw angelic text — 49 tables of letters transmitted over months of sessions. Much of it has never been decoded. This is the deep end. It is also, somehow, the most electrically alive of all the source documents.</div>
+    </div>
+  </div>
+
+  <!-- ══ COLOPHON ══ -->
+  <div class="colophon">
+    <div class="colophon-glyph">⊕</div>
+    <h2>The Door Is Still Open</h2>
+    <p>Dee's diaries are in the British Museum. His shewstone — the polished obsidian mirror Kelley gazed into — sits in a display case in the British Museum's Room 1, labelled simply: <em>"Aztec. Mirror of polished obsidian."</em></p>
+    <p>The angels gave their transmissions to two imperfect men in a rented room in Prague. The system those men recorded has outlasted everything that was fashionable in their century. It has been carried forward by scholars, occultists, mystics, madmen, and careful practitioners across 400 years.</p>
+    <p>Whatever it is — divine transmission, collective unconscious, linguistic artifact, technology of consciousness — it is not finished. It is not closed. The work continues. And it is waiting for anyone with the courage to sit in the dark and ask what is there.</p>
+    <div class="colophon-tag">OL SONF VORSG · "I Reign Over You, Saith the God of Justice"</div>
+  </div>
+
+</main>
+
+<script>
+// Generate starfield
+const sf = document.getElementById('starfield');
+for(let i = 0; i < 80; i++){
+  const s = document.createElement('div');
+  s.className = 'star';
+  const size = Math.random() * 2 + 0.5;
+  s.style.cssText = `
+    width:${size}px; height:${size}px;
+    top:${Math.random()*100}%;
+    left:${Math.random()*100}%;
+    --dur:${3 + Math.random()*6}s;
+    --delay:${Math.random()*8}s;
+    --peak:${0.15 + Math.random()*0.45};
+  `;
+  sf.appendChild(s);
+}
+
+// Subtle fade-in on scroll
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if(e.isIntersecting){
+      e.target.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+    }
+  });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.chapter-break, .figure-card, .key-display, .aethyr-grid, .schools, .books, .illuminated, .danger-box, .questions, .prose').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(20px)';
+  observer.observe(el);
+});
+</script>
+</body>
+</html>

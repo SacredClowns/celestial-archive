@@ -655,4 +655,12 @@ That is the first initiation.
 - Peterson, Joseph H. *John Dee's Five Books of Mystery: Original Sourcebook of Enochian Magic* (Weiser Books, 2003).
 - Asprem, Egil. *Arguing with Angels: Enochian Magic and Modern Occulture* (SUNY Press, 2012).
 - Bassnett, Susan. "Kelley, Edward (1555–1597/8)", *Oxford Dictionary of National Biography* (Oxford University Press; rev. online 2008).
-- Clulee, Nicholas H. *John Dee's Natural Philosophy: Between Science and Religion* (Routledge, 1988) �
+- Clulee, Nicholas H. *John Dee's Natural Philosophy: Between Science and Religion* (Routledge, 1988) — for Dee's theological framework.
+
+---
+
+*This lesson has been reviewed against the Archive's verification protocol (see SOURCE_PACK_2_VERIFICATION_PASS). Certain details remain marked as contested or unresolved and will be revisited at later ranks.*
+
+---
+
+*Lesson 1.3 complete. The Archive continues.*

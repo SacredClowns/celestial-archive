@@ -592,4 +592,8 @@ Welcome to the threshold.
 
 ---
 
-*This lesson has been reviewed against the Archive's verification protocol, the Breaking Problem framework (Content Packet #4, §2), and the five-criterion Dignit
+*This lesson has been reviewed against the Archive's verification protocol, the Breaking Problem framework (Content Packet #4, §2), and the five-criterion Dignity Test. Source Pack #5 will provide page-level anchoring and the rigor layer for all claims. Certain details — the Heptarchic system, the Watchtowers, the Aethyrs, the full Golden Dawn and Crowley receptions — remain held for later ranks and will be revisited there.*
+
+---
+
+*Lesson 1.5 complete. The Seeker path is closed. The Archive continues.*

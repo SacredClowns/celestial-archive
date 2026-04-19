@@ -535,4 +535,6 @@ The next lesson is waiting. So is the Archive. Begin wherever draws your attenti
 - Dee, John. Working papers (Cotton Appendix XLVI), British Library
 - Casaubon, Meric. *A True & Faithful Relation of What Passed Between Dr. John Dee and Some Spirits* (1659)
 - Laycock, Donald. *The Complete Enochian Dictionary* (1978; revised 1994)
-- Harkness, Debor
+- Harkness, Deborah. *John Dee's Conversations with Angels* (1999), Cambridge University Press
+- Peterson, Joseph H. *John Dee's Five Books of Mystery* (2003), Weiser Books
+- Asprem, Egil. *Arguing with Angels: Enochian Magic and Modern Occulture* (2012), SUNY Press

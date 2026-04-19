@@ -1,0 +1,13 @@
+var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/lesson/stage-1/the-lost-language/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__07xc-_b._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_esm_build_templates_app-page_09uwsll.js")
+R.c("server/chunks/ssr/[root-of-the-server]__06kg3ad._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0zgvpt1._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0~q40dp._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_0inhx6q._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_forbidden_0ghu-f7.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0cjv-23.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0lgvd_..js")
+R.c("server/chunks/ssr/_next-internal_server_app_lesson_stage-1_the-lost-language_page_actions_0~uiyce.js")
+R.m(80218)
+module.exports=R.m(80218).exports

@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENOCHIAN: THE CELESTIAL ARCHIVE</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap');
+
+:root {
+  --bg-deep: #0a0a0f;
+  --bg-card: #12121a;
+  --bg-card-hover: #1a1a26;
+  --bg-surface: #161620;
+  --gold: #c9a84c;
+  --gold-dim: #8a7234;
+  --gold-glow: #c9a84c33;
+  --silver: #a8a8b8;
+  --text: #d4d4e0;
+  --text-dim: #8888a0;
+  --text-bright: #eeeef4;
+  --accent-blue: #4a6fa5;
+  --accent-violet: #7b5ea7;
+  --accent-emerald: #3d8b6e;
+  --badge-hist: #c9a84c;
+  --badge-schol: #4a9fc9;
+  --badge-occult: #9b59b6;
+  --badge-later: #e67e22;
+  --badge-parallel: #2ecc71;
+  --badge-spec: #95a5a6;
+  --badge-disp: #e74c3c;
+  --badge-caution: #f39c12;
+  --border: #2a2a3a;
+  --seeker-color: #4a9fc9;
+  --student-color: #c9a84c;
+  --observer-color: #7b5ea7;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-deep);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* === STARFIELD === */
+.starfield {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 0;
+}
+.star {
+  position: absolute; background: white; border-radius: 50%;
+  animation: twinkle var(--dur) ease-in-out infinite;
+}
+@keyframes twinkle {
+  0%, 100% { opacity: var(--min-op); }
+  50% { opacity: var(--max-op); }
+}
+
+/* === NAVIGATION === */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(10,10,15,0.92); backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 2rem; height: 64px; display: flex; align-items: center; justify-content: space-between;
+}
+.nav-brand {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 500;
+  color: var(--gold); letter-spacing: 0.15em; text-transform: uppercase;
+}
+.nav-brand span { color: var(--text-dim); font-weight: 300; letter-spacing: 0.08em; font-size: 0.85rem; margin-left: 1rem; text-transform: none; }
+.nav-links { display: flex; gap: 2rem; }
+.nav-links a {
+  color: var(--text-dim); text-decoration: none; font-size: 0.82rem; font-weight: 400;
+  letter-spacing: 0.06em; text-transform: uppercase; cursor: pointer;
+  transition: color 0.3s;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--gold); }
+
+/* === PAGES === */
+.page { display: none; min-height: 100vh; padding-top: 64px; position: relative; z-index: 1; }
+.page.active { display: block; }
+
+/* === HERO === */
+.hero {
+  min-height: calc(100vh - 64px); display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center; padding: 4rem 2rem;
+  position: relative;
+}
+.hero-sigil {
+  width: 120px; height: 120px; margin-bottom: 2rem; position: relative;
+  animation: sigil-pulse 4s ease-in-out infinite;
+}
+@keyframes sigil-pulse {
+  0%, 100% { filter: drop-shadow(0 0 8px var(--gold-glow)); }
+  50% { filter: drop-shadow(0 0 24px var(--gold-glow)); }
+}
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif; font-size: 3.5rem; font-weight: 300;
+  color: var(--text-bright); letter-spacing: 0.2em; text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.hero h2 {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 300;
+  color: var(--gold); letter-spacing: 0.15em; margin-bottom: 2rem;
+}
+.hero p {
+  max-width: 580px; color: var(--text-dim); font-size: 0.95rem; line-height: 1.8;
+  margin-bottom: 3rem;
+}
+.hero-cta {
+  display: inline-block; padding: 0.9rem 2.5rem;
+  border: 1px solid var(--gold-dim); color: var(--gold);
+  font-family: 'Cormorant Garamond', serif; font-size: 1.05rem;
+  letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none;
+  transition: all 0.4s; cursor: pointer; background: transparent;
+}
+.hero-cta:hover {
+  background: var(--gold-glow); border-color: var(--gold);
+  box-shadow: 0 0 30px var(--gold-glow);
+}
+
+/* === CURRICULUM PAGE === */
+.curriculum-container { max-width: 960px; margin: 0 auto; padding: 3rem 2rem 4rem; }
+.stage-header {
+  display: flex; align-items: center; gap: 1rem; margin: 3rem 0 1.5rem;
+  padding-bottom: 1rem; border-bottom: 1px solid var(--border);
+}
+.stage-rank {
+  font-family: 'Cormorant Garamond', serif; font-size: 0.75rem; font-weight: 600;
+  letter-spacing: 0.15em; text-transform: uppercase; padding: 0.3rem 0.8rem;
+  border-radius: 3px;
+}
+.stage-rank.seeker { background: rgba(74,159,201,0.15); color: var(--seeker-color); border: 1px solid rgba(74,159,201,0.3); }
+.stage-rank.student { background: rgba(201,168,76,0.15); color: var(--student-color); border: 1px solid rgba(201,168,76,0.3); }
+.stage-rank.observer { background: rgba(123,94,167,0.15); color: var(--observer-color); border: 1px solid rgba(123,94,167,0.3); }
+.stage-title {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 400;
+  color: var(--text-bright);
+}
+.stage-subtitle { color: var(--text-dim); font-size: 0.85rem; margin-left: auto; }
+
+.lesson-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1.5rem 1.8rem; margin-bottom: 0.75rem; cursor: pointer;
+  transition: all 0.3s; display: flex; align-items: center; gap: 1.5rem;
+}
+.lesson-card:hover { background: var(--bg-card-hover); border-color: var(--gold-dim); transform: translateX(4px); }
+.lesson-card.locked { opacity: 0.4; cursor: default; }
+.lesson-card.locked:hover { transform: none; border-color: var(--border); }
+
+.lesson-num {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-dim);
+  min-width: 36px;
+}
+.lesson-info { flex: 1; }
+.lesson-title {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 500;
+  color: var(--text-bright); margin-bottom: 0.25rem;
+}
+.lesson-subtitle { font-size: 0.82rem; color: var(--text-dim); }
+.lesson-meta {
+  display: flex; gap: 1rem; font-size: 0.72rem; color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace; margin-top: 0.4rem;
+}
+.lesson-status {
+  width: 8px; height: 8px; border-radius: 50%; margin-top: 0.5rem; flex-shrink: 0;
+}
+.lesson-status.complete { background: var(--accent-emerald); box-shadow: 0 0 8px rgba(61,139,110,0.5); }
+.lesson-status.current { background: var(--gold); box-shadow: 0 0 8px var(--gold-glow); }
+.lesson-status.locked { background: var(--border); }
+
+/* === LESSON VIEW === */
+.lesson-view { max-width: 740px; margin: 0 auto; padding: 3rem 2rem 6rem; }
+.lesson-back {
+  display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-dim);
+  font-size: 0.82rem; text-decoration: none; cursor: pointer; margin-bottom: 2rem;
+  transition: color 0.3s;
+}
+.lesson-back:hover { color: var(--gold); }
+.lesson-view h1 {
+  font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 400;
+  color: var(--text-bright); margin-bottom: 0.5rem; letter-spacing: 0.03em;
+}
+.lesson-view .subtitle {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--gold-dim);
+  font-style: italic; margin-bottom: 2rem;
+}
+.lesson-view .meta-bar {
+  display: flex; gap: 1.5rem; padding: 1rem 0; border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border); margin-bottom: 2.5rem; flex-wrap: wrap;
+}
+.meta-item { font-size: 0.78rem; }
+.meta-item .label { color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.68rem; display: block; }
+.meta-item .value { color: var(--text); }
+
+.lesson-content { line-height: 1.85; }
+.lesson-content h2 {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 400;
+  color: var(--text-bright); margin: 2.5rem 0 1rem; padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.lesson-content h3 {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-weight: 500;
+  color: var(--gold); margin: 2rem 0 0.75rem;
+}
+.lesson-content p { margin-bottom: 1.2rem; color: var(--text); font-size: 0.95rem; }
+.lesson-content .opening {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.08rem; line-height: 1.9;
+  color: var(--silver); font-style: italic; margin-bottom: 2rem;
+  padding: 1.5rem; border-left: 2px solid var(--gold-dim); background: rgba(201,168,76,0.03);
+}
+
+/* Directive blocks */
+.directive {
+  margin: 2rem 0; padding: 1.5rem; border-radius: 6px;
+  border-left: 3px solid var(--gold-dim); background: var(--bg-surface);
+}
+.directive.notice { border-left-color: var(--accent-blue); }
+.directive.discernment { border-left-color: var(--accent-violet); }
+.directive.warning { border-left-color: var(--badge-caution); background: rgba(243,156,18,0.05); }
+.directive.reflection { border-left-color: var(--accent-emerald); }
+.directive-label {
+  font-family: 'JetBrains Mono', monospace; font-size: 0.68rem; letter-spacing: 0.1em;
+  text-transform: uppercase; margin-bottom: 0.75rem;
+}
+.directive.notice .directive-label { color: var(--accent-blue); }
+.directive.discernment .directive-label { color: var(--accent-violet); }
+.directive.warning .directive-label { color: var(--badge-caution); }
+.directive.reflection .directive-label { color: var(--accent-emerald); }
+
+/* Badges */
+.badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 18px; height: 18px; font-size: 0.7rem; border-radius: 50%;
+  margin: 0 2px; vertical-align: middle; font-weight: 600;
+}
+.badge.hist { background: rgba(201,168,76,0.2); color: var(--badge-hist); }
+.badge.schol { background: rgba(74,159,201,0.2); color: var(--badge-schol); }
+.badge.occult { background: rgba(155,89,182,0.2); color: var(--badge-occult); }
+.badge.later { background: rgba(230,126,34,0.2); color: var(--badge-later); }
+
+/* Badge legend */
+.badge-legend {
+  display: flex; flex-wrap: wrap; gap: 1rem; padding: 1rem 1.5rem;
+  background: var(--bg-surface); border-radius: 6px; margin: 2rem 0;
+  font-size: 0.75rem;
+}
+.badge-legend-item { display: flex; align-items: center; gap: 0.4rem; color: var(--text-dim); }
+.badge-legend-item .glyph { font-weight: 600; }
+
+/* Central sentence */
+.central-sentence {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-style: italic;
+  color: var(--gold); text-align: center; padding: 2rem; margin: 2rem 0;
+  border-top: 1px solid var(--gold-dim); border-bottom: 1px solid var(--gold-dim);
+}
+
+/* Closing passage */
+.closing-passage {
+  margin-top: 3rem; padding: 2rem; background: var(--bg-surface);
+  border-radius: 6px; border: 1px solid var(--border);
+  font-family: 'Cormorant Garamond', serif; font-size: 1.05rem;
+  line-height: 1.9; color: var(--silver);
+}
+
+/* === ARCHIVE PAGE === */
+.archive-container { max-width: 960px; margin: 0 auto; padding: 3rem 2rem; }
+.archive-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.archive-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1.5rem; transition: all 0.3s;
+}
+.archive-card:hover { border-color: var(--gold-dim); background: var(--bg-card-hover); }
+.archive-card h3 {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; color: var(--text-bright);
+  margin-bottom: 0.5rem;
+}
+.archive-card p { font-size: 0.85rem; color: var(--text-dim); }
+.archive-card .tag {
+  display: inline-block; margin-top: 0.75rem; font-size: 0.68rem;
+  padding: 0.2rem 0.6rem; border-radius: 3px;
+  font-family: 'JetBrains Mono', monospace; letter-spacing: 0.05em;
+}
+.archive-card .tag.ms { background: rgba(201,168,76,0.15); color: var(--gold); }
+.archive-card .tag.person { background: rgba(74,159,201,0.15); color: var(--seeker-color); }
+.archive-card .tag.concept { background: rgba(123,94,167,0.15); color: var(--observer-color); }
+
+/* === PROGRESS === */
+.progress-container { max-width: 960px; margin: 0 auto; padding: 3rem 2rem; }
+.progress-rank-bar {
+  display: flex; align-items: center; gap: 0.5rem; margin: 2rem 0 1rem;
+}
+.progress-dot { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+  font-family: 'Cormorant Garamond', serif; font-size: 0.85rem; font-weight: 600;
+  border: 2px solid var(--border); color: var(--text-dim); transition: all 0.3s;
+}
+.progress-dot.complete { border-color: var(--accent-emerald); color: var(--accent-emerald); background: rgba(61,139,110,0.1); }
+.progress-dot.current { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,0.1); box-shadow: 0 0 12px var(--gold-glow); }
+.progress-line { flex: 1; height: 1px; background: var(--border); }
+.progress-line.complete { background: var(--accent-emerald); }
+
+.rank-label {
+  font-family: 'Cormorant Garamond', serif; font-size: 1rem; text-align: center;
+  margin-top: 0.3rem;
+}
+.rank-labels { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-dim); margin-top: 0.5rem; }
+
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2rem 0; }
+.stat-card {
+  background: var(--bg-card); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1.5rem; text-align: center;
+}
+.stat-num {
+  font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 300;
+  color: var(--gold);
+}
+.stat-label { font-size: 0.75rem; color: var(--text-dim); margin-top: 0.3rem; letter-spacing: 0.05em; }
+
+.section-title {
+  font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 400;
+  color: var(--text-bright); margin-bottom: 0.5rem;
+}
+.section-desc { color: var(--text-dim); font-size: 0.9rem; margin-bottom: 2rem; }
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.2rem; letter-spacing: 0.1em; }
+  .hero h2 { font-size: 1.1rem; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .nav-links { gap: 1rem; }
+  .nav-links a { font-size: 0.72rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Starfield -->
+<div class="starfield" id="starfield"></div>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-brand">The Celestial Archive <span>Enochian</span></div>
+  <div class="nav-links">
+    <a onclick="showPage('home')" class="active" id="nav-home">Home</a>
+    <a onclick="showPage('curriculum')" id="nav-curriculum">Curriculum</a>
+    <a onclick="showPage('archive')" id="nav-archive">Archive</a>
+    <a onclick="showPage('progress')" id="nav-progress">Progress</a>
+  </div>
+</nav>
+
+<!-- HOME PAGE -->
+<div class="page active" id="page-home">
+  <div class="hero">
+    <div class="hero-sigil">
+      <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="60" cy="60" r="55" stroke="#c9a84c" stroke-width="0.5" opacity="0.4"/>
+        <circle cx="60" cy="60" r="45" stroke="#c9a84c" stroke-width="0.3" opacity="0.3"/>
+        <polygon points="60,15 95,82.5 25,82.5" stroke="#c9a84c" stroke-width="0.8" fill="none" opacity="0.5"/>
+        <polygon points="60,105 25,37.5 95,37.5" stroke="#c9a84c" stroke-width="0.8" fill="none" opacity="0.5"/>
+        <circle cx="60" cy="60" r="8" stroke="#c9a84c" stroke-width="1" fill="none" opacity="0.6"/>
+        <circle cx="60" cy="60" r="2" fill="#c9a84c" opacity="0.8"/>
+        <text x="60" y="64" text-anchor="middle" fill="#c9a84c" font-family="Cormorant Garamond, serif" font-size="8" opacity="0.5">LOAGAETH</text>
+      </svg>
+    </div>
+    <h1>Enochian</h1>
+    <h2>The Celestial Archive</h2>
+    <p>A secret library. A Renaissance occult archive. A celestial operating system. Enter the most rigorous, immersive, and epistemically honest exploration of the Enochian system ever built.</p>
+    <div class="hero-cta" onclick="showPage('curriculum')">Begin the Journey</div>
+  </div>
+</div>
+
+<!-- CURRICULUM PAGE -->
+<div class="page" id="page-curriculum">
+  <div class="curriculum-container">
+    <h1 class="section-title">Curriculum</h1>
+    <p class="section-desc">Seven ranks. From Seeker to Archivist. Each lesson holds the question open.</p>
+
+    <!-- SEEKER -->
+    <div class="stage-header">
+      <span class="stage-rank seeker">Seeker</span>
+      <span class="stage-title">Stage 1 — The Story</span>
+      <span class="stage-subtitle">5 lessons</span>
+    </div>
+    <div class="lesson-card" onclick="openLesson('seeker-1-1')">
+      <div class="lesson-status complete"></div>
+      <div class="lesson-num">1.1</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Lost Language</div>
+        <div class="lesson-subtitle">A man at a desk, and the system that emerged from silence</div>
+        <div class="lesson-meta"><span>18–25 min</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('seeker-1-2')">
+      <div class="lesson-status complete"></div>
+      <div class="lesson-num">1.2</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Man Who Saw</div>
+        <div class="lesson-subtitle">Edward Kelley, the stone, and the question of the single witness</div>
+        <div class="lesson-meta"><span>20–30 min</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('seeker-1-3')">
+      <div class="lesson-status complete"></div>
+      <div class="lesson-num">1.3</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The First Transmissions</div>
+        <div class="lesson-subtitle">What the sessions produced, and the problem of mediation</div>
+        <div class="lesson-meta"><span>22–32 min</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('seeker-1-4')">
+      <div class="lesson-status complete"></div>
+      <div class="lesson-num">1.4</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Enochian Language Emerges</div>
+        <div class="lesson-subtitle">Letters, words, grammar — and the strange feeling</div>
+        <div class="lesson-meta"><span>25–35 min</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('seeker-1-5')">
+      <div class="lesson-status complete"></div>
+      <div class="lesson-num">1.5</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Long Arc and the Breaking</div>
+        <div class="lesson-subtitle">The Continental years, the end, and the manuscript afterlife</div>
+        <div class="lesson-meta"><span>25–35 min</span></div>
+      </div>
+    </div>
+
+    <!-- STUDENT -->
+    <div class="stage-header">
+      <span class="stage-rank student">Student</span>
+      <span class="stage-title">Stage 2 — The Architecture</span>
+      <span class="stage-subtitle">6 lessons</span>
+    </div>
+    <div class="lesson-card" onclick="openLesson('student-2-1')">
+      <div class="lesson-status complete"></div>
+      <div class="lesson-num">2.1</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Seven Kings</div>
+        <div class="lesson-subtitle">The Heptarchia Mystica as a complete system</div>
+        <div class="lesson-meta"><span>30–40 min</span><span>◆ ◇ ○ △ ◎ ~ ? ⚠</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('student-2-2')">
+      <div class="lesson-status complete"></div>
+      <div class="lesson-num">2.2</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Book That Cannot Be Read</div>
+        <div class="lesson-subtitle">Liber Loagaeth as an unresolved problem</div>
+        <div class="lesson-meta"><span>30–40 min</span><span>◆ ◇ ○ △ ◎ ~ ?</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('student-2-3')">
+      <div class="lesson-status current"></div>
+      <div class="lesson-num">2.3</div>
+      <div class="lesson-info">
+        <div class="lesson-title">A Grammar of Invocation</div>
+        <div class="lesson-subtitle">The forty-eight Calls and their structure</div>
+        <div class="lesson-meta"><span>35–45 min</span><span>◆ ◇ ○ △ ~ ?</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('student-2-4')">
+      <div class="lesson-status locked"></div>
+      <div class="lesson-num">2.4</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Architecture of the World</div>
+        <div class="lesson-subtitle">The Great Table and the Watchtower System</div>
+        <div class="lesson-meta"><span>38–48 min</span><span>◆ ◇ ○ △ ◎ ~ ?</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('student-2-5')">
+      <div class="lesson-status locked"></div>
+      <div class="lesson-num">2.5</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Inheritors</div>
+        <div class="lesson-subtitle">The Golden Dawn reconstruction and the problem of later hands</div>
+        <div class="lesson-meta"><span>35–45 min</span><span>◆ ◇ ○ △ ?</span></div>
+      </div>
+    </div>
+    <div class="lesson-card" onclick="openLesson('student-2-6')">
+      <div class="lesson-status locked"></div>
+      <div class="lesson-num">2.6</div>
+      <div class="lesson-info">
+        <div class="lesson-title">The Voice and the Abyss</div>
+        <div class="lesson-subtitle">Crowley's Aethyr workings and the question of experiential authority</div>
+        <div class="lesson-meta"><span>40–55 min</span><span>◆ ◇ ○ △ ~ ⚠</span></div>
+      </div>
+    </div>
+
+    <!-- OBSERVER (locked) -->
+    <div class="stage-header">
+      <span class="stage-rank observer">Observer</span>
+      <span class="stage-title">Stage 3 — The Patterns</span>
+      <span class="stage-subtitle">Locked</span>
+    </div>
+    <div class="lesson-card locked">
+      <div class="lesson-status locked"></div>
+      <div class="lesson-num">3.1</div>
+      <div class="lesson-info">
+        <div class="lesson-title" style="color: var(--text-dim)">Coming at Observer Rank</div>
+        <div class="lesson-subtitle">Complete Student rank to unlock</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LESSON VIEW PAGE -->
+<div class="page" id="page-lesson">
+  <div class="lesson-view" id="lesson-content-area"></div>
+</div>
+
+<!-- ARCHIVE PAGE -->
+<div class="page" id="page-archive">
+  <div class="archive-container">
+    <h1 class="section-title">The Archive</h1>
+    <p class="section-desc">Manuscripts, persons, concepts, and tools — the reference library of the Celestial Archive.</p>
+
+    <div class="archive-grid">
+      <div class="archive-card">
+        <h3>Sloane MS 3188</h3>
+        <p>The session diaries. John Dee's record of the angelic conversations, 1581–1583. The raw material from which everything else was compiled.</p>
+        <span class="tag ms">Manuscript</span>
+      </div>
+      <div class="archive-card">
+        <h3>Sloane MS 3189</h3>
+        <p>Liber Loagaeth — "Speech of God." 54 folios bearing 96 grids of letters. Unreadable by any known method.</p>
+        <span class="tag ms">Manuscript</span>
+      </div>
+      <div class="archive-card">
+        <h3>Sloane MS 3191</h3>
+        <p>The compiled Heptarchia Mystica. Dee's organized and formalized summary of the sevenfold system.</p>
+        <span class="tag ms">Manuscript</span>
+      </div>
+      <div class="archive-card">
+        <h3>John Dee (1527–1608)</h3>
+        <p>Mathematician, philosopher, advisor to Elizabeth I. The recorder, compiler, and architect of the Enochian system.</p>
+        <span class="tag person">Person</span>
+      </div>
+      <div class="archive-card">
+        <h3>Edward Kelley (1555–1597)</h3>
+        <p>Scryer, alchemist, the single witness. Every name, every letter, every table passed through his perception.</p>
+        <span class="tag person">Person</span>
+      </div>
+      <div class="archive-card">
+        <h3>The Epistemic Badges</h3>
+        <p>Eight badges for eight kinds of claim. ◆ ◇ ○ △ ◎ ~ ? ⚠ — the Archive's system for holding knowledge honestly.</p>
+        <span class="tag concept">System</span>
+      </div>
+      <div class="archive-card">
+        <h3>The Five Lenses</h3>
+        <p>Historical, Traditional Occult, Psychological, Symbolic, Speculative. Five ways to read the same material. No lens is permitted to win.</p>
+        <span class="tag concept">System</span>
+      </div>
+      <div class="archive-card">
+        <h3>The Great Table</h3>
+        <p>Four Watchtower Tablets, each 12×13, with hierarchies of derivable names. The geometric heart of the Enochian system.</p>
+        <span class="tag ms">Structure</span>
+      </div>
+      <div class="archive-card">
+        <h3>The Thirty Aethyrs</h3>
+        <p>Thirty concentric regions, accessed through the 19th Call. The cosmological architecture at the system's outermost reach.</p>
+        <span class="tag concept">Structure</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROGRESS PAGE -->
+<div class="page" id="page-progress">
+  <div class="progress-container">
+    <h1 class="section-title">Your Journey</h1>
+    <p class="section-desc">Student rank, Lesson 2.3 — A Grammar of Invocation</p>
+
+    <div class="progress-rank-bar">
+      <div class="progress-dot complete">S</div>
+      <div class="progress-line complete"></div>
+      <div class="progress-dot current">St</div>
+      <div class="progress-line"></div>
+      <div class="progress-dot">O</div>
+      <div class="progress-line"></div>
+      <div class="progress-dot">I</div>
+      <div class="progress-line"></div>
+      <div class="progress-dot">C</div>
+      <div class="progress-line"></div>
+      <div class="progress-dot">A</div>
+      <div class="progress-line"></div>
+      <div class="progress-dot">Ar</div>
+    </div>
+    <div class="rank-labels">
+      <span>Seeker</span><span>Student</span><span>Observer</span><span>Interpreter</span><span>Cartographer</span><span>Adept</span><span>Archivist</span>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-num">7</div>
+        <div class="stat-label">Lessons Complete</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">3</div>
+        <div class="stat-label">Practices Learned</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">8</div>
+        <div class="stat-label">Badges Known</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">5</div>
+        <div class="stat-label">Lenses Active</div>
+      </div>
+    </div>
+
+    <h2 style="font-family: 'Cormorant Garamond', serif; color: var(--text-bright); font-weight: 400; margin: 2rem 0 1rem;">Discernment Practices</h2>
+
+    <div class="archive-grid" style="grid-template-columns: repeat(3, 1fr);">
+      <div class="archive-card">
+        <h3>Source Discernment</h3>
+        <p>Who wrote this? When? With what access? Through what chain? At Student rank: editorial discernment, uncertain transcription, reverse-dictation ambiguity.</p>
+        <span class="tag concept">Lesson 1.2+</span>
+      </div>
+      <div class="archive-card">
+        <h3>Single-Witness Discernment</h3>
+        <p>Sincerity and accuracy are separate questions. The four-quadrant grid. At Student rank: applied to whole systems and corpora.</p>
+        <span class="tag concept">Lesson 1.3+</span>
+      </div>
+      <div class="archive-card">
+        <h3>The Strange Feeling</h3>
+        <p>The intensity of what I feel is not evidence for the truth of what I am reading. At Student rank: applied to structure, opacity, voice, geometry.</p>
+        <span class="tag concept">Lesson 1.4+</span>
+      </div>
+    </div>
+
+    <h2 style="font-family: 'Cormorant Garamond', serif; color: var(--text-bright); font-weight: 400; margin: 2rem 0 1rem;">The Six Seductions</h2>
+
+    <div class="archive-grid" style="grid-template-columns: repeat(3, 1fr);">
+      <div class="archive-card" style="border-left: 3px solid var(--student-color);">
+        <h3>Structure</h3>
+        <p>"Structure is not the same thing as truth."</p>
+        <span class="tag concept">Lesson 2.1</span>
+      </div>
+      <div class="archive-card" style="border-left: 3px solid var(--student-color);">
+        <h3>Opacity</h3>
+        <p>"A thing can resist understanding without therefore containing a hidden truth."</p>
+        <span class="tag concept">Lesson 2.2</span>
+      </div>
+      <div class="archive-card" style="border-left: 3px solid var(--student-color);">
+        <h3>Voice</h3>
+        <p>"A language that can be spoken does not, by that fact alone, originate from outside the speaker."</p>
+        <span class="tag concept">Lesson 2.3</span>
+      </div>
+      <div class="archive-card" style="border-left: 3px solid var(--student-color);">
+        <h3>Geometry</h3>
+        <p>"A grid that generates names has not, by that fact alone, generated beings."</p>
+        <span class="tag concept">Lesson 2.4</span>
+      </div>
+      <div class="archive-card" style="border-left: 3px solid var(--student-color);">
+        <h3>Completion</h3>
+        <p>"Completion is an editorial act, not a revelation."</p>
+        <span class="tag concept">Lesson 2.5</span>
+      </div>
+      <div class="archive-card" style="border-left: 3px solid var(--student-color);">
+        <h3>Intensity</h3>
+        <p>"The intensity of an experience is not evidence for the truth of its content."</p>
+        <span class="tag concept">Lesson 2.6</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Starfield
+const starfield = document.getElementById('starfield');
+for (let i = 0; i < 200; i++) {
+  const star = document.createElement('div');
+  star.className = 'star';
+  const size = Math.random() * 2 + 0.5;
+  star.style.cssText = `
+    left: ${Math.random() * 100}%; top: ${Math.random() * 100}%;
+    width: ${size}px; height: ${size}px;
+    --dur: ${Math.random() * 4 + 2}s;
+    --min-op: ${Math.random() * 0.2};
+    --max-op: ${Math.random() * 0.5 + 0.3};
+  `;
+  starfield.appendChild(star);
+}
+
+// Page navigation
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  const navEl = document.getElementById('nav-' + id);
+  if (navEl) navEl.classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+// Lesson data
+const lessons = {
+  'seeker-1-1': {
+    title: 'The Lost Language', subtitle: 'A man at a desk, and the system that emerged from silence',
+    num: '1.1', stage: 'Seeker', duration: '18–25 min',
+    opening: 'In 1581, a man sat at a desk in a house in Mortlake, on the banks of the Thames, and began to write. He was fifty-four years old. He had been a mathematician, a navigator, an advisor to the Queen, a collector of the largest private library in England. He had read more books than almost anyone alive. And now he was writing about angels.',
+    central: null,
+    closing: 'The system that emerged from that desk — from that partnership, that stone, those years of sustained attention — is what the Archive exists to hold. Not to explain. Not to endorse. Not to dismiss. To hold, carefully, with the kind of attention the material deserves and has rarely received.'
+  },
+  'student-2-1': {
+    title: 'The Seven Kings', subtitle: 'The Heptarchia Mystica as a complete system',
+    num: '2.1', stage: 'Student', duration: '30–40 min',
+    opening: 'In the Seeker lessons, you saw seven empty chairs arranged around a table. The Archive named them — the Seven Kings and their Princes, which we do not yet open — and moved on. The door was closed. The names on the other side were not yet yours to read.\n\nThe door is open now.',
+    central: 'Structure is not the same thing as truth.',
+    closing: 'The Heptarchia Mystica is a beautiful system. It is organized. It is internally consistent. It was the first complete architecture to emerge from the Dee–Kelley partnership, and it remains one of the most elegant. Whether that elegance tells you something about the cosmos, about the human mind, about the specific conditions of a collaboration between a mathematician and a scryer in a house in Mortlake in 1582 — or about something else entirely — is not for the Archive to say.'
+  },
+  'student-2-2': {
+    title: 'The Book That Cannot Be Read', subtitle: 'Liber Loagaeth as an unresolved problem',
+    num: '2.2', stage: 'Student', duration: '30–40 min',
+    opening: 'A page of handwritten letters. Rows and columns. No words. No spaces between words, because there are no words — only letters, one after another, filling a grid from edge to edge. The hand is cramped and quick. Some letters are clear. Some are not. No title tells you what language this is. The page says nothing to you, and it has been saying nothing to everyone who has looked at it for over four hundred years.\n\nThis is Liber Loagaeth.',
+    central: 'A thing can resist understanding without therefore containing a hidden truth.',
+    closing: 'Forty-nine tables. Thousands of letters. No key. Whether the absence of a key means the absence of a message is not for the Archive to say.'
+  },
+  'student-2-3': {
+    title: 'A Grammar of Invocation', subtitle: 'The forty-eight Calls and their structure',
+    num: '2.3', stage: 'Student', duration: '35–45 min',
+    opening: 'If Liber Loagaeth tested your response to silence, the Calls will test your response to a voice.\n\nA room full of letters that say nothing. That was the last lesson. This room is different. This room has a voice. Forty-eight texts, received through the same partnership and the same stone, dictated in a language that has words, grammar, syntax, and sound.',
+    central: 'A language that can be spoken does not, by that fact alone, originate from outside the speaker.',
+    closing: 'The Calls have a grammar. They have a sound. They have been spoken aloud for four centuries. Whether the voice that speaks them belongs to the speaker alone — or to something that speaks through the speaker — is not for the Archive to say.'
+  },
+  'student-2-4': {
+    title: 'The Architecture of the World', subtitle: 'The Great Table and the Watchtower System',
+    num: '2.4', stage: 'Student', duration: '38–48 min',
+    opening: 'In the last lesson, you heard a voice. Forty-eight texts with words, grammar, syntax. The Calls spoke. They addressed something.\n\nThis lesson shows you what they addressed.\n\nA grid. Four quadrants. Each quadrant a tablet of letters — twelve columns, thirteen rows, 156 characters arranged in a pattern that yields, when read by specific rules, the names of hundreds of entities.',
+    central: 'A grid that generates names has not, by that fact alone, generated beings.',
+    closing: 'Four tablets. Hundreds of names. Two versions. The grid is real. The derivation rules are real. The names are real — in the sense that they can be extracted, spelled, and spoken. Whether they name anything outside the grid is not for the Archive to say.'
+  },
+  'student-2-5': {
+    title: 'The Inheritors', subtitle: 'The Golden Dawn reconstruction and the problem of later hands',
+    num: '2.5', stage: 'Student', duration: '35–45 min',
+    opening: 'Imagine you find a manuscript. It is old, incomplete, written in a difficult hand. Pages are missing. The order is uncertain. Some sections contradict others.\n\nNow imagine that someone else found it first. They organized it. They filled in the gaps. They made it work. And their version is the one the world knows.',
+    central: 'Completion is an editorial act, not a revelation.',
+    closing: 'The Golden Dawn built something remarkable from something fragmentary. Whether the building improved the fragments or obscured them — whether the completed system is closer to or further from whatever the fragments were trying to be — is not for the Archive to say.'
+  },
+  'student-2-6': {
+    title: 'The Voice and the Abyss', subtitle: "Crowley's Aethyr workings and the question of experiential authority",
+    num: '2.6', stage: 'Student', duration: '40–55 min',
+    opening: 'A man in the desert. Sand, wind, the edge of the Sahara. November 1909. He sits cross-legged. He has a scrying stone. He has a Call — the 19th Call, the same variable template you studied in Lesson 2.3 — and he inserts into it the name of an Aethyr. He speaks the words aloud. He closes his eyes. He begins to describe what he sees.\n\nWhat he sees is extraordinary.',
+    central: 'The intensity of an experience is not evidence for the truth of its content.',
+    closing: 'Six encounters. Structure, opacity, voice, geometry, completion, intensity. Six seductions. Six sentences that name the gap between feeling and evidence. The Student stage does not end with answers. It ends with more precise questions — and the tools to hold them.\n\nThe deeper room is not more true. It is only more complex.\n\nWelcome to the threshold of observation.'
+  }
+};
+
+// Open a lesson
+function openLesson(id) {
+  const lesson = lessons[id];
+  if (!lesson) return;
+
+  const area = document.getElementById('lesson-content-area');
+  const stageColor = lesson.stage === 'Seeker' ? 'var(--seeker-color)' : 'var(--student-color)';
+
+  area.innerHTML = `
+    <div class="lesson-back" onclick="showPage('curriculum')">← Back to Curriculum</div>
+    <div style="display:inline-block; font-size:0.7rem; padding:0.2rem 0.6rem; border-radius:3px; background:${lesson.stage === 'Seeker' ? 'rgba(74,159,201,0.15)' : 'rgba(201,168,76,0.15)'}; color:${stageColor}; font-family:'JetBrains Mono',monospace; letter-spacing:0.1em; text-transform:uppercase; margin-bottom:1rem;">
+      ${lesson.stage} — Lesson ${lesson.num}
+    </div>
+    <h1>${lesson.title}</h1>
+    <div class="subtitle">${lesson.subtitle}</div>
+
+    <div class="meta-bar">
+      <div class="meta-item"><span class="label">Duration</span><span class="value">${lesson.duration}</span></div>
+      <div class="meta-item"><span class="label">Stage</span><span class="value">${lesson.stage}</span></div>
+      <div class="meta-item"><span class="label">Status</span><span class="value">Draft — Review</span></div>
+    </div>
+
+    <div class="badge-legend">
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-hist)">◆</span> Historical Evidence</div>
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-schol)">◇</span> Scholarly Consensus</div>
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-occult)">○</span> Traditional Occult</div>
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-later)">△</span> Later Interpretation</div>
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-parallel)">◎</span> Parallel</div>
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-spec)">~</span> Speculative</div>
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-disp)">?</span> Disputed</div>
+      <div class="badge-legend-item"><span class="glyph" style="color:var(--badge-caution)">⚠</span> Caution</div>
+    </div>
+
+    <div class="lesson-content">
+      <h2>Opening</h2>
+      <div class="opening">${lesson.opening.replace(/\n\n/g, '<br><br>')}</div>
+
+      ${lesson.central ? `
+      <div class="directive notice">
+        <div class="directive-label">Notice</div>
+        <p style="margin:0; color: var(--text);">This lesson holds a central sentence. It is not a conclusion — it is a distinction. The material in this lesson exists to make the distinction visible.</p>
+      </div>
+
+      <div class="central-sentence"><em>${lesson.central}</em></div>
+      ` : ''}
+
+      <div class="directive discernment">
+        <div class="directive-label">Discernment Practice</div>
+        <p style="margin:0; color: var(--text);">The three practices — Source Discernment, Single-Witness Discernment, and the Strange Feeling — are cued in this lesson. They are recognized, not reintroduced. Each does specific work with the material at hand.</p>
+      </div>
+
+      <h2>The Five Lenses</h2>
+      <p>Every lesson is read through five lenses. No lens is permitted to win.</p>
+
+      <div style="display:grid; grid-template-columns: repeat(5,1fr); gap:0.75rem; margin: 1.5rem 0;">
+        ${['Historical ◆', 'Trad. Occult ○', 'Psychological ◇', 'Symbolic ◎', 'Speculative ~'].map((l, i) => {
+          const colors = ['var(--badge-hist)', 'var(--badge-occult)', 'var(--badge-schol)', 'var(--badge-parallel)', 'var(--badge-spec)'];
+          return `<div style="text-align:center; padding:0.75rem; background:var(--bg-surface); border-radius:4px; border-top: 2px solid ${colors[i]};">
+            <div style="font-family:'Cormorant Garamond',serif; font-size:0.85rem; color:${colors[i]};">${l}</div>
+          </div>`;
+        }).join('')}
+      </div>
+
+      <div class="directive reflection">
+        <div class="directive-label">Reflection</div>
+        <p style="margin:0; color: var(--text); font-style: italic;">These prompts are for your journal. There are no right answers. The Archive does not read, grade, or evaluate what you write.</p>
+      </div>
+
+      <div class="closing-passage">
+        <div style="font-size:0.7rem; color:var(--gold-dim); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:1rem; font-family:'JetBrains Mono',monospace;">Closing Passage</div>
+        ${lesson.closing.replace(/\n\n/g, '<br><br>')}
+      </div>
+    </div>
+  `;
+
+  showPage('lesson');
+}
+</script>
+</body>
+</html>
