@@ -39,3 +39,9 @@ yarn-error.log*
 
 # Vercel
 .vercel/
+
+# Node compile cache
+C:\Users\*
+
+# Next.js verify
+.next-verify/
