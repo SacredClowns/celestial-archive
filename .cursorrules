@@ -1,0 +1,225 @@
+# CURSOR RULES — Enochian: The Celestial Archive
+# Read GPT_ARCHITECT_BRIEF.md before starting any session.
+
+## PROJECT IDENTITY
+
+You are building an immersive educational app about the Enochian magick system.
+It is NOT a wiki. NOT a SaaS dashboard. NOT a generic content platform.
+It should feel like entering a Renaissance occult archive — ancient, alive, precise.
+
+The governing document is: /docs/GPT_ARCHITECT_BRIEF.md
+The visual spec is: /docs/VISUAL_DIRECTION.md
+The locked scope is: /docs/MVP_SCOPE.md
+The voice guide is: /docs/CONTENT_VOICE_GUIDE.md
+
+## STACK
+
+- Next.js 14+ (App Router, NOT Pages Router)
+- TypeScript (strict mode, no `any` types)
+- Tailwind CSS (custom design tokens — see COLOR TOKENS below)
+- Supabase (PostgreSQL + Auth + Storage)
+- Framer Motion (UI transitions, reveals)
+- D3.js (Timeline, Celestial Map, interactive diagrams)
+- Meilisearch (full-text search)
+- Three.js — DEFERRED. Do not implement 3D. Build 2D versions first.
+
+## COLOR TOKENS — USE THESE EXACTLY
+
+```
+--ink: #080604           /* deepest background, void */
+--deep: #0d0a05          /* primary background */
+--parchment-dark: #140f07 /* card backgrounds, elevated surfaces */
+--gold: #c9a84c          /* primary accent — titles, icons, interactive */
+--gold-light: #e8cc7d    /* hover states, emphasis */
+--gold-pale: #f5e8c0     /* body text, readable content */
+--gold-dim: #7a6230      /* disabled states, secondary borders */
+--amber: #a06820         /* warm accent — warnings, highlights */
+--ember: #7a3510         /* urgent, active states */
+--blood: #5c1a10         /* danger, Abyss, ZAX references */
+--ash: #3a3020           /* muted backgrounds, disabled text */
+```
+
+Do NOT use blue, green, purple, or any color outside this palette.
+Do NOT use white (#ffffff) for backgrounds. The lightest background is --parchment-dark.
+Body text color is --gold-pale. Never pure white text.
+
+## TYPOGRAPHY
+
+- Headings: Cinzel or Cormorant Garamond (serif)
+- Body: Cormorant or EB Garamond (humanist serif)
+- Monospace: JetBrains Mono or Fira Code (for glyphs and code)
+- Do NOT use sans-serif fonts anywhere except very small UI labels
+
+## WHAT CURSOR MUST OPTIMIZE FOR
+
+1. Content readability — long-form text must be beautiful and comfortable
+2. Badge visibility — epistemic badges must be legible inline, never hidden
+3. Atmospheric feel — dark, warm, layered, deliberate
+4. Mobile-first responsive — every component works on 375px width
+5. Accessibility — WCAG 2.1 AA minimum, proper heading hierarchy, aria labels
+6. Performance — no layout shift, lazy load images, code split by route
+
+## WHAT CURSOR MUST NEVER DO
+
+- Never invent content text. All prose comes from Claude's Markdown files.
+- Never write placeholder lorem ipsum that could ship. Use "[CONTENT PENDING]" markers.
+- Never use bright colors, gradients, or glassmorphism.
+- Never add loading spinners. Use atmospheric fades (opacity transition, 300-600ms).
+- Never use "Congratulations," "Level up," "Unlocked!" or any gamified language in UI.
+- Never add features not in /docs/MVP_SCOPE.md without explicit human approval.
+- Never implement Three.js, WebGL, or any 3D rendering. All immersive features are 2D.
+- Never auto-generate glossary definitions, badge assignments, or historical claims.
+- Never use localStorage or sessionStorage for critical state. User state goes to Supabase.
+- Never override the design tokens. If a color doesn't exist in the palette, you don't need it.
+
+## THE BADGE SYSTEM — IMPLEMENTATION RULES
+
+The 8 epistemic badges: ◆ ◇ ○ △ ◎ ~ ? ⚠
+
+- Badges are stored as metadata on content blocks, NOT as raw characters in rendered HTML.
+- Render badges as styled <span> elements with consistent sizing (12-14px), the gold palette.
+- Every badge has a tooltip showing its full name and meaning.
+- Badges appear inline with claims in body text AND in sidebar/margin positions.
+- Build a <Badge type="historical" /> component. Accepted types:
+  historical, consensus, occult_claim, later_interpretation, parallel,
+  speculative, disputed, caution
+- The badge glossary must be accessible from any badge via click/tap.
+- Future: badge filtering in search results. Design the data model to support this now.
+
+## LESSON RENDERING RULES
+
+Lessons are authored as Markdown in /content/curriculum/. The renderer must support:
+
+- YAML frontmatter → metadata display (header table)
+- ## headings → section navigation (left sidebar or top anchor bar)
+- > blockquotes → styled as "Sidebar" cards (parchment-dark bg, gold-dim border)
+- Tables → styled with the gold palette, no default browser table styling
+- Badge glyphs inline → rendered via the <Badge /> component
+- "Who Says This?" tables → distinct card styling, one card per claim
+- Reflection Prompts → visually distinct section (slightly lighter background, italic prompt text)
+- Knowledge Check → expandable/collapsible section, not quiz-engine — that's separate
+- Closing Passage → full-width, centered, larger type, increased line-height
+
+Lesson pages must include:
+- Estimated reading time (calculated from word count)
+- Section progress indicator (how far through the lesson)
+- "Return to Initiation Path" persistent link
+- Previous/Next lesson navigation at the bottom
+
+## ROUTING STRUCTURE
+
+```
+/                           → Landing page
+/archive                    → Archive pillar index
+/archive/[entity-slug]      → Entity profile
+/timeline                   → Interactive timeline
+/map                        → Celestial Map (2D)
+/language                   → Language Chamber
+/path                       → Initiation Path dashboard
+/path/[stage]/[lesson]      → Individual lesson (e.g., /path/seeker/1)
+/aethyrs                    → Aethyr Journey index
+/aethyrs/[number]           → Individual Aethyr
+/observatory                → Intelligence Observatory
+/glossary                   → Searchable glossary
+/glossary/[term-slug]       → Individual term
+/journal                    → Personal journal (auth required)
+/search                     → Search results
+/about                      → About the Archive
+```
+
+Use Next.js App Router conventions. Each route gets its own directory with page.tsx.
+Dynamic routes use [slug] or [id] params.
+
+## GLOSSARY BEHAVIOR
+
+- Glossary terms appear as subtle gold underlines in lesson text
+- Hover/tap shows a tooltip with the short definition
+- Click navigates to the full glossary entry
+- Glossary data lives in /lib/glossary.ts (will migrate to Supabase)
+- New terms are ONLY added by Claude or the human. Never auto-generate definitions.
+
+## SIDEBAR RULES
+
+Sidebars in lessons (marked with > blockquotes and **Sidebar X — Title**) render as:
+
+- Floating cards on desktop (right margin or inline-right, max-width 340px)
+- Full-width collapsed cards on mobile (tap to expand)
+- Background: --parchment-dark
+- Border-left: 2px solid --gold-dim
+- Title in --gold, body in --gold-pale
+- Source citations in --gold-dim, smaller font
+
+## MOBILE RULES
+
+- All layouts must work at 375px minimum width
+- Sidebars collapse to expandable cards
+- Tables become horizontally scrollable or reflow to stacked cards
+- The lens selector becomes a dropdown, not a tab bar
+- Badge tooltips use bottom-sheet pattern on mobile, not hover
+- Navigation collapses to a hamburger menu with the pillar list
+
+## ANIMATION LIMITS
+
+- Maximum transition duration: 600ms
+- Preferred easing: ease-out or cubic-bezier(0.4, 0, 0.2, 1)
+- Page transitions: fade-in only (opacity 0→1, 300ms)
+- Content reveals: stagger children by 50ms, fade + slight translateY (8px)
+- Scroll-triggered reveals: use IntersectionObserver, trigger at 0.1 threshold
+- NO parallax scrolling
+- NO infinite animations or looping effects
+- NO particle effects (reserved for Phase 5 Three.js layer)
+- NO animation on badges, glossary tooltips, or navigation elements
+
+## WHAT REQUIRES HUMAN APPROVAL BEFORE BUILDING
+
+(Gate 3 items from /docs/HUMAN_CONTROL_PROTOCOL.md)
+
+- Any feature not listed in /docs/MVP_SCOPE.md
+- Any change to the data model or database schema
+- Any change to the badge system (types, display, behavior)
+- Any change to the progression/rank system
+- Any new route or pillar
+- Any content about the Intelligence Observatory
+- Any 3D or WebGL implementation
+- Any change to the color palette or typography
+
+## FILE CONVENTIONS
+
+- Components: PascalCase (Badge.tsx, LessonRenderer.tsx)
+- Utilities: camelCase (parseMarkdown.ts, getBadgeColor.ts)
+- Routes: kebab-case directories (/path/seeker/page.tsx)
+- Types: suffixed with Type or Props (LessonType, BadgeProps)
+- Constants: UPPER_SNAKE_CASE (BADGE_TYPES, RANK_ORDER)
+- CSS: Tailwind utility classes only. No CSS modules. No styled-components.
+- Tests: colocated with components (Badge.test.tsx next to Badge.tsx)
+
+## COMMIT MESSAGE FORMAT
+
+```
+[pillar] short description
+
+- detail 1
+- detail 2
+```
+
+Example:
+```
+[lesson] implement lesson renderer with badge support
+
+- parse YAML frontmatter from markdown
+- render inline badges via Badge component
+- add sidebar card styling for blockquotes
+```
+
+## QUICK REFERENCE — THE TEN COMMANDMENTS
+
+1. Never present a claim without a badge
+2. Never let a single lens dominate
+3. Never sensationalize
+4. Never moralize
+5. Never use gamified language
+6. Never break the 2D fallback requirement
+7. Never ship content without a Source Pack
+8. Never collapse the Archive into a single interpretation
+9. Never sacrifice the reader's autonomy
+10. Never build a feature not in MVP_SCOPE.md without Gate 3 approval

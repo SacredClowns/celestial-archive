@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --ink: #080604;
+  --deep: #0d0a05;
+  --parchment: #140f07;
+  --gold: #c9a84c;
+  --gold-light: #e8cc7d;
+  --gold-pale: #f5e8c0;
+  --gold-dim: #7a6230;
+  --space-2xl: 64px;
+  --space-3xl: 104px;
+  --transition-slow: 600ms ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: radial-gradient(ellipse at 50% 0%, var(--parchment) 0%, var(--ink) 55%, #060402 100%);
+  color: var(--gold-pale);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.86;
+  letter-spacing: 0.012em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.reading-column {
+  max-width: 720px;
+}
+
+.section-depth {
+  margin-block: var(--space-3xl);
+}
+
+/* ── Inscribed frame: the Archive's primary containment motif ── */
+.inscribed-frame {
+  border: 1px solid rgba(201, 168, 76, 0.3);
+  position: relative;
+  transition: border-color var(--transition-slow);
+}
+
+.inscribed-frame::before,
+.inscribed-frame::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(201, 168, 76, 0.35);
+  pointer-events: none;
+  transition: opacity var(--transition-slow);
+}
+
+.inscribed-frame::before {
+  top: 5px;
+  left: 5px;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.inscribed-frame::after {
+  right: 5px;
+  bottom: 5px;
+  border-left: 0;
+  border-top: 0;
+}
+
+/* ── Sealed frame: locked/unavailable content ── */
+.sealed-frame {
+  border: 1px dashed rgba(122, 98, 48, 0.35);
+  position: relative;
+  cursor: default;
+}
+
+/* ── Uncertainty surface: comparison/demonstration containers ── */
+.uncertainty-surface {
+  position: relative;
+}
+
+/* ── Selection and scrollbar styling ── */
+::selection {
+  background: rgba(201, 168, 76, 0.2);
+  color: var(--gold-pale);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(122, 98, 48, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(122, 98, 48, 0.6);
+}
+
+/* ── Motion: reduced-motion respect ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Motion: inscribe reveal ── */
+@keyframes inscribe {
+  0% { opacity: 0; transform: translateY(8px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes inscribe-mobile {
+  0% { opacity: 0; transform: translateY(5px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.inscribe-ready {
+  opacity: 0;
+}
+.inscribe-visible {
+  animation: inscribe 0.7s cubic-bezier(0.25, 0.1, 0.25, 1.0) forwards;
+}
+
+@media (max-width: 640px) {
+  .inscribe-visible {
+    animation-name: inscribe-mobile;
+  }
+}
+
+/* ── Motion: staggered children ── */
+.inscribe-stagger-1 { animation-delay: 0ms; }
+.inscribe-stagger-2 { animation-delay: 100ms; }
+.inscribe-stagger-3 { animation-delay: 200ms; }
+.inscribe-stagger-4 { animation-delay: 300ms; }
+
+/* ── Motion: opening sequence stagger ── */
+.opening-stagger-1 { animation-delay: 1000ms; }
+.opening-stagger-2 { animation-delay: 1500ms; }
+.opening-stagger-3 { animation-delay: 2200ms; }
+.opening-stagger-4 { animation-delay: 3000ms; }
+.opening-stagger-5 { animation-delay: 3500ms; }
+
+/* ── Motion: divider extend ── */
+@keyframes divider-extend {
+  0% { transform: scaleX(0); opacity: 0.2; }
+  100% { transform: scaleX(1); opacity: 1; }
+}
+
+.divider-extend-ready {
+  transform: scaleX(0);
+  transform-origin: center;
+}
+.divider-extend-visible {
+  animation: divider-extend 0.5s ease-out forwards;
+}
+
+/* ── Motion: inscribed-frame hover ── */
+.inscribed-frame:hover::before,
+.inscribed-frame:hover::after {
+  opacity: 0.50;
+}
+
+/* ── Motion: sealed-frame non-response ── */
+.sealed-frame:hover {
+  /* Intentionally empty. Locked things do not respond. */
+}
+
+/* ── Motion: panel slide ── */
+@keyframes panel-enter {
+  0% { transform: translateX(100%); opacity: 0.5; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+@keyframes panel-backdrop {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.panel-enter {
+  animation: panel-enter 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.panel-backdrop-enter {
+  animation: panel-backdrop 0.2s ease-out forwards;
+}
+
+/* ── Motion: ambient vignette ── */
+@keyframes vignette-breathe {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 0.92; }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: radial-gradient(ellipse at 50% 50%, transparent 40%, rgba(8, 6, 4, 0.6) 100%);
+  animation: vignette-breathe 25s ease-in-out infinite;
+}
+
+/* ── Motion: starfield ── */
+@keyframes star-breathe {
+  0%, 100% { opacity: var(--star-min, 0.03); }
+  50% { opacity: var(--star-max, 0.14); }
+}
+@keyframes star-drift {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-30px, -15px); }
+}
