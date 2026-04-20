@@ -1,0 +1,4189 @@
+{
+  "id": "cs-great-table-sloane-3191",
+  "objectId": "great-table",
+  "label": "Sloane 3191 \u2014 Earliest Surviving Grid",
+  "description": "The Great Table as Dee first recorded it during the Cracow-period actions (c. 1584). Dictated through Kelley's scrying and written in Dee's own hand. Some cells are difficult to read due to manuscript condition.",
+  "witnessId": "w-ms-sloane-3191",
+  "dateRange": {
+    "earliest": 1583,
+    "latest": 1584,
+    "precision": "year",
+    "notes": "Cracow sessions period"
+  },
+  "producer": "John Dee",
+  "tradition": null,
+  "provenance": "Dee recorded the Great Table in Sloane MS 3191, in his own hand, during the Cracow-period actions. The table was dictated letter by letter through Kelley's scrying. This is the earliest complete surviving copy of the grid.",
+  "modifications": [],
+  "uncertaintyLevel": "probable",
+  "stateData": {
+    "type": "great-table",
+    "rows": 27,
+    "columns": 25,
+    "elementalQuarters": [
+      {
+        "label": "Quadrant NW \u2014 elemental assignment debated",
+        "element": "debated",
+        "direction": "debated",
+        "rowRange": [
+          0,
+          12
+        ],
+        "colRange": [
+          0,
+          11
+        ],
+        "notes": "Peterson and Leitch reconstruct Dee's intended elemental assignments differently. The manuscript does not contain explicit element labels on the quadrants."
+      },
+      {
+        "label": "Quadrant NE \u2014 elemental assignment debated",
+        "element": "debated",
+        "direction": "debated",
+        "rowRange": [
+          0,
+          12
+        ],
+        "colRange": [
+          13,
+          24
+        ],
+        "notes": "See NW quadrant note."
+      },
+      {
+        "label": "Quadrant SW \u2014 elemental assignment debated",
+        "element": "debated",
+        "direction": "debated",
+        "rowRange": [
+          14,
+          26
+        ],
+        "colRange": [
+          0,
+          11
+        ],
+        "notes": "See NW quadrant note."
+      },
+      {
+        "label": "Quadrant SE \u2014 elemental assignment debated",
+        "element": "debated",
+        "direction": "debated",
+        "rowRange": [
+          14,
+          26
+        ],
+        "colRange": [
+          13,
+          24
+        ],
+        "notes": "See NW quadrant note."
+      }
+    ],
+    "tabletOfUnion": null,
+    "_dataStatus": "PARTIALLY TRANSCRIBED \u2014 Quadrant arrangement reconstructed from documented original layout (ORO NW, MOR NE, OIP SW, MPH SE). 5 of 23 known letter differences applied from online sources. Remaining 18 letter changes require consultation of Tyson pp.167-172, James, or Stenwick. Cells with known original-vs-reformed differences marked 'contested' with both readings noted. All other cells inherit Reformed/GD letter data and are marked 'probable' (not 'certain') because the full set of differences is not yet documented.",
+    "cells": [
+      [
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "F",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Y",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "U",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Y",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "F",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "U",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "contested",
+          "manuscriptNote": "Original: A, Reformed: N.",
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "U",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "B",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "U",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "F",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "E",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "M",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "V",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "Z",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "S",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ],
+      [
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "G",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "O",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "P",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "C",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "",
+          "uncertaintyLevel": "certain",
+          "manuscriptNote": "Black Cross position \u2014 structural division",
+          "derivedNames": []
+        },
+        {
+          "letter": "X",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "H",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "T",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "A",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "R",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "N",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "D",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "I",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        },
+        {
+          "letter": "L",
+          "uncertaintyLevel": "probable",
+          "manuscriptNote": null,
+          "derivedNames": []
+        }
+      ]
+    ]
+  }
+}
