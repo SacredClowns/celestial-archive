@@ -1,0 +1,438 @@
+{
+  "id": "enochian-calls",
+  "title": "The 19 Angelic Calls",
+  "subtitle": "Claves Angelicae — The Keys of the Angels",
+  "totalCalls": 19,
+  "receptionDate": "1584",
+  "receptionLocation": "Kraków, at the court of King Stephen Báthory",
+  "receptionBadge": "historical",
+  "receptionOrder": "Received in reverse: 19th Call first, 1st Call last",
+  "primarySource": "Sloane MS 3191; Cotton Appendix XLVI",
+  "aethyrNames": [
+    {"number": 30, "name": "TEX"},
+    {"number": 29, "name": "RII"},
+    {"number": 28, "name": "BAG"},
+    {"number": 27, "name": "ZAA"},
+    {"number": 26, "name": "DES"},
+    {"number": 25, "name": "VTI"},
+    {"number": 24, "name": "NIA"},
+    {"number": 23, "name": "TOR"},
+    {"number": 22, "name": "LIN"},
+    {"number": 21, "name": "ASP"},
+    {"number": 20, "name": "KHR"},
+    {"number": 19, "name": "POP"},
+    {"number": 18, "name": "ZEN"},
+    {"number": 17, "name": "TAN"},
+    {"number": 16, "name": "LEA"},
+    {"number": 15, "name": "OXO"},
+    {"number": 14, "name": "UTA"},
+    {"number": 13, "name": "ZIM"},
+    {"number": 12, "name": "LOE"},
+    {"number": 11, "name": "ICH"},
+    {"number": 10, "name": "ZAX"},
+    {"number": 9, "name": "ZIP"},
+    {"number": 8, "name": "ZID"},
+    {"number": 7, "name": "DEO"},
+    {"number": 6, "name": "MAZ"},
+    {"number": 5, "name": "LIT"},
+    {"number": 4, "name": "PAZ"},
+    {"number": 3, "name": "ZOM"},
+    {"number": 2, "name": "ARN"},
+    {"number": 1, "name": "LIL"}
+  ],
+  "calls": [
+    {
+      "number": 1,
+      "title": "The First Call",
+      "receptionOrder": 19,
+      "totalLines": 9,
+      "association": {
+        "type": "general",
+        "description": "A general invocation addressing the pillars of gladness and the supreme divine authority. Not associated with a specific Watchtower quadrant.",
+        "deeNote": "The first and most general Call, invoking the presence and authority of the divine.",
+        "badge": "historical"
+      },
+      "historicalNotes": [
+        {
+          "text": "The First Call was the last to be received (received 19th in sequence). Dee understood it as the most powerful and general of the invocations.",
+          "source": "Sloane MS 3191; Casaubon (1659)",
+          "badge": "historical"
+        }
+      ],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "The First Call contains the highest concentration of unique vocabulary of any single Call. Several words appear only here.",
+          "badge": "consensus"
+        }
+      ],
+      "lines": "PENDING_TRANSCRIPTION",
+      "_lineNote": "Full line-by-line Enochian text and English translation to be transcribed from Peterson's edition of Sloane MS 3191. The public-domain manuscript text must be verified against at least two published sources before inclusion."
+    },
+    {
+      "number": 2,
+      "title": "The Second Call",
+      "receptionOrder": 18,
+      "totalLines": 8,
+      "association": {
+        "type": "general",
+        "description": "Addresses the divine power that governs the operations of the earth. A preparatory invocation before engaging specific tablet regions.",
+        "badge": "historical"
+      },
+      "historicalNotes": [
+        {
+          "text": "The Second Call continues the general invocatory framework established in the First Call, preparing the operator for specific tablet work.",
+          "source": "Sloane MS 3191",
+          "badge": "historical"
+        }
+      ],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 3,
+      "title": "The Third Call",
+      "receptionOrder": 17,
+      "totalLines": 13,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the first subquadrant of the Watchtower system. In the Golden Dawn arrangement, this corresponds to the Air subquadrant of the Air tablet.",
+        "deeNote": "Dee's original association may differ from the Golden Dawn's systematic assignment.",
+        "badge": "later"
+      },
+      "historicalNotes": [
+        {
+          "text": "From the Third Call onward, each Call is associated with progressively more specific regions of the Watchtower tablets. The exact mapping varies between Dee's notes and the Golden Dawn's arrangement.",
+          "source": "Sloane MS 3191; Regardie (1937)",
+          "badge": "historical"
+        }
+      ],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 4,
+      "title": "The Fourth Call",
+      "receptionOrder": 16,
+      "totalLines": 11,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the second subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 5,
+      "title": "The Fifth Call",
+      "receptionOrder": 15,
+      "totalLines": 11,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the third subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 6,
+      "title": "The Sixth Call",
+      "receptionOrder": 14,
+      "totalLines": 10,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the fourth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 7,
+      "title": "The Seventh Call",
+      "receptionOrder": 13,
+      "totalLines": 12,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the fifth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 8,
+      "title": "The Eighth Call",
+      "receptionOrder": 12,
+      "totalLines": 12,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the sixth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 9,
+      "title": "The Ninth Call",
+      "receptionOrder": 11,
+      "totalLines": 11,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the seventh subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 10,
+      "title": "The Tenth Call",
+      "receptionOrder": 10,
+      "totalLines": 12,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the eighth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 11,
+      "title": "The Eleventh Call",
+      "receptionOrder": 9,
+      "totalLines": 12,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the ninth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 12,
+      "title": "The Twelfth Call",
+      "receptionOrder": 8,
+      "totalLines": 11,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the tenth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 13,
+      "title": "The Thirteenth Call",
+      "receptionOrder": 7,
+      "totalLines": 11,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the eleventh subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 14,
+      "title": "The Fourteenth Call",
+      "receptionOrder": 6,
+      "totalLines": 13,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the twelfth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 15,
+      "title": "The Fifteenth Call",
+      "receptionOrder": 5,
+      "totalLines": 10,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the thirteenth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 16,
+      "title": "The Sixteenth Call",
+      "receptionOrder": 4,
+      "totalLines": 11,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the fourteenth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 17,
+      "title": "The Seventeenth Call",
+      "receptionOrder": 3,
+      "totalLines": 12,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the fifteenth subquadrant of the Watchtower system.",
+        "badge": "later"
+      },
+      "historicalNotes": [],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 18,
+      "title": "The Eighteenth Call",
+      "receptionOrder": 2,
+      "totalLines": 15,
+      "association": {
+        "type": "watchtower",
+        "description": "Associated with the sixteenth and final subquadrant of the Watchtower system. The longest of the 18 tablet-associated Calls.",
+        "badge": "later"
+      },
+      "historicalNotes": [
+        {
+          "text": "The Eighteenth Call was the second received (second in dictation, second-to-last in numbering). It is the longest of the tablet-specific Calls.",
+          "source": "Sloane MS 3191",
+          "badge": "historical"
+        }
+      ],
+      "scholarlyNotes": [],
+      "lines": "PENDING_TRANSCRIPTION"
+    },
+    {
+      "number": 19,
+      "title": "The Nineteenth Call (The Call of the Aethyrs)",
+      "receptionOrder": 1,
+      "totalLines": 22,
+      "association": {
+        "type": "aethyr",
+        "description": "The Call of the 30 Aethyrs. Contains a variable position where the three-letter name of the target Aethyr is substituted. This single template generates 30 distinct invocations — one for each Aethyr from TEX (30th, outermost) to LIL (1st, innermost).",
+        "deeNote": "This was the first Call received. The angel Nalvage described the Calls as 'the Natural Keys to open those, not 49 but 48 (for one is not to be opened) Gates of Understanding.'",
+        "badge": "historical"
+      },
+      "historicalNotes": [
+        {
+          "text": "The Nineteenth Call was the first to be received in the dictation sequence. It is the longest Call and the only one that functions as a template with a variable component. It was understood as the key to accessing the 30 Aethyrs — the vertical axis of the Enochian cosmos.",
+          "source": "Sloane MS 3191; Cotton Appendix XLVI",
+          "badge": "historical"
+        },
+        {
+          "text": "Crowley used this Call extensively during his 1909 Algerian workings, producing The Vision and the Voice (Liber 418) — detailed visionary accounts of each Aethyr. These visions became the most influential experiential account of the Aethyr system, though they postdate Dee by 325 years.",
+          "source": "Crowley, The Vision and the Voice (1911/1998)",
+          "badge": "historical"
+        }
+      ],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "The 19th Call contains the largest concentration of unique vocabulary and the most complex sentence structures in the entire Enochian corpus. Several grammatical patterns appear only here.",
+          "badge": "consensus"
+        },
+        {
+          "scholar": "Leitch",
+          "observation": "The variable position for the Aethyr name is the only parametric element in the entire Call system — no other Call contains a substitutable component.",
+          "badge": "consensus"
+        }
+      ],
+      "lines": "PENDING_TRANSCRIPTION",
+      "aethyrVariable": {
+        "position": "line 1",
+        "placeholder": "[AETHYR_NAME]",
+        "note": "Replace with the three-letter name of the target Aethyr (e.g., TEX, ZAX, LIL)"
+      }
+    }
+  ],
+  "coreVocabulary": [
+    {"enochian": "ol", "meaning": "I, me, my", "partOfSpeech": "pronoun", "frequency": 18, "badge": "historical"},
+    {"enochian": "ils", "meaning": "thou, thee", "partOfSpeech": "pronoun", "frequency": 5, "badge": "historical"},
+    {"enochian": "q", "meaning": "thy", "partOfSpeech": "pronoun", "pronunciation": "kwɑː", "frequency": 4, "badge": "historical"},
+    {"enochian": "ge", "meaning": "we, us, our", "partOfSpeech": "pronoun", "frequency": 3, "badge": "historical"},
+    {"enochian": "par", "meaning": "they, them", "partOfSpeech": "pronoun", "frequency": 3, "badge": "historical"},
+    {"enochian": "z", "meaning": "they", "partOfSpeech": "pronoun", "pronunciation": "zə", "frequency": 2, "badge": "historical"},
+    {"enochian": "oi", "meaning": "this", "partOfSpeech": "demonstrative", "frequency": 3, "badge": "historical"},
+    {"enochian": "zir", "meaning": "I am / to be", "partOfSpeech": "verb", "frequency": 6, "badge": "historical"},
+    {"enochian": "zirdo", "meaning": "I am", "partOfSpeech": "verb", "frequency": 4, "badge": "historical"},
+    {"enochian": "geh", "meaning": "thou art", "partOfSpeech": "verb", "frequency": 2, "badge": "historical"},
+    {"enochian": "christeos", "meaning": "let there be", "partOfSpeech": "verb", "frequency": 1, "badge": "historical", "note": "May derive from 'Christ' rather than being a native Enochian conjugation"},
+    {"enochian": "bolp", "meaning": "be thou", "partOfSpeech": "verb", "frequency": 2, "badge": "historical"},
+    {"enochian": "goho", "meaning": "he says", "partOfSpeech": "verb", "frequency": 5, "badge": "historical"},
+    {"enochian": "gohus", "meaning": "I say", "partOfSpeech": "verb", "frequency": 3, "badge": "historical"},
+    {"enochian": "gohia", "meaning": "we say", "partOfSpeech": "verb", "frequency": 2, "badge": "historical"},
+    {"enochian": "gohol", "meaning": "saying", "partOfSpeech": "verb", "frequency": 2, "badge": "historical"},
+    {"enochian": "iad", "meaning": "God", "partOfSpeech": "noun", "frequency": 12, "badge": "historical"},
+    {"enochian": "iaod", "meaning": "beginning", "partOfSpeech": "noun", "frequency": 3, "badge": "historical"},
+    {"enochian": "micalzo", "meaning": "mighty", "partOfSpeech": "adjective", "frequency": 5, "badge": "historical"},
+    {"enochian": "zorge", "meaning": "be friendly to me", "partOfSpeech": "verb", "frequency": 3, "badge": "historical", "note": "Dee notes it rhymes with 'George'"},
+    {"enochian": "od", "meaning": "and", "partOfSpeech": "conjunction", "frequency": 45, "badge": "historical"},
+    {"enochian": "de", "meaning": "of", "partOfSpeech": "preposition", "frequency": 8, "badge": "historical"},
+    {"enochian": "a", "meaning": "can, may, are able", "partOfSpeech": "verb", "frequency": 7, "badge": "historical"},
+    {"enochian": "hoath", "meaning": "true worshipper", "partOfSpeech": "noun", "frequency": 4, "badge": "historical"},
+    {"enochian": "noco", "meaning": "servant(s)", "partOfSpeech": "noun", "frequency": 4, "badge": "historical"},
+    {"enochian": "soba", "meaning": "whose", "partOfSpeech": "pronoun", "frequency": 5, "badge": "historical"},
+    {"enochian": "babage", "meaning": "south", "partOfSpeech": "noun", "frequency": 2, "badge": "historical"},
+    {"enochian": "luciftias", "meaning": "brightness", "partOfSpeech": "noun", "frequency": 1, "badge": "historical", "note": "Resembles 'Lucifer' (the light-bearer)"},
+    {"enochian": "babalond", "meaning": "wicked, harlot", "partOfSpeech": "adjective/noun", "frequency": 1, "badge": "historical", "note": "Resembles 'Babylon' (Whore of Babylon)"},
+    {"enochian": "coraxo", "meaning": "thunder(s)", "partOfSpeech": "noun", "frequency": 3, "badge": "historical"},
+    {"enochian": "tabaan", "meaning": "govern", "partOfSpeech": "verb", "frequency": 3, "badge": "historical"},
+    {"enochian": "malpirg", "meaning": "fire(s) of life and increase", "partOfSpeech": "noun", "frequency": 4, "badge": "historical"},
+    {"enochian": "drilpa", "meaning": "great", "partOfSpeech": "adjective", "frequency": 3, "badge": "historical"},
+    {"enochian": "ip", "meaning": "not", "partOfSpeech": "negation", "frequency": 4, "badge": "historical"},
+    {"enochian": "uran", "meaning": "see", "partOfSpeech": "verb", "frequency": 2, "badge": "historical"},
+    {"enochian": "loncho", "meaning": "fall", "partOfSpeech": "verb", "frequency": 2, "badge": "historical"},
+    {"enochian": "piamo", "meaning": "righteousness", "partOfSpeech": "noun", "frequency": 3, "badge": "historical"},
+    {"enochian": "ors", "meaning": "darkness", "partOfSpeech": "noun", "frequency": 2, "badge": "historical"},
+    {"enochian": "ds", "meaning": "which", "partOfSpeech": "relative", "frequency": 6, "badge": "historical"},
+    {"enochian": "trian", "meaning": "shall be", "partOfSpeech": "verb", "frequency": 2, "badge": "historical"},
+    {"enochian": "graa", "meaning": "moon(s)", "partOfSpeech": "noun", "frequency": 2, "badge": "historical"},
+    {"enochian": "isro", "meaning": "promise", "partOfSpeech": "noun/verb", "frequency": 2, "badge": "historical"}
+  ],
+  "numberSystem": [
+    {"value": 0, "enochian": "T", "badge": "consensus", "certainty": "tentative"},
+    {"value": 1, "enochian": "L, EL, LO, ELO, LA, LI, LIL", "badge": "consensus", "certainty": "tentative"},
+    {"value": 2, "enochian": "V, VII-V, VI-VI", "badge": "consensus", "certainty": "tentative"},
+    {"value": 3, "enochian": "D, R", "badge": "consensus", "certainty": "tentative"},
+    {"value": 4, "enochian": "S, ES", "badge": "consensus", "certainty": "tentative"},
+    {"value": 5, "enochian": "O", "badge": "consensus", "certainty": "tentative"},
+    {"value": 6, "enochian": "N, NORZ", "badge": "consensus", "certainty": "tentative"},
+    {"value": 7, "enochian": "Q", "badge": "consensus", "certainty": "tentative"},
+    {"value": 8, "enochian": "P", "badge": "consensus", "certainty": "tentative"},
+    {"value": 9, "enochian": "M, EM", "badge": "consensus", "certainty": "tentative"},
+    {"value": 10, "enochian": "X", "badge": "consensus", "certainty": "tentative"}
+  ],
+  "_dataStatus": {
+    "status": "STRUCTURAL_COMPLETE",
+    "completedDate": "2026-05-23",
+    "callTextStatus": "PENDING_TRANSCRIPTION",
+    "note": "Call metadata, associations, vocabulary, and number system are complete. The actual line-by-line Enochian text and English translations for all 19 Calls require transcription from Dee's manuscripts (Sloane MS 3191) via Peterson's digital editions. The texts are in the public domain (16th-century manuscripts) but must be verified against at least two published sources before inclusion.",
+    "coreVocabularyCount": 42,
+    "totalEstimatedVocabulary": "~250 attested words (Laycock 2001)",
+    "source": "Laycock (2001), Leitch (2010a, 2010b), Peterson (2003, 2008), Dee's manuscripts"
+  }
+}

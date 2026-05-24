@@ -16,8 +16,9 @@ export default function SeekerPathPage() {
         </p>
         <h1 className="font-display text-4xl tracking-[0.06em] text-gold sm:text-5xl">Seeker</h1>
         <p className="max-w-xl leading-[1.9] text-gold-pale">
-          Stage 1 is a single arc: five folios, one witness-problem, three discernment practices, and no obligation to rush.
-          The path is read in order — not because the Archive rewards sequence, but because each room assumes the last.
+          Stage 1: Seeker — you begin at the threshold. Five folios, one witness-problem, three discernment practices, and no
+          obligation to rush. The path is read in order — not because the Archive rewards sequence, but because each room assumes
+          the last.
         </p>
         <p className="text-[13px] italic text-gold-dim/80">
           No measure of completion is shown here. What matters is whether you can carry the practices forward.

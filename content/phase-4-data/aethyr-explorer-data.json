@@ -1,0 +1,1186 @@
+{
+  "source": "Geoffrey James, The Enochian Magick of Dr. John Dee (1984/1998), Book Four",
+  "manuscriptSource": "Sloane MS 3191",
+  "badge": "historical",
+  "totalAethyrs": 30,
+  "totalGovernors": 91,
+  "columnKey": {
+    "0": "Governor number (1-91)",
+    "1": "Part of Earth (region name as given by Dee)",
+    "2": "Governor name",
+    "3": "Sigil (not reproduced in this data)",
+    "4": "Order / Aethyr",
+    "5": "Number of ministers",
+    "6": "Total ministers per Aethyr (shown on first governor only)",
+    "7": "Angelic King",
+    "8": "King's number in hierarchy",
+    "9": "Tribe of Israel",
+    "10": "Quarter of the Earth"
+  },
+  "angelicKings": [
+    { "number": 1, "name": "OLPAGED", "tribe": "Dan", "quarter": "East" },
+    { "number": 2, "name": "ZIRACAH", "tribe": "Ruben", "quarter": "South" },
+    { "number": 3, "name": "HONONOL", "tribe": "Iehudah", "quarter": "West" },
+    { "number": 4, "name": "ZARNAAH", "tribe": "Manasse", "quarter": "North" },
+    { "number": 5, "name": "GEBABAL", "tribe": "Asseir", "quarter": "East S-E" },
+    { "number": 6, "name": "ZURCHOL", "tribe": "Simeon", "quarter": "South S-W" },
+    { "number": 7, "name": "ALPUDUS", "tribe": "Isacaraah", "quarter": "West N-W" },
+    { "number": 8, "name": "CADAAMP", "tribe": "Benjamin", "quarter": "North N-E" },
+    { "number": 9, "name": "ZARZILG", "tribe": "Nephthalim", "quarter": "East N-E" },
+    { "number": 10, "name": "LAVAVOTH", "tribe": "Gad", "quarter": "South S-E" },
+    { "number": 11, "name": "ZINGGEN", "tribe": "Zabulon", "quarter": "West S-W" },
+    { "number": 12, "name": "ARFAOLG", "tribe": "Ephraim", "quarter": "North N-W" }
+  ],
+  "aethyrs": [
+    {
+      "number": 1,
+      "name": "LIL",
+      "order": "supernal",
+      "totalMinisters": 14931,
+      "governors": [
+        {
+          "number": 1,
+          "name": "Occodon",
+          "region": "Aegyptus",
+          "ministers": 7209,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        },
+        {
+          "number": 2,
+          "name": "Pascomb",
+          "region": "Syria",
+          "ministers": 2360,
+          "angelicKing": "ZINGGEN",
+          "kingNumber": 11,
+          "tribe": "Zabulon",
+          "quarter": "West S-W"
+        },
+        {
+          "number": 3,
+          "name": "Valgars",
+          "region": "Mesopotamia",
+          "ministers": 5362,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "ARN",
+      "order": "supernal",
+      "totalMinisters": 15960,
+      "governors": [
+        {
+          "number": 4,
+          "name": "Doagnis",
+          "region": "Cappadocia",
+          "ministers": 3636,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 5,
+          "name": "Pacasna",
+          "region": "Tuscia",
+          "ministers": 2362,
+          "angelicKing": "ZIRACAH",
+          "kingNumber": 2,
+          "tribe": "Ruben",
+          "quarter": "South"
+        },
+        {
+          "number": 6,
+          "name": "Dialioai",
+          "region": "Asia Minor",
+          "ministers": 8962,
+          "angelicKing": "ZIRACAH",
+          "kingNumber": 2,
+          "tribe": "Ruben",
+          "quarter": "South"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "ZOM",
+      "order": "supernal",
+      "totalMinisters": 17296,
+      "governors": [
+        {
+          "number": 7,
+          "name": "Samapha",
+          "region": "Hyrcaina",
+          "ministers": 4400,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        },
+        {
+          "number": 8,
+          "name": "Virooli",
+          "region": "Thracia",
+          "ministers": 3660,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        },
+        {
+          "number": 9,
+          "name": "Andispi",
+          "region": "Gosmam",
+          "ministers": 9236,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "PAZ",
+      "order": "upper",
+      "totalMinisters": 11660,
+      "governors": [
+        {
+          "number": 10,
+          "name": "Thotanp",
+          "region": "Thebaidi",
+          "ministers": 2360,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 11,
+          "name": "Axziarg",
+          "region": "Parsadal",
+          "ministers": 3000,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 12,
+          "name": "Pothnir",
+          "region": "India",
+          "ministers": 6300,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "LIT",
+      "order": "upper",
+      "totalMinisters": 16738,
+      "governors": [
+        {
+          "number": 13,
+          "name": "Lazdixi",
+          "region": "Bactriane",
+          "ministers": 8630,
+          "angelicKing": "OLPAGED",
+          "kingNumber": 1,
+          "tribe": "Dan",
+          "quarter": "East"
+        },
+        {
+          "number": 14,
+          "name": "Nocamal",
+          "region": "Cilicia",
+          "ministers": 2306,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        },
+        {
+          "number": 15,
+          "name": "Tiarpax",
+          "region": "Oxiana",
+          "ministers": 5802,
+          "angelicKing": "ZINGGEN",
+          "kingNumber": 11,
+          "tribe": "Zabulon",
+          "quarter": "West S-W"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "MAZ",
+      "order": "upper",
+      "totalMinisters": 20040,
+      "governors": [
+        {
+          "number": 16,
+          "name": "Saxtomp",
+          "region": "Numidia",
+          "ministers": 3620,
+          "angelicKing": "GEBABAL",
+          "kingNumber": 5,
+          "tribe": "Asseir",
+          "quarter": "East S-E"
+        },
+        {
+          "number": 17,
+          "name": "Vavaamp",
+          "region": "Cyprus",
+          "ministers": 9200,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        },
+        {
+          "number": 18,
+          "name": "Zirzird",
+          "region": "Parthia",
+          "ministers": 7220,
+          "angelicKing": "GEBABAL",
+          "kingNumber": 5,
+          "tribe": "Asseir",
+          "quarter": "East S-E"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "DEO",
+      "order": "upper",
+      "totalMinisters": 20389,
+      "governors": [
+        {
+          "number": 19,
+          "name": "Opmacas",
+          "region": "Getulia",
+          "ministers": 6363,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 20,
+          "name": "Genadol",
+          "region": "Arabia",
+          "ministers": 7706,
+          "angelicKing": "HONONOL",
+          "kingNumber": 3,
+          "tribe": "Iehudah",
+          "quarter": "West"
+        },
+        {
+          "number": 21,
+          "name": "Aspiaon",
+          "region": "Phalagon",
+          "ministers": 6320,
+          "angelicKing": "ZINGGEN",
+          "kingNumber": 11,
+          "tribe": "Zabulon",
+          "quarter": "West S-W"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "ZID",
+      "order": "upper",
+      "totalMinisters": 13900,
+      "governors": [
+        {
+          "number": 22,
+          "name": "Zamfres",
+          "region": "Mantiana",
+          "ministers": 4362,
+          "angelicKing": "GEBABAL",
+          "kingNumber": 5,
+          "tribe": "Asseir",
+          "quarter": "East S-E"
+        },
+        {
+          "number": 23,
+          "name": "Todnaon",
+          "region": "Soxia",
+          "ministers": 7236,
+          "angelicKing": "OLPAGED",
+          "kingNumber": 1,
+          "tribe": "Dan",
+          "quarter": "East"
+        },
+        {
+          "number": 24,
+          "name": "Pristac",
+          "region": "Gallia",
+          "ministers": 2302,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "ZIP",
+      "order": "upper",
+      "totalMinisters": 17846,
+      "governors": [
+        {
+          "number": 25,
+          "name": "Oddiorg",
+          "region": "Assyria",
+          "ministers": 9996,
+          "angelicKing": "HONONOL",
+          "kingNumber": 3,
+          "tribe": "Iehudah",
+          "quarter": "West"
+        },
+        {
+          "number": 26,
+          "name": "Cralpir",
+          "region": "Sogdiana",
+          "ministers": 3620,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 27,
+          "name": "Doanzin",
+          "region": "Lydia",
+          "ministers": 4230,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "ZAX",
+      "order": "upper",
+      "totalMinisters": 11727,
+      "governors": [
+        {
+          "number": 28,
+          "name": "Lexarph",
+          "region": "Caspis",
+          "ministers": 8880,
+          "angelicKing": "ZINGGEN",
+          "kingNumber": 11,
+          "tribe": "Zabulon",
+          "quarter": "West S-W"
+        },
+        {
+          "number": 29,
+          "name": "Comanan",
+          "region": "Germania",
+          "ministers": 1230,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        },
+        {
+          "number": 30,
+          "name": "Tabitom",
+          "region": "Trenam",
+          "ministers": 1617,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "ICH",
+      "order": "middle",
+      "totalMinisters": 15942,
+      "governors": [
+        {
+          "number": 31,
+          "name": "Molpand",
+          "region": "Bithynia",
+          "ministers": 3472,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 32,
+          "name": "Usnarda",
+          "region": "Gracia",
+          "ministers": 7236,
+          "angelicKing": "ZURCHOL",
+          "kingNumber": 6,
+          "tribe": "Simeon",
+          "quarter": "South S-W"
+        },
+        {
+          "number": 33,
+          "name": "Ponodol",
+          "region": "Lacia",
+          "ministers": 5234,
+          "angelicKing": "HONONOL",
+          "kingNumber": 3,
+          "tribe": "Iehudah",
+          "quarter": "West"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "LOE",
+      "order": "middle",
+      "totalMinisters": 13821,
+      "governors": [
+        {
+          "number": 34,
+          "name": "Tapamal",
+          "region": "Onigap",
+          "ministers": 2658,
+          "angelicKing": "ZURCHOL",
+          "kingNumber": 6,
+          "tribe": "Simeon",
+          "quarter": "South S-W"
+        },
+        {
+          "number": 35,
+          "name": "Gedoons",
+          "region": "India Major",
+          "ministers": 7772,
+          "angelicKing": "CADAAMP",
+          "kingNumber": 8,
+          "tribe": "Benjamin",
+          "quarter": "North N-E"
+        },
+        {
+          "number": 36,
+          "name": "Ambriol",
+          "region": "Orchenij",
+          "ministers": 3391,
+          "angelicKing": "ZIRACAH",
+          "kingNumber": 2,
+          "tribe": "Ruben",
+          "quarter": "South"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "ZIM",
+      "order": "middle",
+      "totalMinisters": 15684,
+      "governors": [
+        {
+          "number": 37,
+          "name": "Gecaond",
+          "region": "Achaia",
+          "ministers": 8111,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 38,
+          "name": "Laparin",
+          "region": "Armenia",
+          "ministers": 3360,
+          "angelicKing": "OLPAGED",
+          "kingNumber": 1,
+          "tribe": "Dan",
+          "quarter": "East"
+        },
+        {
+          "number": 39,
+          "name": "Docepax",
+          "region": "Nemrodiana",
+          "ministers": 4213,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "UTA",
+      "order": "middle",
+      "totalMinisters": 20139,
+      "governors": [
+        {
+          "number": 40,
+          "name": "Tedoond",
+          "region": "Paphlogonia",
+          "ministers": 2673,
+          "angelicKing": "GEBABAL",
+          "kingNumber": 5,
+          "tribe": "Asseir",
+          "quarter": "East S-E"
+        },
+        {
+          "number": 41,
+          "name": "Vivipos",
+          "region": "Phasiana",
+          "ministers": 9236,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        },
+        {
+          "number": 42,
+          "name": "Ooanamb",
+          "region": "Chaldei",
+          "ministers": 8230,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "OXO",
+      "order": "middle",
+      "totalMinisters": 4620,
+      "governors": [
+        {
+          "number": 43,
+          "name": "Tahamdo",
+          "region": "Itergi",
+          "ministers": 1367,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        },
+        {
+          "number": 44,
+          "name": "Nociabi",
+          "region": "Macedonia",
+          "ministers": 1367,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 45,
+          "name": "Tastoxo",
+          "region": "Garamannia",
+          "ministers": 1886,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "LEA",
+      "order": "middle",
+      "totalMinisters": 28390,
+      "governors": [
+        {
+          "number": 46,
+          "name": "Cucarpt",
+          "region": "Sauromatica",
+          "ministers": 9920,
+          "angelicKing": "ZIRACAH",
+          "kingNumber": 2,
+          "tribe": "Ruben",
+          "quarter": "South"
+        },
+        {
+          "number": 47,
+          "name": "Lauacon",
+          "region": "Aethiopia",
+          "ministers": 9230,
+          "angelicKing": "HONONOL",
+          "kingNumber": 3,
+          "tribe": "Iehudah",
+          "quarter": "West"
+        },
+        {
+          "number": 48,
+          "name": "Sochial",
+          "region": "Fiacim",
+          "ministers": 9240,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "TAN",
+      "order": "middle",
+      "totalMinisters": 17389,
+      "governors": [
+        {
+          "number": 49,
+          "name": "Sigmorf",
+          "region": "Colchica",
+          "ministers": 7623,
+          "angelicKing": "ZIRACAH",
+          "kingNumber": 2,
+          "tribe": "Ruben",
+          "quarter": "South"
+        },
+        {
+          "number": 50,
+          "name": "Avdropt",
+          "region": "Cireniaca",
+          "ministers": 7132,
+          "angelicKing": "OLPAGED",
+          "kingNumber": 1,
+          "tribe": "Dan",
+          "quarter": "East"
+        },
+        {
+          "number": 51,
+          "name": "Tocarzi",
+          "region": "Nasamoma",
+          "ministers": 2634,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "ZEN",
+      "order": "middle",
+      "totalMinisters": 19311,
+      "governors": [
+        {
+          "number": 52,
+          "name": "Nabaomi",
+          "region": "Carthago",
+          "ministers": 2346,
+          "angelicKing": "GEBABAL",
+          "kingNumber": 5,
+          "tribe": "Asseir",
+          "quarter": "East S-E"
+        },
+        {
+          "number": 53,
+          "name": "Zafasai",
+          "region": "Coxlant",
+          "ministers": 7689,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        },
+        {
+          "number": 54,
+          "name": "Yalpamb",
+          "region": "Adumea",
+          "ministers": 9276,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "POP",
+      "order": "middle",
+      "totalMinisters": 15356,
+      "governors": [
+        {
+          "number": 55,
+          "name": "Torzoxi",
+          "region": "Parstavia",
+          "ministers": 6236,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        },
+        {
+          "number": 56,
+          "name": "Abriond",
+          "region": "Celtica",
+          "ministers": 6733,
+          "angelicKing": "CADAAMP",
+          "kingNumber": 8,
+          "tribe": "Benjamin",
+          "quarter": "North N-E"
+        },
+        {
+          "number": 57,
+          "name": "Omagrap",
+          "region": "Vinsan",
+          "ministers": 2388,
+          "angelicKing": "ZINGGEN",
+          "kingNumber": 11,
+          "tribe": "Zabulon",
+          "quarter": "West S-W"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "CHR",
+      "order": "middle",
+      "totalMinisters": 14889,
+      "governors": [
+        {
+          "number": 58,
+          "name": "Zildron",
+          "region": "Tolpam",
+          "ministers": 3626,
+          "angelicKing": "GEBABAL",
+          "kingNumber": 5,
+          "tribe": "Asseir",
+          "quarter": "East S-E"
+        },
+        {
+          "number": 59,
+          "name": "Parziba",
+          "region": "Carcedoma",
+          "ministers": 7629,
+          "angelicKing": "HONONOL",
+          "kingNumber": 3,
+          "tribe": "Iehudah",
+          "quarter": "West"
+        },
+        {
+          "number": 60,
+          "name": "Totocan",
+          "region": "Italia",
+          "ministers": 3634,
+          "angelicKing": "ALPUDUS",
+          "kingNumber": 7,
+          "tribe": "Isacaraah",
+          "quarter": "West N-W"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "ASP",
+      "order": "lower",
+      "totalMinisters": 16829,
+      "governors": [
+        {
+          "number": 61,
+          "name": "Chirzpa",
+          "region": "Brytania",
+          "ministers": 5536,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        },
+        {
+          "number": 62,
+          "name": "Toantom",
+          "region": "Phenices",
+          "ministers": 5635,
+          "angelicKing": "CADAAMP",
+          "kingNumber": 8,
+          "tribe": "Benjamin",
+          "quarter": "North N-E"
+        },
+        {
+          "number": 63,
+          "name": "Vixpalg",
+          "region": "Comaginen",
+          "ministers": 5658,
+          "angelicKing": "ZURCHOL",
+          "kingNumber": 6,
+          "tribe": "Simeon",
+          "quarter": "South S-W"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "name": "LIN",
+      "order": "lower",
+      "totalMinisters": 6925,
+      "governors": [
+        {
+          "number": 64,
+          "name": "Ozidaia",
+          "region": "Apulia",
+          "ministers": 2232,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        },
+        {
+          "number": 65,
+          "name": "Paraoan",
+          "region": "Marmarica",
+          "ministers": 2326,
+          "angelicKing": "OLPAGED",
+          "kingNumber": 1,
+          "tribe": "Dan",
+          "quarter": "East"
+        },
+        {
+          "number": 66,
+          "name": "Calzirg",
+          "region": "Concava Syria",
+          "ministers": 2367,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "name": "TOR",
+      "order": "lower",
+      "totalMinisters": 21915,
+      "governors": [
+        {
+          "number": 67,
+          "name": "Ronoomb",
+          "region": "Gebal",
+          "ministers": 7320,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 68,
+          "name": "Onizimp",
+          "region": "Elam",
+          "ministers": 7262,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 69,
+          "name": "Zaxanin",
+          "region": "Adunia",
+          "ministers": 7333,
+          "angelicKing": "ZINGGEN",
+          "kingNumber": 11,
+          "tribe": "Zabulon",
+          "quarter": "West S-W"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "NIA",
+      "order": "lower",
+      "totalMinisters": 24796,
+      "governors": [
+        {
+          "number": 70,
+          "name": "Orcanir",
+          "region": "Media",
+          "ministers": 8200,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 71,
+          "name": "Chialps",
+          "region": "Arriana",
+          "ministers": 8360,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 72,
+          "name": "Soageel",
+          "region": "Chaldea",
+          "ministers": 8236,
+          "angelicKing": "ZINGGEN",
+          "kingNumber": 11,
+          "tribe": "Zabulon",
+          "quarter": "West S-W"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "VTI",
+      "order": "lower",
+      "totalMinisters": 18201,
+      "governors": [
+        {
+          "number": 73,
+          "name": "Mirzind",
+          "region": "Serica Populi",
+          "ministers": 5632,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 74,
+          "name": "Obvaors",
+          "region": "Persia",
+          "ministers": 6333,
+          "angelicKing": "ZIRACAH",
+          "kingNumber": 2,
+          "tribe": "Ruben",
+          "quarter": "South"
+        },
+        {
+          "number": 75,
+          "name": "Ranglam",
+          "region": "Gongatha",
+          "ministers": 6236,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "name": "DES",
+      "order": "lower",
+      "totalMinisters": 18489,
+      "governors": [
+        {
+          "number": 76,
+          "name": "Pophand",
+          "region": "Gorsin",
+          "ministers": 9232,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        },
+        {
+          "number": 77,
+          "name": "Nigrana",
+          "region": "Hispania",
+          "ministers": 3620,
+          "angelicKing": "CADAAMP",
+          "kingNumber": 8,
+          "tribe": "Benjamin",
+          "quarter": "North N-E"
+        },
+        {
+          "number": 78,
+          "name": "Bazchim",
+          "region": "Pamphilia",
+          "ministers": 5637,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "name": "ZAA",
+      "order": "lower",
+      "totalMinisters": 22043,
+      "governors": [
+        {
+          "number": 79,
+          "name": "Saziami",
+          "region": "Oacidi",
+          "ministers": 7220,
+          "angelicKing": "ZIRACAH",
+          "kingNumber": 2,
+          "tribe": "Ruben",
+          "quarter": "South"
+        },
+        {
+          "number": 80,
+          "name": "Mathula",
+          "region": "Babylon",
+          "ministers": 7360,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 81,
+          "name": "Orpanib",
+          "region": "Median",
+          "ministers": 7263,
+          "angelicKing": "GEBABAL",
+          "kingNumber": 5,
+          "tribe": "Asseir",
+          "quarter": "East S-E"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "BAG",
+      "order": "lower",
+      "totalMinisters": 18066,
+      "governors": [
+        {
+          "number": 82,
+          "name": "Labnixp",
+          "region": "Adumian",
+          "ministers": 2630,
+          "angelicKing": "LAVAVOTH",
+          "kingNumber": 10,
+          "tribe": "Gad",
+          "quarter": "South S-E"
+        },
+        {
+          "number": 83,
+          "name": "Pocisni",
+          "region": "Foelix Arabia",
+          "ministers": 7236,
+          "angelicKing": "ZARZILG",
+          "kingNumber": 9,
+          "tribe": "Nephthalim",
+          "quarter": "East N-E"
+        },
+        {
+          "number": 84,
+          "name": "Oxlopar",
+          "region": "Metagonitidim",
+          "ministers": 8200,
+          "angelicKing": "ZURCHOL",
+          "kingNumber": 6,
+          "tribe": "Simeon",
+          "quarter": "South S-W"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "name": "RII",
+      "order": "lower",
+      "totalMinisters": 21503,
+      "governors": [
+        {
+          "number": 85,
+          "name": "Vastrim",
+          "region": "Assyria",
+          "ministers": 9632,
+          "angelicKing": "HONONOL",
+          "kingNumber": 3,
+          "tribe": "Iehudah",
+          "quarter": "West"
+        },
+        {
+          "number": 86,
+          "name": "Odraxti",
+          "region": "Affrica",
+          "ministers": 4236,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 87,
+          "name": "Gomziam",
+          "region": "Bactriani",
+          "ministers": 7635,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "TEX",
+      "order": "lower",
+      "totalMinisters": 27532,
+      "governors": [
+        {
+          "number": 88,
+          "name": "Taoagla",
+          "region": "Asnan",
+          "ministers": 4632,
+          "angelicKing": "ARFAOLG",
+          "kingNumber": 12,
+          "tribe": "Ephraim",
+          "quarter": "North N-W"
+        },
+        {
+          "number": 89,
+          "name": "Gemnimb",
+          "region": "Phrygia",
+          "ministers": 9636,
+          "angelicKing": "ZARNAAH",
+          "kingNumber": 4,
+          "tribe": "Manasse",
+          "quarter": "North"
+        },
+        {
+          "number": 90,
+          "name": "Advorpt",
+          "region": "Creta",
+          "ministers": 7632,
+          "angelicKing": "HONONOL",
+          "kingNumber": 3,
+          "tribe": "Iehudah",
+          "quarter": "West"
+        },
+        {
+          "number": 91,
+          "name": "Doxinal",
+          "region": "Mauritania",
+          "ministers": 5632,
+          "angelicKing": "ZURCHOL",
+          "kingNumber": 6,
+          "tribe": "Simeon",
+          "quarter": "South S-W"
+        }
+      ]
+    }
+  ]
+}

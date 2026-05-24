@@ -1,0 +1,225 @@
+{
+  "source": "Geoffrey James, The Enochian Magick of Dr. John Dee (1984/1998), Book Five",
+  "manuscriptSource": "Sloane MS 3191; Cotton Appendix XLVI",
+  "badge": "historical",
+  "note": "Element-quarter correspondences vary between traditions. James follows Dee's original assignment. The Golden Dawn reversed South and North element attributions.",
+  "fundamentalObeisance": "The Fundamental Obeisance is the conjuration for obtaining the benign ministry of the good angels. It invokes God as IEOVAH ZEBAOTH and names the twelve mystical Names: ORO, IBAH, AOZPI, MOR, DIAL, HCTGA, OIP, TEAA, PDOCE, MPH, ARSL, GAIOL.",
+  "greatCircle": "The four triads are the Names of God extracted from the four lines of the holy spirit, which govern all creatures on the earth (both visible and invisible). They are carried upon twelve banners.",
+  "elementAssociations": {
+    "east": {
+      "element": "Air",
+      "disputed": false
+    },
+    "south": {
+      "element": "Water",
+      "disputed": true,
+      "note": "Fire in some traditions. The Golden Dawn assigns Fire to the South."
+    },
+    "west": {
+      "element": "Earth",
+      "disputed": false
+    },
+    "north": {
+      "element": "Fire",
+      "disputed": true,
+      "note": "Earth in some traditions. The Golden Dawn assigns Earth to the North."
+    }
+  },
+  "quarters": {
+    "east": {
+      "direction": "East",
+      "element": "Air",
+      "seniors": {
+        "godName": ["BATAIVA", "BATAIVH"],
+        "names": ["Abioro", "Aaoxaif", "Htmorda", "Haozpi", "Hipotga", "Autotar"],
+        "alternateNames": ["Habioro", null, null, "Ahaozpi", null, null]
+      },
+      "angelsOfMedicine": {
+        "godNames": ["IDOIGO", "ARDZA"],
+        "angels": [
+          {"name": "Czns", "alternate": "Czons"},
+          {"name": "Tott", "alternate": "Toitt"},
+          {"name": "Sias", "alternate": "Sigas"},
+          {"name": "Fmnd", "alternate": "Fmond"}
+        ],
+        "cacodemons": ["Xcz", "Ato", "Rsi", "Pfm"],
+        "godNamesReversed": ["OGIODI", "AZDRA"]
+      },
+      "angelsOfPreciousStones": {
+        "godNames": ["LLACZA", "PALAM"],
+        "angels": [
+          {"name": "Oyub", "alternate": "Oyaub"},
+          {"name": "Paoc", "alternate": "Pacoc"},
+          {"name": "Rbnh", "alternate": "Rbznh"},
+          {"name": "Diri", "alternate": "Diari"}
+        ],
+        "cacodemons": ["Xoy", "Apa", "Rrb", "Pdi"],
+        "godNamesReversed": ["AZCALL", "MALAP"]
+      },
+      "angelsOfTransformation": {
+        "godNames": ["AIAOAI", "OIIIT"],
+        "angels": [
+          {"name": "Abmo", "alternate": "Abamo"},
+          {"name": "Naco", "alternate": "Naoco"},
+          {"name": "Ocnm", "alternate": "Ocanm"},
+          {"name": "Shal", "alternate": "Shail"}
+        ],
+        "cacodemons": ["Cab", "Ona", "Moc", "Ash"],
+        "godNamesReversed": ["IAOAIA", "TIIIO"]
+      }
+    },
+    "south": {
+      "direction": "South",
+      "element": "Water",
+      "seniors": {
+        "godName": ["ICZHHCA", "ICZHHCL"],
+        "names": ["Aidrom", "Aczinor", "Lzinopo", "Lhctga", "Lhiansa", "Acmbicu"],
+        "alternateNames": ["Laidrom", null, null, "Alhctga", null, null]
+      },
+      "angelsOfMedicine": {
+        "godNames": ["ANGPOI", "VNNAX"],
+        "angels": [
+          {"name": "Aira", "alternate": "Aigra"},
+          {"name": "Ormn", "alternate": "Orpmn"},
+          {"name": "Rsni", "alternate": "Rsoni"},
+          {"name": "Iznr", "alternate": "Izinr"}
+        ],
+        "cacodemons": ["Xai", "Aor", "Rrs", "Pi"],
+        "godNamesReversed": ["IOPGNA", "XANNV"]
+      },
+      "angelsOfPreciousStones": {
+        "godNames": ["ANAEEM", "SONDN"],
+        "angels": [
+          {"name": "Omgg", "alternate": "Omagg"},
+          {"name": "Gbal", "alternate": "Gbeal"},
+          {"name": "Rlmu", "alternate": "Rlemu"},
+          {"name": "Iahl", "alternate": "Iamhl"}
+        ],
+        "cacodemons": ["Xom", "Agb", "Rrl", "Pia"],
+        "godNamesReversed": ["MEEANA", "NDNOS"]
+      },
+      "angelsOfTransformation": {
+        "godNames": ["CBALPT", "ARBIZ"],
+        "angels": [
+          {"name": "Opna", "alternate": "Opana"},
+          {"name": "Doop", "alternate": "Dolop"},
+          {"name": "Rxao", "alternate": "Rxpao"},
+          {"name": "Axir", "alternate": "Axtir"}
+        ],
+        "cacodemons": ["Cop", "Odo", "Mrx", "Aax"],
+        "godNamesReversed": ["TPLABC", "ZIBRA"]
+      }
+    },
+    "west": {
+      "direction": "West",
+      "element": "Earth",
+      "seniors": {
+        "godName": ["RAAGIOS", "RAAGIOL"],
+        "names": ["Srahpm", "Saiinou", "Laoaxrp", "Lgaiol", "Ligdisa", "Soaiznt"],
+        "alternateNames": ["Lsrahpm", null, null, "Slgaiol", null, null]
+      },
+      "angelsOfMedicine": {
+        "godNames": ["OLGOTA", "OALCO"],
+        "angels": [
+          {"name": "Taco", "alternate": "Tagco"},
+          {"name": "Nhdd", "alternate": "Nhodd"},
+          {"name": "Paax", "alternate": "Patax"},
+          {"name": "Saiz", "alternate": "Saaiz"}
+        ],
+        "cacodemons": ["Mta", "Onh", "Cfa", "Hsa"],
+        "godNamesReversed": ["ATOGLO", "OCLAO"]
+      },
+      "angelsOfPreciousStones": {
+        "godNames": ["NELAPR", "OMEBB"],
+        "angels": [
+          {"name": "Magm", "alternate": "Malg"},
+          {"name": "Leoc", "alternate": "Leaoc"},
+          {"name": "Vssn", "alternate": "Vspsn"},
+          {"name": "Rvoi", "alternate": "Rvroi"}
+        ],
+        "cacodemons": ["Mma", "Ole", "Cvs", "Hrv"],
+        "godNamesReversed": ["RPALEN", "BBEMO"]
+      },
+      "angelsOfTransformation": {
+        "godNames": ["MALADI", "OLAAD"],
+        "angels": [
+          {"name": "Paco", "alternate": "Palco"},
+          {"name": "Ndzn", "alternate": "Ndazn"},
+          {"name": "Iipo", "alternate": "Iidpo"},
+          {"name": "Xrnh", "alternate": "Xrinh"}
+        ],
+        "cacodemons": ["Rpa", "And", "Xii", "Exr"],
+        "godNamesReversed": ["IDALAM", "DAALO"]
+      }
+    },
+    "north": {
+      "direction": "North",
+      "element": "Fire",
+      "seniors": {
+        "godName": ["ELDPRNA", "EDLPRNA"],
+        "names": ["Aetpio", "Adoeoet", "Alndvod", "Apdoce", "Arinnaq", "Anodoin"],
+        "alternateNames": ["Aetpio", null, null, "Aapdoce", null, null]
+      },
+      "angelsOfMedicine": {
+        "godNames": ["NOALMR", "OLOAG"],
+        "angels": [
+          {"name": "Opmn", "alternate": "Opamn"},
+          {"name": "Apst", "alternate": "Aplst"},
+          {"name": "Scio", "alternate": "Scmio"},
+          {"name": "Vasg", "alternate": "Varsq"}
+        ],
+        "cacodemons": ["Mop", "Oap", "Csc", "Hua"],
+        "godNamesReversed": ["RMLAON", "GAOLO"]
+      },
+      "angelsOfPreciousStones": {
+        "godNames": ["VADALI", "OBARA"],
+        "angels": [
+          {"name": "Gmnm", "alternate": "Gmdnm"},
+          {"name": "Ecop", "alternate": "Ecaop"},
+          {"name": "Amox", "alternate": "Amlox"},
+          {"name": "Brap", "alternate": "Briap"}
+        ],
+        "cacodemons": ["Mgm", "Oec", "Cam", "Hbr"],
+        "godNamesReversed": ["ILADAV", "AVABO"]
+      },
+      "angelsOfTransformation": {
+        "godNames": ["VOLXDO", "SIODA"],
+        "angels": [
+          {"name": "Datt", "alternate": "Dabtt"},
+          {"name": "Diom", "alternate": "Dixom"},
+          {"name": "Oopz", "alternate": "Oodpz"},
+          {"name": "Rgan", "alternate": "Rgoan"}
+        ],
+        "cacodemons": ["Rda", "Adi", "Xoo", "Erg"],
+        "godNamesReversed": ["ODXLOV", "ADIOS"]
+      }
+    }
+  },
+  "tabletOfUnion": {
+    "description": "The Tablet of Union (also called the Black Cross or Tabula Unionis) unifies the four Watchtower tablets. It is derived from the central cross shared by all four tablets and governs the interaction between elemental forces.",
+    "lines": [
+      {
+        "element": "Spirit of Air",
+        "letters": "EXARP"
+      },
+      {
+        "element": "Spirit of Water",
+        "letters": "HCOMA"
+      },
+      {
+        "element": "Spirit of Earth",
+        "letters": "NANTA"
+      },
+      {
+        "element": "Spirit of Fire",
+        "letters": "BITOM"
+      }
+    ],
+    "godNames": {
+      "east": ["ORO", "IBAH", "AOZPI"],
+      "south": ["MOR", "DIAL", "HCTGA"],
+      "west": ["OIP", "TEAA", "PDOCE"],
+      "north": ["MPH", "ARSL", "GAIOL"]
+    }
+  }
+}

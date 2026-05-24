@@ -110,7 +110,7 @@ export const studentLessonRegistry: StudentLessonRecord[] = [
     title: "A Grammar of Invocation",
     subtitle: "The forty-eight Calls and their structure",
     lessonNumber: "Lesson 2.3",
-    status: "shadow",
+    status: "open",
     sourcePackId: "SOURCE_PACK_3_STUDENT_2_3",
     sourcePackFileName: "SOURCE_PACK_3_STUDENT_2_3.md",
     sourcePackDescriptor:
@@ -138,7 +138,7 @@ export const studentLessonRegistry: StudentLessonRecord[] = [
     title: "The Architecture of the World",
     subtitle: "The Great Table and the Watchtower system",
     lessonNumber: "Lesson 2.4",
-    status: "shadow",
+    status: "open",
     sourcePackId: "SOURCE_PACK_4_STUDENT_2_4",
     sourcePackFileName: "SOURCE_PACK_4_STUDENT_2_4.md",
     sourcePackDescriptor:
@@ -166,7 +166,7 @@ export const studentLessonRegistry: StudentLessonRecord[] = [
     title: "The Inheritors",
     subtitle: "The Golden Dawn reconstruction and later hands",
     lessonNumber: "Lesson 2.5",
-    status: "shadow",
+    status: "open",
     sourcePackId: "SOURCE_PACK_5_STUDENT_2_5",
     sourcePackFileName: "SOURCE_PACK_5_STUDENT_2_5.md",
     sourcePackDescriptor:
@@ -194,7 +194,7 @@ export const studentLessonRegistry: StudentLessonRecord[] = [
     title: "The Voice and the Abyss",
     subtitle: "Crowley's Aethyr workings and experiential authority",
     lessonNumber: "Lesson 2.6",
-    status: "shadow",
+    status: "open",
     sourcePackId: "SOURCE_PACK_6_STUDENT_2_6",
     sourcePackFileName: "SOURCE_PACK_6_STUDENT_2_6.md",
     sourcePackDescriptor:

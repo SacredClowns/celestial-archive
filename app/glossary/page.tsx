@@ -1,5 +1,5 @@
 import { GlossaryIndex } from "@/components/glossary/glossary-index";
-import { alphabeticalEntries } from "@/lib/glossary";
+import { publishedAlphabeticalEntries, publishedGlossaryEntries } from "@/lib/glossary";
 
 export const metadata = {
   title: "Glossary · ENOCHIAN: THE CELESTIAL ARCHIVE",
@@ -8,7 +8,8 @@ export const metadata = {
 };
 
 export default function GlossaryPage() {
-  const entries = alphabeticalEntries();
+  const entries = publishedAlphabeticalEntries();
+  const totalPublished = publishedGlossaryEntries().length;
 
   return (
     <section className="mx-auto w-full max-w-[980px] space-y-12">
@@ -28,8 +29,8 @@ export default function GlossaryPage() {
 
       <footer className="border-t border-gold-dim/35 pt-8 text-sm text-gold-dim">
         <p className="leading-[1.9]">
-          The glossary expands as lessons unfold. Five foundational terms are open. Further entries
-          arrive with each new lesson and pillar.
+          {totalPublished} terms are open. Further entries arrive as the Archive expands from the core
+          terms document and lesson cross-links.
         </p>
       </footer>
     </section>

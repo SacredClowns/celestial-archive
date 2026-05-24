@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "build:search": "npx --yes tsx scripts/build-search-index.ts",
+    "prebuild": "npm run build:search",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -11,6 +13,8 @@
     "validate:student": "vitest run lib/student/validate-student-stage.test.ts"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.106.1",
     "gray-matter": "^4.0.3",
     "mdast-util-directive": "^3.1.0",
     "next": "latest",

@@ -1,5 +1,5 @@
 import React from "react";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeAll, describe, expect, it, vi } from "vitest";
 import { cleanup, render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/vitest";
 
@@ -17,6 +17,61 @@ import { StudentPathIndexBody } from "@/components/student/student-path-index-bo
 import { buildStudentIndexFraming } from "@/lib/curriculum/load-student-framing";
 import { listStudentLessonsOrdered } from "@/lib/student/student-registry-helpers";
 import { StudentLessonRenderer } from "@/components/lesson/student-lesson-renderer";
+import { AuthProvider } from "@/lib/auth/auth-context";
+import { DiscoveryProvider } from "@/lib/discovery/discovery-context";
+import { JournalProvider } from "@/lib/journal/journal-context";
+import { ProgressProvider } from "@/lib/progress/progress-context";
+import { TraditionSettingsProvider } from "@/lib/settings/tradition-settings-context";
+
+function withProviders(ui: React.ReactElement) {
+  return (
+    <AuthProvider>
+      <TraditionSettingsProvider>
+        <ProgressProvider>
+          <DiscoveryProvider>
+            <JournalProvider>{ui}</JournalProvider>
+          </DiscoveryProvider>
+        </ProgressProvider>
+      </TraditionSettingsProvider>
+    </AuthProvider>
+  );
+}
+
+beforeAll(() => {
+  const store = new Map<string, string>();
+  const localStorageMock = {
+    getItem: (key: string) => store.get(key) ?? null,
+    setItem: (key: string, value: string) => {
+      store.set(key, value);
+    },
+    removeItem: (key: string) => {
+      store.delete(key);
+    },
+    clear: () => store.clear()
+  };
+  vi.stubGlobal("localStorage", localStorageMock);
+
+  class MockIntersectionObserver {
+    observe = vi.fn();
+    unobserve = vi.fn();
+    disconnect = vi.fn();
+  }
+  vi.stubGlobal("IntersectionObserver", MockIntersectionObserver);
+
+  Object.defineProperty(window, "matchMedia", {
+    writable: true,
+    value: vi.fn().mockImplementation((query: string) => ({
+      matches: false,
+      media: query,
+      onchange: null,
+      addListener: vi.fn(),
+      removeListener: vi.fn(),
+      addEventListener: vi.fn(),
+      removeEventListener: vi.fn(),
+      dispatchEvent: vi.fn()
+    }))
+  });
+});
 import { StudentLessonSidebar } from "@/components/student/student-lesson-sidebar";
 import { StudentSourcePackReference } from "@/components/student/student-source-pack-reference";
 import { finalizeStudentLesson } from "@/lib/student/student-lesson-view";
@@ -46,7 +101,7 @@ describe("Stage 2 snapshots (behavioral)", () => {
 
   it("Student 2.1 mounts the safety frame and all declared comparison surfaces", () => {
     const vm = finalizeStudentLesson("the-seven-kings");
-    render(<StudentLessonRenderer viewModel={vm} />);
+    render(withProviders(<StudentLessonRenderer viewModel={vm} />));
     expect(screen.getByText("How to read this structure")).toBeInTheDocument();
     expect(screen.getByText("Historical witness vs later arrangement")).toBeInTheDocument();
     expect(screen.getByText("Letter grid (fragment)")).toBeInTheDocument();
@@ -55,7 +110,7 @@ describe("Stage 2 snapshots (behavioral)", () => {
 
   it("Student 2.2 mounts grid and transmission without the Great Table fragment", () => {
     const vm = finalizeStudentLesson("the-book-that-cannot-be-read");
-    render(<StudentLessonRenderer viewModel={vm} />);
+    render(withProviders(<StudentLessonRenderer viewModel={vm} />));
     expect(screen.getByText("How to read this structure")).toBeInTheDocument();
     expect(screen.queryByText("Historical witness vs later arrangement")).not.toBeInTheDocument();
     expect(screen.getByText("Letter grid (fragment)")).toBeInTheDocument();
@@ -91,6 +146,7 @@ describe("Stage 2 snapshots (behavioral)", () => {
     };
 
     render(
+      withProviders(
       <StudentLessonRenderer
         viewModel={{
           record,
@@ -108,9 +164,12 @@ describe("Stage 2 snapshots (behavioral)", () => {
           displayEpistemicTonesHeader: ["historical"]
         }}
       />
+      )
     );
 
-    expect(screen.getByText("Room note")).toBeInTheDocument();
+    expect(
+      screen.getByText(/Student rank does not ask for more belief/i)
+    ).toBeInTheDocument();
   });
 
   it("Sidebar suppresses empty blocks (no glossary, no timeline, no demonstrations)", () => {

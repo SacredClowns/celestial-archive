@@ -5,7 +5,7 @@ import { listStudentLessonsOrdered } from "@/lib/student/student-registry-helper
 
 export const metadata: Metadata = {
   title: "Student — Stage 2",
-  robots: { index: false, follow: false }
+  robots: { index: true, follow: true }
 };
 
 export default function StudentPathIndexPage() {

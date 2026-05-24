@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
+import { dictionaryHref, hasDictionaryEntry } from "@/lib/language/dictionary-links";
 import { GlossaryEntry, getGlossaryEntryByTerm, slugifyTerm } from "@/lib/glossary";
 
 // ============================================================================
@@ -62,6 +63,21 @@ export function GlossaryEntryView({ entry }: { entry: GlossaryEntry }) {
         </div>
         <h1 className="font-display text-5xl tracking-[0.06em] text-gold">{entry.term}</h1>
         <p className="max-w-[68ch] italic leading-[1.9] text-gold-light">{entry.oneLine}</p>
+        {entry.term === "Enochian" ? (
+          <Link
+            href="/language/dictionary"
+            className="inline-block font-display text-xs uppercase tracking-[0.16em] text-gold hover:text-gold-light"
+          >
+            Open the 631-word dictionary →
+          </Link>
+        ) : hasDictionaryEntry(entry.term) ? (
+          <Link
+            href={dictionaryHref(entry.term) ?? "/language/dictionary"}
+            className="inline-block font-display text-xs uppercase tracking-[0.16em] text-gold-dim hover:text-gold"
+          >
+            See attested form in dictionary →
+          </Link>
+        ) : null}
       </header>
 
       {/* Definition */}

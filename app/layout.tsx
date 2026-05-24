@@ -1,7 +1,13 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Cinzel, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { AppChrome } from "@/components/layout/app-chrome";
+import { AuthProvider } from "@/lib/auth/auth-context";
+import { TraditionSettingsProvider } from "@/lib/settings/tradition-settings-context";
+import { BookmarkProvider } from "@/lib/bookmarks/bookmark-context";
+import { DiscoveryProvider } from "@/lib/discovery/discovery-context";
+import { JournalProvider } from "@/lib/journal/journal-context";
+import { ProgressProvider } from "@/lib/progress/progress-context";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -18,14 +24,32 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: "ENOCHIAN: THE CELESTIAL ARCHIVE",
-  description: "A structured exploration of Enochian language, cosmology, and interpretation."
+  description: "A structured exploration of Enochian language, cosmology, and interpretation.",
+  icons: { icon: "/favicon.svg" },
+  openGraph: {
+    title: "Enochian: The Celestial Archive",
+    description: "History, language, cosmology, and interpretation of the Enochian system.",
+    type: "website"
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${cinzel.variable} ${cormorant.variable}`}>
       <body className="font-body">
-        <AppChrome>{children}</AppChrome>
+        <AuthProvider>
+          <TraditionSettingsProvider>
+            <ProgressProvider>
+              <BookmarkProvider>
+                <DiscoveryProvider>
+                  <JournalProvider>
+                    <AppChrome>{children}</AppChrome>
+                  </JournalProvider>
+                </DiscoveryProvider>
+              </BookmarkProvider>
+            </ProgressProvider>
+          </TraditionSettingsProvider>
+        </AuthProvider>
       </body>
     </html>
   );

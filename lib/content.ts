@@ -4,7 +4,7 @@ export const pillarCards = [
   { name: "Archive", href: "/archive", state: "open", detail: "Reference backbone and core entities." },
   { name: "Timeline", href: "/timeline", state: "open", detail: "Chronological context for Dee and Kelley." },
   { name: "Celestial Map", href: "/archive", state: "open", detail: "Spatial orientation through Watchtower structures." },
-  { name: "Language Chamber", href: "/glossary", state: "locked", detail: "Available after deeper Stage 1 completion." },
+  { name: "Language Chamber", href: "/language", state: "open", detail: "Alphabet, dictionary, and Calls." },
   { name: "Initiation Path", href: "/path/seeker", state: "open", detail: "Guided curriculum with reflection." },
   { name: "Aethyr Journey", href: "/observatory", state: "locked", detail: "Planned for later phases." },
   { name: "Intelligence Observatory", href: "/observatory", state: "locked", detail: "Future contemplative lens space." },

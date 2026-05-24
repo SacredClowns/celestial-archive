@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!record) return { title: "Student lesson" };
   return {
     title: `${record.title}`,
-    robots: { index: false, follow: false }
+    robots: { index: true, follow: true }
   };
 }
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     default: "Student path",
     template: "%s — Student — Celestial Archive"
   },
-  robots: { index: false, follow: false }
+  robots: { index: true, follow: true }
 };
 
 export default function StudentPathLayout({ children }: { children: React.ReactNode }) {

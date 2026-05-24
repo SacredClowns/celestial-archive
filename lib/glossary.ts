@@ -1,4 +1,15 @@
+import coreImportRaw from "@/content/glossary-core-import.json";
 import { EpistemicTone } from "@/lib/lesson-types";
+
+const CORE_IMPORT = coreImportRaw as GlossaryEntry[];
+const CANONICAL_SLUGS = new Set([
+  "scrying",
+  "enochian",
+  "lingua-adamica",
+  "watchtower",
+  "aethyr"
+]);
+const CORE_GLOSSARY_ENTRIES = CORE_IMPORT.filter((e) => !CANONICAL_SLUGS.has(e.slug));
 
 // ============================================================================
 // GLOSSARY SCHEMA
@@ -391,11 +402,25 @@ export const glossaryEntries: GlossaryEntry[] = [
     ],
     appTags: ["aethyr", "cosmology", "crowley", "watchtower", "governor"]
   },
+  ...CORE_GLOSSARY_ENTRIES,
   ...STAGE2_GLOSSARY_STUBS
 ];
 
+export function isPublishedGlossaryEntry(entry: GlossaryEntry): boolean {
+  return entry.definition !== "[CONTENT PENDING]" && entry.oneLine !== "[CONTENT PENDING]";
+}
+
+/** Entries ready for public index (excludes Student-stage stubs). */
+export function publishedGlossaryEntries(): GlossaryEntry[] {
+  return glossaryEntries.filter(isPublishedGlossaryEntry);
+}
+
 export function alphabeticalEntries(): GlossaryEntry[] {
   return [...glossaryEntries].sort((a, b) => a.term.localeCompare(b.term));
+}
+
+export function publishedAlphabeticalEntries(): GlossaryEntry[] {
+  return publishedGlossaryEntries().sort((a, b) => a.term.localeCompare(b.term));
 }
 
 export function getGlossaryEntry(slug: string): GlossaryEntry | undefined {

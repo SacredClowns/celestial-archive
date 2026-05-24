@@ -17,7 +17,12 @@ const config: Config = {
       },
       fontFamily: {
         display: ["var(--font-cinzel)", "serif"],
-        body: ["var(--font-cormorant)", "serif"]
+        body: ["var(--font-cormorant)", "serif"],
+        // Fallback until Enochian font file is added — see globals.css @font-face
+        enochian: ["Enochian", "ui-monospace", "monospace"]
+      },
+      boxShadow: {
+        gold: "0 0 24px rgba(201, 168, 76, 0.1)"
       },
       maxWidth: {
         reading: "720px"

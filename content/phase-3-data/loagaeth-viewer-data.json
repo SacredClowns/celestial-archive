@@ -1,0 +1,1498 @@
+{
+  "id": "loagaeth-viewer",
+  "objectId": "liber-loagaeth",
+  "manuscriptId": "sloane-ms-3189",
+  "title": "Liber Loagaeth \u2014 The Book of Speech from God",
+  "subtitle": "Sloane MS 3189, British Library",
+  "totalLeaves": 49,
+  "totalGridPages": 96,
+  "standardGridDimensions": {
+    "rows": 49,
+    "columns": 49
+  },
+  "dictationPeriod": "March\u2013July 1583",
+  "dictationOrder": "Reverse \u2014 Leaf 49 dictated first, Leaf 1 last",
+  "producer": "John Dee (recording Edward Kelley's scrying)",
+  "manuscript": {
+    "shelfmark": "Sloane MS 3189",
+    "repository": "British Library, London",
+    "condition": "Variable \u2014 some leaves clearer than others",
+    "digitalAccess": "British Library digitized manuscripts (availability varies)"
+  },
+  "globalStructuralNotes": {
+    "gridFormat": "Standard grid is 49 rows \u00d7 49 columns = 2,401 cells per side. Leaf 1 deviates (words per cell). Leaf 49 deviates (text only, no grid).",
+    "contentTypes": "Most grids contain single Latin alphabet letters. Some cells contain Enochian characters, numbers, or marks. Some grids show checkerboard patterns (alternating filled/blank cells).",
+    "borderCells": "Multiple scholars note that outermost rows and columns on many leaves contain different character distributions from interior cells.",
+    "languageAnalysis": "Computerized frequency analysis of the grid text identified 167,423 three-letter chunks. Character distributions suggest linguistic rather than random arrangement. The longest recurring combination is 17 letters: 'adnachephalzednoc'.",
+    "crossLeafPatterns": "Burns & Moore have proposed that leaves relate to each other in pairs or groups, though the specific mapping is not fully established."
+  },
+  "transcriptionSources": [
+    {
+      "name": "Joseph Peterson",
+      "publication": "esotericarchives.com/dee/sl3189.htm",
+      "coverage": "Multiple leaves transcribed; the most extensive publicly available transcription",
+      "badge": "\u25c7"
+    },
+    {
+      "name": "Donald Laycock",
+      "publication": "The Complete Enochian Dictionary (1978, 1994)",
+      "coverage": "Focused on Leaves 1-2; linguistic frequency analysis",
+      "badge": "\u25c7"
+    },
+    {
+      "name": "Aaron Leitch",
+      "publication": "The Angelical Language Vol. 1 (2010), Ch. 13",
+      "coverage": "Structural analysis, selected transcriptions, context within Enochian system",
+      "badge": "\u25c7"
+    },
+    {
+      "name": "Teresa Burns & J. Alan Moore",
+      "publication": "Journal of the Western Mystery Tradition",
+      "coverage": "Structural symmetry analysis of selected leaves",
+      "badge": "\u25cb"
+    }
+  ],
+  "leaves": [
+    {
+      "leafNumber": 1,
+      "dictationOrder": 49,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "word-grid",
+        "description": "The front of Leaf 1 was dictated with complete Enochian words in each cell. Because writing words in the tiny cells of a 49\u00d749 grid was impractical, Dee recorded this table as 49 paragraphs of text rather than a filled grid.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": "Unlike all other leaves, Leaf 1 recto contains multi-character entries per cell position. The content was recorded as continuous text organized by row, not as a visual grid. This is the last leaf dictated \u2014 dictation proceeded from leaf 49 to leaf 1."
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "mixed",
+        "description": "The back of Leaf 1 has words in the first 40 rows and single letters in the last 9 rows \u2014 a transitional format between the word-grid of the recto and the single-letter grids of the remaining leaves.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": "Rows 1-40 contain Enochian words per cell. Rows 41-49 contain single letters per cell. This transitional format appears only on this leaf."
+      },
+      "scholarshipNotes": [
+        {
+          "scholar": "Laycock (1978, 1994)",
+          "observation": "Focused linguistic analysis on Leaf 1; identified character frequency patterns suggesting linguistic rather than random structure.",
+          "badge": "\u25c7"
+        },
+        {
+          "scholar": "Peterson",
+          "observation": "Published transcription of the word-per-cell text. Notes that border cells differ from interior cells.",
+          "badge": "\u25c7"
+        },
+        {
+          "scholar": "Burns & Moore",
+          "observation": "Reported possible rotational symmetry \u2014 rotating 180\u00b0 produces partial mirror patterns.",
+          "badge": "\u25cb"
+        },
+        {
+          "scholar": "Leitch (2010)",
+          "observation": "Discusses Leaf 1 structure in The Angelical Language Vol. 1, Ch. 13. Notes the recto-verso relationship as potentially complementary.",
+          "badge": "\u25c7"
+        }
+      ],
+      "symmetryAnalysis": [
+        {
+          "type": "rotational",
+          "description": "Partial 180\u00b0 rotational correspondence observed in the letter patterns.",
+          "discoveredBy": "Burns & Moore",
+          "uncertaintyLevel": "uncertain"
+        },
+        {
+          "type": "reflective",
+          "description": "Recto and verso may be structurally complementary or inversely constructed.",
+          "discoveredBy": "Burns & Moore",
+          "uncertaintyLevel": "uncertain"
+        }
+      ]
+    },
+    {
+      "leafNumber": 2,
+      "dictationOrder": 48,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'alla opnay qviemmah'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'zvrebth aho dan lanfal cramza'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [
+        {
+          "scholar": "Peterson",
+          "observation": "Published transcription. Second most studied leaf after Leaf 1.",
+          "badge": "\u25c7"
+        },
+        {
+          "scholar": "Laycock",
+          "observation": "Noted different letter frequency patterns compared to Leaf 1.",
+          "badge": "\u25c7"
+        },
+        {
+          "scholar": "Leitch (2010)",
+          "observation": "Discusses in Angelical Language Vol. 1. Notes border cells appear structurally distinct from interior.",
+          "badge": "\u25c7"
+        }
+      ],
+      "symmetryAnalysis": [
+        {
+          "type": "positional",
+          "description": "Border cells (outermost row and column) appear to contain different character distributions from the interior grid.",
+          "discoveredBy": "Peterson, Leitch",
+          "uncertaintyLevel": "probable"
+        }
+      ]
+    },
+    {
+      "leafNumber": 3,
+      "dictationOrder": 47,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'pandobna ox adroh azimcholdrux'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'dlod Alged zvrem'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 4,
+      "dictationOrder": 46,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'Zvbla ox arnogan Algers aclo'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'Danfal gest Axamph acrosta'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 5,
+      "dictationOrder": 45,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'Gonzahoh alch arge oho Adanch'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'Zvchastors plohodmax argednon'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 6,
+      "dictationOrder": 44,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'Sancgonfal aldex, Ave goh adatqvan'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'pvrcha ges maxgem adroth vaxox ah\u00f3'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 7,
+      "dictationOrder": 43,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'Dam lethgath onzar avoxalgeth'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid. Manuscript title: 'chvmaxchaberexmapha'.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "partially-transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 8,
+      "dictationOrder": 42,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 9,
+      "dictationOrder": 41,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 10,
+      "dictationOrder": 40,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 11,
+      "dictationOrder": 39,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 12,
+      "dictationOrder": 38,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions confirmed; cell-level transcription not yet published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 13,
+      "dictationOrder": 37,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 14,
+      "dictationOrder": 36,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 15,
+      "dictationOrder": 35,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 16,
+      "dictationOrder": 34,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 17,
+      "dictationOrder": 33,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 18,
+      "dictationOrder": 32,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 19,
+      "dictationOrder": 31,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 20,
+      "dictationOrder": 30,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 21,
+      "dictationOrder": 29,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 22,
+      "dictationOrder": 28,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 23,
+      "dictationOrder": 27,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 24,
+      "dictationOrder": 26,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 25,
+      "dictationOrder": 25,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 26,
+      "dictationOrder": 24,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 27,
+      "dictationOrder": 23,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 28,
+      "dictationOrder": 22,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 29,
+      "dictationOrder": 21,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 30,
+      "dictationOrder": 20,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 31,
+      "dictationOrder": 19,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 32,
+      "dictationOrder": 18,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 33,
+      "dictationOrder": 17,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 34,
+      "dictationOrder": 16,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 35,
+      "dictationOrder": 15,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 36,
+      "dictationOrder": 14,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 37,
+      "dictationOrder": 13,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 38,
+      "dictationOrder": 12,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 39,
+      "dictationOrder": 11,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 40,
+      "dictationOrder": 10,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 41,
+      "dictationOrder": 9,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 42,
+      "dictationOrder": 8,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 43,
+      "dictationOrder": 7,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 44,
+      "dictationOrder": 6,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 45,
+      "dictationOrder": 5,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 46,
+      "dictationOrder": 4,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 47,
+      "dictationOrder": 3,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 48,
+      "dictationOrder": 2,
+      "recto": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "verso": {
+        "gridRows": 49,
+        "gridColumns": 49,
+        "contentType": "letter-grid",
+        "description": "Standard 49\u00d749 single-letter grid.",
+        "transcriptionSource": "Grid dimensions inferred from manuscript standard; cell-level transcription not published",
+        "transcriptionStatus": "catalogued",
+        "uncertaintyLevel": "uncertain",
+        "cells": "PENDING_TRANSCRIPTION",
+        "structuralNotes": null
+      },
+      "scholarshipNotes": [],
+      "symmetryAnalysis": null
+    },
+    {
+      "leafNumber": 49,
+      "dictationOrder": 1,
+      "recto": {
+        "gridRows": null,
+        "gridColumns": null,
+        "contentType": "text",
+        "description": "Leaf 49 contains only text \u2014 five lines of Enochian words. It has no grid structure. This was the first leaf dictated, and its distinctive format has led scholars to consider it a 'key' or preface to the remaining 48 grid-leaves.",
+        "transcriptionSource": "Peterson (esotericarchives.com), from Sloane MS 3189",
+        "transcriptionStatus": "transcribed",
+        "uncertaintyLevel": "probable",
+        "cells": null,
+        "structuralNotes": "No grid. Five lines of Enochian text. First leaf dictated (dictation order 1). Some scholars interpret this as an invocation, key, or index for the grid-leaves that follow."
+      },
+      "verso": {
+        "gridRows": null,
+        "gridColumns": null,
+        "contentType": "text",
+        "description": "Verso of Leaf 49. Content status requires verification against manuscript images.",
+        "transcriptionSource": null,
+        "transcriptionStatus": "unverified",
+        "uncertaintyLevel": "uncertain",
+        "cells": null,
+        "structuralNotes": "Requires verification against BL digitized images of Sloane MS 3189."
+      },
+      "scholarshipNotes": [
+        {
+          "scholar": "Peterson",
+          "observation": "Published transcription of the five text lines. Notes its distinctive non-grid format.",
+          "badge": "\u25c7"
+        },
+        {
+          "scholar": "Leitch (2010)",
+          "observation": "Discusses Leaf 49 as potentially a 'key' leaf \u2014 an invocation framework or structural key to the other 48 leaves.",
+          "badge": "\u25cb"
+        }
+      ],
+      "symmetryAnalysis": null
+    }
+  ],
+  "_dataStatus": "STRUCTURAL METADATA COMPLETE. Cell-level transcription data for individual leaves marked PENDING_TRANSCRIPTION. Grid dimensions confirmed for standard leaves (49\u00d749). Leaf 1 (word-grid) and Leaf 49 (text-only) documented as structural exceptions."
+}

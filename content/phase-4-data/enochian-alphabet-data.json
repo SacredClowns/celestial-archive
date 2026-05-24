@@ -1,0 +1,758 @@
+{
+  "id": "enochian-alphabet",
+  "title": "The Enochian Alphabet",
+  "subtitle": "21 Letters of the Angelical Script",
+  "totalLetters": 21,
+  "writingDirection": "right-to-left",
+  "receptionDate": "March 26, 1583",
+  "receptionBadge": "historical",
+  "primarySource": "Sloane MS 3189 (Liber Loagaeth), Dee's working papers",
+  "scholarlyAuthority": "Donald Laycock, The Complete Enochian Dictionary (1978/1994)",
+  "fontInfo": {
+    "note": "Enochian fonts use ASCII range, mapping letters to the codepoints of their English equivalents. Several freely available fonts exist (Enochian, Enochian Writing, etc.).",
+    "asciiMapping": true,
+    "recommendedFonts": ["Enochian", "Enochian Writing"],
+    "badge": "consensus"
+  },
+  "scriptOriginNote": {
+    "text": "The Enochian script shares graphical similarities with a script attributed to the prophet Enoch that appeared in the Voarchadumia Contra Alchimiam of Johannes Pantheus (1550), a copy of which Dee is known to have owned.",
+    "source": "Laycock (2001), p. 28; Pantheus (1550), ff. 15v-16r",
+    "badge": "consensus"
+  },
+  "orthographyNote": {
+    "text": "Enochian orthography closely follows Early Modern English orthography, including soft/hard c and g, and the digraphs ch, ph, sh, and th.",
+    "source": "Leitch (2010b), pp. 23-24; Laycock (2001), p. 46",
+    "badge": "consensus"
+  },
+  "letters": [
+    {
+      "position": 1,
+      "name": "Un",
+      "englishEquivalent": "A",
+      "fontCharacter": "A",
+      "phonology": {
+        "dee": {
+          "description": "Long [ɑː] when stressed, short [a] (the TRAP vowel) when unstressed",
+          "ipa": "ɑː / a",
+          "englishApprox": "Like 'ah' when stressed, like 'a' in 'cat' when unstressed",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced as its name 'Un' or as the long vowel [ɑː]",
+          "ipa": "ɑː",
+          "englishApprox": "Like 'ah'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as written, typically [ɑː]",
+          "ipa": "ɑː",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "First letter received in the alphabet transmission of March 26, 1583. Dee mapped it to the English letter A.",
+        "source": "Sloane MS 3189",
+        "badge": "historical"
+      },
+      "exampleWords": ["ol", "a", "ar", "aaf", "abramig"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 2,
+      "name": "Pa",
+      "englishEquivalent": "B",
+      "fontCharacter": "B",
+      "phonology": {
+        "dee": {
+          "description": "[b]; silent after m when before another consonant or word-final",
+          "ipa": "b",
+          "englishApprox": "Like English 'b'; silent in clusters like 'mb' before a consonant",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced as a full syllable [beɪ]",
+          "ipa": "beɪ",
+          "englishApprox": "Like 'bay'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'b'",
+          "ipa": "b",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter B. The silent-b-after-m rule mirrors Elizabethan English pronunciation conventions.",
+        "source": "Laycock (2001), phonological analysis",
+        "badge": "consensus"
+      },
+      "exampleWords": ["babage", "babalond", "baltoh", "bolp", "brgdo"],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "The cluster rules for B follow English phonotactics, not those of any Semitic or other ancient language.",
+          "badge": "consensus"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "name": "Veh",
+      "englishEquivalent": "C",
+      "fontCharacter": "C",
+      "phonology": {
+        "dee": {
+          "description": "[k] before a, o, u (hard c); [s] before e, i and in consonant clusters (soft c). Dee marks soft c with 's' in his pronunciation notes.",
+          "ipa": "k / s",
+          "englishApprox": "Like 'k' in 'cat', or 's' in 'city' — same rules as English",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Varies by context; no single syllabic rendering standardized",
+          "ipa": "varies",
+          "englishApprox": "Context-dependent",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as the English letter c with standard soft/hard rules",
+          "ipa": "k / s",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter C. The soft/hard c distinction follows English orthographic conventions exactly.",
+        "source": "Laycock (2001), p. 45; Leitch (2010b), pp. 23-24",
+        "badge": "consensus"
+      },
+      "exampleWords": ["coraxo", "cnila", "crip", "christeos", "cial"],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "The soft/hard c rule is English, not Latin or Semitic. This is one of the strongest arguments for English as the language's phonological substrate.",
+          "badge": "consensus"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "name": "Gal",
+      "englishEquivalent": "D",
+      "fontCharacter": "D",
+      "phonology": {
+        "dee": {
+          "description": "[d]",
+          "ipa": "d",
+          "englishApprox": "Like English 'd'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced as a full syllable [deɪ]",
+          "ipa": "deɪ",
+          "englishApprox": "Like 'day'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'd'",
+          "ipa": "d",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter D. Straightforward phonological mapping with no special rules.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["ds", "darbs", "dial", "doalim", "drilpa"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 5,
+      "name": "Graph",
+      "englishEquivalent": "E",
+      "fontCharacter": "E",
+      "phonology": {
+        "dee": {
+          "description": "[eː] when stressed, [ɛ] when unstressed",
+          "ipa": "eː / ɛ",
+          "englishApprox": "Like 'ay' in 'say' when stressed, like 'e' in 'bet' when unstressed",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [eɪ] as its name",
+          "ipa": "eɪ",
+          "englishApprox": "Like 'ay'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as in English",
+          "ipa": "eː / ɛ",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter E. Dee marked stressed vowels in most words, allowing reconstruction of the stressed/unstressed distinction.",
+        "source": "Laycock (2001), p. 45",
+        "badge": "historical"
+      },
+      "exampleWords": ["elan", "elzap", "emna", "exarp"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 6,
+      "name": "Or",
+      "englishEquivalent": "F",
+      "fontCharacter": "F",
+      "phonology": {
+        "dee": {
+          "description": "[f]",
+          "ipa": "f",
+          "englishApprox": "Like English 'f'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [ɛf] as in the English letter name",
+          "ipa": "ɛf",
+          "englishApprox": "Like 'eff'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'f'",
+          "ipa": "f",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter F. Also appears as part of the digraph 'ph' which equals [f], following English orthography.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["fafen", "firda", "fisis"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 7,
+      "name": "Ged",
+      "englishEquivalent": "G",
+      "fontCharacter": "G",
+      "phonology": {
+        "dee": {
+          "description": "[ɡ] before a, o, u (hard g); [dʒ] before e, i, word-finally, after d, and in consonant clusters. Dee writes 'dg' for soft g.",
+          "ipa": "ɡ / dʒ",
+          "englishApprox": "Like 'g' in 'go' (hard), or 'g' in 'gem' (soft) — Dee notes 'zorge' rhymes with 'George'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Varies by context; no single syllabic rendering",
+          "ipa": "varies",
+          "englishApprox": "Context-dependent",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced with English soft/hard g rules",
+          "ipa": "ɡ / dʒ",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter G. Dee's pronunciation note that 'zorge' rhymes with 'George' is one of the clearest phonetic instructions in the manuscripts.",
+        "source": "Laycock (2001), p. 45; Dee's pronunciation marginalia",
+        "badge": "historical"
+      },
+      "exampleWords": ["gaiol", "ge", "ged", "gohus", "graa"],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "The 'zorge/George' rhyme is a key piece of evidence for reconstructing Elizabethan pronunciation of Enochian.",
+          "badge": "consensus"
+        }
+      ]
+    },
+    {
+      "position": 8,
+      "name": "Na",
+      "englishEquivalent": "H",
+      "fontCharacter": "H",
+      "phonology": {
+        "dee": {
+          "description": "[h] in most positions; silent in the digraphs ch [k/tʃ], ph [f], sh [ʃ], th [θ]; silent after a vowel (in which case the vowel is lengthened)",
+          "ipa": "h",
+          "englishApprox": "Like English 'h'; silent in 'ch', 'ph', 'sh', 'th'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [heɪ] as a syllable",
+          "ipa": "heɪ",
+          "englishApprox": "Like 'hay'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'h'",
+          "ipa": "h",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter H. The digraph system (ch, ph, sh, th) exactly mirrors English orthographic conventions, not Latin or Greek.",
+        "source": "Leitch (2010b), pp. 23-24",
+        "badge": "consensus"
+      },
+      "exampleWords": ["hami", "hoath", "harg", "hcoma"],
+      "scholarlyNotes": [
+        {
+          "scholar": "Leitch",
+          "observation": "Dee indicated in some places that 'ch' is to be pronounced as [k], following the same ambiguity found in English loanwords from Greek.",
+          "badge": "consensus"
+        }
+      ]
+    },
+    {
+      "position": 9,
+      "name": "Gon",
+      "englishEquivalent": "I/Y",
+      "fontCharacter": "I",
+      "phonology": {
+        "dee": {
+          "description": "[j] word-initially before a vowel (consonantal); as a vowel: [iː] when stressed, [ɪ] when unstressed. Y is treated as a variant of I.",
+          "ipa": "j / iː / ɪ",
+          "englishApprox": "Like 'y' at start of syllable before vowel, like 'ee' when stressed, like 'i' in 'bit' when unstressed",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [iː]",
+          "ipa": "iː",
+          "englishApprox": "Like 'ee'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as in English",
+          "ipa": "iː / ɪ",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to both I and Y. The I/Y equivalence reflects Elizabethan orthographic practice. Dee did not distinguish between them as separate letters.",
+        "source": "Laycock (2001); Dee's alphabet table in Sloane MS 3189",
+        "badge": "historical"
+      },
+      "exampleWords": ["iad", "ils", "iaod", "ip", "isro"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 10,
+      "name": "Ur",
+      "englishEquivalent": "L",
+      "fontCharacter": "L",
+      "phonology": {
+        "dee": {
+          "description": "[l]",
+          "ipa": "l",
+          "englishApprox": "Like English 'l'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "No standardized syllabic rendering; varies by practitioner",
+          "ipa": "varies",
+          "englishApprox": "Varies",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'l'",
+          "ipa": "l",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter L. Note that J and K are absent from the Enochian alphabet — Dee treated them as unnecessary, following Latin orthographic tradition.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["lil", "loncho", "luciftias", "lap", "lring"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 11,
+      "name": "Tal",
+      "englishEquivalent": "M",
+      "fontCharacter": "M",
+      "phonology": {
+        "dee": {
+          "description": "[m]",
+          "ipa": "m",
+          "englishApprox": "Like English 'm'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [ɛm]",
+          "ipa": "ɛm",
+          "englishApprox": "Like 'em'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'm'",
+          "ipa": "m",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter M.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["mad", "micalzo", "mom", "moz", "malpirg"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 12,
+      "name": "Drux",
+      "englishEquivalent": "N",
+      "fontCharacter": "N",
+      "phonology": {
+        "dee": {
+          "description": "[n]",
+          "ipa": "n",
+          "englishApprox": "Like English 'n'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [ɛn] or [nuː] (from Hebrew nun)",
+          "ipa": "ɛn / nuː",
+          "englishApprox": "Like 'en' or 'noo'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'n'",
+          "ipa": "n",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter N. The Golden Dawn's alternative pronunciation [nuː] derives from Westcott's method of inserting Hebrew vowel sounds after consonants.",
+        "source": "Laycock (2001), p. 60",
+        "badge": "consensus"
+      },
+      "exampleWords": ["noco", "noib", "nonci", "norz", "nothoa"],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "Westcott's method allows each letter to be pronounced either as its English name or as the first consonant and vowel of its Hebrew name — e.g., N may be [ɛn] or [nuː] (from nun).",
+          "badge": "consensus"
+        }
+      ]
+    },
+    {
+      "position": 13,
+      "name": "Med",
+      "englishEquivalent": "O",
+      "fontCharacter": "O",
+      "phonology": {
+        "dee": {
+          "description": "[oː] when stressed, [ɒ] when unstressed; the digraph 'oo' is [uː]",
+          "ipa": "oː / ɒ / uː",
+          "englishApprox": "Like 'oh' when stressed, like 'o' in 'hot' when unstressed; 'oo' like 'oo' in 'moon'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [oʊ]",
+          "ipa": "oʊ",
+          "englishApprox": "Like 'oh'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as in English",
+          "ipa": "oː / ɒ",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter O. The 'oo' = [uː] digraph follows English orthographic convention.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["ol", "od", "oma", "ors", "oxex"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 14,
+      "name": "Mals",
+      "englishEquivalent": "P",
+      "fontCharacter": "P",
+      "phonology": {
+        "dee": {
+          "description": "[p]; the digraph 'ph' is [f]",
+          "ipa": "p",
+          "englishApprox": "Like English 'p'; 'ph' like 'f'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [peɪ]",
+          "ipa": "peɪ",
+          "englishApprox": "Like 'pay'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'p'",
+          "ipa": "p",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter P. The 'ph' digraph follows English/Greek orthographic tradition.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["par", "paid", "piamo", "pola", "prge"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 15,
+      "name": "Ger",
+      "englishEquivalent": "Q",
+      "fontCharacter": "Q",
+      "phonology": {
+        "dee": {
+          "description": "[kw]; the standalone word 'q' is pronounced [kwɑː]",
+          "ipa": "kw",
+          "englishApprox": "Like 'qu' in 'queen'; the word 'q' (meaning 'thy') sounds like 'kwa'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "No standardized syllabic rendering",
+          "ipa": "varies",
+          "englishApprox": "Varies",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as 'kw'",
+          "ipa": "kw",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter Q. The standalone word 'q' [kwɑː] meaning 'thy' is one of the shortest attested Enochian words.",
+        "source": "Laycock (2001), p. 43",
+        "badge": "historical"
+      },
+      "exampleWords": ["q", "quasb", "quiin"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 16,
+      "name": "Don",
+      "englishEquivalent": "R",
+      "fontCharacter": "R",
+      "phonology": {
+        "dee": {
+          "description": "[r]",
+          "ipa": "r",
+          "englishApprox": "Like English 'r' (Elizabethan r was likely a tap or trill, not the modern approximant)",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [ɑːr] or [rɑː]",
+          "ipa": "ɑːr / rɑː",
+          "englishApprox": "Like 'ar' or 'rah'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'r'",
+          "ipa": "r",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter R. Note that Elizabethan English R was likely a different sound from the modern English approximant — closer to a tap [ɾ] or trill [r].",
+        "source": "Laycock (2001)",
+        "badge": "consensus"
+      },
+      "exampleWords": ["raas", "rit", "rior", "rsam"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 17,
+      "name": "Fam",
+      "englishEquivalent": "S",
+      "fontCharacter": "S",
+      "phonology": {
+        "dee": {
+          "description": "[s] or [z] as natural in English context; the digraph 'sh' is [ʃ]",
+          "ipa": "s / z",
+          "englishApprox": "Like English 's' or 'z'; 'sh' like 'sh' in 'ship'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [ɛs]",
+          "ipa": "ɛs",
+          "englishApprox": "Like 'ess'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 's'",
+          "ipa": "s / z",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter S. The s/z alternation and the 'sh' digraph follow English phonological patterns.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["salman", "soba", "sobol", "sorge", "smnad"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 18,
+      "name": "Gisg",
+      "englishEquivalent": "T",
+      "fontCharacter": "T",
+      "phonology": {
+        "dee": {
+          "description": "[t]; the digraph 'th' is [θ]",
+          "ipa": "t / θ",
+          "englishApprox": "Like English 't'; 'th' like 'th' in 'thin'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [teɪ]",
+          "ipa": "teɪ",
+          "englishApprox": "Like 'tay'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 't'",
+          "ipa": "t / θ",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter T. The 'th' digraph for [θ] is a distinctly English orthographic convention.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["tabaan", "tia", "tox", "trian", "turbs"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 19,
+      "name": "Van",
+      "englishEquivalent": "U/V",
+      "fontCharacter": "U",
+      "phonology": {
+        "dee": {
+          "description": "[uː] when stressed, [ʊ] when unstressed; [juː] in initial position; [v] or [w] before a vowel",
+          "ipa": "uː / ʊ / v / w",
+          "englishApprox": "Like 'oo' in 'moon' stressed, like 'u' in 'put' unstressed; like 'v' or 'w' before vowels",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "No standardized syllabic rendering",
+          "ipa": "varies",
+          "englishApprox": "Varies",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English u or v depending on position",
+          "ipa": "uː / v",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Dee treated U and V as positional variants of the same letter, which was standard Elizabethan practice. This letter therefore maps to both modern English U and V. W is omitted entirely from the Enochian alphabet.",
+        "source": "Laycock (2001); Dee's alphabet table",
+        "badge": "historical"
+      },
+      "exampleWords": ["unal", "uran", "vors", "vml", "vnig"],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "The U/V merger and the absence of J, K, W are consistent with Latin-influenced English orthography of the 1580s, not with an independent linguistic tradition.",
+          "badge": "consensus"
+        }
+      ]
+    },
+    {
+      "position": 20,
+      "name": "Pal",
+      "englishEquivalent": "X",
+      "fontCharacter": "X",
+      "phonology": {
+        "dee": {
+          "description": "[ks]",
+          "ipa": "ks",
+          "englishApprox": "Like English 'x' in 'box'",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [ɛks]",
+          "ipa": "ɛks",
+          "englishApprox": "Like 'ex'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'x'",
+          "ipa": "ks",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter X.",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["exarp", "oxex"],
+      "scholarlyNotes": []
+    },
+    {
+      "position": 21,
+      "name": "Ceph",
+      "englishEquivalent": "Z",
+      "fontCharacter": "Z",
+      "phonology": {
+        "dee": {
+          "description": "[z]; rarely [zɒd], the 16th-century English name of the letter Z",
+          "ipa": "z",
+          "englishApprox": "Like English 'z'; sometimes pronounced 'zod' as a standalone syllable",
+          "badge": "historical"
+        },
+        "goldenDawn": {
+          "description": "Pronounced [zɒd] (from the Elizabethan letter name)",
+          "ipa": "zɒd",
+          "englishApprox": "Like 'zod'",
+          "badge": "later"
+        },
+        "modern": {
+          "description": "Pronounced as English 'z' or 'zod'",
+          "ipa": "z / zɒd",
+          "badge": "occult"
+        }
+      },
+      "historicalNote": {
+        "text": "Mapped to the English letter Z. The pronunciation [zɒd] reflects the 16th-century English name for the letter Z (compare French 'zède').",
+        "source": "Laycock (2001)",
+        "badge": "historical"
+      },
+      "exampleWords": ["zar", "zax", "zien", "zir", "zorge"],
+      "scholarlyNotes": [
+        {
+          "scholar": "Laycock",
+          "observation": "The [zɒd] pronunciation as a syllable is characteristic of Elizabethan English — by the 18th century, 'zed' had become standard in British English.",
+          "badge": "consensus"
+        }
+      ]
+    }
+  ],
+  "omittedLetters": {
+    "note": "Three modern English letters are absent from the Enochian alphabet: J, K, and W. Dee treated I/Y as a single letter (Gon) and U/V as a single letter (Van), following standard Elizabethan orthographic practice.",
+    "absent": ["J", "K", "W"],
+    "merged": [
+      {"enochian": "Gon", "covers": ["I", "Y"]},
+      {"enochian": "Van", "covers": ["U", "V"]}
+    ],
+    "badge": "historical"
+  },
+  "_dataStatus": {
+    "status": "COMPLETE",
+    "completedDate": "2026-05-23",
+    "source": "Laycock (2001), Leitch (2010b), Dee's manuscripts (Sloane MS 3189)",
+    "verificationNotes": "All letter names, English equivalents, and phonological values cross-checked against Laycock's table and Leitch's analysis. IPA values from Laycock's phonological reconstruction. Golden Dawn syllabic readings from Laycock's report of Westcott's method. Badge assignments follow CLAUDE.md §Badge Discipline."
+  }
+}

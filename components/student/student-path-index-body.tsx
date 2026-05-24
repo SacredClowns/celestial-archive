@@ -29,6 +29,9 @@ export function StudentPathIndexBody({ lessons, framing }: StudentPathIndexBodyP
       <header className="space-y-5 border-b border-gold-dim/30 pb-10">
         <p className="font-display text-[9px] uppercase tracking-[0.2em] text-gold-dim">Stage 2</p>
         <h1 className="font-display text-4xl tracking-[0.06em] text-gold sm:text-5xl">Student</h1>
+        <p className="max-w-2xl text-lg leading-relaxed text-gold-pale">
+          You have crossed the threshold.
+        </p>
         <p className="max-w-2xl text-[15px] leading-relaxed text-gold-pale/95">
           <span className="text-gold-light">Start anywhere on the map</span> — each row opens a folio. Read in order when
           you can; mid-entry is allowed if you accept the cross-references each room assumes.

@@ -3,8 +3,14 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { getSeekerRecordBySlug, SEEKER_PATH } from "@/lib/content-registry";
+import { useProgress } from "@/lib/progress/progress-context";
+import { LensTabs } from "@/components/lesson/lens-tabs";
 import { LessonMarkdownBody } from "@/components/lesson/lesson-markdown-body";
+import { LessonProgressBar } from "@/components/lesson/lesson-progress-bar";
+import { LessonNavFooter } from "@/components/lesson/lesson-nav-footer";
+import { LessonSidebar } from "@/components/lesson/lesson-sidebar";
 import { Inscribe } from "@/components/motion/inscribe";
+import { splitLensSections } from "@/lib/lesson-markdown/split-lens-sections";
 import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
 import {
   DiscernmentPracticeBlock,
@@ -122,6 +128,12 @@ function LessonWebSections({
 export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
   const [panel, setPanel] = useState<PanelState>(null);
   const [mobileWebOpen, setMobileWebOpen] = useState(false);
+  const { setLastVisited } = useProgress();
+  const seekerRecord = getSeekerRecordBySlug(lesson.slug);
+
+  useEffect(() => {
+    if (seekerRecord) setLastVisited(seekerRecord.id);
+  }, [seekerRecord, setLastVisited]);
 
   useEffect(() => {
     const key = `lesson-web-open:${lesson.slug}`;
@@ -181,6 +193,11 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
     return s;
   }, [lesson.slug, lesson.sidebar.glossaryTerms]);
 
+  const lensParts = useMemo(
+    () => splitLensSections(lesson.markdownMain ?? ""),
+    [lesson.markdownMain]
+  );
+
   const toggleMobileWeb = () => {
     const nextState = !mobileWebOpen;
     setMobileWebOpen(nextState);
@@ -188,6 +205,8 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
   };
 
   return (
+    <>
+      <LessonProgressBar />
     <div className="grid gap-8 lg:grid-cols-[minmax(0,720px)_280px]">
       <article className="inscribed-frame mx-auto w-full reading-column bg-deep/55 px-5 py-8 sm:px-8 sm:py-10">
         <header className="mb-16 space-y-4 border-b border-gold-dim/45 pb-8">
@@ -274,11 +293,36 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
           <>
             <Inscribe>
               <div className="mb-8 space-y-4">
-                <LessonMarkdownBody
-                  markdown={lesson.markdownMain ?? ""}
+                {lensParts.before ? (
+                  <LessonMarkdownBody
+                    markdown={lensParts.before}
+                    glossaryTermSet={glossaryTermSet}
+                    onGlossaryTerm={openGlossary}
+                    lessonSlug={lesson.slug}
+                  />
+                ) : null}
+                <LensTabs
+                  lenses={lensParts.lenses}
                   glossaryTermSet={glossaryTermSet}
                   onGlossaryTerm={openGlossary}
+                  lessonSlug={lesson.slug}
                 />
+                {lensParts.after ? (
+                  <LessonMarkdownBody
+                    markdown={lensParts.after}
+                    glossaryTermSet={glossaryTermSet}
+                    onGlossaryTerm={openGlossary}
+                    lessonSlug={lesson.slug}
+                  />
+                ) : null}
+                {lensParts.lenses.length === 0 && !lensParts.before && !lensParts.after ? (
+                  <LessonMarkdownBody
+                    markdown={lesson.markdownMain ?? ""}
+                    glossaryTermSet={glossaryTermSet}
+                    onGlossaryTerm={openGlossary}
+                    lessonSlug={lesson.slug}
+                  />
+                ) : null}
               </div>
             </Inscribe>
 
@@ -306,6 +350,7 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
                       markdown={lesson.markdownClosing}
                       glossaryTermSet={glossaryTermSet}
                       onGlossaryTerm={openGlossary}
+                      lessonSlug={lesson.slug}
                     />
                   </div>
                 </section>
@@ -320,6 +365,7 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
                       markdown={lesson.markdownPostface}
                       glossaryTermSet={glossaryTermSet}
                       onGlossaryTerm={openGlossary}
+                      lessonSlug={lesson.slug}
                     />
                   </div>
                 </section>
@@ -416,39 +462,33 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
           </>
         )}
 
-        <section className="mt-16 border-t border-gold-dim/45 pt-8 font-display text-sm tracking-[0.08em] text-gold-light">
-          <div className="flex items-center justify-between gap-4">
-            {lesson.previousLesson ? (
-              lesson.previousLesson.href ? (
-                <Link href={lesson.previousLesson.href} className="transition-colors duration-slow ease-gravity hover:text-gold">
-                  {"<- "} {lesson.previousLesson.label}
-                </Link>
-              ) : (
-                <p className="text-gold-dim">{"<- "} {lesson.previousLesson.label}</p>
-              )
-            ) : (
-              <span />
-            )}
-
-            {lesson.nextLesson ? (
-              lesson.nextLesson.href ? (
-                <Link href={lesson.nextLesson.href} className="transition-colors duration-slow ease-gravity hover:text-gold">
-                  {lesson.nextLesson.label} {"->"}
-                </Link>
-              ) : (
-                <p className="text-gold-dim opacity-70">{lesson.nextLesson.label} (in shadow)</p>
-              )
-            ) : (
-              <span />
-            )}
-          </div>
-          {lesson.nextLesson?.note ? <p className="mt-3 text-xs text-gold-dim">{lesson.nextLesson.note}</p> : null}
-        </section>
+        <LessonNavFooter
+          stageLabel="Return to Seeker path"
+          stageHref={SEEKER_PATH}
+          previous={
+            lesson.previousLesson?.href
+              ? {
+                  href: lesson.previousLesson.href,
+                  title: lesson.previousLesson.label.replace(/^←\s*/, ""),
+                  label: "Previous lesson"
+                }
+              : null
+          }
+          next={
+            lesson.nextLesson?.href
+              ? {
+                  href: lesson.nextLesson.href,
+                  title: lesson.nextLesson.label.replace(/\s*→$/, ""),
+                  label: lesson.nextLesson.note ?? "Next lesson"
+                }
+              : null
+          }
+        />
       </article>
 
-      <aside className="hidden space-y-4 lg:sticky lg:top-8 lg:block lg:h-[calc(100vh-4rem)] lg:overflow-y-auto">
-        <LessonWebSections lesson={lesson} openGlossary={openGlossary} />
-      </aside>
+      <div className="hidden lg:sticky lg:top-8 lg:block lg:h-[calc(100vh-4rem)] lg:overflow-y-auto">
+        <LessonSidebar lesson={lesson} openGlossary={openGlossary} />
+      </div>
 
       {panel && (
         <div
@@ -548,5 +588,6 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
         </div>
       )}
     </div>
+    </>
   );
 }

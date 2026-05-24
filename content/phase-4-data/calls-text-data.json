@@ -1,0 +1,7458 @@
+{
+  "source": "Geoffrey James, The Enochian Magick of Dr. John Dee (1984/1998), Book Three",
+  "manuscriptSource": "Sloane MS 3191; Cotton Appendix XLVI",
+  "badge": "historical",
+  "note": "Word-by-word transcription from James's edition. Pronunciation follows James/Laycock reconstruction. Cross-reference numbers (e.g., 1.1) are James's numbering system.",
+  "calls": [
+    {
+      "number": 1,
+      "title": "The First Key",
+      "enochianText": "OL SONF VORSG GOHO IAD BALT LANSH CALZ VONPHO SOBRA ZOL ROR I TA NAZPSAD OD GRAA TA MALPRG DS HOLQ QAA NOTHOA ZIMZ OD COMMAH TA NOBLOH ZIEN SOBA THIL GNONP PRGE ALDI DS URBS OBOLEH GRSAM CASARM OHORELA CABA PIR DS ZONRENSG CAB ERM IADNAH PILAH FARZM OD ZNRZA ADNA OD GONO IADPIL DS HOM OD TOH SOBA IAOD IPAM OD UL IPAMIS DS LOHOLO VEP ZOMD POAMAL OD SONF AAI TA PIAP BALTOH OD VAOAN ZACAR CA OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "1.1",
+          "enochian": "OL",
+          "pronunciation": "Ol",
+          "english": "I"
+        },
+        {
+          "pos": "1.2",
+          "enochian": "SONF",
+          "pronunciation": "sonf",
+          "english": "raygne"
+        },
+        {
+          "pos": "1.3",
+          "enochian": "VORSG",
+          "pronunciation": "vorsg,",
+          "english": "over you"
+        },
+        {
+          "pos": "1.4",
+          "enochian": "GOHO",
+          "pronunciation": "gohó",
+          "english": "sayeth"
+        },
+        {
+          "pos": "1.5",
+          "enochian": "IAD",
+          "pronunciation": "Iad",
+          "english": "the God"
+        },
+        {
+          "pos": "1.6",
+          "enochian": "BALT",
+          "pronunciation": "balt",
+          "english": "of Justice"
+        },
+        {
+          "pos": "1.7",
+          "enochian": "LANSH",
+          "pronunciation": "lansh",
+          "english": "in powre exalted"
+        },
+        {
+          "pos": "1.8",
+          "enochian": "CALZ",
+          "pronunciation": "calz",
+          "english": "above the firmaments"
+        },
+        {
+          "pos": "1.9",
+          "enochian": "VONPHO",
+          "pronunciation": "vonpho,",
+          "english": "of wrath:"
+        },
+        {
+          "pos": "1.10",
+          "enochian": "SOBRA",
+          "pronunciation": "sobra",
+          "english": "in Whose"
+        },
+        {
+          "pos": "1.11",
+          "enochian": "ZOL",
+          "pronunciation": "z-ol",
+          "english": "hands"
+        },
+        {
+          "pos": "1.12",
+          "enochian": "ROR",
+          "pronunciation": "ror",
+          "english": "the Sonne"
+        },
+        {
+          "pos": "1.13",
+          "enochian": "I",
+          "pronunciation": "i",
+          "english": "is"
+        },
+        {
+          "pos": "1.14",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "1.15",
+          "enochian": "NAZPSAD",
+          "pronunciation": "nazpsad",
+          "english": "a sword,"
+        },
+        {
+          "pos": "1.16",
+          "enochian": "OD",
+          "pronunciation": "(and)",
+          "english": "and*"
+        },
+        {
+          "pos": "1.17",
+          "enochian": "GRAA",
+          "pronunciation": "Graa",
+          "english": "the Moon"
+        },
+        {
+          "pos": "1.18",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "1.19",
+          "enochian": "MALPRG",
+          "pronunciation": "Malprg",
+          "english": "a through-thrusting fire"
+        },
+        {
+          "pos": "1.20",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "1.21",
+          "enochian": "HOLQ",
+          "pronunciation": "hol-q",
+          "english": "measureth"
+        },
+        {
+          "pos": "1.22",
+          "enochian": "QAA",
+          "pronunciation": "Qa-a",
+          "english": "your garments"
+        },
+        {
+          "pos": "1.23",
+          "enochian": "NOTHOA",
+          "pronunciation": "nothóa",
+          "english": "in the mydst"
+        },
+        {
+          "pos": "1.24",
+          "enochian": "ZIMZ",
+          "pronunciation": "zimz",
+          "english": "of my vestures,"
+        },
+        {
+          "pos": "1.25",
+          "enochian": "OD",
+          "pronunciation": "Od",
+          "english": "and"
+        },
+        {
+          "pos": "1.26",
+          "enochian": "COMMAH",
+          "pronunciation": "commah",
+          "english": "trussed you together"
+        },
+        {
+          "pos": "1.27",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "1.28",
+          "enochian": "NOBLOH",
+          "pronunciation": "nobloh",
+          "english": "the palms"
+        },
+        {
+          "pos": "1.29",
+          "enochian": "ZIEN",
+          "pronunciation": "zien:",
+          "english": "of my hands:"
+        },
+        {
+          "pos": "1.30",
+          "enochian": "SOBA",
+          "pronunciation": "Soba",
+          "english": "Whose"
+        },
+        {
+          "pos": "1.31",
+          "enochian": "THIL",
+          "pronunciation": "thil",
+          "english": "seats"
+        },
+        {
+          "pos": "1.32",
+          "enochian": "GNONP",
+          "pronunciation": "gnonp",
+          "english": "I garnished"
+        },
+        {
+          "pos": "1.33",
+          "enochian": "PRGE",
+          "pronunciation": "prge",
+          "english": "with the fire"
+        },
+        {
+          "pos": "1.34",
+          "enochian": "ALDI",
+          "pronunciation": "aldi",
+          "english": "of gathering"
+        },
+        {
+          "pos": "1.35",
+          "enochian": "DS",
+          "pronunciation": "Ds",
+          "english": "and*"
+        },
+        {
+          "pos": "1.36",
+          "enochian": "URBS",
+          "pronunciation": "urbs",
+          "english": "beautified"
+        },
+        {
+          "pos": "1.37",
+          "enochian": "OBOLEH",
+          "pronunciation": "óbóleh",
+          "english": "your garments†"
+        },
+        {
+          "pos": "1.38",
+          "enochian": "GRSAM",
+          "pronunciation": "grsam:",
+          "english": "with admiration,"
+        },
+        {
+          "pos": "1.39",
+          "enochian": "CASARM",
+          "pronunciation": "Casarm",
+          "english": "to whom"
+        },
+        {
+          "pos": "1.40",
+          "enochian": "OHORELA",
+          "pronunciation": "ohoréla",
+          "english": "I made a law"
+        },
+        {
+          "pos": "1.41",
+          "enochian": "CABA",
+          "pronunciation": "cabá",
+          "english": "to govern"
+        },
+        {
+          "pos": "1.42",
+          "enochian": "PIR",
+          "pronunciation": "pir",
+          "english": "the holy ones,"
+        },
+        {
+          "pos": "1.43",
+          "enochian": "DS",
+          "pronunciation": "Ds",
+          "english": "and"
+        },
+        {
+          "pos": "1.44",
+          "enochian": "ZONRENSG",
+          "pronunciation": "zonrensg",
+          "english": "delivered you"
+        },
+        {
+          "pos": "1.45",
+          "enochian": "CAB",
+          "pronunciation": "cab",
+          "english": "a rod"
+        },
+        {
+          "pos": "1.46",
+          "enochian": "ERM",
+          "pronunciation": "erm",
+          "english": "with‡"
+        },
+        {
+          "pos": "1.47",
+          "enochian": "IADNAH",
+          "pronunciation": "Jadnah:",
+          "english": "the ark of knowledge."
+        },
+        {
+          "pos": "1.48",
+          "enochian": "PILAH",
+          "pronunciation": "Pilah",
+          "english": "Moreover"
+        },
+        {
+          "pos": "1.49",
+          "enochian": "FARZM",
+          "pronunciation": "farzm",
+          "english": "you lifted up your voyces"
+        },
+        {
+          "pos": "1.50",
+          "enochian": "OD",
+          "pronunciation": "and",
+          "english": "and"
+        },
+        {
+          "pos": "1.51",
+          "enochian": "ZNRZA",
+          "pronunciation": "znrza",
+          "english": "sware"
+        },
+        {
+          "pos": "1.52",
+          "enochian": "ADNA",
+          "pronunciation": "adna",
+          "english": "obedience‡"
+        },
+        {
+          "pos": "1.53",
+          "enochian": "OD",
+          "pronunciation": "and",
+          "english": "and"
+        },
+        {
+          "pos": "1.54",
+          "enochian": "GONO",
+          "pronunciation": "gono",
+          "english": "faith"
+        },
+        {
+          "pos": "1.55",
+          "enochian": "IADPIL",
+          "pronunciation": "Iadpil",
+          "english": "to him"
+        },
+        {
+          "pos": "1.56",
+          "enochian": "DS",
+          "pronunciation": "Ds",
+          "english": "that"
+        },
+        {
+          "pos": "1.57",
+          "enochian": "HOM",
+          "pronunciation": "hom",
+          "english": "liveth"
+        },
+        {
+          "pos": "1.58",
+          "enochian": "OD",
+          "pronunciation": "and",
+          "english": "and"
+        },
+        {
+          "pos": "1.59",
+          "enochian": "TOH",
+          "pronunciation": "tóh",
+          "english": "triumpheth,"
+        },
+        {
+          "pos": "1.60",
+          "enochian": "SOBA",
+          "pronunciation": "Soba",
+          "english": "whose"
+        },
+        {
+          "pos": "1.61",
+          "enochian": "IAOD",
+          "pronunciation": "beginning",
+          "english": "beginning"
+        },
+        {
+          "pos": "1.62",
+          "enochian": "IPAM",
+          "pronunciation": "Ipam",
+          "english": "is not"
+        },
+        {
+          "pos": "1.63",
+          "enochian": "OD",
+          "pronunciation": "nor",
+          "english": "nor"
+        },
+        {
+          "pos": "1.64",
+          "enochian": "UL",
+          "pronunciation": "Lu",
+          "english": "ende*"
+        },
+        {
+          "pos": "1.65",
+          "enochian": "IPAMIS",
+          "pronunciation": "Ipámis",
+          "english": "can not be,"
+        },
+        {
+          "pos": "1.66",
+          "enochian": "DS",
+          "pronunciation": "Ds",
+          "english": "which"
+        },
+        {
+          "pos": "1.67",
+          "enochian": "LOHOLO",
+          "pronunciation": "lóhólo",
+          "english": "shyneth"
+        },
+        {
+          "pos": "1.68",
+          "enochian": "VEP",
+          "pronunciation": "vep",
+          "english": "as a flame"
+        },
+        {
+          "pos": "1.69",
+          "enochian": "ZOMD",
+          "pronunciation": "zomd",
+          "english": "in the myddst"
+        },
+        {
+          "pos": "1.70",
+          "enochian": "POAMAL",
+          "pronunciation": "Poamal",
+          "english": "of your pallace"
+        },
+        {
+          "pos": "1.71",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "1.72",
+          "enochian": "SONF",
+          "pronunciation": "bogpa",
+          "english": "rayngneth"
+        },
+        {
+          "pos": "1.73",
+          "enochian": "AAI",
+          "pronunciation": "aai",
+          "english": "amongst you"
+        },
+        {
+          "pos": "1.74",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "1.75",
+          "enochian": "PIAP",
+          "pronunciation": "piap",
+          "english": "the ballance"
+        },
+        {
+          "pos": "1.76",
+          "enochian": "BALTOH",
+          "pronunciation": "piamos",
+          "english": "of righteousnes,"
+        },
+        {
+          "pos": "1.77",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "1.78",
+          "enochian": "VAOAN",
+          "pronunciation": "vaoan",
+          "english": "truth:"
+        },
+        {
+          "pos": "1.79",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACARe",
+          "english": "Move"
+        },
+        {
+          "pos": "1.80",
+          "enochian": "CA",
+          "pronunciation": "c-a",
+          "english": "therfore,"
+        },
+        {
+          "pos": "1.81",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "1.82",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "shew yourselves:"
+        },
+        {
+          "pos": "1.83",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "open"
+        },
+        {
+          "pos": "1.84",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the Mysteries"
+        },
+        {
+          "pos": "1.85",
+          "enochian": "QAA",
+          "pronunciation": "Qaa",
+          "english": "of your Creation:"
+        },
+        {
+          "pos": "1.86",
+          "enochian": "ZORGE",
+          "pronunciation": "zorge,",
+          "english": "Be friendly unto me:"
+        },
+        {
+          "pos": "1.87",
+          "enochian": "LAP",
+          "pronunciation": "lap",
+          "english": "for"
+        },
+        {
+          "pos": "1.88",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am*"
+        },
+        {
+          "pos": "1.89",
+          "enochian": "NOCO",
+          "pronunciation": "noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "1.90",
+          "enochian": "MAD",
+          "pronunciation": "MAD",
+          "english": "of the same your God:"
+        },
+        {
+          "pos": "1.91",
+          "enochian": "HOATH",
+          "pronunciation": "Hoath",
+          "english": "the true Worshipper"
+        },
+        {
+          "pos": "1.92",
+          "enochian": "IAIDA",
+          "pronunciation": "Jaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "1.16: OD for 'and' missing in Sloane MS 3191.",
+        "1.35 & 1.43: Either Enochian should be OD or English should be 'which'.",
+        "1.37: The circumflex in Dee's Enochian is actually a brevis and should be pronounced as a short vowel.",
+        "1.46: This is the only time that ERM is glossed as 'with'; this is a probable copying error. ERM is perhaps 'with the ark', with IADNAH as 'knowledge'; see 30.180: IADNAMAD as 'knowledge'.",
+        "1.52 to 1.59: Lacuna in Sl. MS 3191; Dee's English entered as marginalia. The root column gives a probable reconstruction of the Enochian text.",
+        "1.64: Dee made a copying error here. Royal Appendix clearly shows UL rather than LU. This is a curious error, because the 'L' prefix in Enochian means 'first', more or less an opposite to the 'end' that is intended. (See 5.46: ULS for 'end'.)",
+        "1.88: Possible copying error. ZIR appears as 'I am' in 2.53, 3.4 & 4.46, while ZIRDO appears as 'I am' only in this passage in Royal Appendix."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Second Key",
+      "enochianText": "ADGT UPAAH ZONG OM FAAIP SALD VIV L SOBAM IALPRG IZAZAZ PIADPH CASARMA ABRAMG TA TALHO PARACLEDA Q TA LORSLQ TURBS OOGE BALTOH GIUI CHIS LUSD ORRI OD MICALP CHIS BIA OZONGON LAP NOAN TROF CORS TA GE OQ MANIN IAIDON TORZU GOHEL ZACAR CA CNOQOD ZAMRAN MICALZO OD OZAZM VRELP LAP ZIR IOIAD",
+      "words": [
+        {
+          "pos": "2.1",
+          "enochian": "ADGT",
+          "pronunciation": "Adgt",
+          "english": "Can"
+        },
+        {
+          "pos": "2.2",
+          "enochian": "UPAAH",
+          "pronunciation": "v-pa-áh",
+          "english": "the wings"
+        },
+        {
+          "pos": "2.3",
+          "enochian": "ZONG",
+          "pronunciation": "zongom",
+          "english": "of the windes†"
+        },
+        {
+          "pos": "2.4",
+          "enochian": "OM",
+          "pronunciation": "(understand)",
+          "english": "understand"
+        },
+        {
+          "pos": "2.5",
+          "enochian": "FAAIP",
+          "pronunciation": "fa-á-ip",
+          "english": "your voyces"
+        },
+        {
+          "pos": "2.6",
+          "enochian": "SALD",
+          "pronunciation": "sald",
+          "english": "of wonder"
+        },
+        {
+          "pos": "2.7",
+          "enochian": "VIV",
+          "pronunciation": "vi-iv",
+          "english": "O you the second‡"
+        },
+        {
+          "pos": "2.8",
+          "enochian": "L",
+          "pronunciation": "L",
+          "english": "of the first,"
+        },
+        {
+          "pos": "2.9",
+          "enochian": "SOBAM",
+          "pronunciation": "sobam",
+          "english": "Whome"
+        },
+        {
+          "pos": "2.10",
+          "enochian": "IALPRG",
+          "pronunciation": "Idl-prg",
+          "english": "the burning flames"
+        },
+        {
+          "pos": "2.11",
+          "enochian": "IZAZAZ",
+          "pronunciation": "I-zá-zaz",
+          "english": "have framed"
+        },
+        {
+          "pos": "2.12",
+          "enochian": "PIADPH",
+          "pronunciation": "pi-ádph",
+          "english": "within the depths of my Jaws,"
+        },
+        {
+          "pos": "2.13",
+          "enochian": "CASARMA",
+          "pronunciation": "Cas-arma",
+          "english": "whome"
+        },
+        {
+          "pos": "2.14",
+          "enochian": "ABRAMG",
+          "pronunciation": "abramg",
+          "english": "I have prepared"
+        },
+        {
+          "pos": "2.15",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "2.16",
+          "enochian": "TALHO",
+          "pronunciation": "talho",
+          "english": "Cupps"
+        },
+        {
+          "pos": "2.17",
+          "enochian": "PARACLEDA",
+          "pronunciation": "paracléda",
+          "english": "for a wedding"
+        },
+        {
+          "pos": "2.18",
+          "enochian": "Q",
+          "pronunciation": "Q-ta",
+          "english": "or"
+        },
+        {
+          "pos": "2.19",
+          "enochian": "TA",
+          "pronunciation": "(as)",
+          "english": "as"
+        },
+        {
+          "pos": "2.20",
+          "enochian": "LORSLQ",
+          "pronunciation": "lors-l-q",
+          "english": "the flowres"
+        },
+        {
+          "pos": "2.21",
+          "enochian": "TURBS",
+          "pronunciation": "turbs",
+          "english": "in their beawty"
+        },
+        {
+          "pos": "2.22",
+          "enochian": "OOGE",
+          "pronunciation": "óoge",
+          "english": "for the Chamber"
+        },
+        {
+          "pos": "2.23",
+          "enochian": "BALTOH",
+          "pronunciation": "Baltoh",
+          "english": "of righteousnes"
+        },
+        {
+          "pos": "2.24",
+          "enochian": "GIUI",
+          "pronunciation": "Giui",
+          "english": "Stronger"
+        },
+        {
+          "pos": "2.25",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "2.26",
+          "enochian": "LUSD",
+          "pronunciation": "Lusd",
+          "english": "your fete"
+        },
+        {
+          "pos": "2.27",
+          "enochian": "ORRI",
+          "pronunciation": "orri",
+          "english": "then the barren stone:"
+        },
+        {
+          "pos": "2.28",
+          "enochian": "OD",
+          "pronunciation": "Od",
+          "english": "And"
+        },
+        {
+          "pos": "2.29",
+          "enochian": "MICALP",
+          "pronunciation": "micalp",
+          "english": "myghtier"
+        },
+        {
+          "pos": "2.30",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "2.31",
+          "enochian": "BIA",
+          "pronunciation": "bia",
+          "english": "your voices"
+        },
+        {
+          "pos": "2.32",
+          "enochian": "OZONGON",
+          "pronunciation": "ózóngon",
+          "english": "then the manifold windes."
+        },
+        {
+          "pos": "2.33",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "For"
+        },
+        {
+          "pos": "2.34",
+          "enochian": "NOAN",
+          "pronunciation": "noán",
+          "english": "you are become"
+        },
+        {
+          "pos": "2.35",
+          "enochian": "TROF",
+          "pronunciation": "trof",
+          "english": "a buylding"
+        },
+        {
+          "pos": "2.36",
+          "enochian": "CORS",
+          "pronunciation": "cors",
+          "english": "such"
+        },
+        {
+          "pos": "2.37",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "2.38",
+          "enochian": "GE",
+          "pronunciation": "ge,",
+          "english": "is not"
+        },
+        {
+          "pos": "2.39",
+          "enochian": "OQ",
+          "pronunciation": "o-q",
+          "english": "but"
+        },
+        {
+          "pos": "2.40",
+          "enochian": "MANIN",
+          "pronunciation": "manin",
+          "english": "in the mynde"
+        },
+        {
+          "pos": "2.41",
+          "enochian": "IAIDON",
+          "pronunciation": "Ja-i-don:",
+          "english": "of the all powerfull."
+        },
+        {
+          "pos": "2.42",
+          "enochian": "TORZU",
+          "pronunciation": "Torzu",
+          "english": "Arrise"
+        },
+        {
+          "pos": "2.43",
+          "enochian": "GOHEL",
+          "pronunciation": "góhel",
+          "english": "sayeth the First"
+        },
+        {
+          "pos": "2.44",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move"
+        },
+        {
+          "pos": "2.45",
+          "enochian": "CA",
+          "pronunciation": "ca",
+          "english": "therefore"
+        },
+        {
+          "pos": "2.46",
+          "enochian": "CNOQOD",
+          "pronunciation": "c-nó-qod,",
+          "english": "unto his Servants:"
+        },
+        {
+          "pos": "2.47",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "Shew yourselves"
+        },
+        {
+          "pos": "2.48",
+          "enochian": "MICALZO",
+          "pronunciation": "micalzo",
+          "english": "in powre:"
+        },
+        {
+          "pos": "2.49",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "And"
+        },
+        {
+          "pos": "2.50",
+          "enochian": "OZAZM",
+          "pronunciation": "ozazm",
+          "english": "make me"
+        },
+        {
+          "pos": "2.51",
+          "enochian": "VRELP",
+          "pronunciation": "vrelp",
+          "english": "a strong Seething:‡"
+        },
+        {
+          "pos": "2.52",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "for"
+        },
+        {
+          "pos": "2.53",
+          "enochian": "ZIR",
+          "pronunciation": "zir",
+          "english": "I am"
+        },
+        {
+          "pos": "2.54",
+          "enochian": "IOIAD",
+          "pronunciation": "Ioiad.",
+          "english": "of him that liveth forever."
+        }
+      ],
+      "footnotes": [
+        "2.3 to 2.6: A little confusion here in Dee's matching. OM should be 'understand' (see 7.53, 10.54, 16.19, & 30.113). Thus ZONG is 'of the winds', FAAIP is 'your voices', and SALD is 'of wonder'.",
+        "2.7: Is Dee's double 'I' in VI-IV an error or a variation? See 4.13, 5.33, 6.34, & 16.2 for VIV as 'second'.",
+        "2.51: The English 'Seething' is often modernized into 'Seer' or 'Seer of Things'. More likely 'Seething' is a gerund of 'to seeth'; See the Oxford English Dictionary entry on 'Seething'."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Third Key",
+      "enochianText": "MICMA GOHO IAD ZIR COMSELH AZIEN BIAB OS LONDOH NORZ CHIS OTHIL GIGIPAH UNDL CHIS TA PUIM Q MOSPLEH TELOCH QUIIN TOLTORG CHIS ICHISGE M OZIEN DS BRGDA OD TORZUL ILI EOL BALZARG OD AALA THILN OS NETAAB DLUGA VOMZARG LONSA CAPIMALI VORS CLA HOMIL COCASB FAFEN IZIZOP OD MIINOAG DE GNETAAB VAUN NANAEL PANPIR MALPIRGI PILD CAOSG NOAN UNALAH BALT OD VOOAN DOOIAP MAD GOHOLOR GOHUS AMIRAN MICMA IEHUSOZ CACACOM OD DOOAIN NOAR MICAOLZ AAIOM CASARMG GOHIA ZACAR UNIGLAG OD IMUAMAR PUGO PLAPLI ANANAEL QAAN",
+      "words": [
+        {
+          "pos": "3.1",
+          "enochian": "MICMA",
+          "pronunciation": "Micma",
+          "english": "Behold"
+        },
+        {
+          "pos": "3.2",
+          "enochian": "GOHO",
+          "pronunciation": "gohó",
+          "english": "sayeth"
+        },
+        {
+          "pos": "3.3",
+          "enochian": "IAD",
+          "pronunciation": "Piad",
+          "english": "your God,"
+        },
+        {
+          "pos": "3.4",
+          "enochian": "ZIR",
+          "pronunciation": "zir",
+          "english": "I am"
+        },
+        {
+          "pos": "3.5",
+          "enochian": "COMSELH",
+          "pronunciation": "cómselh",
+          "english": "a Circle"
+        },
+        {
+          "pos": "3.6",
+          "enochian": "AZIEN",
+          "pronunciation": "azien",
+          "english": "on Whose hands"
+        },
+        {
+          "pos": "3.7",
+          "enochian": "BIAB",
+          "pronunciation": "biab",
+          "english": "stand"
+        },
+        {
+          "pos": "3.8",
+          "enochian": "OS",
+          "pronunciation": "Os",
+          "english": "12"
+        },
+        {
+          "pos": "3.9",
+          "enochian": "LONDOH",
+          "pronunciation": "Lón-doh",
+          "english": "Kingdoms."
+        },
+        {
+          "pos": "3.10",
+          "enochian": "NORZ",
+          "pronunciation": "Norz",
+          "english": "Six"
+        },
+        {
+          "pos": "3.11",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "3.12",
+          "enochian": "OTHIL",
+          "pronunciation": "óthil",
+          "english": "the seats"
+        },
+        {
+          "pos": "3.13",
+          "enochian": "GIGIPAH",
+          "pronunciation": "Gigipah",
+          "english": "of living breath,"
+        },
+        {
+          "pos": "3.14",
+          "enochian": "UNDL",
+          "pronunciation": "und-l",
+          "english": "the rest"
+        },
+        {
+          "pos": "3.15",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "3.16",
+          "enochian": "TA",
+          "pronunciation": "tá",
+          "english": "as"
+        },
+        {
+          "pos": "3.17",
+          "enochian": "PUIM",
+          "pronunciation": "pú-im",
+          "english": "sharp sickles:"
+        },
+        {
+          "pos": "3.18",
+          "enochian": "Q",
+          "pronunciation": "Q",
+          "english": "or"
+        },
+        {
+          "pos": "3.19",
+          "enochian": "MOSPLEH",
+          "pronunciation": "mos-pleh",
+          "english": "the horns"
+        },
+        {
+          "pos": "3.20",
+          "enochian": "TELOCH",
+          "pronunciation": "teloch",
+          "english": "of death"
+        },
+        {
+          "pos": "3.21",
+          "enochian": "QUIIN",
+          "pronunciation": "Qui-i-n",
+          "english": "wherein"
+        },
+        {
+          "pos": "3.22",
+          "enochian": "TOLTORG",
+          "pronunciation": "toltorg",
+          "english": "the Creatures of the earth"
+        },
+        {
+          "pos": "3.23",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are,"
+        },
+        {
+          "pos": "3.24",
+          "enochian": "ICHISGE",
+          "pronunciation": "i-chis-ge",
+          "english": "to are not*,"
+        },
+        {
+          "pos": "3.25",
+          "enochian": "M",
+          "pronunciation": "m",
+          "english": "Except"
+        },
+        {
+          "pos": "3.26",
+          "enochian": "OZIEN",
+          "pronunciation": "ozien",
+          "english": "myne own hand,"
+        },
+        {
+          "pos": "3.27",
+          "enochian": "DS",
+          "pronunciation": "dst",
+          "english": "which§"
+        },
+        {
+          "pos": "3.28",
+          "enochian": "BRGDA",
+          "pronunciation": "brgda",
+          "english": "slepe"
+        },
+        {
+          "pos": "3.29",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "3.30",
+          "enochian": "TORZUL",
+          "pronunciation": "torzul",
+          "english": "shall ryse."
+        },
+        {
+          "pos": "3.31",
+          "enochian": "ILI",
+          "pronunciation": "f-li",
+          "english": "In the first"
+        },
+        {
+          "pos": "3.32",
+          "enochian": "EOL",
+          "pronunciation": "E-ól",
+          "english": "I made you"
+        },
+        {
+          "pos": "3.33",
+          "enochian": "BALZARG",
+          "pronunciation": "balzarg",
+          "english": "stuards"
+        },
+        {
+          "pos": "3.34",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "3.35",
+          "enochian": "AALA",
+          "pronunciation": "ááIa",
+          "english": "placed you"
+        },
+        {
+          "pos": "3.36",
+          "enochian": "THILN",
+          "pronunciation": "Thiln",
+          "english": "in seats"
+        },
+        {
+          "pos": "3.37",
+          "enochian": "OS",
+          "pronunciation": "os",
+          "english": "12"
+        },
+        {
+          "pos": "3.38",
+          "enochian": "NETAAB",
+          "pronunciation": "ne-tá-ab,",
+          "english": "of government,"
+        },
+        {
+          "pos": "3.39",
+          "enochian": "DLUGA",
+          "pronunciation": "dluga",
+          "english": "giving"
+        },
+        {
+          "pos": "3.40",
+          "enochian": "VOMZARG",
+          "pronunciation": "vomsarg",
+          "english": "unto every one of you"
+        },
+        {
+          "pos": "3.41",
+          "enochian": "LONSA",
+          "pronunciation": "Lonsa",
+          "english": "powre"
+        },
+        {
+          "pos": "3.42",
+          "enochian": "CAPIMALI",
+          "pronunciation": "Cap-mi-áli",
+          "english": "successively*"
+        },
+        {
+          "pos": "3.43",
+          "enochian": "VORS",
+          "pronunciation": "vors",
+          "english": "over"
+        },
+        {
+          "pos": "3.44",
+          "enochian": "CLA",
+          "pronunciation": "cla",
+          "english": "456,"
+        },
+        {
+          "pos": "3.45",
+          "enochian": "HOMIL",
+          "pronunciation": "homil",
+          "english": "the true ages"
+        },
+        {
+          "pos": "3.46",
+          "enochian": "COCASB",
+          "pronunciation": "cocasb",
+          "english": "of tyme,"
+        },
+        {
+          "pos": "3.47",
+          "enochian": "FAFEN",
+          "pronunciation": "fafen",
+          "english": "to the intent that,"
+        },
+        {
+          "pos": "3.48",
+          "enochian": "IZIZOP",
+          "pronunciation": "izízop",
+          "english": "from your highest vessells"
+        },
+        {
+          "pos": "3.49",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "3.50",
+          "enochian": "MIINOAG",
+          "pronunciation": "miinóag",
+          "english": "the Corners"
+        },
+        {
+          "pos": "3.51",
+          "enochian": "DE",
+          "pronunciation": "de",
+          "english": "of"
+        },
+        {
+          "pos": "3.52",
+          "enochian": "GNETAAB",
+          "pronunciation": "gne-táab",
+          "english": "your governments,"
+        },
+        {
+          "pos": "3.53",
+          "enochian": "VAUN",
+          "pronunciation": "vaun",
+          "english": "you might work"
+        },
+        {
+          "pos": "3.54",
+          "enochian": "NANAEL",
+          "pronunciation": "na-nd-é-el",
+          "english": "my powre:"
+        },
+        {
+          "pos": "3.55",
+          "enochian": "PANPIR",
+          "pronunciation": "panpir",
+          "english": "powring downe"
+        },
+        {
+          "pos": "3.56",
+          "enochian": "MALPIRGI",
+          "pronunciation": "Malpirgi",
+          "english": "the fires of life and encrease,"
+        },
+        {
+          "pos": "3.57",
+          "enochian": "PILD",
+          "pronunciation": "caósg",
+          "english": "continually"
+        },
+        {
+          "pos": "3.58",
+          "enochian": "CAOSG",
+          "pronunciation": "Pild",
+          "english": "on the earth"
+        },
+        {
+          "pos": "3.59",
+          "enochian": "NOAN",
+          "pronunciation": "noan",
+          "english": "Thus you are become"
+        },
+        {
+          "pos": "3.60",
+          "enochian": "UNALAH",
+          "pronunciation": "vnalah",
+          "english": "the skirts"
+        },
+        {
+          "pos": "3.61",
+          "enochian": "BALT",
+          "pronunciation": "balt",
+          "english": "of Justice"
+        },
+        {
+          "pos": "3.62",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "3.63",
+          "enochian": "VOOAN",
+          "pronunciation": "voodán",
+          "english": "Truth."
+        },
+        {
+          "pos": "3.64",
+          "enochian": "DOOIAP",
+          "pronunciation": "do-ó-í-ap",
+          "english": "In the name"
+        },
+        {
+          "pos": "3.65",
+          "enochian": "MAD",
+          "pronunciation": "MAD",
+          "english": "of the same. your God"
+        },
+        {
+          "pos": "3.66",
+          "enochian": "GOHOLOR",
+          "pronunciation": "Gohólor",
+          "english": "Lift up,"
+        },
+        {
+          "pos": "3.67",
+          "enochian": "GOHUS",
+          "pronunciation": "gohús",
+          "english": "I say,"
+        },
+        {
+          "pos": "3.68",
+          "enochian": "AMIRAN",
+          "pronunciation": "amiran",
+          "english": "yourselves."
+        },
+        {
+          "pos": "3.69",
+          "enochian": "MICMA",
+          "pronunciation": "Micma,",
+          "english": "Behold"
+        },
+        {
+          "pos": "3.70",
+          "enochian": "IEHUSOZ",
+          "pronunciation": "Iehúsoz",
+          "english": "his mercies"
+        },
+        {
+          "pos": "3.71",
+          "enochian": "CACACOM",
+          "pronunciation": "ca-cá-com",
+          "english": "florish"
+        },
+        {
+          "pos": "3.72",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "3.73",
+          "enochian": "DOOAIN",
+          "pronunciation": "do-o-á-in",
+          "english": "Name"
+        },
+        {
+          "pos": "3.74",
+          "enochian": "NOAR",
+          "pronunciation": "noar",
+          "english": "is become"
+        },
+        {
+          "pos": "3.75",
+          "enochian": "MICAOLZ",
+          "pronunciation": "mi-cá-olz",
+          "english": "mighty"
+        },
+        {
+          "pos": "3.76",
+          "enochian": "AAIOM",
+          "pronunciation": "a-ái-om",
+          "english": "amongst us"
+        },
+        {
+          "pos": "3.77",
+          "enochian": "CASARMG",
+          "pronunciation": "Casármg",
+          "english": "In whom"
+        },
+        {
+          "pos": "3.78",
+          "enochian": "GOHIA",
+          "pronunciation": "gohia",
+          "english": "we say"
+        },
+        {
+          "pos": "3.79",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move*,"
+        },
+        {
+          "pos": "3.80",
+          "enochian": "UNIGLAG",
+          "pronunciation": "vniglag",
+          "english": "Descend"
+        },
+        {
+          "pos": "3.81",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "3.82",
+          "enochian": "IMUAMAR",
+          "pronunciation": "Im-ud-mar",
+          "english": "apply yourselves unto us"
+        },
+        {
+          "pos": "3.83",
+          "enochian": "PUGO",
+          "pronunciation": "pugo",
+          "english": "as unto"
+        },
+        {
+          "pos": "3.84",
+          "enochian": "PLAPLI",
+          "pronunciation": "plapli",
+          "english": "partakers"
+        },
+        {
+          "pos": "3.85",
+          "enochian": "ANANAEL",
+          "pronunciation": "ananael",
+          "english": "of the secret wisdom"
+        },
+        {
+          "pos": "3.86",
+          "enochian": "QAAN",
+          "pronunciation": "Qáan.",
+          "english": "of your Creation."
+        }
+      ],
+      "footnotes": [
+        "3.24: The English is a bit confused here. ICHISGE probably means 'I am not'.",
+        "3.27: 'T' in 'dst' probably accidental, although 'dst' as 'which' appears at 4.28. DS is glossed as 'which' everywhere else.",
+        "3.42: CAPIMALI rather than CAPIMALL; see 30.122. Also see 4.30 for root CAPIM-.",
+        "3.79: Alternate pronunciation given as zod-a-car."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The Fourth Key",
+      "enochianText": "OTHIL LASDI BABAGE OD DORPHA GOHOL GCHISGE AVAVAGO CORMP PD DS SONF VIV DIU CASARMI OALI MAPM SOBAM AG CORMPO CRIP L CASARMG CROODZI CHIS OD UGEG DS CAPIMALI CHIS CAPIMAON OD LONSHIN CHIS TA LO CLA TORZU NOR QUASAHI OD F CAOSGA BAGLE ZIR ENAY IAD DS DSI I OD APILA DOOAIP QAAL ZACAR OD ZAMRAN OBELISONG RESTEL AAI NOR MOLAP",
+      "words": [
+        {
+          "pos": "4.1",
+          "enochian": "OTHIL",
+          "pronunciation": "Othíl",
+          "english": "I have set"
+        },
+        {
+          "pos": "4.2",
+          "enochian": "LASDI",
+          "pronunciation": "lasdi",
+          "english": "my fete"
+        },
+        {
+          "pos": "4.3",
+          "enochian": "BABAGE",
+          "pronunciation": "babáge",
+          "english": "in the Sowth"
+        },
+        {
+          "pos": "4.4",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "4.5",
+          "enochian": "DORPHA",
+          "pronunciation": "dorpha",
+          "english": "have loked abowt me"
+        },
+        {
+          "pos": "4.6",
+          "enochian": "GOHOL",
+          "pronunciation": "Gohól",
+          "english": "sayng,"
+        },
+        {
+          "pos": "4.7",
+          "enochian": "GCHISGE",
+          "pronunciation": "G-chisge",
+          "english": "are not"
+        },
+        {
+          "pos": "4.8",
+          "enochian": "AVAVAGO",
+          "pronunciation": "avávago",
+          "english": "the Thunders of encrease"
+        },
+        {
+          "pos": "4.9",
+          "enochian": "CORMP",
+          "pronunciation": "Cormp",
+          "english": "numbred"
+        },
+        {
+          "pos": "4.10",
+          "enochian": "PD",
+          "pronunciation": "pd",
+          "english": "33,"
+        },
+        {
+          "pos": "4.11",
+          "enochian": "DS",
+          "pronunciation": "dsonf",
+          "english": "which"
+        },
+        {
+          "pos": "4.12",
+          "enochian": "SONF",
+          "pronunciation": "",
+          "english": "rayne"
+        },
+        {
+          "pos": "4.13",
+          "enochian": "VIV",
+          "pronunciation": "viv-di-v",
+          "english": "in the second"
+        },
+        {
+          "pos": "4.14",
+          "enochian": "DIU",
+          "pronunciation": "",
+          "english": "Angle,"
+        },
+        {
+          "pos": "4.15",
+          "enochian": "CASARMI",
+          "pronunciation": "Casármi",
+          "english": "under whom"
+        },
+        {
+          "pos": "4.16",
+          "enochian": "OALI",
+          "pronunciation": "Oali",
+          "english": "I have placed"
+        },
+        {
+          "pos": "4.17",
+          "enochian": "MAPM",
+          "pronunciation": "Mapm",
+          "english": "9639"
+        },
+        {
+          "pos": "4.18",
+          "enochian": "SOBAM",
+          "pronunciation": "Sobam",
+          "english": "Whome"
+        },
+        {
+          "pos": "4.19",
+          "enochian": "AG",
+          "pronunciation": "ag",
+          "english": "None"
+        },
+        {
+          "pos": "4.20",
+          "enochian": "CORMPO",
+          "pronunciation": "cormpó",
+          "english": "hath yet numbred,"
+        },
+        {
+          "pos": "4.21",
+          "enochian": "CRIP",
+          "pronunciation": "c-rp-l",
+          "english": "but*"
+        },
+        {
+          "pos": "4.22",
+          "enochian": "L",
+          "pronunciation": "",
+          "english": "one,"
+        },
+        {
+          "pos": "4.23",
+          "enochian": "CASARMG",
+          "pronunciation": "Casarmg",
+          "english": "in whome"
+        },
+        {
+          "pos": "4.24",
+          "enochian": "CROODZI",
+          "pronunciation": "croódzí",
+          "english": "the second beginning of things"
+        },
+        {
+          "pos": "4.25",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "4.26",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "4.27",
+          "enochian": "UGEG",
+          "pronunciation": "vgeg",
+          "english": "wax strong"
+        },
+        {
+          "pos": "4.28",
+          "enochian": "DS",
+          "pronunciation": "dst",
+          "english": "which"
+        },
+        {
+          "pos": "4.29",
+          "enochian": "T",
+          "pronunciation": "",
+          "english": "allso"
+        },
+        {
+          "pos": "4.30",
+          "enochian": "CAPIMALI",
+          "pronunciation": "capimáli",
+          "english": "successively"
+        },
+        {
+          "pos": "4.31",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "4.32",
+          "enochian": "CAPIMAON",
+          "pronunciation": "Capimaon",
+          "english": "the number of time:"
+        },
+        {
+          "pos": "4.33",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "4.34",
+          "enochian": "LONSHIN",
+          "pronunciation": "lonshin",
+          "english": "their powres"
+        },
+        {
+          "pos": "4.35",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "4.36",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "4.37",
+          "enochian": "LO",
+          "pronunciation": "Lo",
+          "english": "the first"
+        },
+        {
+          "pos": "4.38",
+          "enochian": "CLA",
+          "pronunciation": "Cla",
+          "english": "456:"
+        },
+        {
+          "pos": "4.39",
+          "enochian": "TORZU",
+          "pronunciation": "Torgú",
+          "english": "Arrise,"
+        },
+        {
+          "pos": "4.40",
+          "enochian": "NOR",
+          "pronunciation": "Nor",
+          "english": "you sonns"
+        },
+        {
+          "pos": "4.41",
+          "enochian": "QUASAHI",
+          "pronunciation": "quasáhi",
+          "english": "of pleasure,"
+        },
+        {
+          "pos": "4.42",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "4.43",
+          "enochian": "F",
+          "pronunciation": "F",
+          "english": "viset"
+        },
+        {
+          "pos": "4.44",
+          "enochian": "CAOSGA",
+          "pronunciation": "caósga",
+          "english": "the earth:"
+        },
+        {
+          "pos": "4.45",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "for"
+        },
+        {
+          "pos": "4.46",
+          "enochian": "ZIR",
+          "pronunciation": "Zirenáiad",
+          "english": "I am†"
+        },
+        {
+          "pos": "4.47",
+          "enochian": "ENAY",
+          "pronunciation": "",
+          "english": "the Lord"
+        },
+        {
+          "pos": "4.48",
+          "enochian": "IAD",
+          "pronunciation": "",
+          "english": "your God,"
+        },
+        {
+          "pos": "4.49",
+          "enochian": "DS",
+          "pronunciation": "Dsi",
+          "english": "which"
+        },
+        {
+          "pos": "4.50",
+          "enochian": "I",
+          "pronunciation": "",
+          "english": "is,"
+        },
+        {
+          "pos": "4.51",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "4.52",
+          "enochian": "APILA",
+          "pronunciation": "Apíla",
+          "english": "liveth."
+        },
+        {
+          "pos": "4.53",
+          "enochian": "DOOAIP",
+          "pronunciation": "Do-ó-á-io",
+          "english": "In the name"
+        },
+        {
+          "pos": "4.54",
+          "enochian": "QAAL",
+          "pronunciation": "Q-á-al",
+          "english": "of the Creator"
+        },
+        {
+          "pos": "4.55",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move,"
+        },
+        {
+          "pos": "4.56",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "4.57",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "4.58",
+          "enochian": "OBELISONG",
+          "pronunciation": "Obelisong",
+          "english": "as pleasant deliverers"
+        },
+        {
+          "pos": "4.59",
+          "enochian": "RESTEL",
+          "pronunciation": "rest-el",
+          "english": "That you may praise him"
+        },
+        {
+          "pos": "4.60",
+          "enochian": "AAI",
+          "pronunciation": "aaf",
+          "english": "amongst*"
+        },
+        {
+          "pos": "4.61",
+          "enochian": "NOR",
+          "pronunciation": "Nor-mó-lap",
+          "english": "the sonnes†"
+        },
+        {
+          "pos": "4.62",
+          "enochian": "MOLAP",
+          "pronunciation": "",
+          "english": "of men."
+        }
+      ],
+      "footnotes": [
+        "4.21: CRIP for 'but'; see 10.84.",
+        "4.46 to 4.48: Zirenáiad may be a contraction: ZIR-ENAY-IAD or 'I am'-'Lord'-'God'.",
+        "4.60: Copying error by Dee. AAI for 'amongst'; see 1.73, 7.52, 7.6 &c.",
+        "4.61 to 4.62: MOLAP for 'of men', because NOR is 'sons'; see 4.40."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Fifth Key",
+      "enochianText": "SAPAH ZIMII D DIV OD NOAS TA QANIS ADROCH DORPHAL CAOSG OD FAONTS PERIPSOL TA BLIOR CASARM AMIPZI NAZ ARTH AF OD DLUGAR ZIZOP ZLIDA CAOSGI TOLTORGI OD ZCHIS ESIASCH L OD TAVIU VIV OD IAOD THILD DS HUBAR PEOAL SOBA CORMFA CHIS TA LA ULS OD QCOCASB CA NIIS OD DARBS QAAS F ETHARZI OD BLIOR IAIAL EDNAS CICLES BAGLE IAD I L",
+      "words": [
+        {
+          "pos": "5.1",
+          "enochian": "SAPAH",
+          "pronunciation": "Sapdh",
+          "english": "The mighty sounds"
+        },
+        {
+          "pos": "5.2",
+          "enochian": "ZIMII",
+          "pronunciation": "zimii",
+          "english": "have entered‡"
+        },
+        {
+          "pos": "5.3",
+          "enochian": "D",
+          "pronunciation": "du-i-v",
+          "english": "into the third"
+        },
+        {
+          "pos": "5.4",
+          "enochian": "DIV",
+          "pronunciation": "",
+          "english": "angle,"
+        },
+        {
+          "pos": "5.5",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.6",
+          "enochian": "NOAS",
+          "pronunciation": "noas",
+          "english": "are become"
+        },
+        {
+          "pos": "5.7",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "5.8",
+          "enochian": "QANIS",
+          "pronunciation": "qa-a-nis",
+          "english": "olives"
+        },
+        {
+          "pos": "5.9",
+          "enochian": "ADROCH",
+          "pronunciation": "adroch",
+          "english": "in the olive mount"
+        },
+        {
+          "pos": "5.10",
+          "enochian": "DORPHAL",
+          "pronunciation": "dorphal",
+          "english": "looking with gladnes"
+        },
+        {
+          "pos": "5.11",
+          "enochian": "CAOSG",
+          "pronunciation": "ca-ósg",
+          "english": "upon the earth"
+        },
+        {
+          "pos": "5.12",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.13",
+          "enochian": "FAONTS",
+          "pronunciation": "faonts",
+          "english": "dwelling"
+        },
+        {
+          "pos": "5.14",
+          "enochian": "PERIPSOL",
+          "pronunciation": "peripsol",
+          "english": "in the brightnes of the heavens"
+        },
+        {
+          "pos": "5.15",
+          "enochian": "TA",
+          "pronunciation": "tablior",
+          "english": "as"
+        },
+        {
+          "pos": "5.16",
+          "enochian": "BLIOR",
+          "pronunciation": "",
+          "english": "continuall comfortors,"
+        },
+        {
+          "pos": "5.17",
+          "enochian": "CASARM",
+          "pronunciation": "Casarm",
+          "english": "unto whom"
+        },
+        {
+          "pos": "5.18",
+          "enochian": "AMIPZI",
+          "pronunciation": "amipzi",
+          "english": "I fastened"
+        },
+        {
+          "pos": "5.19",
+          "enochian": "NAZ",
+          "pronunciation": "nazarth",
+          "english": "pillers§"
+        },
+        {
+          "pos": "5.20",
+          "enochian": "ARTH",
+          "pronunciation": "",
+          "english": "of gladnes"
+        },
+        {
+          "pos": "5.21",
+          "enochian": "AF",
+          "pronunciation": "af",
+          "english": "19"
+        },
+        {
+          "pos": "5.22",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.23",
+          "enochian": "DLUGAR",
+          "pronunciation": "dlugar",
+          "english": "gave them"
+        },
+        {
+          "pos": "5.24",
+          "enochian": "ZIZOP",
+          "pronunciation": "zizop",
+          "english": "vessels"
+        },
+        {
+          "pos": "5.25",
+          "enochian": "ZLIDA",
+          "pronunciation": "z-lida",
+          "english": "to water"
+        },
+        {
+          "pos": "5.26",
+          "enochian": "CAOSGI",
+          "pronunciation": "caósgi",
+          "english": "the earth"
+        },
+        {
+          "pos": "5.27",
+          "enochian": "TOLTORGI",
+          "pronunciation": "toltórgi",
+          "english": "with her creatures,"
+        },
+        {
+          "pos": "5.28",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.29",
+          "enochian": "ZCHIS",
+          "pronunciation": "z-chis",
+          "english": "they are"
+        },
+        {
+          "pos": "5.30",
+          "enochian": "ESIASCH",
+          "pronunciation": "esiasch",
+          "english": "the brothers"
+        },
+        {
+          "pos": "5.31",
+          "enochian": "L",
+          "pronunciation": "L",
+          "english": "of the first"
+        },
+        {
+          "pos": "5.32",
+          "enochian": "OD",
+          "pronunciation": "taviu",
+          "english": "and*"
+        },
+        {
+          "pos": "5.33",
+          "enochian": "VIV",
+          "pronunciation": "",
+          "english": "second"
+        },
+        {
+          "pos": "5.34",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.35",
+          "enochian": "IAOD",
+          "pronunciation": "iáod",
+          "english": "the beginning"
+        },
+        {
+          "pos": "5.36",
+          "enochian": "THILD",
+          "pronunciation": "thild",
+          "english": "of their own seats"
+        },
+        {
+          "pos": "5.37",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "5.38",
+          "enochian": "PERAL",
+          "pronunciation": "",
+          "english": "are garnished†"
+        },
+        {
+          "pos": "5.39",
+          "enochian": "HUBAR",
+          "pronunciation": "hubar",
+          "english": "with continually burning lamps"
+        },
+        {
+          "pos": "5.40",
+          "enochian": "PEOAL",
+          "pronunciation": "Peóal",
+          "english": "69636"
+        },
+        {
+          "pos": "5.41",
+          "enochian": "SOBA",
+          "pronunciation": "soba",
+          "english": "whose"
+        },
+        {
+          "pos": "5.42",
+          "enochian": "CORMFA",
+          "pronunciation": "cormfa",
+          "english": "numbers"
+        },
+        {
+          "pos": "5.43",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "5.44",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "5.45",
+          "enochian": "LA",
+          "pronunciation": "la",
+          "english": "the first"
+        },
+        {
+          "pos": "5.46",
+          "enochian": "ULS",
+          "pronunciation": "vls",
+          "english": "the endes"
+        },
+        {
+          "pos": "5.47",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.48",
+          "enochian": "QCOCASB",
+          "pronunciation": "Q-eó-casb",
+          "english": "the contents of tyme."
+        },
+        {
+          "pos": "5.49",
+          "enochian": "CA",
+          "pronunciation": "Ca",
+          "english": "Therefore"
+        },
+        {
+          "pos": "5.50",
+          "enochian": "NIIS",
+          "pronunciation": "niis",
+          "english": "Come you"
+        },
+        {
+          "pos": "5.51",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.52",
+          "enochian": "DARBS",
+          "pronunciation": "Darbs",
+          "english": "obey"
+        },
+        {
+          "pos": "5.53",
+          "enochian": "QAAS",
+          "pronunciation": "Q-á-as",
+          "english": "your creation,"
+        },
+        {
+          "pos": "5.54",
+          "enochian": "F",
+          "pronunciation": "Feth-ar-zi",
+          "english": "viset us*"
+        },
+        {
+          "pos": "5.55",
+          "enochian": "ETHARZI",
+          "pronunciation": "",
+          "english": "in peace"
+        },
+        {
+          "pos": "5.56",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "5.57",
+          "enochian": "BLIOR",
+          "pronunciation": "blióra",
+          "english": "comfort"
+        },
+        {
+          "pos": "5.58",
+          "enochian": "IAIAL",
+          "pronunciation": "ia-ial",
+          "english": "Conclude us"
+        },
+        {
+          "pos": "5.59",
+          "enochian": "EDNAS",
+          "pronunciation": "ed-nas",
+          "english": "as receivers"
+        },
+        {
+          "pos": "5.60",
+          "enochian": "CICLES",
+          "pronunciation": "cicles",
+          "english": "of your mysteries:"
+        },
+        {
+          "pos": "5.61",
+          "enochian": "BAGLE",
+          "pronunciation": "Bágle",
+          "english": "for why?"
+        },
+        {
+          "pos": "5.62",
+          "enochian": "IAD",
+          "pronunciation": "Geiad",
+          "english": "Our Lord and Mr."
+        },
+        {
+          "pos": "5.63",
+          "enochian": "I",
+          "pronunciation": "i-L",
+          "english": "is"
+        },
+        {
+          "pos": "5.64",
+          "enochian": "L",
+          "pronunciation": "",
+          "english": "all one."
+        }
+      ],
+      "footnotes": [
+        "5.2 to 5.3: D for third; see 6.36, 7.33, 17.2. DIV for 'angle'; see 4.14, 6.3.",
+        "5.19: NAZ as 'pillars'; see 8.7 NAZ- root for 'pillars'.",
+        "5.32: OD for 'and'; TA probably a copying error.",
+        "5.38 to 5.39: Lacuna in Sl. MS 3191. Dee wrote the English as marginalia. See Royal Appendix (or True Relation) on July 5, 1584, the spirit Nalvage instructs that the word PERAL be added. Dee evidently neglected to do so when compiling Sl. MS 3191.",
+        "5.54: F for 'visit'; see 4.43, 6.25."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "The Sixth Key",
+      "enochianText": "GAH S DIU CHIS EM MICAOLZ PILZIN SOBAM EL HARG MIR BABALON OD OBLOC SAMVELG DLUGAR MALPRG AR CAOSGI OD ACAM CANAL SOBA ELZAP F BLIARD CAOSG OD CHIS ANETAB OD MIAM TA VIV OD D DARSAR SOLPETH BIEN BRITA OD ZACAM GMICALZO SOB HAATH TRIAN LUIAHE OD ECRIN MAD QAAON",
+      "words": [
+        {
+          "pos": "6.1",
+          "enochian": "GAH",
+          "pronunciation": "Gah",
+          "english": "The spirits"
+        },
+        {
+          "pos": "6.2",
+          "enochian": "S",
+          "pronunciation": "s",
+          "english": "of ye 4th"
+        },
+        {
+          "pos": "6.3",
+          "enochian": "DIU",
+          "pronunciation": "diu",
+          "english": "Angle"
+        },
+        {
+          "pos": "6.4",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "6.5",
+          "enochian": "EM",
+          "pronunciation": "em",
+          "english": "Nine,"
+        },
+        {
+          "pos": "6.6",
+          "enochian": "MICAOLZ",
+          "pronunciation": "micálzo",
+          "english": "Mighty‡"
+        },
+        {
+          "pos": "6.7",
+          "enochian": "PILZIN",
+          "pronunciation": "pilzin",
+          "english": "in the firmaments of waters,"
+        },
+        {
+          "pos": "6.8",
+          "enochian": "SOBAM",
+          "pronunciation": "sobam",
+          "english": "Whome"
+        },
+        {
+          "pos": "6.9",
+          "enochian": "EL",
+          "pronunciation": "El",
+          "english": "the first"
+        },
+        {
+          "pos": "6.10",
+          "enochian": "HARG",
+          "pronunciation": "harg",
+          "english": "hath planted"
+        },
+        {
+          "pos": "6.11",
+          "enochian": "MIR",
+          "pronunciation": "mir",
+          "english": "a torment"
+        },
+        {
+          "pos": "6.12",
+          "enochian": "BABALON",
+          "pronunciation": "babálon",
+          "english": "to the wicked"
+        },
+        {
+          "pos": "6.13",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "6.14",
+          "enochian": "OBLOC",
+          "pronunciation": "obloc",
+          "english": "a garland"
+        },
+        {
+          "pos": "6.15",
+          "enochian": "SAMVELG",
+          "pronunciation": "samvelg",
+          "english": "to the righteous"
+        },
+        {
+          "pos": "6.16",
+          "enochian": "DLUGAR",
+          "pronunciation": "dlugar",
+          "english": "giving unto them"
+        },
+        {
+          "pos": "6.17",
+          "enochian": "MALPRG",
+          "pronunciation": "marprg",
+          "english": "fyrie darts"
+        },
+        {
+          "pos": "6.18",
+          "enochian": "AR",
+          "pronunciation": "arcaósgi",
+          "english": "to vanne"
+        },
+        {
+          "pos": "6.19",
+          "enochian": "CAOSGI",
+          "pronunciation": "",
+          "english": "the earth"
+        },
+        {
+          "pos": "6.20",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "6.21",
+          "enochian": "ACAM",
+          "pronunciation": "Acám",
+          "english": "7699"
+        },
+        {
+          "pos": "6.22",
+          "enochian": "CANAL",
+          "pronunciation": "canal",
+          "english": "continuall Workmen"
+        },
+        {
+          "pos": "6.23",
+          "enochian": "SOBA",
+          "pronunciation": "sobólzar",
+          "english": "whose†"
+        },
+        {
+          "pos": "6.24",
+          "enochian": "ELZAP",
+          "pronunciation": "",
+          "english": "courses"
+        },
+        {
+          "pos": "6.25",
+          "enochian": "F",
+          "pronunciation": "f-bliard",
+          "english": "viset"
+        },
+        {
+          "pos": "6.26",
+          "enochian": "BLIARD",
+          "pronunciation": "",
+          "english": "with comfort"
+        },
+        {
+          "pos": "6.27",
+          "enochian": "CAOSG",
+          "pronunciation": "caosgi",
+          "english": "the earth"
+        },
+        {
+          "pos": "6.28",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "6.29",
+          "enochian": "CHIS",
+          "pronunciation": "chís",
+          "english": "are"
+        },
+        {
+          "pos": "6.30",
+          "enochian": "ANETAB",
+          "pronunciation": "anétab",
+          "english": "in government"
+        },
+        {
+          "pos": "6.31",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "6.32",
+          "enochian": "MAIM",
+          "pronunciation": "miam",
+          "english": "contynuance"
+        },
+        {
+          "pos": "6.33",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "6.34",
+          "enochian": "VIV",
+          "pronunciation": "viv",
+          "english": "the second"
+        },
+        {
+          "pos": "6.35",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "6.36",
+          "enochian": "D",
+          "pronunciation": "d",
+          "english": "the third"
+        },
+        {
+          "pos": "6.37",
+          "enochian": "DARSAR",
+          "pronunciation": "Darsar",
+          "english": "Wherefore"
+        },
+        {
+          "pos": "6.38",
+          "enochian": "SOLPETH",
+          "pronunciation": "sol-peth",
+          "english": "hearken unto"
+        },
+        {
+          "pos": "6.39",
+          "enochian": "BIEN",
+          "pronunciation": "bien",
+          "english": "my voyce"
+        },
+        {
+          "pos": "6.40",
+          "enochian": "BRITA",
+          "pronunciation": "Brita",
+          "english": "I have talked of you"
+        },
+        {
+          "pos": "6.41",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "6.42",
+          "enochian": "ZACAM",
+          "pronunciation": "zácam",
+          "english": "I move you"
+        },
+        {
+          "pos": "6.43",
+          "enochian": "GMICALZO",
+          "pronunciation": "g-micálzo",
+          "english": "in power and presence,"
+        },
+        {
+          "pos": "6.44",
+          "enochian": "SOBA",
+          "pronunciation": "sob-há-ath",
+          "english": "whose"
+        },
+        {
+          "pos": "6.45",
+          "enochian": "HAATH",
+          "pronunciation": "",
+          "english": "works"
+        },
+        {
+          "pos": "6.46",
+          "enochian": "TRIAN",
+          "pronunciation": "trían",
+          "english": "shall be"
+        },
+        {
+          "pos": "6.47",
+          "enochian": "LUIAHE",
+          "pronunciation": "Lu-id-he",
+          "english": "a song of honor"
+        },
+        {
+          "pos": "6.48",
+          "enochian": "OD",
+          "pronunciation": "odecrin",
+          "english": "and"
+        },
+        {
+          "pos": "6.49",
+          "enochian": "ECRIN",
+          "pronunciation": "",
+          "english": "the praise"
+        },
+        {
+          "pos": "6.50",
+          "enochian": "MAD",
+          "pronunciation": "MAD",
+          "english": "of your God"
+        },
+        {
+          "pos": "6.51",
+          "enochian": "QAAON",
+          "pronunciation": "Q-a-a-on",
+          "english": "in your Creation."
+        }
+      ],
+      "footnotes": [
+        "6.6: MICAOLZ for 'mighty'; see 3.74, 18.2, 30.6.",
+        "6.23 to 6.24: SOBA for 'whose'; see 1.30, 1.60, 5.41, 7.27, &c. ELZAP for 'courses'; see 30.62."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "The Seventh Key",
+      "enochianText": "RAAS I SALMAN PARADIZ OECRIMI AAI IALPIRGAH QUIIN ENAY BUTMON OD INOAS NI PARADIAL CASARMG UGEAR CHIRLAN OD ZONAC LUCIFTIAN CORS TA VAUL ZIRN TOL HAMI SOBA LONDOH OD MIAM CHIS TA D OD ES UMADEA OD PIBLIAR OTHIL RIT OD MIAM CNOQUOL RIT ZACAR ZAMRAN OECRIMI QAADAH OD OMICAOLZ AAIOM BAGLE PAPNOR IDLUGAM LONSHI OD UMPLIF UGEG BIGLIAD",
+      "words": [
+        {
+          "pos": "7.1",
+          "enochian": "RAAS",
+          "pronunciation": "Raas",
+          "english": "The East"
+        },
+        {
+          "pos": "7.2",
+          "enochian": "I",
+          "pronunciation": "isálman",
+          "english": "is"
+        },
+        {
+          "pos": "7.3",
+          "enochian": "SALMAN",
+          "pronunciation": "",
+          "english": "a howse"
+        },
+        {
+          "pos": "7.4",
+          "enochian": "PARADIZ",
+          "pronunciation": "paradiz",
+          "english": "of virgins"
+        },
+        {
+          "pos": "7.5",
+          "enochian": "OECRIMI",
+          "pronunciation": "oecími",
+          "english": "singing praises"
+        },
+        {
+          "pos": "7.6",
+          "enochian": "AAI",
+          "pronunciation": "aao",
+          "english": "amongst*"
+        },
+        {
+          "pos": "7.7",
+          "enochian": "IALPIRGAH",
+          "pronunciation": "ial-pírgah",
+          "english": "the flames of the first glory,"
+        },
+        {
+          "pos": "7.8",
+          "enochian": "QUIIN",
+          "pronunciation": "qui-in",
+          "english": "wherein"
+        },
+        {
+          "pos": "7.9",
+          "enochian": "ENAY",
+          "pronunciation": "enay",
+          "english": "the Lord"
+        },
+        {
+          "pos": "7.10",
+          "enochian": "BUTMON",
+          "pronunciation": "butmon",
+          "english": "hath opened his mouth"
+        },
+        {
+          "pos": "7.11",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "7.12",
+          "enochian": "INOAS",
+          "pronunciation": "inóas",
+          "english": "they are become"
+        },
+        {
+          "pos": "7.13",
+          "enochian": "NI",
+          "pronunciation": "ni",
+          "english": "28"
+        },
+        {
+          "pos": "7.14",
+          "enochian": "PARADIAL",
+          "pronunciation": "paradíal",
+          "english": "Living dwellings"
+        },
+        {
+          "pos": "7.15",
+          "enochian": "CASARMG",
+          "pronunciation": "casarmg",
+          "english": "in whom"
+        },
+        {
+          "pos": "7.16",
+          "enochian": "UGEAR",
+          "pronunciation": "vgéar",
+          "english": "the strength of men"
+        },
+        {
+          "pos": "7.17",
+          "enochian": "CHIRLAN",
+          "pronunciation": "chirlan",
+          "english": "rejoyceth"
+        },
+        {
+          "pos": "7.18",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "7.19",
+          "enochian": "ZONAC",
+          "pronunciation": "zonac",
+          "english": "they are appareled"
+        },
+        {
+          "pos": "7.20",
+          "enochian": "LUCIFTIAN",
+          "pronunciation": "Lucíftian",
+          "english": "with ornaments of brightnes"
+        },
+        {
+          "pos": "7.21",
+          "enochian": "CORS",
+          "pronunciation": "cors",
+          "english": "such"
+        },
+        {
+          "pos": "7.22",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "7.23",
+          "enochian": "VAUL",
+          "pronunciation": "vaul",
+          "english": "work"
+        },
+        {
+          "pos": "7.24",
+          "enochian": "ZIRN",
+          "pronunciation": "zirn",
+          "english": "wonders"
+        },
+        {
+          "pos": "7.25",
+          "enochian": "TOL",
+          "pronunciation": "tol-há-mi",
+          "english": "on all"
+        },
+        {
+          "pos": "7.26",
+          "enochian": "HAMI",
+          "pronunciation": "",
+          "english": "creatures"
+        },
+        {
+          "pos": "7.27",
+          "enochian": "SOBA",
+          "pronunciation": "soba",
+          "english": "Whose"
+        },
+        {
+          "pos": "7.28",
+          "enochian": "LONDOH",
+          "pronunciation": "londóh",
+          "english": "Kingdoms"
+        },
+        {
+          "pos": "7.29",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "7.30",
+          "enochian": "MIAM",
+          "pronunciation": "miam",
+          "english": "continuance"
+        },
+        {
+          "pos": "7.31",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "7.32",
+          "enochian": "TA",
+          "pronunciation": "tad",
+          "english": "as"
+        },
+        {
+          "pos": "7.33",
+          "enochian": "D",
+          "pronunciation": "",
+          "english": "the third"
+        },
+        {
+          "pos": "7.34",
+          "enochian": "OD",
+          "pronunciation": "o",
+          "english": "and"
+        },
+        {
+          "pos": "7.35",
+          "enochian": "ES",
+          "pronunciation": "dés",
+          "english": "fourth"
+        },
+        {
+          "pos": "7.36",
+          "enochian": "UMADEA",
+          "pronunciation": "vmddéa",
+          "english": "strong towres"
+        },
+        {
+          "pos": "7.37",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "7.38",
+          "enochian": "PIBLIAR",
+          "pronunciation": "piblíar",
+          "english": "places of comfort"
+        },
+        {
+          "pos": "7.39",
+          "enochian": "OTHIL",
+          "pronunciation": "Othlrit",
+          "english": "The seats*"
+        },
+        {
+          "pos": "7.40",
+          "enochian": "RIT",
+          "pronunciation": "",
+          "english": "of mercy"
+        },
+        {
+          "pos": "7.41",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "7.42",
+          "enochian": "MIAM",
+          "pronunciation": "miám",
+          "english": "continuance."
+        },
+        {
+          "pos": "7.43",
+          "enochian": "CNOQUOL",
+          "pronunciation": "Cnoquol",
+          "english": "O you Servants"
+        },
+        {
+          "pos": "7.44",
+          "enochian": "RIT",
+          "pronunciation": "Rit",
+          "english": "of Mercy,"
+        },
+        {
+          "pos": "7.45",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move,"
+        },
+        {
+          "pos": "7.46",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "Appeare,"
+        },
+        {
+          "pos": "7.47",
+          "enochian": "OECRIMI",
+          "pronunciation": "oécrimi",
+          "english": "sing praises"
+        },
+        {
+          "pos": "7.48",
+          "enochian": "QAADAH",
+          "pronunciation": "q-a-dah",
+          "english": "unto the Creator:"
+        },
+        {
+          "pos": "7.49",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "And"
+        },
+        {
+          "pos": "7.50",
+          "enochian": "OMICAOLZ",
+          "pronunciation": "omicaolz",
+          "english": "be mighty†"
+        },
+        {
+          "pos": "7.51",
+          "enochian": "AAIOM",
+          "pronunciation": "aaiom",
+          "english": "amongst us"
+        },
+        {
+          "pos": "7.52",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "For"
+        },
+        {
+          "pos": "7.53",
+          "enochian": "PAPNOR",
+          "pronunciation": "papnor",
+          "english": "to this remembrance"
+        },
+        {
+          "pos": "7.54",
+          "enochian": "IDLUGAM",
+          "pronunciation": "idlúgam",
+          "english": "is given"
+        },
+        {
+          "pos": "7.55",
+          "enochian": "LONSHI",
+          "pronunciation": "lonshi",
+          "english": "powre"
+        },
+        {
+          "pos": "7.56",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "7.57",
+          "enochian": "UMPLIF",
+          "pronunciation": "vmplif",
+          "english": "our strength"
+        },
+        {
+          "pos": "7.58",
+          "enochian": "UGEG",
+          "pronunciation": "vgégi",
+          "english": "waxeth strong"
+        },
+        {
+          "pos": "7.59",
+          "enochian": "BIGLIAD",
+          "pronunciation": "Bigliad",
+          "english": "in our Comforter."
+        }
+      ],
+      "footnotes": [
+        "7.4: Alternate pronunciation 'paradizod'.",
+        "7.6: AAI for 'amongst'; see 1.73, 7.52, 12.22, 13.25, &c.",
+        "7.7: Contraction of IALPRG-GAH or 'burning flame'-'spirit'.",
+        "7.39 to 7.40: OTHIL for 'seats'; see 3.12. RIT for 'Mercy'; see 7.44.",
+        "7.50: Alternate pronunciation: Omicaolzod."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "The Eighth Key",
+      "enochianText": "BAZMB LO I TA PIRIPSON OLN NAZ AVABH OX CASARMG URAN CHIS UGEG DS ABRAMG BALTOHA GOHO IAD SOBA MIAM TRIAN TA LOLCIS ABAI VOVIN OD AZIAGIER RIOR IRGIL CHIS DA DS PAAOX BUSD CAOSGO DS CHIS OD IPURAN TELOCH CACARG O SALMAN LONCHO OD VOVINA CARBAF NIISO BAGLE AVAVAGO GOHON NIISO BAGLE MOMAO SIAION OD MABZA IADOIASMOMAR POILP NIIS ZAMRAN CIAOFI CAOSGO OD BLIORS OD CORSI TA ABRAMIG",
+      "words": [
+        {
+          "pos": "8.1",
+          "enochian": "BAZMB",
+          "pronunciation": "Bazmêlo",
+          "english": "The Midday"
+        },
+        {
+          "pos": "8.2",
+          "enochian": "LO",
+          "pronunciation": "",
+          "english": "the first‡"
+        },
+        {
+          "pos": "8.3",
+          "enochian": "I",
+          "pronunciation": "i",
+          "english": "is"
+        },
+        {
+          "pos": "8.4",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "8.5",
+          "enochian": "PIRIPSON",
+          "pronunciation": "piripson",
+          "english": "the third heaven"
+        },
+        {
+          "pos": "8.6",
+          "enochian": "OLN",
+          "pronunciation": "oln",
+          "english": "made"
+        },
+        {
+          "pos": "8.7",
+          "enochian": "NAZ",
+          "pronunciation": "nazávbh",
+          "english": "of Hiacynth Pillers"
+        },
+        {
+          "pos": "8.8",
+          "enochian": "AVABH",
+          "pronunciation": "",
+          "english": ""
+        },
+        {
+          "pos": "8.9",
+          "enochian": "OX",
+          "pronunciation": "ox",
+          "english": "26"
+        },
+        {
+          "pos": "8.10",
+          "enochian": "CASARMG",
+          "pronunciation": "casarmg",
+          "english": "in whome"
+        },
+        {
+          "pos": "8.11",
+          "enochian": "URAN",
+          "pronunciation": "Vrán",
+          "english": "the Elders"
+        },
+        {
+          "pos": "8.12",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "8.13",
+          "enochian": "UGEG",
+          "pronunciation": "vgeg",
+          "english": "become strong"
+        },
+        {
+          "pos": "8.14",
+          "enochian": "DS",
+          "pronunciation": "dsa-bramg",
+          "english": "which"
+        },
+        {
+          "pos": "8.15",
+          "enochian": "ABRAMG",
+          "pronunciation": "",
+          "english": "I have prepared§"
+        },
+        {
+          "pos": "8.16",
+          "enochian": "BALTOHA",
+          "pronunciation": "baltóha",
+          "english": "for my own righteousnes"
+        },
+        {
+          "pos": "8.17",
+          "enochian": "GOHO",
+          "pronunciation": "gohó",
+          "english": "sayth"
+        },
+        {
+          "pos": "8.18",
+          "enochian": "IAD",
+          "pronunciation": "í-ad",
+          "english": "the Lord"
+        },
+        {
+          "pos": "8.19",
+          "enochian": "SOBA",
+          "pronunciation": "soba",
+          "english": "whose"
+        },
+        {
+          "pos": "8.20",
+          "enochian": "MIAM",
+          "pronunciation": "miam",
+          "english": "long contynuance*"
+        },
+        {
+          "pos": "8.21",
+          "enochian": "TRIAN",
+          "pronunciation": "trian",
+          "english": "shall be"
+        },
+        {
+          "pos": "8.22",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "8.23",
+          "enochian": "LOLCIS",
+          "pronunciation": "lól-cis",
+          "english": "bucklers"
+        },
+        {
+          "pos": "8.24",
+          "enochian": "ABAI",
+          "pronunciation": "Abaiuónin",
+          "english": "to the stowping"
+        },
+        {
+          "pos": "8.25",
+          "enochian": "VOVIN",
+          "pronunciation": "",
+          "english": "Dragons†"
+        },
+        {
+          "pos": "8.26",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "8.27",
+          "enochian": "AZIAGIER",
+          "pronunciation": "azidgler",
+          "english": "like unto the harvest"
+        },
+        {
+          "pos": "8.28",
+          "enochian": "RIOR",
+          "pronunciation": "rior",
+          "english": "of a wyddow."
+        },
+        {
+          "pos": "8.29",
+          "enochian": "IRGIL",
+          "pronunciation": "Irgil",
+          "english": "How many"
+        },
+        {
+          "pos": "8.30",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "8.31",
+          "enochian": "DA",
+          "pronunciation": "da",
+          "english": "there"
+        },
+        {
+          "pos": "8.32",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "8.33",
+          "enochian": "PAAOX",
+          "pronunciation": "pá-á-ox",
+          "english": "remayn"
+        },
+        {
+          "pos": "8.34",
+          "enochian": "BUSD",
+          "pronunciation": "busd",
+          "english": "in the glorie"
+        },
+        {
+          "pos": "8.35",
+          "enochian": "CAOSGO",
+          "pronunciation": "caósgo",
+          "english": "of the earth"
+        },
+        {
+          "pos": "8.36",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "8.37",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "8.38",
+          "enochian": "OD",
+          "pronunciation": "odipúran",
+          "english": "and"
+        },
+        {
+          "pos": "8.39",
+          "enochian": "IPURAN",
+          "pronunciation": "",
+          "english": "shall not see"
+        },
+        {
+          "pos": "8.40",
+          "enochian": "TELOCH",
+          "pronunciation": "télodh",
+          "english": "death†"
+        },
+        {
+          "pos": "8.41",
+          "enochian": "CACARG",
+          "pronunciation": "cacarg",
+          "english": "untyll"
+        },
+        {
+          "pos": "8.42",
+          "enochian": "O",
+          "pronunciation": "O",
+          "english": "this"
+        },
+        {
+          "pos": "8.43",
+          "enochian": "SALMAN",
+          "pronunciation": "isálman",
+          "english": "howse"
+        },
+        {
+          "pos": "8.44",
+          "enochian": "LONCHO",
+          "pronunciation": "loncho",
+          "english": "fall"
+        },
+        {
+          "pos": "8.45",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "8.46",
+          "enochian": "VOVINA",
+          "pronunciation": "Vouína",
+          "english": "the Dragon"
+        },
+        {
+          "pos": "8.47",
+          "enochian": "CARBAF",
+          "pronunciation": "carbaf",
+          "english": "synck."
+        },
+        {
+          "pos": "8.48",
+          "enochian": "NIISO",
+          "pronunciation": "Niiso",
+          "english": "Come away,"
+        },
+        {
+          "pos": "8.49",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "for"
+        },
+        {
+          "pos": "8.50",
+          "enochian": "AVAVAGO",
+          "pronunciation": "aváuágo",
+          "english": "the Thunders"
+        },
+        {
+          "pos": "8.51",
+          "enochian": "GOHON",
+          "pronunciation": "gohón",
+          "english": "have spoken:"
+        },
+        {
+          "pos": "8.52",
+          "enochian": "NIISO",
+          "pronunciation": "Niiso",
+          "english": "Come away,"
+        },
+        {
+          "pos": "8.53",
+          "enochian": "BAGLE",
+          "pronunciation": "bagle",
+          "english": "for"
+        },
+        {
+          "pos": "8.54",
+          "enochian": "MOMAO",
+          "pronunciation": "mómáo",
+          "english": "the Crownes"
+        },
+        {
+          "pos": "8.55",
+          "enochian": "SIAION",
+          "pronunciation": "sidión",
+          "english": "of the Temple"
+        },
+        {
+          "pos": "8.56",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "8.57",
+          "enochian": "MABZA",
+          "pronunciation": "mábza",
+          "english": "the coat"
+        },
+        {
+          "pos": "8.58",
+          "enochian": "IADOIASMOMAR",
+          "pronunciation": "Jad-oiás-mómar",
+          "english": "of him that is, was, and shall be crowned‡"
+        },
+        {
+          "pos": "8.59",
+          "enochian": "POILP",
+          "pronunciation": "poilp",
+          "english": "are divided"
+        },
+        {
+          "pos": "8.60",
+          "enochian": "NIIS",
+          "pronunciation": "Niis",
+          "english": "Come"
+        },
+        {
+          "pos": "8.61",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMARN",
+          "english": "Appeare"
+        },
+        {
+          "pos": "8.62",
+          "enochian": "CIAOFI",
+          "pronunciation": "ciaofi",
+          "english": "to the terror"
+        },
+        {
+          "pos": "8.63",
+          "enochian": "CAOSGO",
+          "pronunciation": "caósgo",
+          "english": "of the earth"
+        },
+        {
+          "pos": "8.64",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "8.65",
+          "enochian": "BLIORS",
+          "pronunciation": "bliors",
+          "english": "to our comfort"
+        },
+        {
+          "pos": "8.66",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "8.67",
+          "enochian": "CORSI",
+          "pronunciation": "corsi",
+          "english": "of such"
+        },
+        {
+          "pos": "8.68",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "8.69",
+          "enochian": "ABRAMIG",
+          "pronunciation": "a-brámig",
+          "english": "are prepared."
+        }
+      ],
+      "footnotes": [
+        "8.2: LO as 'first'; see 4.37.",
+        "8.15: ABRAMG for 'I have prepared'; see 2.14, 11.33.",
+        "8.20: MIAM for 'long continuance'; see 6.32, 7.30, 7.42. MIAN as '3663'; see 12.61. Dee's error makes the Enochian gibberish.",
+        "8.25: VOVIN is the stem for 'dragon'; see 8.46 and note to 30.133. The entire passage is idiomatic in Enochian; what is probably meant is 'The Lord will be a shield against threatening dragons [devils]'.",
+        "8.40: TELOCH for 'death'; see 3.20, 11.19 and note on 30.133.",
+        "8.58: Contraction of IAD-I-AS-MOMAR or 'God'-'is'-'was'-'crowned'. See 8.54 for MOMA- root."
+      ]
+    },
+    {
+      "number": 9,
+      "title": "The Ninth Key",
+      "enochianText": "MICAOLI BRANSG PURGEL NAPTA IALPOR DS BRIN EFAFAFE P VONPHO OLANI OD OBZA SOBA UPAAH CHIS TATAN OD TRANAN BALYE ALAR LUSDA SOBOLN OD CHIS HOLQ CNOQUODI CIAI UNAL ALDON MOM CAOSGO TA LAS OLLOR GNAY LIMLAL AMMA CHIS SOBA MADRID ZCHIS OOANOAN CHIS AVINY DRILPI CAOSGI OD BUTMONI PARM ZUMVI CNILA DAZIZ ETHAMZ ACHILDAO OD MIRC OZOL CHIS PIDIAI COLLAL ULCININ ASOBAM UCIM BAGLE IAD BALTOH CHIRLAN PAR NIISO OD IP EFAFAFE BAGLE COCASB I CORS TA UNIG BLIOR",
+      "words": [
+        {
+          "pos": "9.1",
+          "enochian": "MICAOLI",
+          "pronunciation": "Mi-cá-óli",
+          "english": "A mighty"
+        },
+        {
+          "pos": "9.2",
+          "enochian": "BRANSG",
+          "pronunciation": "bransg",
+          "english": "garde"
+        },
+        {
+          "pos": "9.3",
+          "enochian": "PURGEL",
+          "pronunciation": "prgel",
+          "english": "of fire"
+        },
+        {
+          "pos": "9.4",
+          "enochian": "NAPTA",
+          "pronunciation": "napta",
+          "english": "with two-edged swords"
+        },
+        {
+          "pos": "9.5",
+          "enochian": "IALPOR",
+          "pronunciation": "ialpor",
+          "english": "flaming"
+        },
+        {
+          "pos": "9.6",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "(which"
+        },
+        {
+          "pos": "9.7",
+          "enochian": "BRIN",
+          "pronunciation": "brin",
+          "english": "have"
+        },
+        {
+          "pos": "9.8",
+          "enochian": "EFAFAFE",
+          "pronunciation": "efáfáfe",
+          "english": "viols§"
+        },
+        {
+          "pos": "9.9",
+          "enochian": "P",
+          "pronunciation": "P",
+          "english": ":8:"
+        },
+        {
+          "pos": "9.10",
+          "enochian": "VONPHO",
+          "pronunciation": "vonpho",
+          "english": "of wrath"
+        },
+        {
+          "pos": "9.11",
+          "enochian": "OLANI",
+          "pronunciation": "oláni",
+          "english": "for two tymes"
+        },
+        {
+          "pos": "9.12",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "9.13",
+          "enochian": "OBZA",
+          "pronunciation": "obza",
+          "english": "a half:"
+        },
+        {
+          "pos": "9.14",
+          "enochian": "SOBA",
+          "pronunciation": "sobca",
+          "english": "whose*"
+        },
+        {
+          "pos": "9.15",
+          "enochian": "UPAAH",
+          "pronunciation": "vpáah",
+          "english": "wings"
+        },
+        {
+          "pos": "9.16",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "9.17",
+          "enochian": "TATAN",
+          "pronunciation": "tatan",
+          "english": "of wormwood,"
+        },
+        {
+          "pos": "9.18",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "9.19",
+          "enochian": "TRANAN",
+          "pronunciation": "tranan",
+          "english": "of the marrow"
+        },
+        {
+          "pos": "9.20",
+          "enochian": "BALYE",
+          "pronunciation": "balye",
+          "english": "of salt,)"
+        },
+        {
+          "pos": "9.21",
+          "enochian": "ALAR",
+          "pronunciation": "alar",
+          "english": "have setled"
+        },
+        {
+          "pos": "9.22",
+          "enochian": "LUSDA",
+          "pronunciation": "lusda",
+          "english": "their feete"
+        },
+        {
+          "pos": "9.23",
+          "enochian": "SOBOLN",
+          "pronunciation": "sobóln",
+          "english": "in the West,"
+        },
+        {
+          "pos": "9.24",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "9.25",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "9.26",
+          "enochian": "HOLQ",
+          "pronunciation": "hólq",
+          "english": "measured"
+        },
+        {
+          "pos": "9.27",
+          "enochian": "CNOQUODI",
+          "pronunciation": "Cnoquódi",
+          "english": "with their Ministers"
+        },
+        {
+          "pos": "9.28",
+          "enochian": "CIAI",
+          "pronunciation": "cial",
+          "english": "9996."
+        },
+        {
+          "pos": "9.29",
+          "enochian": "UNAL",
+          "pronunciation": "vndl",
+          "english": "These"
+        },
+        {
+          "pos": "9.30",
+          "enochian": "ALDON",
+          "pronunciation": "aldon",
+          "english": "gather up"
+        },
+        {
+          "pos": "9.31",
+          "enochian": "MOM",
+          "pronunciation": "mom",
+          "english": "the moss"
+        },
+        {
+          "pos": "9.32",
+          "enochian": "CAOSGO",
+          "pronunciation": "caósgo",
+          "english": "of the earth"
+        },
+        {
+          "pos": "9.33",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "9.34",
+          "enochian": "LAS",
+          "pronunciation": "las",
+          "english": "the rich"
+        },
+        {
+          "pos": "9.35",
+          "enochian": "OLLOR",
+          "pronunciation": "óllor",
+          "english": "man"
+        },
+        {
+          "pos": "9.36",
+          "enochian": "GNAY",
+          "pronunciation": "gnay",
+          "english": "doth"
+        },
+        {
+          "pos": "9.37",
+          "enochian": "LIMLAL",
+          "pronunciation": "limlal",
+          "english": "his threasor:"
+        },
+        {
+          "pos": "9.38",
+          "enochian": "AMMA",
+          "pronunciation": "Amma",
+          "english": "Cursed"
+        },
+        {
+          "pos": "9.39",
+          "enochian": "CHIS",
+          "pronunciation": "chiis",
+          "english": "ar they"
+        },
+        {
+          "pos": "9.40",
+          "enochian": "SOBA",
+          "pronunciation": "sobca",
+          "english": "whose"
+        },
+        {
+          "pos": "9.41",
+          "enochian": "MADRID",
+          "pronunciation": "madrid",
+          "english": "iniquities"
+        },
+        {
+          "pos": "9.42",
+          "enochian": "ZCHIS",
+          "pronunciation": "zchis,",
+          "english": "they are§"
+        },
+        {
+          "pos": "9.43",
+          "enochian": "OOANOAN",
+          "pronunciation": "oóánóan",
+          "english": "in their eyes"
+        },
+        {
+          "pos": "9.44",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "9.45",
+          "enochian": "AVINY",
+          "pronunciation": "auíny",
+          "english": "milstones"
+        },
+        {
+          "pos": "9.46",
+          "enochian": "DRILPI",
+          "pronunciation": "drilpi",
+          "english": "greater"
+        },
+        {
+          "pos": "9.47",
+          "enochian": "CAOSGI",
+          "pronunciation": "caósgin,",
+          "english": "then the earth"
+        },
+        {
+          "pos": "9.48",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "And"
+        },
+        {
+          "pos": "9.49",
+          "enochian": "BUTMONI",
+          "pronunciation": "butmóni",
+          "english": "from their mowthes"
+        },
+        {
+          "pos": "9.50",
+          "enochian": "PARM",
+          "pronunciation": "parm",
+          "english": "rune"
+        },
+        {
+          "pos": "9.51",
+          "enochian": "ZUMVI",
+          "pronunciation": "zumvi",
+          "english": "seas"
+        },
+        {
+          "pos": "9.52",
+          "enochian": "CNILA",
+          "pronunciation": "Cnila",
+          "english": "of blud:"
+        },
+        {
+          "pos": "9.53",
+          "enochian": "DAZIZ",
+          "pronunciation": "Dazis",
+          "english": "Their heds"
+        },
+        {
+          "pos": "9.54",
+          "enochian": "ETHAMZ",
+          "pronunciation": "ethámz",
+          "english": "are covered*"
+        },
+        {
+          "pos": "9.55",
+          "enochian": "ACHILDAO",
+          "pronunciation": "a-childao",
+          "english": "with diamond:"
+        },
+        {
+          "pos": "9.56",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "9.57",
+          "enochian": "MIRC",
+          "pronunciation": "mirc",
+          "english": "uppon"
+        },
+        {
+          "pos": "9.58",
+          "enochian": "OZOL",
+          "pronunciation": "ózól",
+          "english": "their heds"
+        },
+        {
+          "pos": "9.59",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "9.60",
+          "enochian": "PIDIAI",
+          "pronunciation": "pidiai",
+          "english": "marble"
+        },
+        {
+          "pos": "9.61",
+          "enochian": "COLLAL",
+          "pronunciation": "collal",
+          "english": "sleves."
+        },
+        {
+          "pos": "9.62",
+          "enochian": "ULCININ",
+          "pronunciation": "vlcínin",
+          "english": "Happie is he,"
+        },
+        {
+          "pos": "9.63",
+          "enochian": "ASOBAM",
+          "pronunciation": "a-sóbam",
+          "english": "on whome"
+        },
+        {
+          "pos": "9.64",
+          "enochian": "UCIM",
+          "pronunciation": "vcim",
+          "english": "they frown not."
+        },
+        {
+          "pos": "9.65",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "For why?"
+        },
+        {
+          "pos": "9.66",
+          "enochian": "IAD",
+          "pronunciation": "Iadháltoh",
+          "english": "The God"
+        },
+        {
+          "pos": "9.67",
+          "enochian": "BALTOH",
+          "pronunciation": "",
+          "english": "of righteousnes,†"
+        },
+        {
+          "pos": "9.68",
+          "enochian": "CHIRLAN",
+          "pronunciation": "chirlan",
+          "english": "reioyceth"
+        },
+        {
+          "pos": "9.69",
+          "enochian": "PAR",
+          "pronunciation": "par",
+          "english": "in them."
+        },
+        {
+          "pos": "9.70",
+          "enochian": "NIISO",
+          "pronunciation": "Niiso",
+          "english": "Come away"
+        },
+        {
+          "pos": "9.71",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "9.72",
+          "enochian": "IP",
+          "pronunciation": "ip",
+          "english": "not"
+        },
+        {
+          "pos": "9.73",
+          "enochian": "EFAFAFE",
+          "pronunciation": "ofáfáfe",
+          "english": "your Viols"
+        },
+        {
+          "pos": "9.74",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "For"
+        },
+        {
+          "pos": "9.75",
+          "enochian": "COCASB",
+          "pronunciation": "acócasb",
+          "english": "the tyme"
+        },
+        {
+          "pos": "9.76",
+          "enochian": "I",
+          "pronunciation": "icórsca",
+          "english": "is†"
+        },
+        {
+          "pos": "9.77",
+          "enochian": "CORS",
+          "pronunciation": "",
+          "english": "such"
+        },
+        {
+          "pos": "9.78",
+          "enochian": "TA",
+          "pronunciation": "",
+          "english": "as"
+        },
+        {
+          "pos": "9.79",
+          "enochian": "UNIG",
+          "pronunciation": "vnig",
+          "english": "requireth"
+        },
+        {
+          "pos": "9.80",
+          "enochian": "BLIOR",
+          "pronunciation": "blior.",
+          "english": "comfort."
+        }
+      ],
+      "footnotes": [
+        "9.8: English 'viols' usually modernized as 'vials'; possible alternate would be 'violins'. See Oxford English Dictionary on 'viols'.",
+        "9.14: SOBA as 'whose'; see 1.30, 1.60, 5.41, 6.23, &c. SOBCA appears twice in total, both times in this key.",
+        "9.42: Alternate pronunciation: Zodchis.",
+        "9.54: Alternate pronunciation: ethamzod.",
+        "9.67: BALTOH for 'righteousnes'; see 1.76, 2.23, 9.67.",
+        "9.76 to 9.78: 'I' for 'is'; see 1.13, 4.50, &c. CORS for 'such'; see 2.36, 7.21, 30.144. TA for 'as'; see 1.14, 1.18, 1.27, 1.74, 2.15, &c."
+      ]
+    },
+    {
+      "number": 10,
+      "title": "The Tenth Key",
+      "enochianText": "CORAXO CHIS CORMP OD BLANS LUCAL AZIAZIOR PAEB SOBA LILONON CHIS VIRQ OP EOPHAN RACLIR MAASI BAGLE CAOSGI DS IALPON DOSIG OD BASGIM OD OXEX DAZIZ SIATRIS OD SALBROX CINXIR FABOAN UNAL CHIS CONST DS DAOX COCASB OL OANIO YOR EORS MICAOLI OL GIXYAX OD MATB COCASB PLOSI MOLUI DS PAGEIP LARAG OM DROLN MATORB COCASB EMNA L PATRALX YOLCI MATB NOMIG MONONS OLORA GNAY ANGELARD OHIO OHIO OHIO OHIO OHIO OHIO NOIB OHIO CAOSGON BAGLE MADRID I ZIROP CHISO DRILPA NIISO CRIP IP NIDALI",
+      "words": [
+        {
+          "pos": "10.1",
+          "enochian": "CORAXO",
+          "pronunciation": "Coráxo",
+          "english": "The Thunders of Judgement and Wrath"
+        },
+        {
+          "pos": "10.2",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "10.3",
+          "enochian": "CORMP",
+          "pronunciation": "cormp",
+          "english": "numbered"
+        },
+        {
+          "pos": "10.4",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "10.5",
+          "enochian": "BLANS",
+          "pronunciation": "blans",
+          "english": "are harorowed"
+        },
+        {
+          "pos": "10.6",
+          "enochian": "LUCAL",
+          "pronunciation": "Lucal",
+          "english": "in the North"
+        },
+        {
+          "pos": "10.7",
+          "enochian": "AZIAZIOR",
+          "pronunciation": "azidzor",
+          "english": "in the likenes"
+        },
+        {
+          "pos": "10.8",
+          "enochian": "PAEB",
+          "pronunciation": "paeb",
+          "english": "of an oke"
+        },
+        {
+          "pos": "10.9",
+          "enochian": "SOBA",
+          "pronunciation": "Soba",
+          "english": "whose"
+        },
+        {
+          "pos": "10.10",
+          "enochian": "LILONON",
+          "pronunciation": "Lilónon",
+          "english": "branches"
+        },
+        {
+          "pos": "10.11",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "10.12",
+          "enochian": "VIRQ",
+          "pronunciation": "virq",
+          "english": "Nests"
+        },
+        {
+          "pos": "10.13",
+          "enochian": "OP",
+          "pronunciation": "op",
+          "english": "22"
+        },
+        {
+          "pos": "10.14",
+          "enochian": "EOPHAN",
+          "pronunciation": "eóphan",
+          "english": "of lamentation"
+        },
+        {
+          "pos": "10.15",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "10.16",
+          "enochian": "RACLIR",
+          "pronunciation": "raclir",
+          "english": "weaping"
+        },
+        {
+          "pos": "10.17",
+          "enochian": "MAASI",
+          "pronunciation": "madsi",
+          "english": "Layd up"
+        },
+        {
+          "pos": "10.18",
+          "enochian": "BAGLE",
+          "pronunciation": "bagle",
+          "english": "for"
+        },
+        {
+          "pos": "10.19",
+          "enochian": "CAOSGI",
+          "pronunciation": "caosgi",
+          "english": "the earth"
+        },
+        {
+          "pos": "10.20",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "10.21",
+          "enochian": "IALPON",
+          "pronunciation": "ialpon",
+          "english": "burn"
+        },
+        {
+          "pos": "10.22",
+          "enochian": "DOSIG",
+          "pronunciation": "dosig",
+          "english": "night"
+        },
+        {
+          "pos": "10.23",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "10.24",
+          "enochian": "BASGIM",
+          "pronunciation": "basgim",
+          "english": "day:"
+        },
+        {
+          "pos": "10.25",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "10.26",
+          "enochian": "OXEX",
+          "pronunciation": "oxex",
+          "english": "vomit out"
+        },
+        {
+          "pos": "10.27",
+          "enochian": "DAZIZ",
+          "pronunciation": "dazís",
+          "english": "the heds"
+        },
+        {
+          "pos": "10.28",
+          "enochian": "SIATRIS",
+          "pronunciation": "sidtris",
+          "english": "of scorpions"
+        },
+        {
+          "pos": "10.29",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "10.30",
+          "enochian": "SALBROX",
+          "pronunciation": "salbrox",
+          "english": "live sulphur"
+        },
+        {
+          "pos": "10.31",
+          "enochian": "CINXIR",
+          "pronunciation": "cynxir",
+          "english": "myngled"
+        },
+        {
+          "pos": "10.32",
+          "enochian": "FABOAN",
+          "pronunciation": "fabóan",
+          "english": "with poyson"
+        },
+        {
+          "pos": "10.33",
+          "enochian": "UNAL",
+          "pronunciation": "Vnál-chis",
+          "english": "These"
+        },
+        {
+          "pos": "10.34",
+          "enochian": "CHIS",
+          "pronunciation": "",
+          "english": "be‡"
+        },
+        {
+          "pos": "10.35",
+          "enochian": "CONST",
+          "pronunciation": "const",
+          "english": "The Thunders"
+        },
+        {
+          "pos": "10.36",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "that"
+        },
+        {
+          "pos": "10.37",
+          "enochian": "DAOX",
+          "pronunciation": "dáox",
+          "english": "5678"
+        },
+        {
+          "pos": "10.38",
+          "enochian": "COCASB",
+          "pronunciation": "cocasb",
+          "english": "tymes"
+        },
+        {
+          "pos": "10.39",
+          "enochian": "OL",
+          "pronunciation": "ol",
+          "english": "in the 24th part"
+        },
+        {
+          "pos": "10.40",
+          "enochian": "OANIO",
+          "pronunciation": "oánío",
+          "english": "of a moment"
+        },
+        {
+          "pos": "10.41",
+          "enochian": "YOR",
+          "pronunciation": "yor",
+          "english": "rore"
+        },
+        {
+          "pos": "10.42",
+          "enochian": "EORS",
+          "pronunciation": "",
+          "english": "with a hundred§"
+        },
+        {
+          "pos": "10.43",
+          "enochian": "MICAOLI",
+          "pronunciation": "vóhim",
+          "english": "mighty"
+        },
+        {
+          "pos": "10.44",
+          "enochian": "OL",
+          "pronunciation": "ol",
+          "english": ""
+        },
+        {
+          "pos": "10.45",
+          "enochian": "GIXYAX",
+          "pronunciation": "gizyax",
+          "english": "earthquakes"
+        },
+        {
+          "pos": "10.46",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "10.47",
+          "enochian": "MATB",
+          "pronunciation": "eórs",
+          "english": "a thousand"
+        },
+        {
+          "pos": "10.48",
+          "enochian": "COCASB",
+          "pronunciation": "cocasg",
+          "english": "tymes*"
+        },
+        {
+          "pos": "10.49",
+          "enochian": "PLOSI",
+          "pronunciation": "plosi",
+          "english": "as many"
+        },
+        {
+          "pos": "10.50",
+          "enochian": "MOLUI",
+          "pronunciation": "molui",
+          "english": "surges"
+        },
+        {
+          "pos": "10.51",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "10.52",
+          "enochian": "PAGEIP",
+          "pronunciation": "pagéip",
+          "english": "rest not"
+        },
+        {
+          "pos": "10.53",
+          "enochian": "LARAG",
+          "pronunciation": "Larag",
+          "english": "neyther"
+        },
+        {
+          "pos": "10.54",
+          "enochian": "OM",
+          "pronunciation": "om",
+          "english": "know"
+        },
+        {
+          "pos": "10.55",
+          "enochian": "DROLN",
+          "pronunciation": "droln",
+          "english": "at any"
+        },
+        {
+          "pos": "10.56",
+          "enochian": "MATORB",
+          "pronunciation": "matorb†",
+          "english": ""
+        },
+        {
+          "pos": "10.57",
+          "enochian": "COCASB",
+          "pronunciation": "cocasb",
+          "english": "tyme"
+        },
+        {
+          "pos": "10.58",
+          "enochian": "EMNA",
+          "pronunciation": "emna",
+          "english": "here"
+        },
+        {
+          "pos": "10.59",
+          "enochian": "L",
+          "pronunciation": "L",
+          "english": "One"
+        },
+        {
+          "pos": "10.60",
+          "enochian": "PATRALX",
+          "pronunciation": "patralx",
+          "english": "rock"
+        },
+        {
+          "pos": "10.61",
+          "enochian": "YOLCI",
+          "pronunciation": "yolci",
+          "english": "bringeth forth"
+        },
+        {
+          "pos": "10.62",
+          "enochian": "MATB",
+          "pronunciation": "matb",
+          "english": "1000"
+        },
+        {
+          "pos": "10.63",
+          "enochian": "NOMIG",
+          "pronunciation": "nomig",
+          "english": "even as"
+        },
+        {
+          "pos": "10.64",
+          "enochian": "MONONS",
+          "pronunciation": "monons",
+          "english": "the hart"
+        },
+        {
+          "pos": "10.65",
+          "enochian": "OLORA",
+          "pronunciation": "olóra",
+          "english": "of man"
+        },
+        {
+          "pos": "10.66",
+          "enochian": "GNAY",
+          "pronunciation": "gnay",
+          "english": "doth"
+        },
+        {
+          "pos": "10.67",
+          "enochian": "ANGELARD",
+          "pronunciation": "angélard",
+          "english": "his thowghts"
+        },
+        {
+          "pos": "10.68",
+          "enochian": "OHIO",
+          "pronunciation": "Ohio",
+          "english": "wo"
+        },
+        {
+          "pos": "10.69",
+          "enochian": "OHIO",
+          "pronunciation": "Ohio",
+          "english": "wo"
+        },
+        {
+          "pos": "10.70",
+          "enochian": "OHIO",
+          "pronunciation": "Ohio",
+          "english": "wo"
+        },
+        {
+          "pos": "10.71",
+          "enochian": "OHIO",
+          "pronunciation": "Ohio",
+          "english": "wo"
+        },
+        {
+          "pos": "10.72",
+          "enochian": "OHIO",
+          "pronunciation": "Ohio",
+          "english": "wo"
+        },
+        {
+          "pos": "10.73",
+          "enochian": "OHIO",
+          "pronunciation": "Ohio",
+          "english": "wo"
+        },
+        {
+          "pos": "10.74",
+          "enochian": "NOIB",
+          "pronunciation": "noib",
+          "english": "yea"
+        },
+        {
+          "pos": "10.75",
+          "enochian": "OHIO",
+          "pronunciation": "Ohio",
+          "english": "wo"
+        },
+        {
+          "pos": "10.76",
+          "enochian": "CAOSGON",
+          "pronunciation": "Caósgon",
+          "english": "be to the earth"
+        },
+        {
+          "pos": "10.77",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "For"
+        },
+        {
+          "pos": "10.78",
+          "enochian": "MADRID",
+          "pronunciation": "madrid",
+          "english": "her iniquitie"
+        },
+        {
+          "pos": "10.79",
+          "enochian": "I",
+          "pronunciation": "i",
+          "english": "is"
+        },
+        {
+          "pos": "10.80",
+          "enochian": "ZIROP",
+          "pronunciation": "ziróp",
+          "english": "was"
+        },
+        {
+          "pos": "10.81",
+          "enochian": "CHISO",
+          "pronunciation": "chiso",
+          "english": "and shal be"
+        },
+        {
+          "pos": "10.82",
+          "enochian": "DRILPA",
+          "pronunciation": "drilpa",
+          "english": "great."
+        },
+        {
+          "pos": "10.83",
+          "enochian": "NIISO",
+          "pronunciation": "Niiso",
+          "english": "Come away"
+        },
+        {
+          "pos": "10.84",
+          "enochian": "CRIP",
+          "pronunciation": "crip",
+          "english": "but"
+        },
+        {
+          "pos": "10.85",
+          "enochian": "IP",
+          "pronunciation": "ip",
+          "english": "not"
+        },
+        {
+          "pos": "10.86",
+          "enochian": "NIDALI",
+          "pronunciation": "nidáli",
+          "english": "your noyses."
+        }
+      ],
+      "footnotes": [
+        "10.34: CHIS usually is 'are'.",
+        "10.42 to 10.47: Large lacuna in Sl. MS. 3191. Dee put the English as marginalia. Dee experienced much confusion in this passage. See the July 5, 1584 working in Royal Appendix XLVI or True Relation. My reconstruction is only partial.",
+        "10.48: COCASB for 'times'; see 3.46, 9.75, 10.38, 10.57, 30.124.",
+        "10.56: English missing in Sl. MS. 3191; Laycock gives MATORB as 'echoing'."
+      ]
+    },
+    {
+      "number": 11,
+      "title": "The Eleventh Key",
+      "enochianText": "OXIAYAL HOLDO OD ZIROM O CORAXO DS ZILDAR RAASY OD VABZIR CAMLIAX OD BAHAL NIISO OD ALDON SALMAN TELOCH CASARMAN HOLQ OD T I TA ZCHIS SOBA CORMP I GA NIISO BAGLE ABRAMG NONCP ZACAR CA OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "11.1",
+          "enochian": "OXIAYAL",
+          "pronunciation": "Oxiayal",
+          "english": "The mighty seat"
+        },
+        {
+          "pos": "11.2",
+          "enochian": "HOLDO",
+          "pronunciation": "holdo",
+          "english": "groaned"
+        },
+        {
+          "pos": "11.3",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "11.4",
+          "enochian": "ZIROM",
+          "pronunciation": "zirom",
+          "english": "they were"
+        },
+        {
+          "pos": "11.5",
+          "enochian": "O",
+          "pronunciation": "O",
+          "english": ":5:"
+        },
+        {
+          "pos": "11.6",
+          "enochian": "CORAXO",
+          "pronunciation": "coráxo",
+          "english": "thunders"
+        },
+        {
+          "pos": "11.7",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "11.8",
+          "enochian": "ZILDAR",
+          "pronunciation": "zildar",
+          "english": "flew"
+        },
+        {
+          "pos": "11.9",
+          "enochian": "RAASY",
+          "pronunciation": "raásy",
+          "english": "into the East"
+        },
+        {
+          "pos": "11.10",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "11.11",
+          "enochian": "VABZIR",
+          "pronunciation": "vabzir",
+          "english": "the Egle"
+        },
+        {
+          "pos": "11.12",
+          "enochian": "CAMLIAX",
+          "pronunciation": "camlíax",
+          "english": "spake"
+        },
+        {
+          "pos": "11.13",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "11.14",
+          "enochian": "BAHAL",
+          "pronunciation": "búhal",
+          "english": "cryed with a lowde voyce"
+        },
+        {
+          "pos": "11.15",
+          "enochian": "NIISO",
+          "pronunciation": "Niiso",
+          "english": "Come awaye"
+        },
+        {
+          "pos": "11.16",
+          "enochian": "OD",
+          "pronunciation": "",
+          "english": "and"
+        },
+        {
+          "pos": "11.17",
+          "enochian": "ALDON",
+          "pronunciation": "",
+          "english": "they gathered them together in"
+        },
+        {
+          "pos": "11.18",
+          "enochian": "SALMAN",
+          "pronunciation": "salman",
+          "english": "the house"
+        },
+        {
+          "pos": "11.19",
+          "enochian": "TELOCH",
+          "pronunciation": "telóch",
+          "english": "of death"
+        },
+        {
+          "pos": "11.20",
+          "enochian": "CASARMAN",
+          "pronunciation": "Ca-sár-man",
+          "english": "of whome"
+        },
+        {
+          "pos": "11.21",
+          "enochian": "HOLQ",
+          "pronunciation": "hol-q",
+          "english": "it is measured"
+        },
+        {
+          "pos": "11.22",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "11.23",
+          "enochian": "T",
+          "pronunciation": "ti",
+          "english": "it"
+        },
+        {
+          "pos": "11.24",
+          "enochian": "I",
+          "pronunciation": "",
+          "english": "is"
+        },
+        {
+          "pos": "11.25",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "11.26",
+          "enochian": "ZCHIS",
+          "pronunciation": "z-chis",
+          "english": "they are"
+        },
+        {
+          "pos": "11.27",
+          "enochian": "SOBA",
+          "pronunciation": "soba",
+          "english": "whose"
+        },
+        {
+          "pos": "11.28",
+          "enochian": "CORMP",
+          "pronunciation": "cormf",
+          "english": "number"
+        },
+        {
+          "pos": "11.29",
+          "enochian": "I",
+          "pronunciation": "i",
+          "english": "is"
+        },
+        {
+          "pos": "11.30",
+          "enochian": "GA",
+          "pronunciation": "ga",
+          "english": "31."
+        },
+        {
+          "pos": "11.31",
+          "enochian": "NIISO",
+          "pronunciation": "Niisa",
+          "english": "Come away"
+        },
+        {
+          "pos": "11.32",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "For"
+        },
+        {
+          "pos": "11.33",
+          "enochian": "ABRAMG",
+          "pronunciation": "abramg",
+          "english": "I have prepared"
+        },
+        {
+          "pos": "11.34",
+          "enochian": "NONCP",
+          "pronunciation": "noncp",
+          "english": "for you"
+        },
+        {
+          "pos": "11.35",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACARe",
+          "english": "Move"
+        },
+        {
+          "pos": "11.36",
+          "enochian": "CA",
+          "pronunciation": "ca",
+          "english": "therfore"
+        },
+        {
+          "pos": "11.37",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "11.38",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "shew your selves"
+        },
+        {
+          "pos": "11.39",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "open"
+        },
+        {
+          "pos": "11.40",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the Mysteries"
+        },
+        {
+          "pos": "11.41",
+          "enochian": "QAA",
+          "pronunciation": "Qad",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "11.42",
+          "enochian": "ZORGE",
+          "pronunciation": "Zorge",
+          "english": "Be friendely unto me"
+        },
+        {
+          "pos": "11.43",
+          "enochian": "LAP",
+          "pronunciation": "lap",
+          "english": "for"
+        },
+        {
+          "pos": "11.44",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am"
+        },
+        {
+          "pos": "11.45",
+          "enochian": "NOCO",
+          "pronunciation": "noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "11.46",
+          "enochian": "MAD",
+          "pronunciation": "Mad",
+          "english": "of the same your God"
+        },
+        {
+          "pos": "11.47",
+          "enochian": "HOATH",
+          "pronunciation": "Hoath",
+          "english": "the true worshipper"
+        },
+        {
+          "pos": "11.48",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "11.16 to 11.17: Lacuna in Sl. MS. 3191. The Enochian is missing and the English is in the margin. Missing word probably has ALDO- stem; see 9.30, 17.21.",
+        "11.35: ZACARE possible alternate spelling for ZACAR? ZACAR appears 14 times in the opus; ZACARE twice; see 1.79."
+      ]
+    },
+    {
+      "number": 12,
+      "title": "The Twelfth Key",
+      "enochianText": "NONCI DS SONF BABAGE OD CHIS OB HUBARO TIBIBP ALLAR ATRAAH OD EF DRIX FAFEN MAIN AR ENAY OVOF SOBA DOOAIN AAI I VONPH ZACAR GOHUS OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "12.1",
+          "enochian": "NONCI",
+          "pronunciation": "Nonci",
+          "english": "O you"
+        },
+        {
+          "pos": "12.2",
+          "enochian": "DS",
+          "pronunciation": "dsonf",
+          "english": "that"
+        },
+        {
+          "pos": "12.3",
+          "enochian": "SONF",
+          "pronunciation": "",
+          "english": "rayne"
+        },
+        {
+          "pos": "12.4",
+          "enochian": "BABAGE",
+          "pronunciation": "Babage",
+          "english": "in the sowth"
+        },
+        {
+          "pos": "12.5",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "12.6",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "12.7",
+          "enochian": "OB",
+          "pronunciation": "ob",
+          "english": ":28:"
+        },
+        {
+          "pos": "12.8",
+          "enochian": "HUBARO",
+          "pronunciation": "hubído",
+          "english": "the lanterns"
+        },
+        {
+          "pos": "12.9",
+          "enochian": "TIBIBP",
+          "pronunciation": "tibibp",
+          "english": "of sorrow"
+        },
+        {
+          "pos": "12.10",
+          "enochian": "ALLAR",
+          "pronunciation": "allar",
+          "english": "bynde up"
+        },
+        {
+          "pos": "12.11",
+          "enochian": "ATRAAH",
+          "pronunciation": "atradh",
+          "english": "your girdles"
+        },
+        {
+          "pos": "12.12",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "12.13",
+          "enochian": "EF",
+          "pronunciation": "ef",
+          "english": "viset us"
+        },
+        {
+          "pos": "12.14",
+          "enochian": "DRIX",
+          "pronunciation": "drix",
+          "english": "Bring down"
+        },
+        {
+          "pos": "12.15",
+          "enochian": "FAFEN",
+          "pronunciation": "fafen",
+          "english": "your trayn"
+        },
+        {
+          "pos": "12.16",
+          "enochian": "MAIN",
+          "pronunciation": "Mian",
+          "english": "3663"
+        },
+        {
+          "pos": "12.17",
+          "enochian": "AR",
+          "pronunciation": "ar",
+          "english": "that"
+        },
+        {
+          "pos": "12.18",
+          "enochian": "ENAY",
+          "pronunciation": "Enay",
+          "english": "the Lord"
+        },
+        {
+          "pos": "12.19",
+          "enochian": "OVOF",
+          "pronunciation": "ovof",
+          "english": "may be magnified"
+        },
+        {
+          "pos": "12.20",
+          "enochian": "SOBA",
+          "pronunciation": "soba",
+          "english": "whose"
+        },
+        {
+          "pos": "12.21",
+          "enochian": "DOOAIN",
+          "pronunciation": "dooáin",
+          "english": "name"
+        },
+        {
+          "pos": "12.22",
+          "enochian": "AAI",
+          "pronunciation": "aai",
+          "english": "amongst you"
+        },
+        {
+          "pos": "12.23",
+          "enochian": "I",
+          "pronunciation": "i",
+          "english": "is"
+        },
+        {
+          "pos": "12.24",
+          "enochian": "VONPH",
+          "pronunciation": "VONPH",
+          "english": "Wrath"
+        },
+        {
+          "pos": "12.25",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move,"
+        },
+        {
+          "pos": "12.26",
+          "enochian": "GOHUS",
+          "pronunciation": "gohus",
+          "english": "I say,"
+        },
+        {
+          "pos": "12.27",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "12.28",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN,",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "12.29",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "open"
+        },
+        {
+          "pos": "12.30",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the mysteries"
+        },
+        {
+          "pos": "12.31",
+          "enochian": "QAA",
+          "pronunciation": "Qáa,",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "12.32",
+          "enochian": "ZORGE",
+          "pronunciation": "Zorge,",
+          "english": "be friendely unto me"
+        },
+        {
+          "pos": "12.33",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "for"
+        },
+        {
+          "pos": "12.34",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am"
+        },
+        {
+          "pos": "12.35",
+          "enochian": "NOCO",
+          "pronunciation": "noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "12.36",
+          "enochian": "MAD",
+          "pronunciation": "MAD",
+          "english": "of the same your God,"
+        },
+        {
+          "pos": "12.37",
+          "enochian": "HOATH",
+          "pronunciation": "Hoath",
+          "english": "the true worshipper"
+        },
+        {
+          "pos": "12.38",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "12.3: SONF for 'which'; however, DSONF could be a contraction.",
+        "12.8: HUBAR- stem for 'lamp' or 'lantern'; see 5.39, 17.13."
+      ]
+    },
+    {
+      "number": 13,
+      "title": "The Thirteenth Key",
+      "enochianText": "NAPEAI BABAGEN DS BRIN VX OOAONA LRING VONPH DOALIM EOLIS OLLOG ORSBA DS CHIS AFFA MICMA ISRO MAD OD LONSHI TOX DS IUMD AAI GROSB ZACAR OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "13.1",
+          "enochian": "NAPEAI",
+          "pronunciation": "Napéai",
+          "english": "Oh you swords"
+        },
+        {
+          "pos": "13.2",
+          "enochian": "BABAGEN",
+          "pronunciation": "Babágen",
+          "english": "of the sowth"
+        },
+        {
+          "pos": "13.3",
+          "enochian": "DS",
+          "pronunciation": "dsbrin",
+          "english": "which"
+        },
+        {
+          "pos": "13.4",
+          "enochian": "BRIN",
+          "pronunciation": "",
+          "english": "have"
+        },
+        {
+          "pos": "13.5",
+          "enochian": "VX",
+          "pronunciation": "vx",
+          "english": "42"
+        },
+        {
+          "pos": "13.6",
+          "enochian": "OOAONA",
+          "pronunciation": "oodóna",
+          "english": "eyes"
+        },
+        {
+          "pos": "13.7",
+          "enochian": "LRING",
+          "pronunciation": "lring",
+          "english": "to styr up"
+        },
+        {
+          "pos": "13.8",
+          "enochian": "VONPH",
+          "pronunciation": "vonph",
+          "english": "wrath"
+        },
+        {
+          "pos": "13.9",
+          "enochian": "DOALIM",
+          "pronunciation": "doálim",
+          "english": "of synn"
+        },
+        {
+          "pos": "13.10",
+          "enochian": "EOLIS",
+          "pronunciation": "eólis",
+          "english": "making"
+        },
+        {
+          "pos": "13.11",
+          "enochian": "OLLOG",
+          "pronunciation": "ollog",
+          "english": "men"
+        },
+        {
+          "pos": "13.12",
+          "enochian": "ORSBA",
+          "pronunciation": "orsba",
+          "english": "drunken"
+        },
+        {
+          "pos": "13.13",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "13.14",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "13.15",
+          "enochian": "AFFA",
+          "pronunciation": "affa",
+          "english": "empty:"
+        },
+        {
+          "pos": "13.16",
+          "enochian": "MICMA",
+          "pronunciation": "Micma",
+          "english": "Behold"
+        },
+        {
+          "pos": "13.17",
+          "enochian": "ISRO",
+          "pronunciation": "isro",
+          "english": "the promise"
+        },
+        {
+          "pos": "13.18",
+          "enochian": "MAD",
+          "pronunciation": "MAD",
+          "english": "of God"
+        },
+        {
+          "pos": "13.19",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "13.20",
+          "enochian": "LONSHI",
+          "pronunciation": "Lon-shi-tox",
+          "english": "his powre"
+        },
+        {
+          "pos": "13.21",
+          "enochian": "TOX",
+          "pronunciation": "",
+          "english": "which"
+        },
+        {
+          "pos": "13.22",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "is called"
+        },
+        {
+          "pos": "13.23",
+          "enochian": "IUMD",
+          "pronunciation": "ivmd",
+          "english": "amongst you"
+        },
+        {
+          "pos": "13.24",
+          "enochian": "AAI",
+          "pronunciation": "aai",
+          "english": "A bitter sting"
+        },
+        {
+          "pos": "13.25",
+          "enochian": "GROSB",
+          "pronunciation": "GROSB:",
+          "english": "Move"
+        },
+        {
+          "pos": "13.26",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "and"
+        },
+        {
+          "pos": "13.27",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "13.28",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN,",
+          "english": "Open"
+        },
+        {
+          "pos": "13.29",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "the mysteries"
+        },
+        {
+          "pos": "13.30",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "13.31",
+          "enochian": "QAA",
+          "pronunciation": "Qáa,",
+          "english": "Be friendly unto me:"
+        },
+        {
+          "pos": "13.32",
+          "enochian": "ZORGE",
+          "pronunciation": "Zorge,",
+          "english": "for"
+        },
+        {
+          "pos": "13.33",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "I am"
+        },
+        {
+          "pos": "13.34",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "the servant"
+        },
+        {
+          "pos": "13.35",
+          "enochian": "NOCO",
+          "pronunciation": "Noco",
+          "english": "of the same your God"
+        },
+        {
+          "pos": "13.36",
+          "enochian": "MAD",
+          "pronunciation": "MAD,",
+          "english": "The true worshipper"
+        },
+        {
+          "pos": "13.37",
+          "enochian": "HOATH",
+          "pronunciation": "Hoath",
+          "english": "of the Highest."
+        },
+        {
+          "pos": "13.38",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "13.4: BRIN for 'have'; see 9.7, 14.6, 16.7, 17.11.",
+        "13.21: TOX may be a suffix that expresses possession; see 14.23."
+      ]
+    },
+    {
+      "number": 14,
+      "title": "The Fourteenth Key",
+      "enochianText": "NOROMI BAGIE PASBS OIAD DS TRINT MIRC OL THIL DODS TOL HAMI CAOSGO HOMIN DS BRIN OROCH QUAR MICMA BIAL OIAD AISRO TOX DS IUMD AAI BALTIM ZACAR OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "14.1",
+          "enochian": "NOROMI",
+          "pronunciation": "Norómi",
+          "english": "O you sonns"
+        },
+        {
+          "pos": "14.2",
+          "enochian": "BAGIE",
+          "pronunciation": "bagle",
+          "english": "of fury"
+        },
+        {
+          "pos": "14.3",
+          "enochian": "PASBS",
+          "pronunciation": "pasbs",
+          "english": "the dowghters"
+        },
+        {
+          "pos": "14.4",
+          "enochian": "OIAD",
+          "pronunciation": "oiad",
+          "english": "of the Just"
+        },
+        {
+          "pos": "14.5",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "14.6",
+          "enochian": "TRINT",
+          "pronunciation": "trint",
+          "english": "sit"
+        },
+        {
+          "pos": "14.7",
+          "enochian": "MIRC",
+          "pronunciation": "mirc",
+          "english": "uppon"
+        },
+        {
+          "pos": "14.8",
+          "enochian": "OL",
+          "pronunciation": "ol",
+          "english": "24"
+        },
+        {
+          "pos": "14.9",
+          "enochian": "THIL",
+          "pronunciation": "thil",
+          "english": "seats"
+        },
+        {
+          "pos": "14.10",
+          "enochian": "DODS",
+          "pronunciation": "dods",
+          "english": "vexing"
+        },
+        {
+          "pos": "14.11",
+          "enochian": "TOL",
+          "pronunciation": "tolham",
+          "english": "all"
+        },
+        {
+          "pos": "14.12",
+          "enochian": "HAMI",
+          "pronunciation": "",
+          "english": "creatures"
+        },
+        {
+          "pos": "14.13",
+          "enochian": "CAOSGO",
+          "pronunciation": "caósgo",
+          "english": "of the earth"
+        },
+        {
+          "pos": "14.14",
+          "enochian": "HOMIN",
+          "pronunciation": "Homin",
+          "english": "with age"
+        },
+        {
+          "pos": "14.15",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "14.16",
+          "enochian": "BRIN",
+          "pronunciation": "brin",
+          "english": "have"
+        },
+        {
+          "pos": "14.17",
+          "enochian": "OROCH",
+          "pronunciation": "oroch",
+          "english": "under you"
+        },
+        {
+          "pos": "14.18",
+          "enochian": "QUAR",
+          "pronunciation": "Quar",
+          "english": "1636"
+        },
+        {
+          "pos": "14.19",
+          "enochian": "MICMA",
+          "pronunciation": "Micma",
+          "english": "Behold"
+        },
+        {
+          "pos": "14.20",
+          "enochian": "BIAL",
+          "pronunciation": "bial",
+          "english": "the voyce"
+        },
+        {
+          "pos": "14.21",
+          "enochian": "OIAD",
+          "pronunciation": "oiad",
+          "english": "of God"
+        },
+        {
+          "pos": "14.22",
+          "enochian": "AISRO",
+          "pronunciation": "aisro",
+          "english": "promys"
+        },
+        {
+          "pos": "14.23",
+          "enochian": "TOX",
+          "pronunciation": "tox",
+          "english": "of him"
+        },
+        {
+          "pos": "14.24",
+          "enochian": "DS",
+          "pronunciation": "dsivm",
+          "english": "which"
+        },
+        {
+          "pos": "14.25",
+          "enochian": "IUMD",
+          "pronunciation": "",
+          "english": "is called"
+        },
+        {
+          "pos": "14.26",
+          "enochian": "AAI",
+          "pronunciation": "aai",
+          "english": "amongst you"
+        },
+        {
+          "pos": "14.27",
+          "enochian": "BALTIM",
+          "pronunciation": "Baltim",
+          "english": "Furye, or Extreme Justice"
+        },
+        {
+          "pos": "14.28",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move"
+        },
+        {
+          "pos": "14.29",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "14.30",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "14.31",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "open"
+        },
+        {
+          "pos": "14.32",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the mysteries"
+        },
+        {
+          "pos": "14.33",
+          "enochian": "QAA",
+          "pronunciation": "Qáa,",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "14.34",
+          "enochian": "ZORGE",
+          "pronunciation": "Zorge,",
+          "english": "Be friendely unto me"
+        },
+        {
+          "pos": "14.35",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "for"
+        },
+        {
+          "pos": "14.36",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am"
+        },
+        {
+          "pos": "14.37",
+          "enochian": "NOCO",
+          "pronunciation": "Noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "14.38",
+          "enochian": "MAD",
+          "pronunciation": "MAD,",
+          "english": "of the same your God"
+        },
+        {
+          "pos": "14.39",
+          "enochian": "HOATH",
+          "pronunciation": "hoath",
+          "english": "the true worshipper"
+        },
+        {
+          "pos": "14.40",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "14.25: IUMD for 'is called'; see 13.23, 18.19."
+      ]
+    },
+    {
+      "number": 15,
+      "title": "The Fifteenth Key",
+      "enochianText": "ILS TABAAM L IALPRT CASARMAN UPAAH CHIS DARG DS OADO CAOSGI ORSCOR DS OMAX MONASCI BAEOIVB OD EMETGIS IAIADIX ZACAR OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "15.1",
+          "enochian": "ILS",
+          "pronunciation": "Ils",
+          "english": "O thow"
+        },
+        {
+          "pos": "15.2",
+          "enochian": "TABAAM",
+          "pronunciation": "tabáan",
+          "english": "the governor"
+        },
+        {
+          "pos": "15.3",
+          "enochian": "L",
+          "pronunciation": "Lidlprt",
+          "english": "of the first"
+        },
+        {
+          "pos": "15.4",
+          "enochian": "IALPRT",
+          "pronunciation": "",
+          "english": "flame"
+        },
+        {
+          "pos": "15.5",
+          "enochian": "CASARMAN",
+          "pronunciation": "casarman",
+          "english": "under whose"
+        },
+        {
+          "pos": "15.6",
+          "enochian": "UPAAH",
+          "pronunciation": "vpáahi",
+          "english": "wyngs"
+        },
+        {
+          "pos": "15.7",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "15.8",
+          "enochian": "DARG",
+          "pronunciation": "darg",
+          "english": "6739"
+        },
+        {
+          "pos": "15.9",
+          "enochian": "DS",
+          "pronunciation": "dsoádo",
+          "english": "which"
+        },
+        {
+          "pos": "15.10",
+          "enochian": "OADO",
+          "pronunciation": "",
+          "english": "weave"
+        },
+        {
+          "pos": "15.11",
+          "enochian": "CAOSGI",
+          "pronunciation": "caósgi",
+          "english": "the earth"
+        },
+        {
+          "pos": "15.12",
+          "enochian": "ORSCOR",
+          "pronunciation": "orscor",
+          "english": "with drynes"
+        },
+        {
+          "pos": "15.13",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "15.14",
+          "enochian": "OMAX",
+          "pronunciation": "ómax",
+          "english": "knowest"
+        },
+        {
+          "pos": "15.15",
+          "enochian": "MONASCI",
+          "pronunciation": "monasci",
+          "english": "the great name"
+        },
+        {
+          "pos": "15.16",
+          "enochian": "BAEOIVB",
+          "pronunciation": "Baeouib",
+          "english": "Righteousness"
+        },
+        {
+          "pos": "15.17",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "15.18",
+          "enochian": "EMETGIS",
+          "pronunciation": "emetgis",
+          "english": "the scale"
+        },
+        {
+          "pos": "15.19",
+          "enochian": "IAIADIX",
+          "pronunciation": "iaiddix",
+          "english": "of Honor"
+        },
+        {
+          "pos": "15.20",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move"
+        },
+        {
+          "pos": "15.21",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "15.22",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN,",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "15.23",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "open"
+        },
+        {
+          "pos": "15.24",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the mysteries"
+        },
+        {
+          "pos": "15.25",
+          "enochian": "QAA",
+          "pronunciation": "Qáa",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "15.26",
+          "enochian": "ZORGE",
+          "pronunciation": "zorge,",
+          "english": "Be friendely unto me"
+        },
+        {
+          "pos": "15.27",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "for"
+        },
+        {
+          "pos": "15.28",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am"
+        },
+        {
+          "pos": "15.29",
+          "enochian": "NOCO",
+          "pronunciation": "Noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "15.30",
+          "enochian": "MAD",
+          "pronunciation": "MAD,",
+          "english": "of the same your God"
+        },
+        {
+          "pos": "15.31",
+          "enochian": "HOATH",
+          "pronunciation": "hoath",
+          "english": "the true worshipper"
+        },
+        {
+          "pos": "15.32",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "15.4: IALPRT for 'flame'; see 16.3, 17.3; IALPRT only appears in contraction forms, but see also 18.5 & 2.10; IALPRG for 'burning flame'.",
+        "15.16: Why not BALTOH for 'righteousness'? (See 1.76, 2.23, 9.67.) Could Baeouib be a proper noun?"
+      ]
+    },
+    {
+      "number": 16,
+      "title": "The Sixteenth Key",
+      "enochianText": "ILS VIV IALPRT SALMAN BALT DS BRIN ACROODZI BUSD OD BLIORAX BALIT DS INSI CAOSG LUSDAN EMOD DS OM OD TLIOB HAMI DRILPA GEH ILS MADZILODARP ZACAR OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "16.1",
+          "enochian": "ILS",
+          "pronunciation": "Ils",
+          "english": "Oh thow"
+        },
+        {
+          "pos": "16.2",
+          "enochian": "VIV",
+          "pronunciation": "viuiálprt",
+          "english": "second"
+        },
+        {
+          "pos": "16.3",
+          "enochian": "IALPRT",
+          "pronunciation": "",
+          "english": "flame"
+        },
+        {
+          "pos": "16.4",
+          "enochian": "SALMAN",
+          "pronunciation": "salman",
+          "english": "the house"
+        },
+        {
+          "pos": "16.5",
+          "enochian": "BALT",
+          "pronunciation": "balt",
+          "english": "of Justice"
+        },
+        {
+          "pos": "16.6",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "16.7",
+          "enochian": "BRIN",
+          "pronunciation": "",
+          "english": "hast"
+        },
+        {
+          "pos": "16.8",
+          "enochian": "ACROODZI",
+          "pronunciation": "acroódzi",
+          "english": "thy beginning"
+        },
+        {
+          "pos": "16.9",
+          "enochian": "BUSD",
+          "pronunciation": "busd",
+          "english": "in glory:"
+        },
+        {
+          "pos": "16.10",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "16.11",
+          "enochian": "BLIORAX",
+          "pronunciation": "blióxax",
+          "english": "shalt comfort"
+        },
+        {
+          "pos": "16.12",
+          "enochian": "BALIT",
+          "pronunciation": "balit",
+          "english": "the iust:"
+        },
+        {
+          "pos": "16.13",
+          "enochian": "DS",
+          "pronunciation": "dsinsi",
+          "english": "which"
+        },
+        {
+          "pos": "16.14",
+          "enochian": "INSI",
+          "pronunciation": "",
+          "english": "walkest"
+        },
+        {
+          "pos": "16.15",
+          "enochian": "CAOSG",
+          "pronunciation": "caosg",
+          "english": "on the earth"
+        },
+        {
+          "pos": "16.16",
+          "enochian": "LUSDAN",
+          "pronunciation": "lusdan",
+          "english": "with feete"
+        },
+        {
+          "pos": "16.17",
+          "enochian": "EMOD",
+          "pronunciation": "Emod",
+          "english": "876"
+        },
+        {
+          "pos": "16.18",
+          "enochian": "DS",
+          "pronunciation": "dsom",
+          "english": "that"
+        },
+        {
+          "pos": "16.19",
+          "enochian": "OM",
+          "pronunciation": "",
+          "english": "understand"
+        },
+        {
+          "pos": "16.20",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "16.21",
+          "enochian": "TLIOB",
+          "pronunciation": "tliob",
+          "english": "separate"
+        },
+        {
+          "pos": "16.22",
+          "enochian": "HAMI",
+          "pronunciation": "",
+          "english": "creatures:"
+        },
+        {
+          "pos": "16.23",
+          "enochian": "DRILPA",
+          "pronunciation": "drilpa",
+          "english": "great"
+        },
+        {
+          "pos": "16.24",
+          "enochian": "GEH",
+          "pronunciation": "geh",
+          "english": "art"
+        },
+        {
+          "pos": "16.25",
+          "enochian": "ILS",
+          "pronunciation": "yls",
+          "english": "thow"
+        },
+        {
+          "pos": "16.26",
+          "enochian": "MADZILODARP",
+          "pronunciation": "Madzilodarp",
+          "english": "in the God of stretch-forth-and-conquer."
+        },
+        {
+          "pos": "16.27",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move"
+        },
+        {
+          "pos": "16.28",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "16.29",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "16.30",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "Open"
+        },
+        {
+          "pos": "16.31",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the mysteries"
+        },
+        {
+          "pos": "16.32",
+          "enochian": "QAA",
+          "pronunciation": "Qáa",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "16.33",
+          "enochian": "ZORGE",
+          "pronunciation": "zorge,",
+          "english": "Be friendely unto me"
+        },
+        {
+          "pos": "16.34",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "for"
+        },
+        {
+          "pos": "16.35",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am"
+        },
+        {
+          "pos": "16.36",
+          "enochian": "NOCO",
+          "pronunciation": "Noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "16.37",
+          "enochian": "MAD",
+          "pronunciation": "Mad",
+          "english": "of the same your God"
+        },
+        {
+          "pos": "16.38",
+          "enochian": "HOATH",
+          "pronunciation": "hoath",
+          "english": "the true worshipper"
+        },
+        {
+          "pos": "16.39",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "16.19: OM for 'understand' or 'know'; see 2.4, 10.54, 30.113.",
+        "16.22: HAM- stem for 'creatures'; see 7.25, 14.12."
+      ]
+    },
+    {
+      "number": 17,
+      "title": "The Seventeenth Key",
+      "enochianText": "ILS D IALPRT SOBA UPAAH CHIS NANBA ZIXLAY DODSIH OD BRINT FAXS HUBARO TUSTAX YLSI SOBA IAD I VONPOVNPH ALDON DAXIL OD TOATAR ZACAR OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "17.1",
+          "enochian": "ILS",
+          "pronunciation": "Ils",
+          "english": "O thow"
+        },
+        {
+          "pos": "17.2",
+          "enochian": "D",
+          "pronunciation": "dialprt",
+          "english": "third"
+        },
+        {
+          "pos": "17.3",
+          "enochian": "IALPRT",
+          "pronunciation": "",
+          "english": "flame"
+        },
+        {
+          "pos": "17.4",
+          "enochian": "SOBA",
+          "pronunciation": "soba",
+          "english": "whose"
+        },
+        {
+          "pos": "17.5",
+          "enochian": "UPAAH",
+          "pronunciation": "vpáah",
+          "english": "wyngs"
+        },
+        {
+          "pos": "17.6",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "17.7",
+          "enochian": "NANBA",
+          "pronunciation": "nanba",
+          "english": "thorns"
+        },
+        {
+          "pos": "17.8",
+          "enochian": "ZIXLAY",
+          "pronunciation": "zixlay",
+          "english": "to styr up"
+        },
+        {
+          "pos": "17.9",
+          "enochian": "DODSIH",
+          "pronunciation": "dodsih",
+          "english": "vexation:"
+        },
+        {
+          "pos": "17.10",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "17.11",
+          "enochian": "BRINT",
+          "pronunciation": "brint",
+          "english": "hast"
+        },
+        {
+          "pos": "17.12",
+          "enochian": "FAXS",
+          "pronunciation": "Faxs",
+          "english": "7336"
+        },
+        {
+          "pos": "17.13",
+          "enochian": "HUBARO",
+          "pronunciation": "hubáro",
+          "english": "lamps living"
+        },
+        {
+          "pos": "17.14",
+          "enochian": "TUSTAX",
+          "pronunciation": "tustax",
+          "english": "going"
+        },
+        {
+          "pos": "17.15",
+          "enochian": "YLSI",
+          "pronunciation": "ylsi,",
+          "english": "before the"
+        },
+        {
+          "pos": "17.16",
+          "enochian": "SOBA",
+          "pronunciation": "sobaiad",
+          "english": "whose"
+        },
+        {
+          "pos": "17.17",
+          "enochian": "IAD",
+          "pronunciation": "",
+          "english": "God"
+        },
+        {
+          "pos": "17.18",
+          "enochian": "I",
+          "pronunciation": "i",
+          "english": "is"
+        },
+        {
+          "pos": "17.19",
+          "enochian": "VONPOVNPH",
+          "pronunciation": "vónpóvnph",
+          "english": "Wrath in Angre"
+        },
+        {
+          "pos": "17.20",
+          "enochian": "ALDON",
+          "pronunciation": "Aldon",
+          "english": "Gyrd up"
+        },
+        {
+          "pos": "17.21",
+          "enochian": "DAXIL",
+          "pronunciation": "daxil",
+          "english": "thy loynes"
+        },
+        {
+          "pos": "17.22",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "17.23",
+          "enochian": "TOATAR",
+          "pronunciation": "todtar:",
+          "english": "harken"
+        },
+        {
+          "pos": "17.24",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move"
+        },
+        {
+          "pos": "17.25",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "17.26",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "17.27",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "Open"
+        },
+        {
+          "pos": "17.28",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the mysteries"
+        },
+        {
+          "pos": "17.29",
+          "enochian": "QAA",
+          "pronunciation": "Qáa,",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "17.30",
+          "enochian": "ZORGE",
+          "pronunciation": "zorge,",
+          "english": "Be friendely unto me"
+        },
+        {
+          "pos": "17.31",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "for"
+        },
+        {
+          "pos": "17.32",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am"
+        },
+        {
+          "pos": "17.33",
+          "enochian": "NOCO",
+          "pronunciation": "Noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "17.34",
+          "enochian": "MAD",
+          "pronunciation": "Mad",
+          "english": "of the same your God"
+        },
+        {
+          "pos": "17.35",
+          "enochian": "HOATH",
+          "pronunciation": "hoath",
+          "english": "the true worshipper"
+        },
+        {
+          "pos": "17.36",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": [
+        "17.19: Contraction of VONPHO-VONPH or 'of wrath'-'wrath'. This appears to be a peculiar kind of emphatic redundancy."
+      ]
+    },
+    {
+      "number": 18,
+      "title": "The Eighteenth Key",
+      "enochianText": "ILS MICAOLZ OLPIRT OD IALPRG BLIORS DS ODO BUSDIR OIAD OVOARS CAOSGO CASARMG LAIAD ERAN BRINTS CASASAM DS IUMD ACLONDOH MOZ OD MAOFFAS BOLP COMO BLIORT PAMBT ZACAR OD ZAMRAN ODO CICLE QAA ZORGE LAP ZIRDO NOCO MAD HOATH IAIDA",
+      "words": [
+        {
+          "pos": "18.1",
+          "enochian": "ILS",
+          "pronunciation": "Ils",
+          "english": "O thow"
+        },
+        {
+          "pos": "18.2",
+          "enochian": "MICAOLZ",
+          "pronunciation": "Micaólz",
+          "english": "mighty"
+        },
+        {
+          "pos": "18.3",
+          "enochian": "OLPIRT",
+          "pronunciation": "Olprit",
+          "english": "light"
+        },
+        {
+          "pos": "18.4",
+          "enochian": "OD",
+          "pronunciation": "",
+          "english": "and"
+        },
+        {
+          "pos": "18.5",
+          "enochian": "IALPRG",
+          "pronunciation": "ialprg",
+          "english": "burning flame"
+        },
+        {
+          "pos": "18.6",
+          "enochian": "BLIORS",
+          "pronunciation": "Bliors",
+          "english": "of comfort"
+        },
+        {
+          "pos": "18.7",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "18.8",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "openest"
+        },
+        {
+          "pos": "18.9",
+          "enochian": "BUSDIR",
+          "pronunciation": "Busdir",
+          "english": "the glory"
+        },
+        {
+          "pos": "18.10",
+          "enochian": "OIAD",
+          "pronunciation": "oiad",
+          "english": "of God"
+        },
+        {
+          "pos": "18.11",
+          "enochian": "OVOARS",
+          "pronunciation": "oudars",
+          "english": "to the center"
+        },
+        {
+          "pos": "18.12",
+          "enochian": "CAOSGO",
+          "pronunciation": "caósgo",
+          "english": "of the erth"
+        },
+        {
+          "pos": "18.13",
+          "enochian": "CASARMG",
+          "pronunciation": "Casarmg",
+          "english": "In whome"
+        },
+        {
+          "pos": "18.14",
+          "enochian": "LAIAD",
+          "pronunciation": "Laiad",
+          "english": "the secrets of truth"
+        },
+        {
+          "pos": "18.15",
+          "enochian": "ERAN",
+          "pronunciation": "erán",
+          "english": "6332"
+        },
+        {
+          "pos": "18.16",
+          "enochian": "BRINTS",
+          "pronunciation": "brints",
+          "english": "have"
+        },
+        {
+          "pos": "18.17",
+          "enochian": "CASASAM",
+          "pronunciation": "casásam",
+          "english": "their abiding"
+        },
+        {
+          "pos": "18.18",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "18.19",
+          "enochian": "IUMD",
+          "pronunciation": "ivmd",
+          "english": "is called"
+        },
+        {
+          "pos": "18.20",
+          "enochian": "ACLONDOH",
+          "pronunciation": "á-q-lo adóhi",
+          "english": "in thy Kingdome"
+        },
+        {
+          "pos": "18.21",
+          "enochian": "MOZ",
+          "pronunciation": "MOZ",
+          "english": "IOYE"
+        },
+        {
+          "pos": "18.22",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "18.23",
+          "enochian": "MAOFFAS",
+          "pronunciation": "maóffas",
+          "english": "not to be measured"
+        },
+        {
+          "pos": "18.24",
+          "enochian": "BOLP",
+          "pronunciation": "Bolp",
+          "english": "Be thow"
+        },
+        {
+          "pos": "18.25",
+          "enochian": "COMO",
+          "pronunciation": "comoblíort",
+          "english": "a wyndow"
+        },
+        {
+          "pos": "18.26",
+          "enochian": "BLIORT",
+          "pronunciation": "",
+          "english": "of comfort"
+        },
+        {
+          "pos": "18.27",
+          "enochian": "PAMBT",
+          "pronunciation": "pambt",
+          "english": "vnto me."
+        },
+        {
+          "pos": "18.28",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "Move"
+        },
+        {
+          "pos": "18.29",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "18.30",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "shew yourselves"
+        },
+        {
+          "pos": "18.31",
+          "enochian": "ODO",
+          "pronunciation": "odo",
+          "english": "Open"
+        },
+        {
+          "pos": "18.32",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the mysteries"
+        },
+        {
+          "pos": "18.33",
+          "enochian": "QAA",
+          "pronunciation": "Qáa,",
+          "english": "of your Creation"
+        },
+        {
+          "pos": "18.34",
+          "enochian": "ZORGE",
+          "pronunciation": "zorge",
+          "english": "Be friendely unto me"
+        },
+        {
+          "pos": "18.35",
+          "enochian": "LAP",
+          "pronunciation": "Lap",
+          "english": "for"
+        },
+        {
+          "pos": "18.36",
+          "enochian": "ZIRDO",
+          "pronunciation": "zirdo",
+          "english": "I am"
+        },
+        {
+          "pos": "18.37",
+          "enochian": "NOCO",
+          "pronunciation": "Noco",
+          "english": "the servant"
+        },
+        {
+          "pos": "18.38",
+          "enochian": "MAD",
+          "pronunciation": "MAD",
+          "english": "of the same your God"
+        },
+        {
+          "pos": "18.39",
+          "enochian": "HOATH",
+          "pronunciation": "Hoath",
+          "english": "the true worshipper"
+        },
+        {
+          "pos": "18.40",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida.",
+          "english": "of the Highest."
+        }
+      ],
+      "footnotes": []
+    },
+    {
+      "number": 19,
+      "title": "The Key of the Thirty Ayres",
+      "enochianText": "MADRIAX DS PRAF LIL CHIS MICAOLZ SAANIR CAOSGO OD FISIS BALZIZRAS IAIDA NONCA GOHULIM MICMA ADOIAN MAD IAOD BLIORB SOBA OOAONA CHIS LUCIFTIAS PERIPSOL DS ABRAASSA NONCF NETAAIB CAOSGO OD TILB ADPHAHT DAMPLOZ TOOAT NONCF GMICALZ OM LRASD TOFGLO MARB YARRY IDOIGO OD TORZULP IAODAF GOHOL CAOSGI TABAORD SAANIR OD CHRISTEOS YRPOIL TIOBL BUSDIR TILB NOALN PAID ORSBA OD DODRMNI ZYLNA ELZAP TILB PARMGI PERIPSAX OD TA QURLST BOOAPIS L NIMB OUCHO SYMP OD CHRISTEOS AG TOLTORN MIRC Q TIOBL LEL TOL PAOMBD DILZMO ASPIAN OD CHRISTEOS AG L TOLTORN PARACH ASYMP CORDZIZ DODPAL OD FIFALZ L SMNAD OD FARGT BAMS OMAOAS CONISBRA OD AVAVOX TONUG ORSCA TLB NOASMI TABGES LEVITHMONG UNCHI OM TILB ORS BAGLE MOOOAH OL CORDZIZ L CAPIMAO IXOMAXIP OD CA CAPIMAO GOSAA BAGLEN PI I TIANTA ABABALOND OD FAORGT TELOCVOVIM MADRIAX TORZU OADRIAX OROCHA ABOAPRI TABAORI PRIAZ AR TABAORI ADRPAN CORS TA DOBIX YOLCAM PRIAZI AR COAZIOR OD QUASB QTING RIPIR PAAOXT SAGACOR UML OD PRDZAR CACRG AOIVEAE CORMPT TORZU ZACAR OD ZAMRAN ASPT SIBSI BUTMONA DS SURZAS TIA BALTAN ODO CICLE QAA OD OZAZMA PLAPLI IADNAMAD",
+      "words": [
+        {
+          "pos": "30.1",
+          "enochian": "MADRIAX",
+          "pronunciation": "Madriax",
+          "english": "Oh you hevens"
+        },
+        {
+          "pos": "30.2",
+          "enochian": "DS",
+          "pronunciation": "dspraf",
+          "english": "which"
+        },
+        {
+          "pos": "30.3",
+          "enochian": "PRAF",
+          "pronunciation": "",
+          "english": "dwell"
+        },
+        {
+          "pos": "30.4",
+          "enochian": "LIL",
+          "pronunciation": "LIL",
+          "english": "in the first Ayre,"
+        },
+        {
+          "pos": "30.5",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "30.6",
+          "enochian": "MICAOLZ",
+          "pronunciation": "Micaolz",
+          "english": "Mightie"
+        },
+        {
+          "pos": "30.7",
+          "enochian": "SAANIR",
+          "pronunciation": "sadnir",
+          "english": "in the partes"
+        },
+        {
+          "pos": "30.8",
+          "enochian": "CAOSGO",
+          "pronunciation": "Caosgo",
+          "english": "of the Erth,"
+        },
+        {
+          "pos": "30.9",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.10",
+          "enochian": "FISIS",
+          "pronunciation": "fisis",
+          "english": "execute"
+        },
+        {
+          "pos": "30.11",
+          "enochian": "BALZIZRAS",
+          "pronunciation": "balzizras",
+          "english": "the Judgement"
+        },
+        {
+          "pos": "30.12",
+          "enochian": "IAIDA",
+          "pronunciation": "Iaida",
+          "english": "of the highest"
+        },
+        {
+          "pos": "30.13",
+          "enochian": "NONCA",
+          "pronunciation": "nonca",
+          "english": "to you"
+        },
+        {
+          "pos": "30.14",
+          "enochian": "GOHULIM",
+          "pronunciation": "gohulim",
+          "english": "it is sayd,"
+        },
+        {
+          "pos": "30.15",
+          "enochian": "MICMA",
+          "pronunciation": "Micma",
+          "english": "Beholde"
+        },
+        {
+          "pos": "30.16",
+          "enochian": "ADOIAN",
+          "pronunciation": "adoian",
+          "english": "the face"
+        },
+        {
+          "pos": "30.17",
+          "enochian": "MAD",
+          "pronunciation": "MAD",
+          "english": "of your God,"
+        },
+        {
+          "pos": "30.18",
+          "enochian": "IAOD",
+          "pronunciation": "Iaod",
+          "english": "the begynning"
+        },
+        {
+          "pos": "30.19",
+          "enochian": "BLIORB",
+          "pronunciation": "bliorb",
+          "english": "of comfort:"
+        },
+        {
+          "pos": "30.20",
+          "enochian": "SOBA",
+          "pronunciation": "sabaoodona",
+          "english": "whose"
+        },
+        {
+          "pos": "30.21",
+          "enochian": "OOAONA",
+          "pronunciation": "",
+          "english": "eyes"
+        },
+        {
+          "pos": "30.22",
+          "enochian": "CHIS",
+          "pronunciation": "chis",
+          "english": "are"
+        },
+        {
+          "pos": "30.23",
+          "enochian": "LUCIFTIAS",
+          "pronunciation": "Luciftias",
+          "english": "the brightnes"
+        },
+        {
+          "pos": "30.24",
+          "enochian": "PERIPSOL",
+          "pronunciation": "peripsol",
+          "english": "of the hevens:"
+        },
+        {
+          "pos": "30.25",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "30.26",
+          "enochian": "ABRAASSA",
+          "pronunciation": "abraassa",
+          "english": "provided"
+        },
+        {
+          "pos": "30.27",
+          "enochian": "NONCF",
+          "pronunciation": "noncf",
+          "english": "you"
+        },
+        {
+          "pos": "30.28",
+          "enochian": "NETAAIB",
+          "pronunciation": "netaaib",
+          "english": "for the government"
+        },
+        {
+          "pos": "30.29",
+          "enochian": "CAOSGO",
+          "pronunciation": "Caosgi",
+          "english": "of the Erth,"
+        },
+        {
+          "pos": "30.30",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.31",
+          "enochian": "TILB",
+          "pronunciation": "tilb",
+          "english": "her"
+        },
+        {
+          "pos": "30.32",
+          "enochian": "ADPHAHT",
+          "pronunciation": "adphaht",
+          "english": "unspeakable"
+        },
+        {
+          "pos": "30.33",
+          "enochian": "DAMPLOZ",
+          "pronunciation": "damploz",
+          "english": "varietie"
+        },
+        {
+          "pos": "30.34",
+          "enochian": "TOOAT",
+          "pronunciation": "tooat",
+          "english": "furnishing"
+        },
+        {
+          "pos": "30.35",
+          "enochian": "NONCF",
+          "pronunciation": "noncf",
+          "english": "you"
+        },
+        {
+          "pos": "30.36",
+          "enochian": "GMICALZ",
+          "pronunciation": "gmicalzoma",
+          "english": "with a powr"
+        },
+        {
+          "pos": "30.37",
+          "enochian": "OM",
+          "pronunciation": "",
+          "english": "understanding"
+        },
+        {
+          "pos": "30.38",
+          "enochian": "LRASD",
+          "pronunciation": "Lrasd",
+          "english": "to dispose"
+        },
+        {
+          "pos": "30.39",
+          "enochian": "TOFGLO",
+          "pronunciation": "tosglo",
+          "english": "all things"
+        },
+        {
+          "pos": "30.40",
+          "enochian": "MARB",
+          "pronunciation": "marb",
+          "english": "according"
+        },
+        {
+          "pos": "30.41",
+          "enochian": "YARRY",
+          "pronunciation": "yarry",
+          "english": "to the providence"
+        },
+        {
+          "pos": "30.42",
+          "enochian": "IDOIGO",
+          "pronunciation": "IDOIGO",
+          "english": "of him that sitteth on the holy Throne"
+        },
+        {
+          "pos": "30.43",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.44",
+          "enochian": "TORZULP",
+          "pronunciation": "torzulp",
+          "english": "rose up"
+        },
+        {
+          "pos": "30.45",
+          "enochian": "IAODAF",
+          "pronunciation": "idodaf",
+          "english": "in the begynning"
+        },
+        {
+          "pos": "30.46",
+          "enochian": "GOHOL",
+          "pronunciation": "gohol",
+          "english": "saying,"
+        },
+        {
+          "pos": "30.47",
+          "enochian": "CAOSGI",
+          "pronunciation": "Caosga",
+          "english": "The Earth"
+        },
+        {
+          "pos": "30.48",
+          "enochian": "TABAORD",
+          "pronunciation": "tabaord",
+          "english": "Let her be governed"
+        },
+        {
+          "pos": "30.49",
+          "enochian": "SAANIR",
+          "pronunciation": "sadnir",
+          "english": "by her parts"
+        },
+        {
+          "pos": "30.50",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.51",
+          "enochian": "CHRISTEOS",
+          "pronunciation": "christeos",
+          "english": "Let there be"
+        },
+        {
+          "pos": "30.52",
+          "enochian": "YRPOIL",
+          "pronunciation": "yrpoil",
+          "english": "Division"
+        },
+        {
+          "pos": "30.53",
+          "enochian": "TIOBL",
+          "pronunciation": "tiobl",
+          "english": "in her,"
+        },
+        {
+          "pos": "30.54",
+          "enochian": "BUSDIR",
+          "pronunciation": "Busdir",
+          "english": "that the glory"
+        },
+        {
+          "pos": "30.55",
+          "enochian": "TILB",
+          "pronunciation": "tilb",
+          "english": "of hir"
+        },
+        {
+          "pos": "30.56",
+          "enochian": "NOALN",
+          "pronunciation": "noaln",
+          "english": "may be"
+        },
+        {
+          "pos": "30.57",
+          "enochian": "PAID",
+          "pronunciation": "paid",
+          "english": "allwayes"
+        },
+        {
+          "pos": "30.58",
+          "enochian": "ORSBA",
+          "pronunciation": "orsba",
+          "english": "drunken"
+        },
+        {
+          "pos": "30.59",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.60",
+          "enochian": "DODRMNI",
+          "pronunciation": "dodrmni",
+          "english": "vexed"
+        },
+        {
+          "pos": "30.61",
+          "enochian": "ZYLNA",
+          "pronunciation": "zylna",
+          "english": "in itself:"
+        },
+        {
+          "pos": "30.62",
+          "enochian": "ELZAP",
+          "pronunciation": "Elzaptilb",
+          "english": "Her course,"
+        },
+        {
+          "pos": "30.63",
+          "enochian": "TILB",
+          "pronunciation": "",
+          "english": ""
+        },
+        {
+          "pos": "30.64",
+          "enochian": "PARMGI",
+          "pronunciation": "parmgi",
+          "english": "let it ronne"
+        },
+        {
+          "pos": "30.65",
+          "enochian": "PERIPSAX",
+          "pronunciation": "peripsax",
+          "english": "with the hevens:"
+        },
+        {
+          "pos": "30.66",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.67",
+          "enochian": "TA",
+          "pronunciation": "ta",
+          "english": "as"
+        },
+        {
+          "pos": "30.68",
+          "enochian": "QURLST",
+          "pronunciation": "qurlst",
+          "english": "a handmayd"
+        },
+        {
+          "pos": "30.69",
+          "enochian": "BOOAPIS",
+          "pronunciation": "booapis",
+          "english": "let her serve them:"
+        },
+        {
+          "pos": "30.70",
+          "enochian": "L",
+          "pronunciation": "Lniibm",
+          "english": "One"
+        },
+        {
+          "pos": "30.71",
+          "enochian": "NIMB",
+          "pronunciation": "",
+          "english": "season"
+        },
+        {
+          "pos": "30.72",
+          "enochian": "OUCHO",
+          "pronunciation": "ovcho",
+          "english": "Let it confownd"
+        },
+        {
+          "pos": "30.73",
+          "enochian": "SYMP",
+          "pronunciation": "symp,",
+          "english": "another:"
+        },
+        {
+          "pos": "30.74",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "And"
+        },
+        {
+          "pos": "30.75",
+          "enochian": "CHRISTEOS",
+          "pronunciation": "Christeos",
+          "english": "let there be"
+        },
+        {
+          "pos": "30.76",
+          "enochian": "AG",
+          "pronunciation": "Agtoltorn",
+          "english": "no"
+        },
+        {
+          "pos": "30.77",
+          "enochian": "TOLTORN",
+          "pronunciation": "",
+          "english": "Creature"
+        },
+        {
+          "pos": "30.78",
+          "enochian": "MIRC",
+          "pronunciation": "mirc",
+          "english": "uppon"
+        },
+        {
+          "pos": "30.79",
+          "enochian": "Q",
+          "pronunciation": "Q",
+          "english": "or"
+        },
+        {
+          "pos": "30.80",
+          "enochian": "TIOBL",
+          "pronunciation": "tiobl",
+          "english": "within her"
+        },
+        {
+          "pos": "30.81",
+          "enochian": "LEL",
+          "pronunciation": "Lel,",
+          "english": "the same:"
+        },
+        {
+          "pos": "30.82",
+          "enochian": "TOL",
+          "pronunciation": "Ton",
+          "english": "All"
+        },
+        {
+          "pos": "30.83",
+          "enochian": "PAOMBD",
+          "pronunciation": "paombd",
+          "english": "her members"
+        },
+        {
+          "pos": "30.84",
+          "enochian": "DILZMO",
+          "pronunciation": "dilzmo",
+          "english": "let them differ"
+        },
+        {
+          "pos": "30.85",
+          "enochian": "ASPIAN",
+          "pronunciation": "aspian,",
+          "english": "in their qualities:"
+        },
+        {
+          "pos": "30.86",
+          "enochian": "OD",
+          "pronunciation": "Od",
+          "english": "And"
+        },
+        {
+          "pos": "30.87",
+          "enochian": "CHRISTEOS",
+          "pronunciation": "christeos",
+          "english": "let there be"
+        },
+        {
+          "pos": "30.88",
+          "enochian": "AG",
+          "pronunciation": "ag",
+          "english": "no"
+        },
+        {
+          "pos": "30.89",
+          "enochian": "L",
+          "pronunciation": "L",
+          "english": "one"
+        },
+        {
+          "pos": "30.90",
+          "enochian": "TOLTORN",
+          "pronunciation": "tortorn",
+          "english": "Creature"
+        },
+        {
+          "pos": "30.91",
+          "enochian": "PARACH",
+          "pronunciation": "parach",
+          "english": "aequall"
+        },
+        {
+          "pos": "30.92",
+          "enochian": "ASYMP",
+          "pronunciation": "asymp,",
+          "english": "with another"
+        },
+        {
+          "pos": "30.93",
+          "enochian": "CORDZIZ",
+          "pronunciation": "Cordziz",
+          "english": "The reasonable Creatures of Erth or Men"
+        },
+        {
+          "pos": "30.94",
+          "enochian": "DODPAL",
+          "pronunciation": "dodpal",
+          "english": "let them vex"
+        },
+        {
+          "pos": "30.95",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.96",
+          "enochian": "FIFALZ",
+          "pronunciation": "fifalz",
+          "english": "weede out"
+        },
+        {
+          "pos": "30.97",
+          "enochian": "L",
+          "pronunciation": "Lsmnad,",
+          "english": "one"
+        },
+        {
+          "pos": "30.98",
+          "enochian": "SMNAD",
+          "pronunciation": "",
+          "english": "another:"
+        },
+        {
+          "pos": "30.99",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "And"
+        },
+        {
+          "pos": "30.100",
+          "enochian": "FARGT",
+          "pronunciation": "fargt",
+          "english": "the dwelling places,"
+        },
+        {
+          "pos": "30.101",
+          "enochian": "BAMS",
+          "pronunciation": "bams",
+          "english": "let them forget"
+        },
+        {
+          "pos": "30.102",
+          "enochian": "OMAOAS",
+          "pronunciation": "omaoas,",
+          "english": "their names:"
+        },
+        {
+          "pos": "30.103",
+          "enochian": "CONISBRA",
+          "pronunciation": "Conisbra",
+          "english": "The work of man"
+        },
+        {
+          "pos": "30.104",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.105",
+          "enochian": "AVAVOX",
+          "pronunciation": "audnox",
+          "english": "his pomp,"
+        },
+        {
+          "pos": "30.106",
+          "enochian": "TONUG",
+          "pronunciation": "tonug,",
+          "english": "let them be defaced:"
+        },
+        {
+          "pos": "30.107",
+          "enochian": "ORSCA",
+          "pronunciation": "Orscatbl",
+          "english": "His buyldings"
+        },
+        {
+          "pos": "30.108",
+          "enochian": "TLB",
+          "pronunciation": "",
+          "english": ""
+        },
+        {
+          "pos": "30.109",
+          "enochian": "NOASMI",
+          "pronunciation": "noasmi",
+          "english": "let them become"
+        },
+        {
+          "pos": "30.110",
+          "enochian": "TABGES",
+          "pronunciation": "tabges,",
+          "english": "Caves"
+        },
+        {
+          "pos": "30.111",
+          "enochian": "LEVITHMONG",
+          "pronunciation": "Levithmong",
+          "english": "for the beasts of the feild:"
+        },
+        {
+          "pos": "30.112",
+          "enochian": "UNCHI",
+          "pronunciation": "unchi",
+          "english": "Confownd"
+        },
+        {
+          "pos": "30.113",
+          "enochian": "OM",
+          "pronunciation": "omptilb",
+          "english": "her understanding"
+        },
+        {
+          "pos": "30.114",
+          "enochian": "TILB",
+          "pronunciation": "",
+          "english": "with darknes."
+        },
+        {
+          "pos": "30.115",
+          "enochian": "ORS",
+          "pronunciation": "ors.",
+          "english": "For why?"
+        },
+        {
+          "pos": "30.116",
+          "enochian": "BAGLE",
+          "pronunciation": "Bagle",
+          "english": "It repenteth me"
+        },
+        {
+          "pos": "30.117",
+          "enochian": "MOOOAH",
+          "pronunciation": "Mooooah",
+          "english": "I made"
+        },
+        {
+          "pos": "30.118",
+          "enochian": "OL",
+          "pronunciation": "olcordziz.",
+          "english": "Man."
+        },
+        {
+          "pos": "30.119",
+          "enochian": "CORDZIZ",
+          "pronunciation": "",
+          "english": ""
+        },
+        {
+          "pos": "30.120",
+          "enochian": "L",
+          "pronunciation": "L",
+          "english": "One"
+        },
+        {
+          "pos": "30.121",
+          "enochian": "CAPIMAO",
+          "pronunciation": "capimao",
+          "english": "while"
+        },
+        {
+          "pos": "30.122",
+          "enochian": "IXOMAXIP",
+          "pronunciation": "ixomaxip",
+          "english": "let her be known,"
+        },
+        {
+          "pos": "30.123",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.124",
+          "enochian": "CA",
+          "pronunciation": "cacocasb",
+          "english": "another"
+        },
+        {
+          "pos": "30.125",
+          "enochian": "CAPIMAO",
+          "pronunciation": "",
+          "english": "while"
+        },
+        {
+          "pos": "30.126",
+          "enochian": "GOSAA",
+          "pronunciation": "gosda.",
+          "english": "a stranger:"
+        },
+        {
+          "pos": "30.127",
+          "enochian": "BAGLEN",
+          "pronunciation": "Baglen",
+          "english": "Bycause"
+        },
+        {
+          "pos": "30.128",
+          "enochian": "PI",
+          "pronunciation": "pii",
+          "english": "she"
+        },
+        {
+          "pos": "30.129",
+          "enochian": "I",
+          "pronunciation": "",
+          "english": "is"
+        },
+        {
+          "pos": "30.130",
+          "enochian": "TIANTA",
+          "pronunciation": "tianta",
+          "english": "the bed"
+        },
+        {
+          "pos": "30.131",
+          "enochian": "ABABALOND",
+          "pronunciation": "ababalond",
+          "english": "of an Harlot,"
+        },
+        {
+          "pos": "30.132",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.133",
+          "enochian": "FAORGT",
+          "pronunciation": "faorgt",
+          "english": "the dwelling place"
+        },
+        {
+          "pos": "30.134",
+          "enochian": "TELOCVOVIM",
+          "pronunciation": "telocvovim.",
+          "english": "of him that is faln:"
+        },
+        {
+          "pos": "30.135",
+          "enochian": "MADRIAX",
+          "pronunciation": "Madriax",
+          "english": "O you hevens,"
+        },
+        {
+          "pos": "30.136",
+          "enochian": "TORZU",
+          "pronunciation": "torzu",
+          "english": "arrise,"
+        },
+        {
+          "pos": "30.137",
+          "enochian": "OADRIAX",
+          "pronunciation": "oadriax",
+          "english": "the lower hevens"
+        },
+        {
+          "pos": "30.138",
+          "enochian": "OROCHA",
+          "pronunciation": "orocha",
+          "english": "underneath you,"
+        },
+        {
+          "pos": "30.139",
+          "enochian": "ABOAPRI",
+          "pronunciation": "aboapri.",
+          "english": "Let them serve you:"
+        },
+        {
+          "pos": "30.140",
+          "enochian": "TABAORI",
+          "pronunciation": "Tabaori",
+          "english": "Govern"
+        },
+        {
+          "pos": "30.141",
+          "enochian": "PRIAZ",
+          "pronunciation": "priaz",
+          "english": "those"
+        },
+        {
+          "pos": "30.142",
+          "enochian": "AR",
+          "pronunciation": "artabas.",
+          "english": "that"
+        },
+        {
+          "pos": "30.143",
+          "enochian": "TABAORI",
+          "pronunciation": "",
+          "english": "govern:"
+        },
+        {
+          "pos": "30.144",
+          "enochian": "ADRPAN",
+          "pronunciation": "Adrpan",
+          "english": "Cast down"
+        },
+        {
+          "pos": "30.145",
+          "enochian": "CORS",
+          "pronunciation": "corsta",
+          "english": "such"
+        },
+        {
+          "pos": "30.146",
+          "enochian": "TA",
+          "pronunciation": "",
+          "english": "as"
+        },
+        {
+          "pos": "30.147",
+          "enochian": "DOBIX",
+          "pronunciation": "dobix.",
+          "english": "fall:"
+        },
+        {
+          "pos": "30.148",
+          "enochian": "YOLCAM",
+          "pronunciation": "Yolcam",
+          "english": "Bring forth"
+        },
+        {
+          "pos": "30.149",
+          "enochian": "PRIAZI",
+          "pronunciation": "priazi",
+          "english": "with those"
+        },
+        {
+          "pos": "30.150",
+          "enochian": "AR",
+          "pronunciation": "arcoazior.",
+          "english": "that"
+        },
+        {
+          "pos": "30.151",
+          "enochian": "COAZIOR",
+          "pronunciation": "",
+          "english": "encrease:"
+        },
+        {
+          "pos": "30.152",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "And"
+        },
+        {
+          "pos": "30.153",
+          "enochian": "QUASB",
+          "pronunciation": "quasb",
+          "english": "destroy"
+        },
+        {
+          "pos": "30.154",
+          "enochian": "QTING",
+          "pronunciation": "qting.",
+          "english": "the rotten:"
+        },
+        {
+          "pos": "30.155",
+          "enochian": "RIPIR",
+          "pronunciation": "Ripir",
+          "english": "No place"
+        },
+        {
+          "pos": "30.156",
+          "enochian": "PAAOXT",
+          "pronunciation": "paaoxt",
+          "english": "let it remayne"
+        },
+        {
+          "pos": "30.157",
+          "enochian": "SAGACOR",
+          "pronunciation": "sagacor.",
+          "english": "in one number:"
+        },
+        {
+          "pos": "30.158",
+          "enochian": "UML",
+          "pronunciation": "vml",
+          "english": "Ad"
+        },
+        {
+          "pos": "30.159",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.160",
+          "enochian": "PRDZAR",
+          "pronunciation": "prd-zar",
+          "english": "Diminish"
+        },
+        {
+          "pos": "30.161",
+          "enochian": "CACRG",
+          "pronunciation": "cacrg",
+          "english": "vntill"
+        },
+        {
+          "pos": "30.162",
+          "enochian": "AOIVEAE",
+          "pronunciation": "Aoiveae",
+          "english": "the stars"
+        },
+        {
+          "pos": "30.163",
+          "enochian": "CORMPT",
+          "pronunciation": "cormpt.",
+          "english": "be numbred:"
+        },
+        {
+          "pos": "30.164",
+          "enochian": "TORZU",
+          "pronunciation": "TORZU",
+          "english": "ARRISE,"
+        },
+        {
+          "pos": "30.165",
+          "enochian": "ZACAR",
+          "pronunciation": "ZACAR",
+          "english": "MOVE,"
+        },
+        {
+          "pos": "30.166",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "and"
+        },
+        {
+          "pos": "30.167",
+          "enochian": "ZAMRAN",
+          "pronunciation": "ZAMRAN",
+          "english": "APPERE"
+        },
+        {
+          "pos": "30.168",
+          "enochian": "ASPT",
+          "pronunciation": "aspt",
+          "english": "before"
+        },
+        {
+          "pos": "30.169",
+          "enochian": "SIBSI",
+          "pronunciation": "sibsi",
+          "english": "the Covenant"
+        },
+        {
+          "pos": "30.170",
+          "enochian": "BUTMONA",
+          "pronunciation": "butmona",
+          "english": "of his mowth,"
+        },
+        {
+          "pos": "30.171",
+          "enochian": "DS",
+          "pronunciation": "ds",
+          "english": "which"
+        },
+        {
+          "pos": "30.172",
+          "enochian": "SURZAS",
+          "pronunciation": "surzas",
+          "english": "he hath sworne"
+        },
+        {
+          "pos": "30.173",
+          "enochian": "TIA",
+          "pronunciation": "tia",
+          "english": "unto us"
+        },
+        {
+          "pos": "30.174",
+          "enochian": "BALTAN",
+          "pronunciation": "baltan:",
+          "english": "in his Justice:"
+        },
+        {
+          "pos": "30.175",
+          "enochian": "ODO",
+          "pronunciation": "Odo",
+          "english": "OPEN"
+        },
+        {
+          "pos": "30.176",
+          "enochian": "CICLE",
+          "pronunciation": "cicle",
+          "english": "the Mysteries"
+        },
+        {
+          "pos": "30.177",
+          "enochian": "QAA",
+          "pronunciation": "Qaa:",
+          "english": "of your Creation:"
+        },
+        {
+          "pos": "30.178",
+          "enochian": "OD",
+          "pronunciation": "od",
+          "english": "And"
+        },
+        {
+          "pos": "30.179",
+          "enochian": "OZAZMA",
+          "pronunciation": "ozazma",
+          "english": "Make us"
+        },
+        {
+          "pos": "30.180",
+          "enochian": "PLAPLI",
+          "pronunciation": "plapli",
+          "english": "partakers"
+        },
+        {
+          "pos": "30.181",
+          "enochian": "IADNAMAD",
+          "pronunciation": "Iadnamad",
+          "english": "of undefyled knowledg."
+        }
+      ],
+      "footnotes": [
+        {
+          "pos": "30.4",
+          "text": "The name of the ayre being invoked is inserted here. The ayres are listed in the margin of Sl. MS. 3191 as well as on the preceding figure."
+        },
+        {
+          "pos": "30.21",
+          "text": "OOAONA for 'eyes'; see 13.6."
+        },
+        {
+          "pos": "30.29",
+          "text": "CAOSGO for 'of the earth'; see 8.35, 8.63, 9.32, 14.13, 30.8. CAOSGI is 'the earth'; see 4.44, 5.26."
+        },
+        {
+          "pos": "30.37",
+          "text": "OM for 'understanding'; see 2.4, 10.54, 16.19."
+        },
+        {
+          "pos": "30.63",
+          "text": "TILB for 'of her'; see 30.55. Could TILB be another suffix (like TOX) signifying possession?"
+        },
+        {
+          "pos": "30.77",
+          "text": "TOLTORN for 'creatures'; see 30.90."
+        },
+        {
+          "pos": "30.114",
+          "text": "The English would be better rendered as 'the understanding of her'; see note on 30.63."
+        },
+        {
+          "pos": "30.118",
+          "text": "Possibly a contraction--if so, a word is missing. OL is 'I' (first person singular), while CORDZIZ is 'men'. Perhaps the 'made' is somehow understood?"
+        },
+        {
+          "pos": "30.124",
+          "text": "COCASB for 'times'; see 3.46, 9.75, 10.38, 10.57. Could TILB be another suffix?"
+        },
+        {
+          "pos": "30.125",
+          "text": "The English probably should be 'time'; see 4.32."
+        },
+        {
+          "pos": "30.134",
+          "text": "Contraction of TELOCH-VOVIN or 'death'-'dragon'. In this case the fallen one is the great dragon Coromzon."
+        },
+        {
+          "pos": "30.142-30.143",
+          "text": "AR for 'that'; see 12.17; TABAORI for 'govern'; see 30.140."
+        },
+        {
+          "pos": "30.181",
+          "text": "Contraction IAD-NAMAD or 'God'-'knowledge'."
+        }
+      ]
+    }
+  ]
+}

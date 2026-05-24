@@ -3,7 +3,11 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
+import { LensTabs } from "@/components/lesson/lens-tabs";
 import { LessonMarkdownBody } from "@/components/lesson/lesson-markdown-body";
+import { LessonNavFooter } from "@/components/lesson/lesson-nav-footer";
+import { LessonProgressBar } from "@/components/lesson/lesson-progress-bar";
+import { splitLensSections } from "@/lib/lesson-markdown/split-lens-sections";
 import { StudentComparisonSlots } from "@/components/student/student-comparison-slots";
 import { StudentLessonSidebar } from "@/components/student/student-lesson-sidebar";
 import { Inscribe } from "@/components/motion/inscribe";
@@ -11,6 +15,7 @@ import { LessonSafetyFrame } from "@/components/student/lesson-safety-frame";
 import { PendingComparativeArrangement } from "@/components/student/pending-comparative-arrangement";
 import { SEEKER_PATH } from "@/lib/content-registry";
 import { getGlossaryEntryByTerm } from "@/lib/glossary";
+import { useProgress } from "@/lib/progress/progress-context";
 import { STUDENT_PATH } from "@/lib/lessons/student-path";
 import type { GlossaryItem } from "@/lib/lesson-types";
 import type { StudentLessonRecord } from "@/lib/student/student-lesson-registry";
@@ -54,7 +59,12 @@ export function StudentLessonRenderer({ viewModel }: { viewModel: StudentLessonV
   const { record, markdown, readerColumnParseFailed } = viewModel;
   const [panel, setPanel] = useState<Panel>(null);
   const [mobileContextOpen, setMobileContextOpen] = useState(false);
+  const { setLastVisited } = useProgress();
   const storageKey = `student-lesson-context:${record.slug}`;
+
+  useEffect(() => {
+    setLastVisited(record.id);
+  }, [record.id, setLastVisited]);
 
   useEffect(() => {
     if (sessionStorage.getItem(storageKey) === "1") setMobileContextOpen(true);
@@ -86,12 +96,19 @@ export function StudentLessonRenderer({ viewModel }: { viewModel: StudentLessonV
     [viewModel.displayGlossaryTerms]
   );
 
+  const lensParts = useMemo(
+    () => splitLensSections(markdown?.main ?? ""),
+    [markdown?.main]
+  );
+
   const hasMarkdown = Boolean(markdown?.main?.trim());
   const showComparisonSlots = studentComparisonSurfaceCount(record) > 0;
   const showPendingComparativeOnly =
     studentComparisonSurfaceCount(record) === 0 && !hasMarkdown && !readerColumnParseFailed;
 
   return (
+    <>
+      <LessonProgressBar />
     <div className="grid min-w-0 gap-10 px-1 pb-4 sm:px-0 lg:grid-cols-[minmax(0,820px)_minmax(0,280px)] lg:gap-14">
       <article
         className="inscribed-frame mx-auto min-w-0 w-full max-w-[820px] scroll-mt-14 bg-deep/50 px-6 py-12 sm:px-12 sm:py-16"
@@ -141,12 +158,40 @@ export function StudentLessonRenderer({ viewModel }: { viewModel: StudentLessonV
         {hasMarkdown && markdown && !readerColumnParseFailed ? (
           <Inscribe>
             <div className="lesson-markdown-root min-w-0 space-y-4 pb-2">
-              <LessonMarkdownBody
-                markdown={markdown.main}
+              {lensParts.before ? (
+                <LessonMarkdownBody
+                  markdown={lensParts.before}
+                  glossaryTermSet={glossaryTermSet}
+                  onGlossaryTerm={openGlossary}
+                  verificationPending
+                  lessonSlug={record.slug}
+                />
+              ) : null}
+              <LensTabs
+                lenses={lensParts.lenses}
                 glossaryTermSet={glossaryTermSet}
                 onGlossaryTerm={openGlossary}
                 verificationPending
+                lessonSlug={record.slug}
               />
+              {lensParts.after ? (
+                <LessonMarkdownBody
+                  markdown={lensParts.after}
+                  glossaryTermSet={glossaryTermSet}
+                  onGlossaryTerm={openGlossary}
+                  verificationPending
+                  lessonSlug={record.slug}
+                />
+              ) : null}
+              {lensParts.lenses.length === 0 && !lensParts.before && !lensParts.after ? (
+                <LessonMarkdownBody
+                  markdown={markdown.main}
+                  glossaryTermSet={glossaryTermSet}
+                  onGlossaryTerm={openGlossary}
+                  verificationPending
+                  lessonSlug={record.slug}
+                />
+              ) : null}
             </div>
           </Inscribe>
         ) : readerColumnParseFailed ? null : (
@@ -241,44 +286,28 @@ export function StudentLessonRenderer({ viewModel }: { viewModel: StudentLessonV
           ) : null}
         </section>
 
-        <nav
-          className="mt-16 border-t border-gold-dim/45 pt-10 font-display text-sm tracking-[0.08em] text-gold-light"
-          aria-label="Lesson sequence"
-        >
-          <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-3">
-            {viewModel.previousLesson?.href ? (
-              <Link
-                href={viewModel.previousLesson.href}
-                className="min-w-0 max-w-[min(100%,20rem)] break-words transition-colors duration-slow ease-gravity hover:text-gold"
-              >
-                ← {viewModel.previousLesson.label}
-              </Link>
-            ) : (
-              <span className="min-w-[1ch]" aria-hidden />
-            )}
-            {viewModel.nextLesson?.href ? (
-              <Link
-                href={viewModel.nextLesson.href}
-                className={`ml-auto min-w-0 max-w-[min(100%,22rem)] break-words text-right transition-colors duration-slow ease-gravity hover:text-gold ${viewModel.nextLesson.shadow ? "text-gold-dim" : ""}`}
-              >
-                {viewModel.nextLesson.label} →
-              </Link>
-            ) : (
-              <p className="ml-auto max-w-md text-pretty text-right text-xs leading-relaxed text-gold-dim">
-                End of the Stage 2 map — the shelf does not continue here.
-              </p>
-            )}
-          </div>
-          {viewModel.nextLesson?.note ? <p className="mt-3 text-xs text-gold-dim">{viewModel.nextLesson.note}</p> : null}
-          <div className="mt-8 flex justify-center border-t border-gold-dim/25 pt-6">
-            <Link
-              href={STUDENT_PATH}
-              className="border-b border-gold-dim/60 font-display text-xs uppercase tracking-[0.14em] text-gold-dim transition-colors duration-slow ease-gravity hover:border-gold/50 hover:text-gold-light"
-            >
-              Return to stage map
-            </Link>
-          </div>
-        </nav>
+        <LessonNavFooter
+          stageLabel="Return to Student path"
+          stageHref={STUDENT_PATH}
+          previous={
+            viewModel.previousLesson?.href
+              ? {
+                  href: viewModel.previousLesson.href,
+                  title: viewModel.previousLesson.label.replace(/^←\s*/, ""),
+                  label: "Previous lesson"
+                }
+              : null
+          }
+          next={
+            viewModel.nextLesson?.href
+              ? {
+                  href: viewModel.nextLesson.href,
+                  title: viewModel.nextLesson.label.replace(/\s*→$/, ""),
+                  label: viewModel.nextLesson.note ?? "Next lesson"
+                }
+              : null
+          }
+        />
       </article>
 
       <aside className="hidden min-w-0 space-y-4 lg:sticky lg:top-14 lg:block lg:h-[calc(100vh-5.5rem)] lg:overflow-y-auto">
@@ -332,5 +361,6 @@ export function StudentLessonRenderer({ viewModel }: { viewModel: StudentLessonV
         </div>
       ) : null}
     </div>
+    </>
   );
 }

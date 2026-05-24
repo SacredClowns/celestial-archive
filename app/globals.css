@@ -16,6 +16,21 @@
   --transition-slow: 600ms ease-in-out;
 }
 
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: page-enter 0.4s ease-out;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -34,6 +49,17 @@ body {
   font-size: 18px;
   line-height: 1.86;
   letter-spacing: 0.012em;
+}
+
+/* Enochian script — font file pending; maps to monospace until asset is added */
+@font-face {
+  font-family: "Enochian";
+  src: local("Courier New");
+  font-display: swap;
+}
+
+.font-enochian-fallback {
+  font-family: ui-monospace, monospace;
 }
 
 a {

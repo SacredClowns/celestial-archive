@@ -2,7 +2,6 @@ import type { ReactNode } from "react";
 import {
   ClosingPassageBlock,
   DiscernmentPracticeBlock,
-  KnowledgeCheckBlock,
   MultipleInterpretationsFreeformBlock,
   NoticeBlock,
   ReflectionPromptBlock,
@@ -10,15 +9,18 @@ import {
   UnlocksBlock,
   WarningBlock
 } from "@/components/discernment/blocks";
+import { KnowledgeCheck } from "@/components/lesson/knowledge-check";
+import { SaveToJournalButton } from "@/components/journal/save-to-journal-button";
 
 const HEADINGLESS = true;
 
 type SemanticLessonBlockProps = {
   name: string;
   children: ReactNode;
+  lessonSlug?: string;
 };
 
-export function SemanticLessonBlock({ name, children }: SemanticLessonBlockProps) {
+export function SemanticLessonBlock({ name, children, lessonSlug }: SemanticLessonBlockProps) {
   switch (name) {
     case "discernment":
       return <DiscernmentPracticeBlock headingless={HEADINGLESS}>{children}</DiscernmentPracticeBlock>;
@@ -27,9 +29,14 @@ export function SemanticLessonBlock({ name, children }: SemanticLessonBlockProps
     case "warning":
       return <WarningBlock headingless={HEADINGLESS}>{children}</WarningBlock>;
     case "reflection":
-      return <ReflectionPromptBlock headingless={HEADINGLESS}>{children}</ReflectionPromptBlock>;
+      return (
+        <>
+          <ReflectionPromptBlock headingless={HEADINGLESS}>{children}</ReflectionPromptBlock>
+          <SaveToJournalButton lessonSlug={lessonSlug} title="Reflection prompt" />
+        </>
+      );
     case "knowledge-check":
-      return <KnowledgeCheckBlock headingless={HEADINGLESS}>{children}</KnowledgeCheckBlock>;
+      return <KnowledgeCheck lessonSlug={lessonSlug}>{children}</KnowledgeCheck>;
     case "unlocks":
       return <UnlocksBlock headingless={HEADINGLESS}>{children}</UnlocksBlock>;
     case "source-strip":

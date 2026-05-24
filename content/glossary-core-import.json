@@ -1,0 +1,2383 @@
+[
+  {
+    "slug": "adept",
+    "term": "Adept",
+    "oneLine": "In the Celestial Archive, the sixth rank of the Initiation Path — one who has developed the capacity to synthesize multiple interpretive frameworks and hold …",
+    "definition": "In the Celestial Archive, the sixth rank of the Initiation Path — one who has developed the capacity to synthesize multiple interpretive frameworks and hold contradictions without forcing resolution. In traditional Western esotericism, a practitioner who has attained significant skill and knowledge within a magical or mystical system.",
+    "category": "Progression / Tradition",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "In the Golden Dawn, Adeptus Minor through Adeptus Exemptus were specific grades requiring years of study. The term derives from Latin *adeptus* (\"having attained\").",
+    "occultLens": "A practitioner who has moved beyond theoretical knowledge to experiential understanding of a system's inner workings.",
+    "psychologicalLens": "One who has integrated knowledge into capability — the shift from knowing about a system to being able to navigate it intuitively.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Archivist",
+      "Initiation",
+      "Grade",
+      "Progression"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "aethyr",
+    "term": "Aethyr",
+    "oneLine": "One of 30 concentric regions or layers in the Enochian cosmology, extending from the material world (Aethyr 30, TEX) inward to the divine source (Aethyr 1, L…",
+    "definition": "One of 30 concentric regions or layers in the Enochian cosmology, extending from the material world (Aethyr 30, TEX) inward to the divine source (Aethyr 1, LIL). Each Aethyr is governed by three of the 91 Governors.",
+    "category": "Cosmology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "The term appears in Dee's records as \"Aethyr\" or \"Aire.\" The exact nature of the Aethyrs was not elaborated by Dee — they were named and numbered, with governors assigned, but not described experientially until Crowley.",
+    "occultLens": "Each Aethyr is understood as a distinct plane of reality with specific qualities, guardians, and experiences accessible through the 19th Call with the Aethyr's name substituted.",
+    "psychologicalLens": "The Aethyrs can be read as a map of consciousness — 30 stations ranging from ordinary awareness (outer) to transcendent unity (inner), with the Abyss (Aethyr 10, ZAX) as the boundary between personal and transpersonal experience.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Dee recorded them as cosmological regions. Crowley experienced them as visionary landscapes. Modern practitioners interpret them as states of consciousness. Some scholars view them as an abstract numerical classification with no experiential content.",
+    "relatedTerms": [
+      "Governor",
+      "Call",
+      "Watchtower",
+      "Abyss",
+      "ZAX",
+      "TEX",
+      "LIL",
+      "Vision and the Voice"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "angel",
+    "term": "Angel",
+    "oneLine": "In the Enochian context, a non-human intelligence claimed to have transmitted the system to Dee and Kelley through scrying sessions. More broadly, a class of…",
+    "definition": "In the Enochian context, a non-human intelligence claimed to have transmitted the system to Dee and Kelley through scrying sessions. More broadly, a class of beings understood across traditions as intermediaries between the divine and the material.",
+    "category": "Entities / Cosmology",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "historicalLens": "Dee's angels included named beings like \"Ave,\" \"Nalvage,\" \"Madimi,\" and \"Galvah.\" He believed them to be genuine celestial messengers of God.",
+    "occultLens": "Angels are understood as real, non-material beings with specific natures, ranks, and functions. In the Enochian system, hundreds of angels can be derived from the Watchtower tablets.",
+    "psychologicalLens": "Angels can be understood as archetypal forces, unconscious content personified through the scrying process, or as the mind's way of organizing intuitive knowledge into communicable form.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Literal beings (Dee's view); symbolic forces (psychological view); cultural constructs (sociological view); aspects of a dissociative process (clinical view); genuine non-human intelligence of unknown nature (open view).",
+    "relatedTerms": [
+      "Angelic Hierarchy",
+      "Intelligence",
+      "Scrying",
+      "Watchtower",
+      "Governor",
+      "Senior",
+      "King"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "angelic-call",
+    "term": "Angelic Call",
+    "oneLine": "One of 19 incantatory texts in the Enochian language, transmitted to Dee and Kelley in 1584. The first 18 Calls are associated with specific sections of the …",
+    "definition": "One of 19 incantatory texts in the Enochian language, transmitted to Dee and Kelley in 1584. The first 18 Calls are associated with specific sections of the Watchtower tablets. The 19th Call is used to access the 30 Aethyrs.",
+    "category": "Language / Ritual",
+    "level": "Intermediate",
+    "primaryBadge": "occult",
+    "historicalLens": "Transmitted in Kraków in 1584, received in reverse order (19th first, 1st last). Dee recorded both the Enochian text and an English translation.",
+    "occultLens": "The Calls are considered \"keys\" that activate specific regions of the Enochian cosmology — verbal formulas that establish a resonance with the intended angelic hierarchy.",
+    "psychologicalLens": "The Calls can be understood as elaborate mantric structures whose rhythmic and phonetic properties induce altered states of consciousness, regardless of their content.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Enochian Language",
+      "Watchtower",
+      "Aethyr",
+      "Invocation"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "angelic-hierarchy",
+    "term": "Angelic Hierarchy",
+    "oneLine": "The structured classification of entities within the Enochian system, derived from the letter arrangements of the Watchtower tablets. The hierarchy includes …",
+    "definition": "The structured classification of entities within the Enochian system, derived from the letter arrangements of the Watchtower tablets. The hierarchy includes (from highest to lowest): God-names, Kings, Seniors, Calvary Cross Angels, Kerubic Angels, and Servient Angels.",
+    "category": "Cosmology / Entities",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Dee received a specific hierarchy differing from the traditional Christian angelic hierarchy (Pseudo-Dionysius). The Enochian hierarchy is functional (tied to the tablet structure) rather than ontological (describing being-levels).",
+    "occultLens": "Each level of the hierarchy corresponds to different types of influence and governance, analogous to a chain of command.",
+    "psychologicalLens": "The hierarchy can be read as a model of psychic organization — from unified purpose (God-names) through executive function (Kings, Seniors) to specialized operations (Kerubic, Servient).",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "King",
+      "Senior",
+      "Kerubic Angel",
+      "Servient Angel",
+      "Calvary Cross",
+      "Great Table"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "archivist",
+    "term": "Archivist",
+    "oneLine": "The seventh and final rank of the Celestial Archive's Initiation Path — one who has developed the skills and responsibility to preserve, curate, and transmit…",
+    "definition": "The seventh and final rank of the Celestial Archive's Initiation Path — one who has developed the skills and responsibility to preserve, curate, and transmit knowledge accurately, without distortion, inflation, or dogmatic attachment. The steward of the Archive.",
+    "category": "Progression",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "Not a traditional esoteric rank. Chosen for this app to emphasize stewardship over authority.",
+    "psychologicalLens": "Represents the integration of knowledge with humility — the capacity to hold vast information without being possessed by it.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Adept",
+      "Progression",
+      "Discernment",
+      "Stewardship"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "archetype",
+    "term": "Archetype",
+    "oneLine": "A recurring symbolic pattern or figure that appears across cultures, myths, and psychological experience — understood as a fundamental structure of the human…",
+    "definition": "A recurring symbolic pattern or figure that appears across cultures, myths, and psychological experience — understood as a fundamental structure of the human psyche (Jung) or of reality itself (Platonic tradition).",
+    "category": "Psychology / Comparative Systems",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "The concept derives from Plato (Forms) and was developed by C.G. Jung into a psychological framework. Dee would not have used this term.",
+    "occultLens": "Many esoteric systems understand their entities as archetypes — universal forces expressed through cultural-specific imagery.",
+    "psychologicalLens": "Archetypes are the deep structures of the unconscious — patterns that shape how we perceive, imagine, and symbolize experience. In this framework, Enochian angels are archetypal rather than literal.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Symbol",
+      "Intelligence",
+      "Angel",
+      "Jung",
+      "Psychology"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "abyss-the",
+    "term": "Abyss, The",
+    "oneLine": "In Enochian cosmology as interpreted by Crowley, the boundary between the lower Aethyrs (personal consciousness) and the upper Aethyrs (transpersonal/divine …",
+    "definition": "In Enochian cosmology as interpreted by Crowley, the boundary between the lower Aethyrs (personal consciousness) and the upper Aethyrs (transpersonal/divine consciousness). Associated with the 10th Aethyr, ZAX, and the demon Choronzon.",
+    "category": "Cosmology / Psychology",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "The term \"Abyss\" does not appear prominently in Dee's original records for the Aethyrs. It is primarily a Crowley/Thelemic concept, mapped onto the Enochian framework via the Kabbalistic concept of Da'ath.",
+    "occultLens": "The Abyss is understood as the ultimate spiritual test — the dissolution of ego required to attain higher consciousness. Choronzon is the guardian/adversary who must be faced.",
+    "psychologicalLens": "The Abyss can be read as the experience of ego-dissolution that occurs in deep meditative or psychedelic states — the boundary between structured identity and formless awareness.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Crowley (literal spiritual ordeal); psychological (ego dissolution); Kabbalistic (Da'ath, the hidden Sephirah); critical (a narrative device Crowley used to frame his desert experience).",
+    "relatedTerms": [
+      "ZAX",
+      "Choronzon",
+      "Aethyr",
+      "Crowley",
+      "Da'ath",
+      "Kether"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "calvary-cross-angel",
+    "term": "Calvary Cross Angel",
+    "oneLine": "An angel derived from the 10-letter cross pattern found in each subquadrant of the Watchtower tablets. The cross divides each subquadrant into four smaller s…",
+    "definition": "An angel derived from the 10-letter cross pattern found in each subquadrant of the Watchtower tablets. The cross divides each subquadrant into four smaller sections.",
+    "category": "Entities / Watchtowers",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "Part of the original Dee system, though the method of deriving angel names from the cross pattern was elaborated by the Golden Dawn.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "Subquadrant",
+      "Kerubic Angel",
+      "Servient Angel"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "choronzon",
+    "term": "Choronzon",
+    "oneLine": "A demonic or adversarial entity associated with the Abyss (10th Aethyr, ZAX) in Crowley's Enochian work. Crowley described Choronzon as the \"Dweller in the A…",
+    "definition": "A demonic or adversarial entity associated with the Abyss (10th Aethyr, ZAX) in Crowley's Enochian work. Crowley described Choronzon as the \"Dweller in the Abyss\" — a being of dispersion, confusion, and dissolution of identity.",
+    "category": "Entities / Cosmology",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "The name \"Coronzon\" appears once in Dee's diaries (Sloane MS 3188) in a marginal note. Its significance in Dee's system is unclear — Crowley vastly expanded its role.",
+    "occultLens": "Choronzon is understood as the ultimate adversary — not evil in a moral sense, but a force of dispersion that tests the practitioner's integrity.",
+    "psychologicalLens": "Choronzon can be read as the personification of cognitive dissolution — the experience of ego fragmentation that precedes deeper integration.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Abyss",
+      "ZAX",
+      "Aethyr",
+      "Crowley",
+      "Ego",
+      "Dissolution"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "cosmology",
+    "term": "Cosmology",
+    "oneLine": "A systematic description of the structure and origin of the universe. In the Enochian context, the comprehensive architecture of Watchtowers, Aethyrs, elemen…",
+    "definition": "A systematic description of the structure and origin of the universe. In the Enochian context, the comprehensive architecture of Watchtowers, Aethyrs, elemental forces, and angelic hierarchies that together constitute the system's model of reality.",
+    "category": "Framework",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "Aethyr",
+      "Great Table",
+      "Celestial Map"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "crowley-aleister-1875-1947",
+    "term": "Crowley, Aleister (1875–1947)",
+    "oneLine": "English occultist, writer, and mountaineer. The third major figure in the Enochian tradition, who adapted the Golden Dawn's Enochian system for his Thelemic …",
+    "definition": "English occultist, writer, and mountaineer. The third major figure in the Enochian tradition, who adapted the Golden Dawn's Enochian system for his Thelemic practice and produced the most detailed experiential account of the 30 Aethyrs in *The Vision and the Voice* (1911).",
+    "category": "Figures",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "historicalLens": "Born Edward Alexander Crowley. Joined the Golden Dawn in 1898. Founded or led multiple magical orders. Published prolifically.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Vision and the Voice",
+      "Liber Chanokh",
+      "Thelema",
+      "Golden Dawn",
+      "Choronzon"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "dee-john-1527-1608-9",
+    "term": "Dee, John (1527–1608/9)",
+    "oneLine": "English mathematician, astronomer, astrologer, geographer, and advisor to Queen Elizabeth I. The primary architect and recorder of the Enochian system, which…",
+    "definition": "English mathematician, astronomer, astrologer, geographer, and advisor to Queen Elizabeth I. The primary architect and recorder of the Enochian system, which he claimed was transmitted by angelic beings through his scryer Edward Kelley between 1582 and 1587.",
+    "category": "Figures",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "historicalLens": "One of the most learned men in Elizabethan England, with a library of over 4,000 volumes. He coined the term \"British Empire,\" designed navigational instruments, and wrote the preface to the first English Euclid. He turned to angel magic after decades of conventional scholarship.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Kelley",
+      "Monas Hieroglyphica",
+      "Mortlake",
+      "Scrying",
+      "Angelic Sessions"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "discernment",
+    "term": "Discernment",
+    "oneLine": "The capacity to distinguish between different kinds of claims — factual, interpretive, speculative, traditional — and to evaluate each on its own terms. In t…",
+    "definition": "The capacity to distinguish between different kinds of claims — factual, interpretive, speculative, traditional — and to evaluate each on its own terms. In the Celestial Archive, discernment is the highest skill the Initiation Path develops.",
+    "category": "Framework / Progression",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "psychologicalLens": "The cognitive skill of pattern recognition combined with critical evaluation — seeing structure without being captured by it.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Research Lens",
+      "Epistemic Status",
+      "Archivist",
+      "Observer",
+      "Interpreter"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "egregore",
+    "term": "Egregore",
+    "oneLine": "A concept in occult theory: a collective thought-form or psychic entity generated by the sustained focused attention of a group. A shared pattern of intellig…",
+    "definition": "A concept in occult theory: a collective thought-form or psychic entity generated by the sustained focused attention of a group. A shared pattern of intelligence that emerges from communal belief and practice.",
+    "category": "Comparative / Psychology",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "The term derives from the Greek *egrḗgoroi* (Watchers). In modern occultism, it refers to the \"spirit\" of a group or tradition.",
+    "occultLens": "An egregore is understood as a real, if non-physical, entity that develops autonomy as a group's practice deepens.",
+    "psychologicalLens": "A group's shared cognitive framework — the collective habits of thought, imagery, and meaning-making that take on a life of their own.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Literal occult entity (traditional view); sociological phenomenon (group identity); psychological phenomenon (collective unconscious); information-theoretic entity (emergent intelligence view).",
+    "relatedTerms": [
+      "Watchers",
+      "Intelligence",
+      "Thoughtform",
+      "Tradition",
+      "Emergent Intelligence"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "element",
+    "term": "Element",
+    "oneLine": "One of the four classical elements — Air, Fire, Water, Earth — plus Spirit (the fifth). In the Enochian system, each of the four Watchtower tablets is associ…",
+    "definition": "One of the four classical elements — Air, Fire, Water, Earth — plus Spirit (the fifth). In the Enochian system, each of the four Watchtower tablets is associated with one element, and the Tablet of Union represents Spirit.",
+    "category": "Cosmology / Watchtowers",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "historicalLens": "Dee received elemental attributions for the tablets, though the specific direction-to-element mapping was altered by the Golden Dawn.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "Tablet of Union",
+      "Great Table",
+      "Subquadrant"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "enoch-biblical-patriarch",
+    "term": "Enoch (Biblical Patriarch)",
+    "oneLine": "A figure from the Hebrew Bible (Genesis 5:24) who \"walked with God, and he was not, for God took him.\" Traditionally understood as having been taken alive in…",
+    "definition": "A figure from the Hebrew Bible (Genesis 5:24) who \"walked with God, and he was not, for God took him.\" Traditionally understood as having been taken alive into heaven, where he received celestial secrets. The pseudepigraphical Books of Enoch expand his story.",
+    "category": "Figures / Religion",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "historicalLens": "Enoch's story in Genesis is brief (one verse). The extensive mythology comes from the pseudepigraphical texts (1, 2, and 3 Enoch) composed between c. 300 BCE and 500 CE.",
+    "occultLens": "Dee believed the Enochian system was the recovery of the celestial knowledge given to the original Enoch — the language Adam spoke before the Fall.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Book of Enoch",
+      "Watchers",
+      "Dee",
+      "Angelic Language"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "enochian-adjective",
+    "term": "Enochian (adjective)",
+    "oneLine": "Pertaining to the system of angelic magic, language, cosmology, and practice transmitted to John Dee and Edward Kelley. Named after the patriarch Enoch, base…",
+    "definition": "Pertaining to the system of angelic magic, language, cosmology, and practice transmitted to John Dee and Edward Kelley. Named after the patriarch Enoch, based on Dee's claim that the system represents the recovery of knowledge given to Enoch.",
+    "category": "Framework",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "enochian-alphabet",
+    "term": "Enochian Alphabet",
+    "oneLine": "A 21-letter script transmitted to Dee and Kelley in 1584, written right-to-left, with each letter having a name, a transliterated Latin equivalent, and (in s…",
+    "definition": "A 21-letter script transmitted to Dee and Kelley in 1584, written right-to-left, with each letter having a name, a transliterated Latin equivalent, and (in some traditions) a symbolic meaning. Also called the \"Angelic Alphabet\" or \"Celestial Alphabet.\"",
+    "category": "Language",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "historicalLens": "Transmitted in Kraków, received in reverse order. Each letter has a name in the Enochian language. The script was used to write the Calls and the names within the Watchtower tablets.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Angelic Call",
+      "Language",
+      "Alphabet",
+      "Liber Loagaeth"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "enochian-language",
+    "term": "Enochian Language",
+    "oneLine": "The linguistic system transmitted through the Angelic Calls — a vocabulary of several hundred words with apparent grammatical structure, used to compose the …",
+    "definition": "The linguistic system transmitted through the Angelic Calls — a vocabulary of several hundred words with apparent grammatical structure, used to compose the 19 Calls and derive names from the Watchtower tablets.",
+    "category": "Language",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "historicalLens": "Whether Enochian is a genuine language, a constructed language, or a systematic but non-linguistic pattern is actively debated. Donald Laycock's 1978/1988 analysis found some language-like features but also significant anomalies.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Angelic language received from divine beings (traditional); constructed language created by Kelley (skeptical); glossolalia with post-hoc systematization (linguistic); emergent structure from an unconscious process (psychological).",
+    "relatedTerms": [
+      "Enochian Alphabet",
+      "Angelic Call",
+      "Laycock",
+      "Liber Loagaeth"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "epistemic-status",
+    "term": "Epistemic Status",
+    "oneLine": "The confidence level assigned to a claim — how well-supported it is by evidence, consensus, or reason. The Celestial Archive uses a badge system to make epis…",
+    "definition": "The confidence level assigned to a claim — how well-supported it is by evidence, consensus, or reason. The Celestial Archive uses a badge system to make epistemic status visible on all content.",
+    "category": "Framework / Discernment",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Discernment",
+      "Research Lens",
+      "Source Tradition"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "frequency",
+    "term": "Frequency",
+    "oneLine": "In esoteric usage, a metaphor for the vibrational quality or resonance of a state of consciousness, an entity, or a domain of reality. In physics, the number…",
+    "definition": "In esoteric usage, a metaphor for the vibrational quality or resonance of a state of consciousness, an entity, or a domain of reality. In physics, the number of wave cycles per unit of time.",
+    "category": "Comparative / Psychology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Not a traditional Enochian term. The \"frequency\" metaphor enters occult discourse primarily in the 20th century, influenced by radio technology and later by New Age thought.",
+    "psychologicalLens": "A useful metaphor for the qualitative differences between states of awareness — but a metaphor, not a measurement.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Consciousness",
+      "Aethyr",
+      "Intelligence",
+      "Vibration"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "gnosis",
+    "term": "Gnosis",
+    "oneLine": "Direct experiential knowledge of the divine or of spiritual reality — as opposed to intellectual knowledge (*episteme*) or faith (*pistis*). From Greek *gnōs…",
+    "definition": "Direct experiential knowledge of the divine or of spiritual reality — as opposed to intellectual knowledge (*episteme*) or faith (*pistis*). From Greek *gnōsis* (\"knowledge\").",
+    "category": "Comparative / Psychology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Central to Gnostic Christianity (2nd–4th century CE). Later adopted broadly in Western esotericism.",
+    "occultLens": "The ultimate goal of many esoteric practices — direct experience of transcendent reality.",
+    "psychologicalLens": "Peak experience (Maslow), flow state, mystical experience, non-dual awareness — the psychological correlates of what traditions call gnosis.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Gnosticism",
+      "Mystical Experience",
+      "Aethyr",
+      "Intelligence",
+      "Contemplation"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "gnosticism",
+    "term": "Gnosticism",
+    "oneLine": "A diverse family of religious and philosophical movements (primarily 2nd–4th century CE) characterized by the belief that salvation comes through direct expe…",
+    "definition": "A diverse family of religious and philosophical movements (primarily 2nd–4th century CE) characterized by the belief that salvation comes through direct experiential knowledge (gnosis) of the divine, and that the material world was created by a lesser, often ignorant deity (the Demiurge).",
+    "category": "Comparative Systems",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Documented through the Nag Hammadi library (discovered 1945), Church Fathers' polemics, and other sources.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "The parallels between Gnostic cosmology (layered Aeons, guardian Archons) and Enochian cosmology (layered Aethyrs, guardian Governors) are striking but may be coincidental, cultural, or structural.",
+    "relatedTerms": [
+      "Gnosis",
+      "Aeon",
+      "Archon",
+      "Demiurge",
+      "Aethyr (structural parallel)"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "golden-dawn-hermetic-order-of-the",
+    "term": "Golden Dawn (Hermetic Order of the)",
+    "oneLine": "A magical order founded in London in 1887–1888 by William Wynn Westcott, Samuel Liddell MacGregor Mathers, and William Robert Woodman. The most influential m…",
+    "definition": "A magical order founded in London in 1887–1888 by William Wynn Westcott, Samuel Liddell MacGregor Mathers, and William Robert Woodman. The most influential magical organization in modern Western esotericism, responsible for systematizing the Enochian material into a usable ritual system.",
+    "category": "Organizations / History",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Mathers",
+      "Westcott",
+      "Regardie",
+      "Crowley",
+      "Enochian System",
+      "Tree of Life"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "governor",
+    "term": "Governor",
+    "oneLine": "One of 91 angelic entities that govern the 30 Aethyrs. Each Aethyr has three Governors (except a few that have four). Governor names are derived from the Wat…",
+    "definition": "One of 91 angelic entities that govern the 30 Aethyrs. Each Aethyr has three Governors (except a few that have four). Governor names are derived from the Watchtower tablets by a specific extraction method.",
+    "category": "Entities / Cosmology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Received by Dee and Kelley as part of the Aethyr system. The governors are linked to specific geographic regions of Earth.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Aethyr",
+      "Watchtower",
+      "Great Table",
+      "Angelic Hierarchy"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "great-table-the",
+    "term": "Great Table, The",
+    "oneLine": "The combined arrangement of the four Watchtower tablets (each 12×13) into a single large grid, divided by a cross of black lines. The Great Table is the mast…",
+    "definition": "The combined arrangement of the four Watchtower tablets (each 12×13) into a single large grid, divided by a cross of black lines. The Great Table is the master map of the Enochian system's horizontal cosmology.",
+    "category": "Cosmology / Watchtowers",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Received by Dee. The orientation and internal arrangement was later modified by Mathers (the \"Reformed\" or \"Corrected\" Great Table).",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "Tablet of Union",
+      "Celestial Map",
+      "Mathers"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "hermeticism",
+    "term": "Hermeticism",
+    "oneLine": "A philosophical and spiritual tradition based on the writings attributed to Hermes Trismegistus (the \"thrice-great Hermes\"), particularly the Corpus Hermetic…",
+    "definition": "A philosophical and spiritual tradition based on the writings attributed to Hermes Trismegistus (the \"thrice-great Hermes\"), particularly the Corpus Hermeticum and the Emerald Tablet. Central principles include \"as above, so below\" and the divine nature of the human mind.",
+    "category": "Comparative Systems",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "The Hermetic texts were composed in Greco-Roman Egypt (c. 100–300 CE). They were rediscovered and translated into Latin by Marsilio Ficino in 1463, catalyzing the Renaissance magical revival that made Dee possible.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "As Above So Below",
+      "Emerald Tablet",
+      "Renaissance",
+      "Dee"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "holy-table",
+    "term": "Holy Table",
+    "oneLine": "A ritual table designed according to angelic instructions, upon which the Sigillum Dei Aemeth and other Enochian tools were placed during scrying sessions. T…",
+    "definition": "A ritual table designed according to angelic instructions, upon which the Sigillum Dei Aemeth and other Enochian tools were placed during scrying sessions. The table's surface is inscribed with specific letters, numbers, and geometric patterns.",
+    "category": "Ritual Furniture",
+    "level": "Intermediate",
+    "primaryBadge": "occult",
+    "historicalLens": "Described in Dee's records with precise measurements and inscriptions.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Sigillum Dei Aemeth",
+      "Scrying",
+      "Ritual Furniture",
+      "Lamen",
+      "Ring"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "intelligence",
+    "term": "Intelligence",
+    "oneLine": "In the Celestial Archive's framework, a deliberately broad term for any organized pattern of meaning, awareness, or responsiveness — whether human, angelic, …",
+    "definition": "In the Celestial Archive's framework, a deliberately broad term for any organized pattern of meaning, awareness, or responsiveness — whether human, angelic, symbolic, cosmic, or emergent. The app explores 8 intelligence types.",
+    "category": "Framework / Philosophy",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "In Renaissance occultism, \"intelligences\" referred specifically to the governing spirits of planets and celestial spheres (distinct from demons or angels proper).",
+    "occultLens": "Intelligence is understood as a fundamental property of reality — not limited to biological brains. Angels, planets, symbols, and systems can all possess or express intelligence.",
+    "psychologicalLens": "Intelligence as information processing, pattern recognition, and adaptive response — which can occur at scales from cellular to civilizational.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "This is the app's central open question. The glossary does not resolve it.",
+    "relatedTerms": [
+      "All 8 intelligence types (angelic",
+      "demonic",
+      "divine",
+      "cosmic",
+      "symbolic",
+      "interior",
+      "constructed",
+      "emergent)"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "interpreter",
+    "term": "Interpreter",
+    "oneLine": "The fourth rank of the Celestial Archive's Initiation Path — one who has developed the capacity to distinguish between different traditions' interpretations …",
+    "definition": "The fourth rank of the Celestial Archive's Initiation Path — one who has developed the capacity to distinguish between different traditions' interpretations and evaluate claims on their evidence.",
+    "category": "Progression",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Observer",
+      "Discernment",
+      "Research Lens",
+      "Tradition"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "invocation",
+    "term": "Invocation",
+    "oneLine": "The act of calling upon a spiritual being or force, typically through spoken words, names, or ritual formulas. Distinguished from \"evocation\" (calling a bein…",
+    "definition": "The act of calling upon a spiritual being or force, typically through spoken words, names, or ritual formulas. Distinguished from \"evocation\" (calling a being to appear before you) — invocation calls the force into your own awareness or space.",
+    "category": "Ritual / Practice",
+    "level": "Beginner",
+    "primaryBadge": "occult",
+    "historicalLens": "Dee's sessions were invocatory — he and Kelley called upon God and his angels before scrying.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Angelic Call",
+      "Evocation",
+      "Scrying",
+      "Prayer"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "kabbalah",
+    "term": "Kabbalah",
+    "oneLine": "The Jewish mystical tradition concerned with the nature of God, creation, the soul, and the structure of the divine world. Its central diagram is the Tree of…",
+    "definition": "The Jewish mystical tradition concerned with the nature of God, creation, the soul, and the structure of the divine world. Its central diagram is the Tree of Life (Etz Chaim) — 10 Sephiroth connected by 22 paths.",
+    "category": "Comparative Systems",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Developed from late antiquity through the medieval period. Major texts: Sefer Yetzirah, Bahir, Zohar. Christian Kabbalah (Renaissance adaptation) directly influenced Dee.",
+    "occultLens": "The Golden Dawn mapped Enochian elements onto the Tree of Life — a correspondence that Dee himself never made.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Tree of Life",
+      "Sephirah",
+      "Da'ath",
+      "Golden Dawn",
+      "Hebrew Alphabet"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "kelley-edward-1555-1597",
+    "term": "Kelley, Edward (1555–1597)",
+    "oneLine": "English scryer, alchemist, and Dee's essential partner in the angelic communications (1582–1587). All Enochian material was transmitted through Kelley's scry…",
+    "definition": "English scryer, alchemist, and Dee's essential partner in the angelic communications (1582–1587). All Enochian material was transmitted through Kelley's scrying.",
+    "category": "Figures",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "historicalLens": "Born Edward Talbot. Arrived at Mortlake on March 8, 1582. Previously convicted of forgery (ears allegedly cropped). Claimed alchemical knowledge. Died in 1597 under mysterious circumstances.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Genuine psychic (traditional); talented fraud (skeptical); psychologically complex individual who may have believed some of what he transmitted and fabricated other parts (nuanced); a man undergoing genuine altered-state experiences that he struggled to interpret (psychological).",
+    "relatedTerms": [
+      "Dee",
+      "Scrying",
+      "Angelic Sessions",
+      "Fraud Hypothesis"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "kerubic-angel",
+    "term": "Kerubic Angel",
+    "oneLine": "An angel derived from the first row of letters above each Calvary Cross in a Watchtower subquadrant. Each subquadrant has four Kerubic Angels, derived by rea…",
+    "definition": "An angel derived from the first row of letters above each Calvary Cross in a Watchtower subquadrant. Each subquadrant has four Kerubic Angels, derived by rearranging the letters of the row.",
+    "category": "Entities / Watchtowers",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "Calvary Cross",
+      "Servient Angel",
+      "Subquadrant"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "king",
+    "term": "King",
+    "oneLine": "In the Enochian hierarchy, the ruling entity of each Watchtower tablet. The King's name is derived from a specific spiral pattern on the tablet's Great Cross.",
+    "definition": "In the Enochian hierarchy, the ruling entity of each Watchtower tablet. The King's name is derived from a specific spiral pattern on the tablet's Great Cross.",
+    "category": "Entities / Watchtowers",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Senior",
+      "Watchtower",
+      "Great Table",
+      "Angelic Hierarchy"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "lamen",
+    "term": "Lamen",
+    "oneLine": "A ritual breastplate worn by the practitioner during Enochian workings. Inscribed with specific divine and angelic names according to instructions received i…",
+    "definition": "A ritual breastplate worn by the practitioner during Enochian workings. Inscribed with specific divine and angelic names according to instructions received in the sessions.",
+    "category": "Ritual Furniture",
+    "level": "Advanced",
+    "primaryBadge": "occult",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Holy Table",
+      "Sigillum Dei Aemeth",
+      "Ring",
+      "Ritual Furniture"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "liber-loagaeth-book-of-the-speech-of-god",
+    "term": "Liber Loagaeth (Book of the Speech of God)",
+    "oneLine": "A manuscript of 49 large tables (each approximately 49×49 letters), transmitted to Dee through Kelley in 1583. Claimed by the angels to contain the original …",
+    "definition": "A manuscript of 49 large tables (each approximately 49×49 letters), transmitted to Dee through Kelley in 1583. Claimed by the angels to contain the original language of creation. The most enigmatic and least understood element of the Enochian corpus.",
+    "category": "Manuscripts / Language",
+    "level": "Advanced",
+    "primaryBadge": "historical",
+    "historicalLens": "Preserved as Sloane MS 3189. The tables have never been fully decoded or linguistically analyzed.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Enochian Language",
+      "Dee",
+      "Kelley",
+      "Sloane Manuscripts"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "mathers-samuel-liddell-macgregor-1854-1918",
+    "term": "Mathers, Samuel Liddell MacGregor (1854–1918)",
+    "oneLine": "Co-founder of the Golden Dawn and the primary architect of the Golden Dawn's Enochian system. Mathers reconstructed Dee's raw manuscripts into a coherent rit…",
+    "definition": "Co-founder of the Golden Dawn and the primary architect of the Golden Dawn's Enochian system. Mathers reconstructed Dee's raw manuscripts into a coherent ritual and cosmological framework, adding Kabbalistic correspondences and creating the Reformed Great Table.",
+    "category": "Figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Golden Dawn",
+      "Enochian System",
+      "Reformed Table",
+      "Westcott"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "monas-hieroglyphica",
+    "term": "Monas Hieroglyphica",
+    "oneLine": "A single glyph designed by John Dee, published in 1564, which he claimed encoded all mathematical, astronomical, and alchemical knowledge. A symbol of radica…",
+    "definition": "A single glyph designed by John Dee, published in 1564, which he claimed encoded all mathematical, astronomical, and alchemical knowledge. A symbol of radical unification.",
+    "category": "Symbols / Figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "historicalLens": "Dedicated to Emperor Maximilian II. The symbol combines the signs of the seven planets, the zodiac, and the elements into a single mark.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Dee",
+      "Sacred Geometry",
+      "Symbol",
+      "Unity"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "mortlake",
+    "term": "Mortlake",
+    "oneLine": "A village in Surrey (now part of London) where Dee maintained his home and library from the 1560s until his departure for the continent in 1583, and again af…",
+    "definition": "A village in Surrey (now part of London) where Dee maintained his home and library from the 1560s until his departure for the continent in 1583, and again after his return in 1589.",
+    "category": "History / Places",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "historicalLens": "Dee's Mortlake home was one of the most significant centers of learning in Elizabethan England. His library of 4,000+ volumes was among the largest in the country. It was ransacked during his absence.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Dee",
+      "Library",
+      "Angelic Sessions"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "observer",
+    "term": "Observer",
+    "oneLine": "The third rank of the Celestial Archive's Initiation Path — one who has developed the capacity to read carefully and without projection, noticing what source…",
+    "definition": "The third rank of the Celestial Archive's Initiation Path — one who has developed the capacity to read carefully and without projection, noticing what sources actually say rather than what we want them to say.",
+    "category": "Progression",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "psychologicalLens": "The skill of attention without interpretation — seeing what is there before imposing meaning.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Discernment",
+      "Interpreter",
+      "Research Lens"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "projection",
+    "term": "Projection",
+    "oneLine": "(1) In psychology, the attribution of one's own thoughts, feelings, or expectations onto an external object or being. (2) In occult usage, the transfer of co…",
+    "definition": "(1) In psychology, the attribution of one's own thoughts, feelings, or expectations onto an external object or being. (2) In occult usage, the transfer of consciousness to another plane or the external manifestation of inner forces.",
+    "category": "Psychology / Practice",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "psychologicalLens": "When reading Enochian material, projection is the tendency to see confirmation of what we want to find — angels if we want angels, fraud if we want fraud.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Discernment",
+      "Observer",
+      "Scrying",
+      "Archetype"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "ring-of-solomon-dees-ring",
+    "term": "Ring of Solomon (Dee's Ring)",
+    "oneLine": "A ritual ring inscribed with the divine name \"PELE\" and other symbols, to be worn during Enochian workings. Designed according to angelic instructions.",
+    "definition": "A ritual ring inscribed with the divine name \"PELE\" and other symbols, to be worn during Enochian workings. Designed according to angelic instructions.",
+    "category": "Ritual Furniture",
+    "level": "Advanced",
+    "primaryBadge": "occult",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Holy Table",
+      "Lamen",
+      "Sigillum Dei Aemeth"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "sacred-geometry",
+    "term": "Sacred Geometry",
+    "oneLine": "The study and use of geometric patterns understood as expressions of divine order — the mathematical structure underlying reality. In the Enochian system, fo…",
+    "definition": "The study and use of geometric patterns understood as expressions of divine order — the mathematical structure underlying reality. In the Enochian system, found in the Sigillum Dei Aemeth (heptagonal geometry), the grid structure of the Watchtower tablets, and the numerical relationships between entities.",
+    "category": "Comparative / Cosmology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Sacred geometry has roots in Pythagoreanism, Platonic philosophy, and Islamic art. Dee was deeply immersed in this tradition.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Sigillum Dei Aemeth",
+      "Watchtower",
+      "Geometry",
+      "Mathematics"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "scrying",
+    "term": "Scrying",
+    "oneLine": "The practice of gazing into a reflective or translucent surface (crystal, mirror, water, polished stone) to receive visions or communications from non-materi…",
+    "definition": "The practice of gazing into a reflective or translucent surface (crystal, mirror, water, polished stone) to receive visions or communications from non-material beings. Kelley was the scryer in the Dee/Kelley partnership.",
+    "category": "Practice / History",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "historicalLens": "Scrying has ancient roots across many cultures. Dee used a \"shew-stone\" (now in the British Museum) and later a crystal ball.",
+    "occultLens": "Scrying is understood as a technique for receiving communication from non-physical intelligences by stilling the conscious mind and allowing visionary content to arise.",
+    "psychologicalLens": "Scrying can be understood as a method of inducing mild dissociative states that allow unconscious content to surface as visual imagery — similar to hypnagogic states or active imagination.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Genuine contact with external beings (traditional); self-induced hypnotic state (psychological); deliberate performance by the scryer (fraud hypothesis); a technique that accesses genuine non-ordinary information regardless of mechanism (agnostic).",
+    "relatedTerms": [
+      "Kelley",
+      "Dee",
+      "Crystal",
+      "Vision",
+      "Altered States",
+      "Active Imagination"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "seeker",
+    "term": "Seeker",
+    "oneLine": "The first rank of the Celestial Archive's Initiation Path — one who has found the door and begun to orient themselves to the system.",
+    "definition": "The first rank of the Celestial Archive's Initiation Path — one who has found the door and begun to orient themselves to the system.",
+    "category": "Progression",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Student",
+      "Observer",
+      "Initiation"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "senior",
+    "term": "Senior",
+    "oneLine": "One of six angelic entities governing each Watchtower tablet, positioned along the horizontal and vertical axes of the Great Cross. Their names are derived f…",
+    "definition": "One of six angelic entities governing each Watchtower tablet, positioned along the horizontal and vertical axes of the Great Cross. Their names are derived from the cross's letter patterns.",
+    "category": "Entities / Watchtowers",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "King",
+      "Watchtower",
+      "Great Cross",
+      "Angelic Hierarchy"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "servient-angel",
+    "term": "Servient Angel",
+    "oneLine": "The lowest-ranking entities in each Watchtower subquadrant, derived from the letters beneath the Calvary Cross. They represent the most specific and localize…",
+    "definition": "The lowest-ranking entities in each Watchtower subquadrant, derived from the letters beneath the Calvary Cross. They represent the most specific and localized forces within the tablet.",
+    "category": "Entities / Watchtowers",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Kerubic Angel",
+      "Calvary Cross",
+      "Subquadrant",
+      "Watchtower"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "sigil",
+    "term": "Sigil",
+    "oneLine": "A visual symbol — typically a geometric or abstract design — associated with a specific entity, force, or intention. In the Enochian context, sigils can be d…",
+    "definition": "A visual symbol — typically a geometric or abstract design — associated with a specific entity, force, or intention. In the Enochian context, sigils can be derived from entity names by tracing letter positions on grids.",
+    "category": "Symbols / Practice",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "occultLens": "Sigils are understood as \"signatures\" of spiritual beings, functioning as points of contact or resonance.",
+    "psychologicalLens": "Sigils function as focal points for concentrated attention, potentially activating unconscious associations and imaginative processes.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Symbol",
+      "Sigillum Dei Aemeth",
+      "Sacred Geometry"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "sigillum-dei-aemeth-seal-of-gods-truth",
+    "term": "Sigillum Dei Aemeth (Seal of God's Truth)",
+    "oneLine": "A large, complex wax seal approximately nine inches in diameter, central to Dee's Enochian practice. It features concentric circles containing heptagonal (se…",
+    "definition": "A large, complex wax seal approximately nine inches in diameter, central to Dee's Enochian practice. It features concentric circles containing heptagonal (seven-sided) geometry, divine names, angelic names, and planetary symbols. Four small Sigilla supported the legs of the Holy Table; a larger one was placed on the table beneath the scrying stone.",
+    "category": "Ritual Furniture / Sacred Geometry",
+    "level": "Intermediate",
+    "primaryBadge": "occult",
+    "historicalLens": "Received in the earliest sessions (1582). The Sigillum has medieval predecessors (Sigillum Dei in the Liber Juratus), but Dee's version is significantly more complex.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Holy Table",
+      "Sacred Geometry",
+      "Ritual Furniture",
+      "Heptarchy"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "sloane-manuscripts",
+    "term": "Sloane Manuscripts",
+    "oneLine": "The collection of Dee's original handwritten notebooks and documents held at the British Library, catalogued under the Sloane Collection. The primary source …",
+    "definition": "The collection of Dee's original handwritten notebooks and documents held at the British Library, catalogued under the Sloane Collection. The primary source for all Enochian scholarship.",
+    "category": "Manuscripts / Sources",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "historicalLens": "Key manuscripts: Sloane MS 3188 (early sessions, Heptarchia), Sloane MS 3189 (Liber Loagaeth), Sloane MS 3191 (48 Angelical Keys).",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Dee",
+      "British Library",
+      "Primary Sources",
+      "Casaubon"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "spirit-fifth-element",
+    "term": "Spirit (Fifth Element)",
+    "oneLine": "In the elemental system, the fifth element that unifies and transcends the four material elements (Air, Fire, Water, Earth). In the Enochian system, represen…",
+    "definition": "In the elemental system, the fifth element that unifies and transcends the four material elements (Air, Fire, Water, Earth). In the Enochian system, represented by the Tablet of Union.",
+    "category": "Cosmology / Elements",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Element",
+      "Tablet of Union",
+      "Great Table",
+      "Watchtower"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "student",
+    "term": "Student",
+    "oneLine": "The second rank of the Celestial Archive's Initiation Path — one who has begun to learn the alphabet and foundational vocabulary of the system.",
+    "definition": "The second rank of the Celestial Archive's Initiation Path — one who has begun to learn the alphabet and foundational vocabulary of the system.",
+    "category": "Progression",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Seeker",
+      "Observer",
+      "Initiation"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "subquadrant",
+    "term": "Subquadrant",
+    "oneLine": "One of four smaller sections within each Watchtower tablet, created by the intersection of the Great Cross and the Calvary Cross. Each subquadrant is attribu…",
+    "definition": "One of four smaller sections within each Watchtower tablet, created by the intersection of the Great Cross and the Calvary Cross. Each subquadrant is attributed to a \"sub-element\" (e.g., \"Water of Air\" in the Air tablet's water subquadrant).",
+    "category": "Watchtowers / Cosmology",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "Calvary Cross",
+      "Great Cross",
+      "Kerubic Angel",
+      "Servient Angel"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "symbol",
+    "term": "Symbol",
+    "oneLine": "An image, mark, word, or object that carries meaning beyond its literal appearance. In the Celestial Archive, symbolic intelligence is one of the eight intel…",
+    "definition": "An image, mark, word, or object that carries meaning beyond its literal appearance. In the Celestial Archive, symbolic intelligence is one of the eight intelligence types — the capacity of symbols to organize, transmit, and generate meaning across time and cultures.",
+    "category": "Framework / Philosophy",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "psychologicalLens": "Symbols are the language of the unconscious (Jung). They function as bridges between conscious and unconscious, material and spiritual, personal and collective.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Sigil",
+      "Archetype",
+      "Intelligence",
+      "Sacred Geometry"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "tablet-of-union",
+    "term": "Tablet of Union",
+    "oneLine": "A small 4×5 letter grid that sits at the center of the Great Table, where the four Watchtower tablets meet. It is attributed to Spirit (the fifth element) an…",
+    "definition": "A small 4×5 letter grid that sits at the center of the Great Table, where the four Watchtower tablets meet. It is attributed to Spirit (the fifth element) and is understood as the binding force that unifies the four elemental tablets.",
+    "category": "Cosmology / Watchtowers",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Received as part of the original transmission, though its exact role was elaborated by the Golden Dawn.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Great Table",
+      "Watchtower",
+      "Spirit",
+      "Element"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "tex-30th-aethyr",
+    "term": "TEX (30th Aethyr)",
+    "oneLine": "The outermost (lowest) of the 30 Aethyrs — the threshold, the beginning of the journey inward. Governed by TAOAGLA, GEMNIMB, and ADVORPT.",
+    "definition": "The outermost (lowest) of the 30 Aethyrs — the threshold, the beginning of the journey inward. Governed by TAOAGLA, GEMNIMB, and ADVORPT.",
+    "category": "Aethyrs",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Aethyr",
+      "LIL",
+      "ZAX",
+      "Governor"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "thelema",
+    "term": "Thelema",
+    "oneLine": "The philosophical and magical system developed by Aleister Crowley, centered on the principle \"Do what thou wilt shall be the whole of the Law.\" Crowley's En…",
+    "definition": "The philosophical and magical system developed by Aleister Crowley, centered on the principle \"Do what thou wilt shall be the whole of the Law.\" Crowley's Enochian work was conducted within a Thelemic framework.",
+    "category": "Traditions / Figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Crowley",
+      "Vision and the Voice",
+      "Liber Chanokh",
+      "Abyss"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "three-great-names",
+    "term": "Three Great Names",
+    "oneLine": "The three primary divine names derived from each Watchtower tablet's horizontal axis. They are the highest names in each tablet's hierarchy, representing the…",
+    "definition": "The three primary divine names derived from each Watchtower tablet's horizontal axis. They are the highest names in each tablet's hierarchy, representing the authority of God within that element.",
+    "category": "Entities / Watchtowers",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Watchtower",
+      "King",
+      "Senior",
+      "Angelic Hierarchy"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "the-vision-and-the-voice-liber-418",
+    "term": "*The Vision and the Voice* (Liber 418)",
+    "oneLine": "Aleister Crowley's record of his systematic scrying of all 30 Aethyrs, performed in the Algerian desert with Victor Neuburg in November–December 1909. The mo…",
+    "definition": "Aleister Crowley's record of his systematic scrying of all 30 Aethyrs, performed in the Algerian desert with Victor Neuburg in November–December 1909. The most detailed experiential account of the Aethyrs ever produced.",
+    "category": "Manuscripts / Figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "historicalLens": "Written in the field by Neuburg transcribing Crowley's spoken visions. Published posthumously in various editions.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Crowley",
+      "Aethyr",
+      "Neuburg",
+      "Choronzon",
+      "ZAX"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "tree-of-life-etz-chaim",
+    "term": "Tree of Life (Etz Chaim)",
+    "oneLine": "The central diagram of Kabbalah — 10 Sephiroth (emanations of the divine) connected by 22 paths, representing the structure of creation from infinite divine …",
+    "definition": "The central diagram of Kabbalah — 10 Sephiroth (emanations of the divine) connected by 22 paths, representing the structure of creation from infinite divine unity (Kether) to material reality (Malkuth).",
+    "category": "Comparative Systems / Kabbalah",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "historicalLens": "Developed in medieval Kabbalah. Adapted into Christian Kabbalah by Renaissance figures. The Golden Dawn mapped the entire Western magical system onto this diagram.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Kabbalah",
+      "Sephirah",
+      "Da'ath",
+      "Golden Dawn"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "watcher",
+    "term": "Watcher",
+    "oneLine": "In the Book of 1 Enoch, a class of angels sent to watch over humanity who instead descended to Earth, took human wives, and taught forbidden knowledge (metal…",
+    "definition": "In the Book of 1 Enoch, a class of angels sent to watch over humanity who instead descended to Earth, took human wives, and taught forbidden knowledge (metallurgy, cosmetics, sorcery, astrology). Their offspring were the Nephilim. God sent the Flood as punishment.",
+    "category": "Comparative Systems / Entities",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "historicalLens": "The Watcher narrative appears in 1 Enoch chapters 1–36 and in the Book of Jubilees. It influenced Christian demonology and later apocalyptic literature.",
+    "commonMisunderstandings": [],
+    "multipleInterpretations": "Literal fallen angels (traditional); mythological explanation for the origin of civilization's arts (anthropological); symbolic representation of the dangers of forbidden knowledge (literary); a narrative about the transgression of boundaries between human and divine (structural).",
+    "relatedTerms": [
+      "Enoch",
+      "Nephilim",
+      "Book of Enoch",
+      "Fallen Angel"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "watchtower",
+    "term": "Watchtower",
+    "oneLine": "One of four large letter grids (each 12 columns × 13 rows) that form the core of the Enochian spatial cosmology. Each Watchtower is associated with a cardina…",
+    "definition": "One of four large letter grids (each 12 columns × 13 rows) that form the core of the Enochian spatial cosmology. Each Watchtower is associated with a cardinal direction and an element. The four Watchtowers together, combined with the Tablet of Union, form the Great Table.",
+    "category": "Cosmology",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "Received by Dee and Kelley in 1584. The tablets contain the names of hundreds of angelic entities derivable by specific extraction rules.",
+    "occultLens": "The Watchtowers are understood as the quadrants of heaven — the spatial architecture through which all Enochian magical operations proceed.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Great Table",
+      "Tablet of Union",
+      "Element",
+      "King",
+      "Senior",
+      "Aethyr"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "zax-10th-aethyr",
+    "term": "ZAX (10th Aethyr)",
+    "oneLine": "The 10th Aethyr, associated in Crowley's system with the Abyss — the boundary between lower (personal) and upper (transpersonal) Aethyrs. The domain of Choro…",
+    "definition": "The 10th Aethyr, associated in Crowley's system with the Abyss — the boundary between lower (personal) and upper (transpersonal) Aethyrs. The domain of Choronzon.",
+    "category": "Aethyrs / Cosmology",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "historicalLens": "In Dee's original records, ZAX is simply the 10th Aethyr with its three Governors. The association with the Abyss and Choronzon is Crowley's interpretation.",
+    "commonMisunderstandings": [],
+    "relatedTerms": [
+      "Abyss",
+      "Choronzon",
+      "Aethyr",
+      "Crowley",
+      "Da'ath"
+    ],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md.",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import"
+    ]
+  },
+  {
+    "slug": "active-imagination",
+    "term": "Active Imagination",
+    "oneLine": "Jungian technique for engaging with unconscious content through directed fantasy. Structural parallel to scrying.",
+    "definition": "Jungian technique for engaging with unconscious content through directed fantasy. Structural parallel to scrying.",
+    "category": "psychology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "psychology",
+      "comparative"
+    ]
+  },
+  {
+    "slug": "alchemy",
+    "term": "Alchemy",
+    "oneLine": "The tradition of transmutation — physical (metals) and spiritual (consciousness). Kelley claimed alchemical knowledge; Dee was deeply invested.",
+    "definition": "The tradition of transmutation — physical (metals) and spiritual (consciousness). Kelley claimed alchemical knowledge; Dee was deeply invested.",
+    "category": "history",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "history",
+      "comparative"
+    ]
+  },
+  {
+    "slug": "altered-state-of-consciousness",
+    "term": "Altered State of Consciousness",
+    "oneLine": "Any state differing from ordinary waking awareness. Scrying induces altered states. Central to psychological interpretation of Enochian.",
+    "definition": "Any state differing from ordinary waking awareness. Scrying induces altered states. Central to psychological interpretation of Enochian.",
+    "category": "psychology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "psychology",
+      "practice"
+    ]
+  },
+  {
+    "slug": "angelic-session",
+    "term": "Angelic Session",
+    "oneLine": "A specific recorded session between Dee, Kelley, and the alleged angelic beings. The primary material of the entire system.",
+    "definition": "A specific recorded session between Dee, Kelley, and the alleged angelic beings. The primary material of the entire system.",
+    "category": "history",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "history",
+      "manuscript"
+    ]
+  },
+  {
+    "slug": "apocrypha",
+    "term": "Apocrypha",
+    "oneLine": "Religious texts not included in the standard biblical canon. The Books of Enoch are apocryphal/pseudepigraphical.",
+    "definition": "Religious texts not included in the standard biblical canon. The Books of Enoch are apocryphal/pseudepigraphical.",
+    "category": "religion",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "religion",
+      "history"
+    ]
+  },
+  {
+    "slug": "archangel",
+    "term": "Archangel",
+    "oneLine": "In traditional hierarchies, a high-ranking angel. In the Enochian system, specific archangelic names appear but the hierarchy differs from Pseudo-Dionysius.",
+    "definition": "In traditional hierarchies, a high-ranking angel. In the Enochian system, specific archangelic names appear but the hierarchy differs from Pseudo-Dionysius.",
+    "category": "entities",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "entities",
+      "comparative"
+    ]
+  },
+  {
+    "slug": "as-above-so-below",
+    "term": "As Above, So Below",
+    "oneLine": "The Hermetic principle of correspondence between macrocosm and microcosm. Foundational to the Enochian system's logic.",
+    "definition": "The Hermetic principle of correspondence between macrocosm and microcosm. Foundational to the Enochian system's logic.",
+    "category": "hermeticism",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "hermeticism",
+      "philosophy"
+    ]
+  },
+  {
+    "slug": "astrolabe",
+    "term": "Astrolabe",
+    "oneLine": "A historical astronomical instrument. Used as a visual metaphor throughout the app for navigation and cartography of the celestial.",
+    "definition": "A historical astronomical instrument. Used as a visual metaphor throughout the app for navigation and cartography of the celestial.",
+    "category": "design",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "design",
+      "metaphor"
+    ]
+  },
+  {
+    "slug": "banishing",
+    "term": "Banishing",
+    "oneLine": "Ritual clearing of a space before magical work. Standard practice in GD Enochian ritual but not clearly present in Dee's original methods.",
+    "definition": "Ritual clearing of a space before magical work. Standard practice in GD Enochian ritual but not clearly present in Dee's original methods.",
+    "category": "ritual",
+    "level": "Intermediate",
+    "primaryBadge": "occult",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "ritual",
+      "golden-dawn"
+    ]
+  },
+  {
+    "slug": "british-library",
+    "term": "British Library",
+    "oneLine": "The institution holding Dee's original manuscripts (Sloane Collection). The ultimate primary source.",
+    "definition": "The institution holding Dee's original manuscripts (Sloane Collection). The ultimate primary source.",
+    "category": "sources",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "sources",
+      "history"
+    ]
+  },
+  {
+    "slug": "casaubon-m-ric-1599-1671",
+    "term": "Casaubon, Méric (1599–1671)",
+    "oneLine": "Scholar who published Dee's diaries in 1659, intending to discredit Dee but inadvertently preserving the material.",
+    "definition": "Scholar who published Dee's diaries in 1659, intending to discredit Dee but inadvertently preserving the material.",
+    "category": "figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "figures",
+      "history"
+    ]
+  },
+  {
+    "slug": "cartographer",
+    "term": "Cartographer",
+    "oneLine": "The fifth rank in the Celestial Archive — one who navigates the spatial system (Watchtowers, Aethyrs) with comprehension.",
+    "definition": "The fifth rank in the Celestial Archive — one who navigates the spatial system (Watchtowers, Aethyrs) with comprehension.",
+    "category": "progression",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "progression"
+    ]
+  },
+  {
+    "slug": "cipher",
+    "term": "Cipher",
+    "oneLine": "A system for encoding and decoding messages. Liber Loagaeth may contain ciphers. The Labyrinth uses cipher puzzles.",
+    "definition": "A system for encoding and decoding messages. Liber Loagaeth may contain ciphers. The Labyrinth uses cipher puzzles.",
+    "category": "language",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "language",
+      "mystery"
+    ]
+  },
+  {
+    "slug": "consciousness",
+    "term": "Consciousness",
+    "oneLine": "Awareness; the subjective quality of experience. The Aethyrs can be mapped to states of consciousness.",
+    "definition": "Awareness; the subjective quality of experience. The Aethyrs can be mapped to states of consciousness.",
+    "category": "psychology",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "psychology",
+      "philosophy"
+    ]
+  },
+  {
+    "slug": "contemplation",
+    "term": "Contemplation",
+    "oneLine": "Sustained, focused reflection on a subject. Distinguished from meditation (which empties the mind) and study (which accumulates facts). A core practice encou…",
+    "definition": "Sustained, focused reflection on a subject. Distinguished from meditation (which empties the mind) and study (which accumulates facts). A core practice encouraged by the app.",
+    "category": "practice",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "practice",
+      "framework"
+    ]
+  },
+  {
+    "slug": "corpus-hermeticum",
+    "term": "Corpus Hermeticum",
+    "oneLine": "The collection of Hermetic texts attributed to Hermes Trismegistus. Translated by Ficino in 1463, catalyzing the Renaissance magical revival.",
+    "definition": "The collection of Hermetic texts attributed to Hermes Trismegistus. Translated by Ficino in 1463, catalyzing the Renaissance magical revival.",
+    "category": "hermeticism",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "hermeticism",
+      "manuscript"
+    ]
+  },
+  {
+    "slug": "cotton-appendix-xlvi",
+    "term": "Cotton Appendix XLVI",
+    "oneLine": "The British Library manuscript containing key Dee/Kelley Enochian material, including the Calls and Watchtower tablets. Primary source alongside the Sloane MSS.",
+    "definition": "The British Library manuscript containing key Dee/Kelley Enochian material, including the Calls and Watchtower tablets. Primary source alongside the Sloane MSS.",
+    "category": "manuscript",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "manuscript",
+      "sources"
+    ]
+  },
+  {
+    "slug": "daath",
+    "term": "Da'ath",
+    "oneLine": "In Kabbalah, the \"hidden\" or non-Sephirah on the Tree of Life, associated with knowledge, the Abyss, and the boundary between divine and human understanding.…",
+    "definition": "In Kabbalah, the \"hidden\" or non-Sephirah on the Tree of Life, associated with knowledge, the Abyss, and the boundary between divine and human understanding. Crowley mapped it to ZAX.",
+    "category": "kabbalah",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "kabbalah",
+      "cosmology",
+      "crowley"
+    ]
+  },
+  {
+    "slug": "demiurge",
+    "term": "Demiurge",
+    "oneLine": "In Gnosticism, the ignorant or malevolent creator of the material world, distinct from the true, transcendent God. A parallel to certain Enochian concepts of…",
+    "definition": "In Gnosticism, the ignorant or malevolent creator of the material world, distinct from the true, transcendent God. A parallel to certain Enochian concepts of governance and limitation.",
+    "category": "gnosticism",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "gnosticism",
+      "comparative"
+    ]
+  },
+  {
+    "slug": "divination",
+    "term": "Divination",
+    "oneLine": "The practice of seeking knowledge of the future or the unknown through supernatural means. Scrying is a form of divination.",
+    "definition": "The practice of seeking knowledge of the future or the unknown through supernatural means. Scrying is a form of divination.",
+    "category": "practice",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "practice",
+      "history"
+    ]
+  },
+  {
+    "slug": "elemental-tablet",
+    "term": "Elemental Tablet",
+    "oneLine": "Another name for a Watchtower tablet, emphasizing its elemental attribution.",
+    "definition": "Another name for a Watchtower tablet, emphasizing its elemental attribution.",
+    "category": "watchtowers",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "watchtowers",
+      "cosmology"
+    ]
+  },
+  {
+    "slug": "emerald-tablet",
+    "term": "Emerald Tablet",
+    "oneLine": "A short Hermetic text attributed to Hermes Trismegistus, containing the principle \"as above, so below.\" Foundational to alchemical and magical philosophy.",
+    "definition": "A short Hermetic text attributed to Hermes Trismegistus, containing the principle \"as above, so below.\" Foundational to alchemical and magical philosophy.",
+    "category": "hermeticism",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "hermeticism",
+      "manuscript"
+    ]
+  },
+  {
+    "slug": "equilibrium",
+    "term": "Equilibrium",
+    "oneLine": "Balance among opposing forces. A core principle of the Celestial Archive's design — the seeker should be grounded, not consumed.",
+    "definition": "Balance among opposing forces. A core principle of the Celestial Archive's design — the seeker should be grounded, not consumed.",
+    "category": "framework",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "framework",
+      "psychology"
+    ]
+  },
+  {
+    "slug": "evocation",
+    "term": "Evocation",
+    "oneLine": "The act of calling a spiritual being to appear externally (as opposed to invocation, which calls it internally).",
+    "definition": "The act of calling a spiritual being to appear externally (as opposed to invocation, which calls it internally).",
+    "category": "ritual",
+    "level": "Intermediate",
+    "primaryBadge": "occult",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "ritual",
+      "practice"
+    ]
+  },
+  {
+    "slug": "grade-magical",
+    "term": "Grade (Magical)",
+    "oneLine": "A rank within a magical order, typically corresponding to a level of knowledge and initiation. The GD and A∴A∴ have elaborate grade systems.",
+    "definition": "A rank within a magical order, typically corresponding to a level of knowledge and initiation. The GD and A∴A∴ have elaborate grade systems.",
+    "category": "tradition",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "tradition",
+      "golden-dawn"
+    ]
+  },
+  {
+    "slug": "great-cross",
+    "term": "Great Cross",
+    "oneLine": "The large cross dividing each Watchtower tablet into four subquadrants. The King's name and Senior names are derived from this cross.",
+    "definition": "The large cross dividing each Watchtower tablet into four subquadrants. The King's name and Senior names are derived from this cross.",
+    "category": "watchtowers",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "watchtowers",
+      "cosmology"
+    ]
+  },
+  {
+    "slug": "grimoire",
+    "term": "Grimoire",
+    "oneLine": "A textbook of magic, typically containing instructions for summoning spirits, making talismans, and performing rituals. Dee inherited the grimoire tradition.",
+    "definition": "A textbook of magic, typically containing instructions for summoning spirits, making talismans, and performing rituals. Dee inherited the grimoire tradition.",
+    "category": "history",
+    "level": "Beginner",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "history",
+      "manuscript",
+      "ritual"
+    ]
+  },
+  {
+    "slug": "heptarchia-mystica",
+    "term": "Heptarchia Mystica",
+    "oneLine": "The first major Enochian subsystem (1582): 49 angelic kings and princes governing 49 regions, with associated ritual procedures.",
+    "definition": "The first major Enochian subsystem (1582): 49 angelic kings and princes governing 49 regions, with associated ritual procedures.",
+    "category": "cosmology",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "cosmology",
+      "history",
+      "manuscript"
+    ]
+  },
+  {
+    "slug": "jung-carl-gustav-1875-1961",
+    "term": "Jung, Carl Gustav (1875–1961)",
+    "oneLine": "Swiss psychiatrist whose concepts (archetypes, collective unconscious, active imagination) provide one of the most productive frameworks for interpreting the…",
+    "definition": "Swiss psychiatrist whose concepts (archetypes, collective unconscious, active imagination) provide one of the most productive frameworks for interpreting the Enochian system psychologically.",
+    "category": "figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "figures",
+      "psychology"
+    ]
+  },
+  {
+    "slug": "kether",
+    "term": "Kether",
+    "oneLine": "The first and highest Sephirah on the Kabbalistic Tree of Life — undifferentiated divine unity. In Crowley's mapping, the innermost Aethyrs approach Kether.",
+    "definition": "The first and highest Sephirah on the Kabbalistic Tree of Life — undifferentiated divine unity. In Crowley's mapping, the innermost Aethyrs approach Kether.",
+    "category": "kabbalah",
+    "level": "Advanced",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "kabbalah",
+      "cosmology",
+      "crowley"
+    ]
+  },
+  {
+    "slug": "lil-1st-aethyr",
+    "term": "LIL (1st Aethyr)",
+    "oneLine": "The innermost, highest Aethyr — closest to the divine source. The culmination of the Aethyr Journey.",
+    "definition": "The innermost, highest Aethyr — closest to the divine source. The culmination of the Aethyr Journey.",
+    "category": "aethyrs",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "aethyrs",
+      "cosmology"
+    ]
+  },
+  {
+    "slug": "laycock-donald-1936-1988",
+    "term": "Laycock, Donald (1936–1988)",
+    "oneLine": "Australian linguist who produced the most rigorous linguistic analysis of the Enochian language (1978/1988). Essential reference.",
+    "definition": "Australian linguist who produced the most rigorous linguistic analysis of the Enochian language (1978/1988). Essential reference.",
+    "category": "figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "figures",
+      "language"
+    ]
+  },
+  {
+    "slug": "merkabah",
+    "term": "Merkabah",
+    "oneLine": "The divine chariot or throne described in Ezekiel's vision. The basis of an entire Jewish mystical tradition (Merkabah mysticism) centered on ascending to th…",
+    "definition": "The divine chariot or throne described in Ezekiel's vision. The basis of an entire Jewish mystical tradition (Merkabah mysticism) centered on ascending to the divine throne.",
+    "category": "comparative",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "comparative",
+      "religion"
+    ]
+  },
+  {
+    "slug": "nag-hammadi-library",
+    "term": "Nag Hammadi Library",
+    "oneLine": "A collection of early Gnostic texts discovered in Egypt in 1945. Primary source for Gnostic cosmologies that parallel the Aethyr system.",
+    "definition": "A collection of early Gnostic texts discovered in Egypt in 1945. Primary source for Gnostic cosmologies that parallel the Aethyr system.",
+    "category": "manuscript",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "manuscript",
+      "gnosticism",
+      "sources"
+    ]
+  },
+  {
+    "slug": "nephilim",
+    "term": "Nephilim",
+    "oneLine": "The offspring of the fallen Watchers and human women, described in 1 Enoch and Genesis 6. Giants who corrupted the Earth.",
+    "definition": "The offspring of the fallen Watchers and human women, described in 1 Enoch and Genesis 6. Giants who corrupted the Earth.",
+    "category": "comparative",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "comparative",
+      "religion",
+      "entities"
+    ]
+  },
+  {
+    "slug": "neuburg-victor-1883-1940",
+    "term": "Neuburg, Victor (1883–1940)",
+    "oneLine": "Crowley's companion during the 1909 Algerian Aethyr workings. Transcribed The Vision and the Voice.",
+    "definition": "Crowley's companion during the 1909 Algerian Aethyr workings. Transcribed The Vision and the Voice.",
+    "category": "figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "figures",
+      "crowley"
+    ]
+  },
+  {
+    "slug": "occult",
+    "term": "Occult",
+    "oneLine": "\"Hidden\" (from Latin *occultus*). Knowledge traditions that deal with non-material forces, beings, and correspondences not recognized by mainstream science.",
+    "definition": "\"Hidden\" (from Latin *occultus*). Knowledge traditions that deal with non-material forces, beings, and correspondences not recognized by mainstream science.",
+    "category": "framework",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "framework"
+    ]
+  },
+  {
+    "slug": "peterson-joseph",
+    "term": "Peterson, Joseph",
+    "oneLine": "Contemporary scholar and publisher of Dee's manuscripts. Maintains esotericarchives.com. Gold-standard primary source access.",
+    "definition": "Contemporary scholar and publisher of Dee's manuscripts. Maintains esotericarchives.com. Gold-standard primary source access.",
+    "category": "figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "figures",
+      "sources"
+    ]
+  },
+  {
+    "slug": "pseudepigrapha",
+    "term": "Pseudepigrapha",
+    "oneLine": "Texts falsely attributed to ancient figures. The Books of Enoch are pseudepigraphical (attributed to the patriarch Enoch but written centuries later).",
+    "definition": "Texts falsely attributed to ancient figures. The Books of Enoch are pseudepigraphical (attributed to the patriarch Enoch but written centuries later).",
+    "category": "religion",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "religion",
+      "manuscript"
+    ]
+  },
+  {
+    "slug": "regardie-israel-1907-1985",
+    "term": "Regardie, Israel (1907–1985)",
+    "oneLine": "Former secretary to Crowley and GD member who published the previously oath-bound Golden Dawn material, democratizing access.",
+    "definition": "Former secretary to Crowley and GD member who published the previously oath-bound Golden Dawn material, democratizing access.",
+    "category": "figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "figures",
+      "golden-dawn"
+    ]
+  },
+  {
+    "slug": "reformed-table-corrected-great-table",
+    "term": "Reformed Table (Corrected Great Table)",
+    "oneLine": "Mathers' rearranged version of the Great Table, claimed to be received through his own angelic contact. Differs from Dee's original in the internal arrangeme…",
+    "definition": "Mathers' rearranged version of the Great Table, claimed to be received through his own angelic contact. Differs from Dee's original in the internal arrangement of letters.",
+    "category": "watchtowers",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "watchtowers",
+      "golden-dawn"
+    ]
+  },
+  {
+    "slug": "sephirah-pl-sephiroth",
+    "term": "Sephirah (pl. Sephiroth)",
+    "oneLine": "One of the 10 emanations on the Kabbalistic Tree of Life. Each represents a divine quality and is associated with specific divine names, archangels, and corr…",
+    "definition": "One of the 10 emanations on the Kabbalistic Tree of Life. Each represents a divine quality and is associated with specific divine names, archangels, and correspondences.",
+    "category": "kabbalah",
+    "level": "Intermediate",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "kabbalah",
+      "cosmology"
+    ]
+  },
+  {
+    "slug": "stewardship",
+    "term": "Stewardship",
+    "oneLine": "The responsible care and preservation of knowledge. The guiding principle of the Archivist rank and of the app itself.",
+    "definition": "The responsible care and preservation of knowledge. The guiding principle of the Archivist rank and of the app itself.",
+    "category": "framework",
+    "level": "Beginner",
+    "primaryBadge": "consensus",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "framework",
+      "progression"
+    ]
+  },
+  {
+    "slug": "westcott-william-wynn-1848-1925",
+    "term": "Westcott, William Wynn (1848–1925)",
+    "oneLine": "Co-founder of the Golden Dawn. Coroner by profession. Helped establish the order's structure and curriculum.",
+    "definition": "Co-founder of the Golden Dawn. Coroner by profession. Helped establish the order's structure and curriculum.",
+    "category": "figures",
+    "level": "Intermediate",
+    "primaryBadge": "historical",
+    "commonMisunderstandings": [],
+    "relatedTerms": [],
+    "relatedTermsExternal": [],
+    "sourceNotes": "Imported from docs/CORE_TERMS.md (condensed entry).",
+    "appearsIn": [],
+    "appTags": [
+      "core-terms-import",
+      "figures",
+      "golden-dawn",
+      "history"
+    ]
+  }
+]

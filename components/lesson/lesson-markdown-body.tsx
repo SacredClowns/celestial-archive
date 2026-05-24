@@ -8,6 +8,8 @@ import ReactMarkdown from "react-markdown";
 import remarkDirective from "remark-directive";
 import remarkGfm from "remark-gfm";
 import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
+import { EnochianTextLink } from "@/components/language/enochian-text-link";
+import { isEnochianDictionaryWord } from "@/lib/language/enochian-link-words";
 import { SemanticLessonBlock } from "@/components/lesson/semantic-lesson-block";
 import { VerificationPendingChip } from "@/components/lesson/verification-pending-chip";
 import { remarkLessonDirectives } from "@/lib/lesson-markdown/remark-lesson-directives";
@@ -29,17 +31,21 @@ const GLYPH_TO_TONE: Partial<Record<string, EpistemicTone>> = {
   "△": "later",
   "◎": "parallel",
   "~": "speculative",
+  "?": "disputed",
   "⚠": "caution"
 };
 
+const INLINE_TOKEN_RE = /([◆◇○△◎~?⚠]|\b[A-Z]{3,}\b)/g;
+
 function renderStringWithBadges(text: string, keyPrefix: string): ReactNode[] {
-  const segments = text.split(/([◆◇○△◎~⚠])/g);
+  const segments = text.split(INLINE_TOKEN_RE);
   return segments.map((seg, i) => {
     const tone = GLYPH_TO_TONE[seg];
     if (tone) {
-      return (
-        <EpistemicBadge key={`${keyPrefix}-${i}`} tone={tone} compact />
-      );
+      return <EpistemicBadge key={`${keyPrefix}-${i}`} tone={tone} compact />;
+    }
+    if (/^[A-Z]{3,}$/.test(seg) && isEnochianDictionaryWord(seg)) {
+      return <EnochianTextLink key={`${keyPrefix}-en-${i}`} word={seg} />;
     }
     return <Fragment key={`${keyPrefix}-${i}`}>{seg}</Fragment>;
   });
@@ -203,7 +209,8 @@ export function LessonMarkdownBody({
   glossaryTermSet,
   onGlossaryTerm,
   verificationPending = false,
-  tieredSourcePostface = false
+  tieredSourcePostface = false,
+  lessonSlug
 }: {
   markdown: string;
   glossaryTermSet: Set<string>;
@@ -212,6 +219,7 @@ export function LessonMarkdownBody({
   verificationPending?: boolean;
   /** Looser vertical rhythm + section labels for Student source / postface markdown. */
   tieredSourcePostface?: boolean;
+  lessonSlug?: string;
 }) {
   return (
     <ReactMarkdown
@@ -298,7 +306,7 @@ export function LessonMarkdownBody({
           const block = readDataLessonBlock(node as HastElement | undefined);
           if (block) {
             return (
-              <SemanticLessonBlock name={block}>
+              <SemanticLessonBlock name={block} lessonSlug={lessonSlug}>
                 {processTextChildren(children, glossaryTermSet, onGlossaryTerm, `block-${block}`, verificationPending)}
               </SemanticLessonBlock>
             );
