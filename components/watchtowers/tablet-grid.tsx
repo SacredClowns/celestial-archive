@@ -1,8 +1,12 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { TabletCell } from "@/components/watchtowers/tablet-cell";
-import { getGridHighlightMap, type CellHighlight } from "@/lib/watchtowers/grid-highlights";
+import {
+  getGridHighlightMap,
+  HIGHLIGHT_LEGEND,
+  type CellHighlight
+} from "@/lib/watchtowers/grid-highlights";
 import {
   KERUBIC_ROW_END,
   KERUBIC_ROW_START,
@@ -44,7 +48,6 @@ function CellRow({
             highlight={highlightMap[rowIndex]?.[c]}
             selected={active?.r === rowIndex && active?.c === c}
             onClick={() => onCell(rowIndex, c)}
-            onPointerEnter={() => onCell(rowIndex, c)}
           />
         );
       })}
@@ -107,6 +110,72 @@ function SubQuadrantPanel({
   );
 }
 
+function CellDetailPopover({
+  active,
+  grid,
+  activeCell,
+  onClose
+}: {
+  active: { r: number; c: number };
+  grid: string[][];
+  activeCell: CellHighlight | null;
+  onClose: () => void;
+}) {
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function onDoc(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) onClose();
+    }
+    document.addEventListener("mousedown", onDoc);
+    return () => document.removeEventListener("mousedown", onDoc);
+  }, [onClose]);
+
+  const legendEntry = activeCell?.kind
+    ? HIGHLIGHT_LEGEND.find((e) => e.kind === activeCell.kind)
+    : null;
+
+  return (
+    <div
+      ref={ref}
+      role="dialog"
+      aria-label="Cell detail"
+      className="relative z-10 rounded-sm border border-gold/40 bg-deep/95 px-4 py-3 shadow-lg"
+    >
+      <button
+        type="button"
+        onClick={onClose}
+        className="absolute right-2 top-2 font-display text-[10px] uppercase text-gold-dim hover:text-gold"
+        aria-label="Close"
+      >
+        ×
+      </button>
+      <p className="font-mono text-gold">
+        Row {active.r + 1}, column {active.c + 1}:{" "}
+        <span className="text-gold-light">{grid[active.r]?.[active.c]}</span>
+      </p>
+      {activeCell?.labels.length ? (
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-gold-pale">
+          {activeCell.labels.map((l) => (
+            <li key={l}>{l}</li>
+          ))}
+        </ul>
+      ) : (
+        <p className="mt-2 text-sm italic text-gold-dim/80">
+          Servient / fill letter — no named hierarchy match at this position.
+        </p>
+      )}
+      {legendEntry ? (
+        <p className="mt-2 text-xs text-gold-dim">
+          <span className="font-display uppercase tracking-wider">{legendEntry.label}</span>
+          {" — "}
+          {legendEntry.description}
+        </p>
+      ) : null}
+    </div>
+  );
+}
+
 export function TabletGrid({
   quadrant,
   grid,
@@ -121,7 +190,12 @@ export function TabletGrid({
     [quadrant, grid, tablet]
   );
   const [active, setActive] = useState<{ r: number; c: number } | null>(null);
-  const selectCell = (r: number, c: number) => setActive({ r, c });
+  const [popoverOpen, setPopoverOpen] = useState(false);
+
+  const selectCell = (r: number, c: number) => {
+    setActive({ r, c });
+    setPopoverOpen(true);
+  };
 
   const activeCell: CellHighlight | null =
     active && highlightMap[active.r]?.[active.c] ? highlightMap[active.r][active.c] : null;
@@ -132,7 +206,8 @@ export function TabletGrid({
   return (
     <div className="space-y-3">
       <p className="font-display text-[10px] uppercase tracking-[0.16em] text-gold-dim">
-        Kerubic sub-quadrants (rows 1–4) · Servient blocks below · Spirit row 7 spans all columns
+        Kerubic sub-quadrants (rows 1–4) · Servient blocks below · Spirit row 7 spans all columns · click a cell
+        for detail
       </p>
 
       <div className="flex flex-wrap gap-2">
@@ -218,26 +293,16 @@ export function TabletGrid({
         </div>
       ) : null}
 
-      <div
-        className="min-h-[3rem] rounded-sm border border-gold-dim/20 bg-deep/40 px-4 py-3 text-sm"
-        aria-live="polite"
-      >
-        {active ? (
-          <>
-            <p className="font-mono text-gold">
-              Row {active.r + 1}, column {active.c + 1}:{" "}
-              <span className="text-gold-light">{grid[active.r]?.[active.c]}</span>
-            </p>
-            {activeCell?.labels.length ? (
-              <p className="mt-1 text-gold-dim">{activeCell.labels.join(" · ")}</p>
-            ) : (
-              <p className="mt-1 italic text-gold-dim/70">Servient / fill letter (no named reading here).</p>
-            )}
-          </>
-        ) : (
-          <p className="italic text-gold-dim/70">Hover a cell to see its reading role.</p>
-        )}
-      </div>
+      {popoverOpen && active ? (
+        <CellDetailPopover
+          active={active}
+          grid={grid}
+          activeCell={activeCell}
+          onClose={() => setPopoverOpen(false)}
+        />
+      ) : (
+        <p className="text-xs italic text-gold-dim/70">Click any cell to open its reading roles and matched names.</p>
+      )}
     </div>
   );
 }

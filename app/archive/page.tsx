@@ -121,6 +121,12 @@ export default function ArchivePage() {
               <p className="text-xs text-gold-dim">Entity types overview →</p>
             </CandlelightCard>
           </Link>
+          <Link href="/archive/heptarchy">
+            <CandlelightCard className="rounded-sm border border-gold-dim/20 bg-ink/15 p-4 hover:border-gold/30">
+              <p className="font-display text-gold">Heptarchia Mystica</p>
+              <p className="text-xs text-gold-dim">14 king & prince profiles →</p>
+            </CandlelightCard>
+          </Link>
         </div>
       </section>
 

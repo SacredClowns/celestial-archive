@@ -3,6 +3,7 @@ import { getAllDictionaryEntries, getAllCalls, getAlphabetData } from "@/lib/lan
 import { getAllAethyrs } from "@/lib/aethyrs/aethyr-data";
 import { publishedGlossaryEntries } from "@/lib/glossary";
 import { ARCHIVE_FIGURES, ARCHIVE_SESSIONS } from "@/lib/archive/archive-registry";
+import { HEPTARCHY_ENTITIES } from "@/lib/archive/heptarchy-entities";
 import { RITUAL_FURNITURE_ITEMS } from "@/lib/archive/ritual-furniture";
 import { seekerLessonRegistry } from "@/lib/content-registry";
 import { studentLessonRegistry } from "@/lib/student/student-lesson-registry";
@@ -70,6 +71,26 @@ export function buildSearchIndex(): SearchIndexEntry[] {
     searchText: "angels hierarchy seniors kings governors kerubic medicine".toLowerCase(),
     badge: "historical"
   });
+
+  items.push({
+    type: "lesson",
+    title: "Heptarchia Mystica",
+    subtitle: "Archive — kings and princes",
+    url: "/archive/heptarchy",
+    searchText: "heptarchia mystica seven kings princes ministers tabula bonorum".toLowerCase(),
+    badge: "historical"
+  });
+
+  for (const h of HEPTARCHY_ENTITIES) {
+    items.push({
+      type: "lesson",
+      title: h.name,
+      subtitle: `Heptarchic ${h.role}`,
+      url: `/archive/heptarchy/${h.slug}`,
+      searchText: `${h.name} heptarchic ${h.role} ${h.summary} ${h.day ?? ""}`.toLowerCase(),
+      badge: h.badge
+    });
+  }
 
   items.push({
     type: "lesson",

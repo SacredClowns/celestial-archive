@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
 import { searchIndex } from "@/lib/search/search-index";
+import { badgeToTone } from "@/lib/search/badge-tone";
 import type { SearchIndexEntry, SearchResultType } from "@/lib/search/search-types";
 
 const TYPE_LABELS: Record<SearchResultType, string> = {
@@ -16,6 +18,34 @@ const TYPE_LABELS: Record<SearchResultType, string> = {
   timeline: "Timeline"
 };
 
+function SearchResultRow({
+  item,
+  type,
+  onClose
+}: {
+  item: SearchIndexEntry;
+  type: SearchResultType;
+  onClose: () => void;
+}) {
+  const tone = badgeToTone(item.badge);
+
+  return (
+    <li>
+      <Link
+        href={item.url}
+        onClick={onClose}
+        className="flex items-start gap-3 rounded-sm border border-gold-dim/20 bg-ink/30 px-4 py-3 transition-colors hover:border-gold/40 hover:bg-ink/50"
+      >
+        <div className="min-w-0 flex-1">
+          <p className="font-display text-gold">{item.title}</p>
+          <p className="text-sm text-gold-dim">{item.subtitle}</p>
+        </div>
+        {tone ? <EpistemicBadge tone={tone} compact /> : null}
+      </Link>
+    </li>
+  );
+}
+
 export function SearchOverlay({
   open,
   onClose
@@ -25,6 +55,7 @@ export function SearchOverlay({
 }) {
   const [query, setQuery] = useState("");
   const [debounced, setDebounced] = useState("");
+  const [expandedTypes, setExpandedTypes] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     const t = window.setTimeout(() => setDebounced(query), 200);
@@ -40,7 +71,13 @@ export function SearchOverlay({
     return () => window.removeEventListener("keydown", onKey);
   }, [open, onClose]);
 
-  const grouped = open ? searchIndex(debounced, 5) : {};
+  useEffect(() => {
+    if (!open) {
+      setExpandedTypes(new Set());
+    }
+  }, [open]);
+
+  const { grouped, totals } = open ? searchIndex(debounced, 5, expandedTypes) : { grouped: {}, totals: {} };
 
   if (!open) return null;
 
@@ -76,27 +113,56 @@ export function SearchOverlay({
           <p className="mt-12 text-center text-gold-dim">No passages match your query.</p>
         ) : (
           <div className="mt-10 space-y-8">
-            {(Object.keys(grouped) as SearchResultType[]).map((type) => (
-              <section key={type}>
-                <h2 className="mb-3 font-display text-xs uppercase tracking-[0.2em] text-gold-dim">
-                  {TYPE_LABELS[type]}
-                </h2>
-                <ul className="space-y-2">
-                  {grouped[type].map((item: SearchIndexEntry) => (
-                    <li key={`${type}-${item.url}-${item.title}`}>
-                      <Link
-                        href={item.url}
-                        onClick={onClose}
-                        className="block rounded-sm border border-gold-dim/20 bg-ink/30 px-4 py-3 transition-colors hover:border-gold/40 hover:bg-ink/50"
+            {(Object.keys(grouped) as SearchResultType[]).map((type) => {
+              const total = totals[type] ?? grouped[type].length;
+              const showingAll = expandedTypes.has(type);
+              const hasMore = total > grouped[type].length;
+
+              return (
+                <section key={type}>
+                  <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+                    <h2 className="font-display text-xs uppercase tracking-[0.2em] text-gold-dim">
+                      {TYPE_LABELS[type]}
+                      <span className="ml-2 text-gold-dim/60">({total})</span>
+                    </h2>
+                    {hasMore && !showingAll ? (
+                      <button
+                        type="button"
+                        onClick={() => setExpandedTypes((s) => new Set(s).add(type))}
+                        className="font-display text-[10px] uppercase tracking-wider text-gold-dim hover:text-gold"
                       >
-                        <p className="font-display text-gold">{item.title}</p>
-                        <p className="text-sm text-gold-dim">{item.subtitle}</p>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            ))}
+                        Show all {total}
+                      </button>
+                    ) : null}
+                    {showingAll && total > 5 ? (
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setExpandedTypes((s) => {
+                            const next = new Set(s);
+                            next.delete(type);
+                            return next;
+                          })
+                        }
+                        className="font-display text-[10px] uppercase tracking-wider text-gold-dim hover:text-gold"
+                      >
+                        Show fewer
+                      </button>
+                    ) : null}
+                  </div>
+                  <ul className="space-y-2">
+                    {grouped[type].map((item: SearchIndexEntry) => (
+                      <SearchResultRow
+                        key={`${type}-${item.url}-${item.title}`}
+                        item={item}
+                        type={type}
+                        onClose={onClose}
+                      />
+                    ))}
+                  </ul>
+                </section>
+              );
+            })}
           </div>
         )}
       </div>

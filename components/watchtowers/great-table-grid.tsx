@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { TabletCell } from "@/components/watchtowers/tablet-cell";
+import { GreatTablePanZoom } from "@/components/watchtowers/great-table-pan-zoom";
 import { WatchtowerVersionPicker } from "@/components/watchtowers/watchtower-version-picker";
 import { getQuadrantTint, getWatchtowerSystem } from "@/lib/watchtowers/watchtower-data";
 import type { GreatTableVersionId, WatchtowerQuadrant } from "@/lib/watchtowers/watchtower-types";
@@ -76,6 +77,13 @@ export function GreatTableGrid() {
         <div />
         <MiniTablet quadrant="earth" onHover={setHoverLetter} />
         <div />
+      </div>
+
+      <div className="border-t border-gold-dim/25 pt-8">
+        <h3 className="mb-4 font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
+          Full Great Table
+        </h3>
+        <GreatTablePanZoom />
       </div>
     </div>
   );

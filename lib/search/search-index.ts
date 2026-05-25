@@ -14,14 +14,42 @@ export function getSearchIndex(): SearchIndexEntry[] {
   return cached;
 }
 
-export function searchIndex(query: string, limitPerType = 5): Record<string, SearchIndexEntry[]> {
+export type SearchIndexResult = {
+  grouped: Record<string, SearchIndexEntry[]>;
+  totals: Record<string, number>;
+};
+
+function matchesQuery(item: SearchIndexEntry, q: string): boolean {
+  return item.searchText.includes(q) || item.title.toLowerCase().includes(q);
+}
+
+/** All matches grouped by type (unsliced). */
+export function searchIndexAll(query: string): Record<string, SearchIndexEntry[]> {
   const q = query.trim().toLowerCase();
   if (!q) return {};
   const grouped: Record<string, SearchIndexEntry[]> = {};
   for (const item of getSearchIndex()) {
-    if (!item.searchText.includes(q) && !item.title.toLowerCase().includes(q)) continue;
+    if (!matchesQuery(item, q)) continue;
     if (!grouped[item.type]) grouped[item.type] = [];
-    if (grouped[item.type].length < limitPerType) grouped[item.type].push(item);
+    grouped[item.type].push(item);
   }
   return grouped;
+}
+
+export function searchIndex(
+  query: string,
+  limitPerType = 5,
+  expandedTypes: ReadonlySet<string> = new Set()
+): SearchIndexResult {
+  const all = searchIndexAll(query);
+  const grouped: Record<string, SearchIndexEntry[]> = {};
+  const totals: Record<string, number> = {};
+
+  for (const [type, items] of Object.entries(all)) {
+    totals[type] = items.length;
+    const limit = expandedTypes.has(type) ? items.length : limitPerType;
+    grouped[type] = items.slice(0, limit);
+  }
+
+  return { grouped, totals };
 }

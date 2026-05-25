@@ -511,6 +511,12 @@ This lens is explicitly marked. It is imagination, not argument. It earns its pl
 
 *The Psychological Lens examines the cognitive processes that produce hierarchical systems. The Traditional Occult Lens presents the practitioner reading: the system was received from genuine angelic sources. Both readings are held simultaneously. Neither is permitted to win.*
 
+**Match the Heptarchic count to its role:**
+- Seven Kings → Sovereign entities, each with a day and planetary assignment
+- Seven Princes → Paired rulers under each king, sharing day and planet
+- Forty-nine Ministers → Seven ministers beneath each king–prince pair (7 × 7)
+- Tabula Bonorum Angelorum → Master grid organizing kings, princes, and ministers
+
 :::
 
 ---

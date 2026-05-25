@@ -10,6 +10,7 @@ import { RoomTransition } from "@/components/motion/room-transition";
 import { Starfield } from "@/components/motion/starfield";
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { AccountMenu } from "@/components/auth/account-menu";
+import { PageDidYouKnow } from "@/components/layout/page-did-you-know";
 import { SearchOverlay, useSearchShortcut } from "@/components/search/search-overlay";
 
 const navItems = [
@@ -90,6 +91,7 @@ export function AppChromeClient({ children }: { children: React.ReactNode }) {
         <Breadcrumbs />
 
         <main className="page-enter mx-auto w-full max-w-[1200px] flex-1 px-6 py-16 sm:px-8">
+          <PageDidYouKnow />
           <RoomTransition>{children}</RoomTransition>
         </main>
 

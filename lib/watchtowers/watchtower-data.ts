@@ -132,6 +132,24 @@ export function getGreatTableVersion(versionId: GreatTableVersionId): StateFile 
   return VERSION_FILES[versionId];
 }
 
+export function getGreatTableFullGrid(versionId: GreatTableVersionId = "golden-dawn"): {
+  grid: string[][];
+  rows: number;
+  columns: number;
+  quarters: Quarter[];
+} {
+  const file = VERSION_FILES[versionId];
+  const { cells, elementalQuarters } = file.stateData;
+  const raw = file.stateData as { rows?: number; columns?: number };
+  const grid = cells.map((row) => row.map((c) => c.letter || "·"));
+  return {
+    grid,
+    rows: raw.rows ?? grid.length,
+    columns: raw.columns ?? grid[0]?.length ?? 0,
+    quarters: elementalQuarters
+  };
+}
+
 export function getWatchtowerSystem(versionId: GreatTableVersionId = "golden-dawn"): WatchtowerSystemData {
   const file = VERSION_FILES[versionId];
   const tablets = buildTabletsFromVersion(versionId);
