@@ -31,9 +31,13 @@ const sqlPath = resolve(root, "supabase/migrations/001_celestial_archive.sql");
 
 async function tableExists(table) {
   const res = await fetch(`${url}/rest/v1/${table}?select=*&limit=0`, {
-    headers: { apikey: key, Authorization: `Bearer ${key}` }
+    headers: {
+      apikey: key,
+      Authorization: `Bearer ${key}`,
+      Accept: "application/json"
+    }
   });
-  return res.ok;
+  return res.status === 200;
 }
 
 async function main() {
