@@ -329,3 +329,17 @@ body::before {
   background: radial-gradient(220px circle at 85% 12%, rgba(201, 168, 76, 0.12), transparent 70%);
 }
 .group:hover .pillar-card::after { opacity: 1; }
+
+/* ── Sigil inscription (Phase 2) ── */
+@keyframes sigil-inscribe {
+  to { stroke-dashoffset: 0; }
+}
+
+/* ── Folio sealing ritual (Phase 2) ── */
+@keyframes seal-stamp {
+  0% { transform: scale(1.7); opacity: 0; }
+  55% { transform: scale(0.94); opacity: 1; }
+  75% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.animate-seal-stamp { animation: seal-stamp 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }

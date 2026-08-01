@@ -1,4 +1,5 @@
 import { AlphabetFlashcards } from "@/components/language/alphabet-flashcards";
+import { SigilWall } from "@/components/language/sigil-wall";
 import { AlphabetGrid } from "@/components/language/alphabet-grid";
 import { AlphabetLegend } from "@/components/language/alphabet-legend";
 import { QuestionsThisRaises } from "@/components/discernment/questions-this-raises";
@@ -28,6 +29,8 @@ export default function AlphabetPage() {
         fontNote={content.fontNote}
         mobileGridWarning={content.mobileGridWarning}
       />
+
+      <SigilWall letters={letters} />
 
       <AlphabetFlashcards letters={letters} />
 

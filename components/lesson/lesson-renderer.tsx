@@ -8,6 +8,7 @@ import { LensTabs } from "@/components/lesson/lens-tabs";
 import { LessonMarkdownBody } from "@/components/lesson/lesson-markdown-body";
 import { LessonProgressBar } from "@/components/lesson/lesson-progress-bar";
 import { LessonNavFooter } from "@/components/lesson/lesson-nav-footer";
+import { FolioSeal } from "@/components/lesson/folio-seal";
 import { LessonSidebar } from "@/components/lesson/lesson-sidebar";
 import { Inscribe } from "@/components/motion/inscribe";
 import { splitLensSections } from "@/lib/lesson-markdown/split-lens-sections";
@@ -461,6 +462,8 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
             </section>
           </>
         )}
+
+        <FolioSeal lessonId={lesson.slug} title={lesson.title} />
 
         <LessonNavFooter
           stageLabel="Return to Seeker path"

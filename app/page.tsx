@@ -8,9 +8,41 @@ const LETTER_TITLES = [
   "PAL", "MED", "DON", "CEPH", "VAU", "FAM", "GISG"
 ];
 
+const COURSE_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "The Celestial Archive — A Structured Exploration of Enochian Magick",
+  description:
+    "A source-cited course on the Enochian system of John Dee and Edward Kelley: the thirty Aethyrs, the Great Table, the twenty-one letters and nineteen Calls — with every claim graded by evidence level.",
+  provider: {
+    "@type": "Organization",
+    name: "Creative Cathedrals",
+    url: "https://creativecathedrals.com/"
+  },
+  url: "https://www.enochia.io/",
+  isAccessibleForFree: true,
+  educationalLevel: "Beginner to advanced",
+  teaches: [
+    "History of John Dee and Edward Kelley",
+    "The Enochian alphabet and language",
+    "The thirty Aethyrs and ninety-one Governors",
+    "The Great Table and Watchtower structures",
+    "Source criticism and epistemic discernment"
+  ],
+  hasCourseInstance: {
+    "@type": "CourseInstance",
+    courseMode: "online",
+    courseWorkload: "PT2H"
+  }
+};
+
 export default function HomePage() {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(COURSE_SCHEMA) }}
+      />
       <section className="section-depth relative overflow-hidden text-center">
         {/* orbiting ring of the 21 letter-titles */}
         <div className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[560px] w-[560px] -translate-x-1/2 -translate-y-1/2 opacity-70 sm:h-[680px] sm:w-[680px]">

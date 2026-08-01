@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useCallback, useState } from "react";
 import { CallSelector } from "@/components/language/call-selector";
 import { CallViewer } from "@/components/language/call-viewer";
+import { CallVoicePlayer } from "@/components/language/call-voice-player";
 import type {
   AngelicCall,
   AethyrName,
@@ -88,13 +89,22 @@ export function LanguageCallsShell({
           {copy.callTextLoading}
         </p>
       ) : (
-        <CallViewer
-          key={payload.call.number}
-          call={payload.call}
-          callText={payload.callText ?? undefined}
-          aethyrs={aethyrs}
-          copy={copy}
-        />
+        <>
+          {payload.callText?.words?.length ? (
+            <CallVoicePlayer
+              words={payload.callText.words}
+              title={payload.call.title}
+              callNumber={payload.call.number}
+            />
+          ) : null}
+          <CallViewer
+            key={payload.call.number}
+            call={payload.call}
+            callText={payload.callText ?? undefined}
+            aethyrs={aethyrs}
+            copy={copy}
+          />
+        </>
       )}
     </div>
   );

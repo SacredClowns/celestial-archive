@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { TabletCell } from "@/components/watchtowers/tablet-cell";
+import { FullGreatTable } from "@/components/watchtowers/full-great-table";
 import { GreatTablePanZoom } from "@/components/watchtowers/great-table-pan-zoom";
 import { WatchtowerVersionPicker } from "@/components/watchtowers/watchtower-version-picker";
 import { getQuadrantTint, getWatchtowerSystem } from "@/lib/watchtowers/watchtower-data";
@@ -83,7 +84,15 @@ export function GreatTableGrid() {
         <h3 className="mb-4 font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
           Full Great Table
         </h3>
-        <GreatTablePanZoom />
+        <FullGreatTable version={version} />
+        <details className="mt-6">
+          <summary className="cursor-pointer font-display text-[9px] uppercase tracking-[0.2em] text-gold-dim hover:text-gold-light">
+            Pan &amp; zoom view
+          </summary>
+          <div className="mt-4">
+            <GreatTablePanZoom />
+          </div>
+        </details>
       </div>
     </div>
   );
