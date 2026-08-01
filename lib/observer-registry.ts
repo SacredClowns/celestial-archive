@@ -61,8 +61,10 @@ export const observerLessonRegistry: ObserverLessonRecord[] = [
     order: 3,
     slug: "the-architecture-observed",
     title: "The Architecture Observed",
+    subtitle: "When a Manuscript Grid Becomes an Instrument",
     lessonNumber: "Lesson 3.3",
-    status: "planned",
+    status: "open",
+    sourcePackId: "SOURCE_PACK_OBSERVER_3_3",
     theme: "Watchtowers in motion across living traditions",
     previousLessonId: "observer-3-2",
     nextLessonId: "observer-3-4"
