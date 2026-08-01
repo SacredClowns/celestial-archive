@@ -13,6 +13,7 @@ import { LessonSidebar } from "@/components/lesson/lesson-sidebar";
 import { Inscribe } from "@/components/motion/inscribe";
 import { splitLensSections } from "@/lib/lesson-markdown/split-lens-sections";
 import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
+import { BadgeCovenant } from "@/components/discernment/badge-covenant";
 import {
   DiscernmentPracticeBlock,
   MultipleInterpretationsBlock,
@@ -216,15 +217,21 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
               Archive
             </Link>
             {" — "}
-            <Link href={SEEKER_PATH} className="hover:text-gold-light transition-colors duration-slow ease-gravity">
-              Seeker path
+            <Link
+              href={lesson.stagePath ?? SEEKER_PATH}
+              className="hover:text-gold-light transition-colors duration-slow ease-gravity"
+            >
+              {lesson.stage}
             </Link>
             {" — "}
             {lesson.lessonNumber} — {lesson.title}
           </p>
           <p className="font-display text-xs text-gold-dim">
-            <Link href={SEEKER_PATH} className="border-b border-gold-dim/50 transition-colors duration-slow ease-gravity hover:text-gold-light">
-              Return to Seeker path
+            <Link
+              href={lesson.stagePath ?? SEEKER_PATH}
+              className="border-b border-gold-dim/50 transition-colors duration-slow ease-gravity hover:text-gold-light"
+            >
+              {lesson.stageLabel ?? "Return to Seeker path"}
             </Link>
           </p>
           <div className="flex flex-wrap gap-2">
@@ -232,6 +239,7 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
               <EpistemicBadge key={tone} tone={tone} compact />
             ))}
           </div>
+          <BadgeCovenant />
           <h1 className="font-display text-4xl tracking-[0.06em] text-gold">{lesson.title}</h1>
           {lesson.subtitle ? <p className="text-gold-light">{lesson.subtitle}</p> : null}
           <p className="text-gold-light">
