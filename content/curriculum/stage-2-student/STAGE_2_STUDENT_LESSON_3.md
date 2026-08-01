@@ -671,4 +671,3 @@ Forty-eight texts. A thousand words. A grammar that works. A question of directi
 - Skinner, Stephen, and Rankine, David. *Practical Angel Magic of Dr. John Dee's Enochian Tables* (Golden Hoard, 2004). Structural reference for the Calls within the broader Enochian system.
 
 :::
-                                                                                                                                                                                                                                                         
