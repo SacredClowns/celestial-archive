@@ -237,6 +237,14 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
           <p className="text-gold-light">
             {lesson.stage} · {lesson.lessonNumber} · {lesson.duration}
           </p>
+          {lesson.verificationNote ? (
+            <aside className="border-l-2 border-amber/60 bg-amber/5 px-4 py-3 text-sm">
+              <p className="font-display text-[10px] uppercase tracking-[0.18em] text-amber">
+                Folio in controlled preview
+              </p>
+              <p className="mt-2 leading-[1.8] text-gold-pale/90">{lesson.verificationNote}</p>
+            </aside>
+          ) : null}
           {lesson.sourcePackId ? (
             <aside className="border border-gold-dim/40 bg-ink/30 px-4 py-3 text-sm text-gold-dim">
               <span className="font-display uppercase tracking-[0.14em] text-gold-light">Source pack</span>
@@ -466,8 +474,8 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
         <FolioSeal lessonId={lesson.slug} title={lesson.title} />
 
         <LessonNavFooter
-          stageLabel="Return to Seeker path"
-          stageHref={SEEKER_PATH}
+          stageLabel={lesson.stageLabel ?? "Return to Seeker path"}
+          stageHref={lesson.stagePath ?? SEEKER_PATH}
           previous={
             lesson.previousLesson?.href
               ? {

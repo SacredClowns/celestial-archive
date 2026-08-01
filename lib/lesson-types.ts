@@ -93,6 +93,13 @@ export type LessonSchema = {
   nextLesson?: LessonNavLink;
   timelineHookHref?: string;
 
+  /** Footer return-link label. Defaults to the Seeker path when omitted. */
+  stageLabel?: string;
+  /** Footer return-link href. Defaults to the Seeker path when omitted. */
+  stagePath?: string;
+  /** Disclosed limitation shown above the body when a folio is still in review. */
+  verificationNote?: string;
+
   /** Learning goals displayed in the structured lesson view. */
   goals?: string[];
 

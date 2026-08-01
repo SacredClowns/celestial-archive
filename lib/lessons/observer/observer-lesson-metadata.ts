@@ -1,0 +1,11 @@
+import type { ObserverLessonPack } from "@/lib/lessons/observer/observer-lesson-pack";
+import { observerLesson3_1Pack } from "@/lib/lessons/observer/lesson-3-1";
+
+/** Observer lesson machinery keyed by route slug. Add a row as each folio's prose lands. */
+export const OBSERVER_LESSON_METADATA: Record<string, ObserverLessonPack> = {
+  "the-ink-on-the-page": observerLesson3_1Pack
+};
+
+export function getObserverLessonPack(slug: string): ObserverLessonPack | undefined {
+  return OBSERVER_LESSON_METADATA[slug];
+}
