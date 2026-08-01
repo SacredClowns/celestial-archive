@@ -68,7 +68,10 @@ export function CallVoicePlayer({
         return;
       }
       setIdx(i);
-      const u = new SpeechSynthesisUtterance(words[i].pronunciation.replace(/-/g, " "));
+      // A handful of words carry no reconstructed pronunciation in the source;
+      // fall back to the Enochian spelling rather than falling silent.
+      const spoken = (words[i].pronunciation || words[i].enochian).replace(/-/g, " ");
+      const u = new SpeechSynthesisUtterance(spoken);
       u.rate = rateRef.current;
       u.pitch = 0.8;
       u.onend = () => next(i + 1);
@@ -151,7 +154,7 @@ export function CallVoicePlayer({
                 if ("speechSynthesis" in window) window.speechSynthesis.cancel();
                 speakFrom(i);
               }}
-              title={`${w.pronunciation} — “${w.english}”`}
+              title={`${w.pronunciation || w.enochian} — “${w.english}”`}
               className={`group flex flex-col items-center rounded-sm px-1.5 py-1 text-left transition-all duration-200 ${
                 lit ? "bg-gold/20 shadow-gold" : "hover:bg-ink/50"
               }`}

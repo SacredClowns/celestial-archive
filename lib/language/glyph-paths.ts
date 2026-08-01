@@ -47,15 +47,16 @@ export const GLYPH_PATHS: Record<string, string[]> = {
   // Z — the lightning stroke, barred
   ceph: ["M30 24 L70 24 L34 78 L74 78", "M42 50 L62 50"],
   // U/V — a deep cup with west serif
-  vau: ["M28 22 L44 78 L50 88 L56 78 L72 22", "M20 28 L36 22"],
+  van: ["M28 22 L44 78 L50 88 L56 78 L72 22", "M20 28 L36 22"],
   // S — the serpent under a yoke
   fam: ["M68 28 C54 16 32 22 34 38 C36 52 66 50 68 64 C70 80 46 86 32 74", "M38 14 L62 14"],
   // T — a tau with drooping arms
   gisg: ["M24 30 C32 22 44 22 50 28 C56 22 68 22 76 30", "M50 26 L50 86"]
 };
 
+/** Canonical received order, positions 1–21 (Sloane MS 3188). */
 export const GLYPH_ORDER = [
-  "un", "pa", "veh", "ged", "gal", "or", "graph",
-  "tal", "gon", "na", "ur", "mals", "ger", "drux",
-  "pal", "med", "don", "ceph", "vau", "fam", "gisg"
+  "un", "pa", "veh", "gal", "graph", "or", "ged",
+  "na", "gon", "ur", "tal", "drux", "med", "mals",
+  "ger", "don", "fam", "gisg", "van", "pal", "ceph"
 ];

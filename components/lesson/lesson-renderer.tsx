@@ -286,7 +286,7 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
             >
               Timeline pillar
             </Link>{" "}
-            (under construction — hook preserved for integration).
+            — every anchor above set in its wider sequence.
           </p>
         </section>
 

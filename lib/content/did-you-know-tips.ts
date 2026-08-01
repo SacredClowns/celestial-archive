@@ -35,7 +35,7 @@ export const DID_YOU_KNOW_BY_PATH: Record<string, DidYouKnowTip> = {
   },
   "/path": {
     id: "path-progress",
-    text: "Progress on lessons and discoveries is stored locally in your browser. Clearing site data resets your path — the Archive does not sync to a server in this build."
+    text: "Your path is kept in this browser as you read. Sign in and the Archive keeps it for you instead — sealed folios, discoveries and journal follow you to any device."
   },
   "/aethyrs": {
     id: "aethyrs-call19",

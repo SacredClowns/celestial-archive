@@ -2,10 +2,11 @@ import Link from "next/link";
 import { HomeBelowFold } from "@/components/home/home-below-fold";
 import { OpeningExperience } from "@/components/home/opening-experience";
 
+/** The 21 letter-names in canonical received order, positions 1–21. */
 const LETTER_TITLES = [
-  "UN", "PA", "VEH", "GED", "GAL", "OR", "GRAPH",
-  "TAL", "GON", "NA", "UR", "MALS", "GER", "DRUX",
-  "PAL", "MED", "DON", "CEPH", "VAU", "FAM", "GISG"
+  "UN", "PA", "VEH", "GAL", "GRAPH", "OR", "GED",
+  "NA", "GON", "UR", "TAL", "DRUX", "MED", "MALS",
+  "GER", "DON", "FAM", "GISG", "VAN", "PAL", "CEPH"
 ];
 
 const COURSE_SCHEMA = {
