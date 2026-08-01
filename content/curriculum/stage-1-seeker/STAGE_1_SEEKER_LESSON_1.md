@@ -57,11 +57,11 @@ A language spoken before the confusion at Babel. Before the scattering of nation
 
 The idea persists: that there was once a way of speaking — or of knowing — that we lost.
 
-In 1581, in a crowded study in Mortlake, on the banks of the Thames, a 54-year-old mathematician named John Dee sat down in front of a polished obsidian mirror and began to pray. ◆ He had spent his life studying the structure of the natural world through mathematics, cartography, optics, and astronomy. He had the largest private library in England — over 3,000 volumes. He had advised the queen. He had lectured on Euclid in Paris.
+In 1581, in a crowded study in Mortlake, on the banks of the Thames, a 54-year-old mathematician named John Dee sat down before his scrying stone and began to pray. ◆ He had spent his life studying the structure of the natural world through mathematics, cartography, optics, and astronomy. His library at Mortlake was among the largest private collections in England — perhaps three thousand volumes or more, though the surviving catalogue documents roughly twenty-nine hundred titles. ◇ He had advised the queen. He had lectured on Euclid in Paris.
 
 And he believed — with the sincerity of a man who had exhausted every other avenue — that there was a language beyond human languages, spoken by intelligences beyond the human, and that it could be received.
 
-What happened next would take four years, consume two lives, span three countries, and produce a system of language, cosmology, and celestial architecture that has resisted full explanation for over 440 years.
+What happened next would take approximately five years of intensive collaboration, consume two lives, span three countries, and produce a system of language, cosmology, and celestial architecture that has resisted full explanation for over 440 years.
 
 This is where the Celestial Archive begins. Not with an answer, but with a question that has never been settled.
 
@@ -113,7 +113,7 @@ John Dee was born on July 13, 1527, in Tower Ward, London. He entered St John's 
 
 ◆ This is documented in Dee's own autobiographical notes and in Cambridge college records.
 
-By his twenties, he had lectured on Euclid at the University of Paris and assembled a library that would grow to over 3,000 volumes — a collection larger than most university libraries of his era. His library at Mortlake covered mathematics, astronomy, cartography, navigation, medicine, natural philosophy, alchemy, and the occult sciences.
+By his twenties, he had lectured on Euclid at the University of Paris and assembled a library that would become one of the largest private collections in England — catalogued at roughly twenty-nine hundred titles, with scholarly estimates sometimes placing the total higher. ◇ His library at Mortlake covered mathematics, astronomy, cartography, navigation, medicine, natural philosophy, alchemy, and the occult sciences.
 
 He was not a marginal figure. He advised Queen Elizabeth I on astrological timing, contributed to English navigation (his mathematical work helped shape the voyages of exploration), and was one of the most respected intellects in England.
 
@@ -141,7 +141,7 @@ This arrangement is the crux of every interpretive question in the Enochian trad
 
 Between 1582 and 1587, working first at Mortlake and later traveling through Poland and Bohemia, Dee and Kelley recorded a series of transmissions that they attributed to angelic beings. The system they received — in stages, not all at once — included:
 
-**The Heptarchic System (1582)** — A hierarchy of 49 angelic kings and princes, along with detailed instructions for ritual objects: the Sigillum Dei Aemeth (a complex geometric seal), the Holy Table, and the Lamen. ◆
+**The Heptarchic System (1582)** — Seven kings and seven princes, with forty-nine ministers beneath them, along with detailed instructions for ritual objects: the Sigillum Dei Aemeth (a complex geometric seal), the Holy Table, and the Lamen. ◆
 
 **Liber Loagaeth (1583)** — A vast and enigmatic text: 49 tables of letters, each 49 by 49 cells. The angels claimed this was the original language of Creation, spoken by Adam before the Fall. It has never been fully decoded. ◆
 
@@ -524,7 +524,7 @@ The next lesson is waiting. So is the Archive. Begin wherever draws your attenti
 
 ---
 
-*Epistemic status of this lesson: ◆ Historical Evidence for all factual claims; ○ Traditional Occult Claims clearly labeled; △ Later Interpretations attributed; ~ Speculative material explicitly marked. This lesson was reviewed against the Content Voice Guide v1.0.*
+*Epistemic status of this lesson: ◆ Historical Evidence for manuscript and biographical claims where cited; ◇ Scholarly Consensus where noted; ○ Traditional Occult Claims clearly labeled; △ Later Interpretations attributed; ~ Speculative material explicitly marked. This lesson was reviewed against the Content Voice Guide v1.0 and Source Pack 1.*
 
 ---
 

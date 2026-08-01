@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { CallViewer } from "@/components/language/call-viewer";
 import { AethyrGovernorCard } from "@/components/aethyrs/aethyr-governor-card";
+import { loadLanguageChamberContent } from "@/lib/language/language-content";
 import { getCallByNumber, getCallTextData, getCallsData } from "@/lib/language/language-data";
 import type { AethyrData } from "@/lib/aethyrs/aethyr-types";
 
@@ -16,6 +17,7 @@ export function AethyrDetail({
   const call = getCallByNumber(19);
   const callText = getCallTextData(19);
   const { aethyrNames } = getCallsData();
+  const chamber = loadLanguageChamberContent();
 
   return (
     <article className="space-y-12">
@@ -41,6 +43,16 @@ export function AethyrDetail({
           aethyrs={aethyrNames}
           initialAethyr={aethyr.name}
           showAethyrSelector
+          copy={{
+            callSectionLabels: chamber.callSectionLabels,
+            pronunciationTraditions: chamber.pronunciationTraditions,
+            call19SpecialNote: chamber.call19SpecialNote,
+            call19AethyrPrompt: chamber.call19AethyrPrompt,
+            call19AethyrFootnote: chamber.call19AethyrFootnote,
+            callTextLoading: chamber.callTextLoading,
+            wordNotFound: chamber.wordNotFound,
+            noScholarlyNotes: chamber.noScholarlyNotes
+          }}
         />
       </section>
 

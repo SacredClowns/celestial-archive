@@ -6,20 +6,21 @@ import type { AethyrName } from "@/lib/language/language-types";
 export function AethyrCallSelector({
   aethyrs,
   selected,
-  onSelect
+  onSelect,
+  prompt,
+  footnote
 }: {
   aethyrs: AethyrName[];
   selected: string;
   onSelect: (name: string) => void;
+  prompt: string;
+  footnote: string;
 }) {
   const ordered = [...aethyrs].sort((a, b) => b.number - a.number);
 
   return (
     <div className="space-y-3">
-      <p className="text-sm text-gold-dim">
-        Select the target Aethyr for the variable position in the Nineteenth Call. Default: TEX (30th,
-        outermost).
-      </p>
+      <p className="font-display text-sm text-gold-dim">{prompt}</p>
       <div className="grid grid-cols-5 gap-2 sm:grid-cols-6">
         {ordered.map((aethyr) => {
           const active = aethyr.name === selected;
@@ -40,6 +41,7 @@ export function AethyrCallSelector({
           );
         })}
       </div>
+      {footnote ? <p className="text-xs italic text-gold-dim/80">{footnote}</p> : null}
     </div>
   );
 }

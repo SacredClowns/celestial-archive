@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "test": "vitest run",
     "validate:student": "vitest run lib/student/validate-student-stage.test.ts",
-    "verify:supabase": "node scripts/apply-celestial-migration.mjs"
+    "verify:supabase": "node scripts/apply-celestial-migration.mjs",
+    "verify:enochia": "node scripts/verify-enochia-stack.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",

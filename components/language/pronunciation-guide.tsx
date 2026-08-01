@@ -48,15 +48,32 @@ export function PronunciationGuide({
   letters: EnochianLetter[];
   content: Pick<
     LanguageChamberContent,
-    "traditionDee" | "traditionGd" | "traditionModern" | "pronunciationComparisonNote" | "digraphs"
+    | "traditionDee"
+    | "traditionGd"
+    | "traditionModern"
+    | "pronunciationComparisonNote"
+    | "digraphs"
+    | "traditionLabels"
   >;
 }) {
   return (
     <div className="space-y-12">
       <div className="space-y-4">
-        <TraditionCard title="Dee's Original (Reconstructed)" tone="historical" body={content.traditionDee} />
-        <TraditionCard title="Golden Dawn Syllabic" tone="later" body={content.traditionGd} />
-        <TraditionCard title="Modern Phonetic (DuQuette)" tone="occult" body={content.traditionModern} />
+        <TraditionCard
+          title={`${content.traditionLabels.dee} (Reconstructed)`}
+          tone="historical"
+          body={content.traditionDee}
+        />
+        <TraditionCard
+          title={`${content.traditionLabels.goldenDawn} Syllabic`}
+          tone="later"
+          body={content.traditionGd}
+        />
+        <TraditionCard
+          title={`${content.traditionLabels.modern} (DuQuette)`}
+          tone="occult"
+          body={content.traditionModern}
+        />
       </div>
 
       <div className="overflow-x-auto">

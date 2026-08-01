@@ -11,8 +11,22 @@ export const RELATIONSHIP_WEB_EDGE_LABELS = [
   "Later elaboration",
   "Associated with",
   "Associated in later synthesis",
-  "Appears in"
+  "Appears in",
+  "Published",
+  "Scried for",
+  "Patronized",
+  "Studied under",
+  "Transmitted",
+  "Recorded by",
+  "Commissioned"
 ] as const;
+
+export type RelationshipWebNodeKind =
+  | "person"
+  | "artifact"
+  | "text"
+  | "organization"
+  | "system";
 
 export type RelationshipWebEdgeLabel = (typeof RELATIONSHIP_WEB_EDGE_LABELS)[number];
 
@@ -20,6 +34,7 @@ export type RelationshipWebNode = {
   id: string;
   /** Display name for lists and future diagrams */
   label: string;
+  kind?: RelationshipWebNodeKind;
 };
 
 export type RelationshipWebEdge = {

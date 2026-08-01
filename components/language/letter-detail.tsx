@@ -2,26 +2,25 @@ import Link from "next/link";
 import { CandlelightCard } from "@/components/motion/candlelight-card";
 import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
 import { badgeKindToEpistemicTone } from "@/lib/language/language-badges";
-import type { EnochianLetter, PronunciationTradition } from "@/lib/language/language-types";
-
-const TRADITION_LABELS: Record<PronunciationTradition, { title: string; tone: "historical" | "later" | "occult" }> = {
-  dee: { title: "Dee's Original", tone: "historical" },
-  goldenDawn: { title: "Golden Dawn", tone: "later" },
-  modern: { title: "Modern Practice", tone: "occult" }
-};
+import type {
+  EnochianLetter,
+  LanguageChamberContent,
+  PronunciationTradition
+} from "@/lib/language/language-types";
 
 function PronunciationCard({
+  title,
   tradition,
   entry
 }: {
+  title: string;
   tradition: PronunciationTradition;
   entry: EnochianLetter["phonology"][PronunciationTradition];
 }) {
-  const meta = TRADITION_LABELS[tradition];
   return (
     <CandlelightCard className="flex flex-1 flex-col gap-3 rounded-sm border border-gold-dim/20 bg-ink/20 p-4">
       <div className="flex items-center justify-between gap-2">
-        <h3 className="font-display text-sm uppercase tracking-[0.14em] text-gold">{meta.title}</h3>
+        <h3 className="font-display text-sm uppercase tracking-[0.14em] text-gold">{title}</h3>
         <EpistemicBadge tone={badgeKindToEpistemicTone(entry.badge)} compact />
       </div>
       <p className="text-sm leading-relaxed text-gold-dim">{entry.description}</p>
@@ -36,12 +35,24 @@ function PronunciationCard({
 export function LetterDetail({
   letter,
   prev,
-  next
+  next,
+  labels,
+  traditionLabels,
+  noScholarlyNotes
 }: {
   letter: EnochianLetter;
   prev: EnochianLetter | null;
   next: EnochianLetter | null;
+  labels: LanguageChamberContent["letterLabels"];
+  traditionLabels: LanguageChamberContent["traditionLabels"];
+  noScholarlyNotes: string;
 }) {
+  const traditionTitles: Record<PronunciationTradition, string> = {
+    dee: traditionLabels.dee,
+    goldenDawn: traditionLabels.goldenDawn,
+    modern: traditionLabels.modern
+  };
+
   return (
     <article className="space-y-10">
       <div>
@@ -58,22 +69,40 @@ export function LetterDetail({
           {letter.englishEquivalent}
         </p>
         <h1 className="mt-4 font-display text-2xl text-gold-pale">{letter.name}</h1>
-        <p className="mt-2 text-sm text-gold-dim">Maps to: English letter {letter.englishEquivalent}</p>
-        <p className="mt-3 text-xs text-gold-dim/80">Script reads right to left · glyph font pending</p>
+        <p className="mt-2 text-sm text-gold-dim">
+          {labels.mapsTo}: English letter {letter.englishEquivalent}
+        </p>
+        <p className="mt-3 text-xs text-gold-dim/80">{labels.writingDirection}</p>
       </div>
 
       <section className="space-y-4">
-        <h2 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">Pronunciation</h2>
+        <h2 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
+          {labels.pronunciation}
+        </h2>
         <div className="flex flex-col gap-4 lg:flex-row">
-          <PronunciationCard tradition="dee" entry={letter.phonology.dee} />
-          <PronunciationCard tradition="goldenDawn" entry={letter.phonology.goldenDawn} />
-          <PronunciationCard tradition="modern" entry={letter.phonology.modern} />
+          <PronunciationCard
+            title={traditionTitles.dee}
+            tradition="dee"
+            entry={letter.phonology.dee}
+          />
+          <PronunciationCard
+            title={traditionTitles.goldenDawn}
+            tradition="goldenDawn"
+            entry={letter.phonology.goldenDawn}
+          />
+          <PronunciationCard
+            title={traditionTitles.modern}
+            tradition="modern"
+            entry={letter.phonology.modern}
+          />
         </div>
       </section>
 
       <CandlelightCard className="space-y-3 rounded-sm border border-gold-dim/20 bg-ink/20 p-5">
         <div className="flex items-center gap-2">
-          <h2 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">Historical Reception</h2>
+          <h2 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
+            {labels.historicalReception}
+          </h2>
           <EpistemicBadge tone={badgeKindToEpistemicTone(letter.historicalNote.badge)} compact />
         </div>
         <p className="leading-[1.9] text-gold-pale">{letter.historicalNote.text}</p>
@@ -83,7 +112,7 @@ export function LetterDetail({
       {letter.scholarlyNotes.length > 0 ? (
         <section className="space-y-4">
           <h2 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
-            What Scholars Have Observed
+            {labels.scholarlyObservation}
           </h2>
           {letter.scholarlyNotes.map((note) => (
             <CandlelightCard
@@ -98,11 +127,15 @@ export function LetterDetail({
             </CandlelightCard>
           ))}
         </section>
-      ) : null}
+      ) : (
+        <p className="text-sm text-gold-dim/80">{noScholarlyNotes}</p>
+      )}
 
       {letter.exampleWords.length > 0 ? (
         <section className="space-y-3">
-          <h2 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">Words Using This Letter</h2>
+          <h2 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
+            {labels.exampleWords}
+          </h2>
           <div className="flex flex-wrap gap-2">
             {letter.exampleWords.map((word) => (
               <Link

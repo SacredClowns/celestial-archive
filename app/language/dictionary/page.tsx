@@ -36,6 +36,15 @@ export default async function DictionaryPage({ searchParams }: PageProps) {
         totalWords={meta.totalUniqueWords}
         totalTokens={meta.totalWordTokens}
         initialQuery={q ?? ""}
+        copy={{
+          dictionarySearchPlaceholder: content.dictionarySearchPlaceholder,
+          dictionaryFilters: content.dictionaryFilters,
+          dictionaryEntryLabels: content.dictionaryEntryLabels,
+          dictionaryEmptySearch: content.dictionaryEmptySearch,
+          numberSystemNote: content.numberSystemNote,
+          wordNotFound: content.wordNotFound,
+          pronunciationUnavailable: content.pronunciationUnavailable
+        }}
       />
 
       <ChamberSourceNote>

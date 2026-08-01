@@ -1,5 +1,6 @@
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
+import { celestialDbOptions } from "@/lib/supabase/celestial-schema";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
 
 export async function createServerSupabaseClient() {
@@ -12,6 +13,7 @@ export async function createServerSupabaseClient() {
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
+      ...celestialDbOptions,
       cookies: {
         getAll() {
           return cookieStore.getAll();

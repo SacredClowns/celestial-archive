@@ -19,7 +19,7 @@ type AuthContextValue = {
   session: Session | null;
   loading: boolean;
   configured: boolean;
-  signInWithEmail: (email: string) => Promise<{ error: string | null }>;
+  signInWithEmail: (email: string, nextPath?: string) => Promise<{ error: string | null }>;
   signOut: () => Promise<void>;
 };
 
@@ -40,11 +40,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     let cancelled = false;
 
+    async function syncServerProfile() {
+      try {
+        await fetch("/api/auth/sync-profile", { method: "POST" });
+      } catch {
+        /* non-fatal */
+      }
+    }
+
     supabase.auth.getSession().then(({ data }) => {
       if (cancelled) return;
       setSession(data.session);
       setUser(data.session?.user ?? null);
       setLoading(false);
+      if (data.session?.user) void syncServerProfile();
     });
 
     const {
@@ -59,6 +68,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             nextSession.user.id,
             nextSession.user.email
           );
+          await syncServerProfile();
         } catch {
           // Profile table may not exist until migration is applied.
         }
@@ -71,12 +81,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     };
   }, [configured]);
 
-  const signInWithEmail = useCallback(async (email: string) => {
+  const signInWithEmail = useCallback(async (email: string, nextPath = "/path") => {
     const supabase = createClientIfConfigured();
     if (!supabase) {
       return { error: "Supabase is not configured on this deployment." };
     }
-    const redirectTo = `${window.location.origin}/auth/callback`;
+    const safeNext = nextPath.startsWith("/") ? nextPath : "/path";
+    const redirectTo = `${window.location.origin}/auth/callback?next=${encodeURIComponent(safeNext)}`;
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: { emailRedirectTo: redirectTo }

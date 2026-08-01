@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useCallback, useState } from "react";
 import { JournalFab } from "@/components/journal/journal-fab";
 import { MobileDrawer } from "@/components/layout/mobile-drawer";
@@ -12,6 +13,7 @@ import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { AccountMenu } from "@/components/auth/account-menu";
 import { PageDidYouKnow } from "@/components/layout/page-did-you-know";
 import { SearchOverlay, useSearchShortcut } from "@/components/search/search-overlay";
+import { SessionBeacon } from "@/components/analytics/session-beacon";
 
 const navItems = [
   { href: "/archive", label: "Archive" },
@@ -28,14 +30,24 @@ const navItems = [
 ];
 
 export function AppChromeClient({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
   const [searchOpen, setSearchOpen] = useState(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const openSearch = useCallback(() => setSearchOpen(true), []);
   useSearchShortcut(openSearch);
 
+  if (
+    pathname?.startsWith("/instrumentarium") ||
+    pathname?.startsWith("/admin") ||
+    pathname?.startsWith("/grimoire")
+  ) {
+    return <>{children}</>;
+  }
+
   return (
     <div className="relative min-h-screen bg-ink text-gold-pale">
+      <SessionBeacon />
       <Starfield />
       <div className="relative z-10 flex min-h-screen flex-col">
         <header className="border-b border-gold-dim/30 bg-deep/90">

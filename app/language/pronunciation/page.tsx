@@ -26,7 +26,8 @@ export default function PronunciationPage() {
           traditionGd: content.traditionGd,
           traditionModern: content.traditionModern,
           pronunciationComparisonNote: content.pronunciationComparisonNote,
-          digraphs: content.digraphs
+          digraphs: content.digraphs,
+          traditionLabels: content.traditionLabels
         }}
       />
 

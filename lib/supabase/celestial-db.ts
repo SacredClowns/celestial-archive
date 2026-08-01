@@ -1,4 +1,8 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+
+/** Any schema — callers use `enochia` via client db options. */
+export type CelestialSupabaseClient = SupabaseClient<any, any, any>;
+import type { DiscoveryEntry, DiscoveryKind } from "@/lib/discovery/discovery-types";
 import type { JournalEntry, JournalEntryType } from "@/lib/journal/journal-types";
 
 type JournalRow = {
@@ -62,7 +66,7 @@ function entryToRow(userId: string, entry: JournalEntry) {
 }
 
 export async function ensureCelestialProfile(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   email?: string
 ) {
@@ -81,7 +85,7 @@ export async function ensureCelestialProfile(
 }
 
 export async function fetchJournalEntries(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string
 ): Promise<JournalEntry[]> {
   const { data, error } = await supabase
@@ -95,7 +99,7 @@ export async function fetchJournalEntries(
 }
 
 export async function upsertJournalEntry(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   entry: JournalEntry
 ) {
@@ -106,7 +110,7 @@ export async function upsertJournalEntry(
 }
 
 export async function deleteJournalEntry(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   id: string
 ) {
@@ -118,25 +122,32 @@ export async function deleteJournalEntry(
   if (error) throw error;
 }
 
+/** Upsert all entries, then remove remote rows not in the set (avoids wipe-on-insert-failure). */
 export async function replaceJournalEntries(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   entries: JournalEntry[]
 ) {
-  const { error: delError } = await supabase
+  for (const entry of entries) {
+    await upsertJournalEntry(supabase, userId, entry);
+  }
+
+  const { data: remote, error: listError } = await supabase
     .from("celestial_journal_entries")
-    .delete()
+    .select("id")
     .eq("user_id", userId);
-  if (delError) throw delError;
-  if (entries.length === 0) return;
-  const { error } = await supabase
-    .from("celestial_journal_entries")
-    .insert(entries.map((e) => entryToRow(userId, e)));
-  if (error) throw error;
+  if (listError) throw listError;
+
+  const keep = new Set(entries.map((e) => e.id));
+  for (const row of remote ?? []) {
+    if (!keep.has(row.id)) {
+      await deleteJournalEntry(supabase, userId, row.id);
+    }
+  }
 }
 
 export async function fetchLessonProgress(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string
 ): Promise<string[]> {
   const { data, error } = await supabase
@@ -148,7 +159,7 @@ export async function fetchLessonProgress(
 }
 
 export async function markLessonComplete(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   lessonId: string
 ) {
@@ -160,7 +171,7 @@ export async function markLessonComplete(
 }
 
 export async function replaceLessonProgress(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   lessonIds: string[]
 ) {
@@ -184,7 +195,7 @@ export type CelestialBookmark = {
 };
 
 export async function fetchBookmarks(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string
 ): Promise<CelestialBookmark[]> {
   const { data, error } = await supabase
@@ -202,7 +213,7 @@ export async function fetchBookmarks(
 }
 
 export async function addBookmark(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   bookmark: Omit<CelestialBookmark, "id" | "savedAt">
 ) {
@@ -225,7 +236,7 @@ export async function addBookmark(
 }
 
 export async function removeBookmark(
-  supabase: SupabaseClient,
+  supabase: CelestialSupabaseClient,
   userId: string,
   href: string
 ) {
@@ -235,4 +246,95 @@ export async function removeBookmark(
     .eq("user_id", userId)
     .eq("href", href);
   if (error) throw error;
+}
+
+type DiscoveryRow = {
+  id: string;
+  user_id: string;
+  kind: string;
+  title: string;
+  note: string;
+  href: string | null;
+  created_at: string;
+};
+
+function rowToDiscovery(row: DiscoveryRow): DiscoveryEntry {
+  return {
+    id: row.id,
+    kind: row.kind as DiscoveryKind,
+    title: row.title,
+    note: row.note,
+    href: row.href ?? undefined,
+    createdAt: row.created_at
+  };
+}
+
+function discoveryToRow(userId: string, entry: DiscoveryEntry) {
+  return {
+    id: entry.id,
+    user_id: userId,
+    kind: entry.kind,
+    title: entry.title,
+    note: entry.note,
+    href: entry.href ?? null,
+    created_at: entry.createdAt
+  };
+}
+
+export async function fetchDiscoveries(
+  supabase: CelestialSupabaseClient,
+  userId: string
+): Promise<DiscoveryEntry[]> {
+  const { data, error } = await supabase
+    .from("celestial_discoveries")
+    .select("*")
+    .eq("user_id", userId)
+    .order("created_at", { ascending: false });
+  if (error) throw error;
+  return ((data ?? []) as DiscoveryRow[]).map(rowToDiscovery);
+}
+
+export async function upsertDiscovery(
+  supabase: CelestialSupabaseClient,
+  userId: string,
+  entry: DiscoveryEntry
+) {
+  const { error } = await supabase
+    .from("celestial_discoveries")
+    .upsert(discoveryToRow(userId, entry), { onConflict: "id" });
+  if (error) throw error;
+}
+
+export async function deleteDiscovery(
+  supabase: CelestialSupabaseClient,
+  userId: string,
+  id: string
+) {
+  const { error } = await supabase
+    .from("celestial_discoveries")
+    .delete()
+    .eq("user_id", userId)
+    .eq("id", id);
+  if (error) throw error;
+}
+
+export async function replaceDiscoveries(
+  supabase: CelestialSupabaseClient,
+  userId: string,
+  entries: DiscoveryEntry[]
+) {
+  for (const entry of entries) {
+    await upsertDiscovery(supabase, userId, entry);
+  }
+  const { data: remote, error: listError } = await supabase
+    .from("celestial_discoveries")
+    .select("id")
+    .eq("user_id", userId);
+  if (listError) throw listError;
+  const keep = new Set(entries.map((e) => e.id));
+  for (const row of remote ?? []) {
+    if (!keep.has(row.id)) {
+      await deleteDiscovery(supabase, userId, row.id);
+    }
+  }
 }

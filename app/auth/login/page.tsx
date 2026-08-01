@@ -2,9 +2,12 @@
 
 import { FormEvent, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { useAuth } from "@/lib/auth/auth-context";
 
 export default function LoginPage() {
+  const searchParams = useSearchParams();
+  const next = searchParams.get("next") ?? "/path";
   const { configured, signInWithEmail, loading } = useAuth();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sent" | "error">("idle");
@@ -13,7 +16,7 @@ export default function LoginPage() {
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
     setStatus("idle");
-    const { error } = await signInWithEmail(email.trim());
+    const { error } = await signInWithEmail(email.trim(), next);
     if (error) {
       setStatus("error");
       setMessage(error);

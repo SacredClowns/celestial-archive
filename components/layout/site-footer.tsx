@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NewsletterSignup } from "@/components/newsletter/newsletter-signup";
 
 export function SiteFooter() {
   return (
@@ -20,6 +21,7 @@ export function SiteFooter() {
             About
           </Link>
         </nav>
+        <NewsletterSignup source="footer" />
       </div>
     </footer>
   );

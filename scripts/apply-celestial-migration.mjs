@@ -29,14 +29,17 @@ const url = env.NEXT_PUBLIC_SUPABASE_URL;
 const key = env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 const sqlPath = resolve(root, "supabase/migrations/001_celestial_archive.sql");
 
-async function tableExists(table) {
-  const res = await fetch(`${url}/rest/v1/${table}?select=*&limit=0`, {
-    headers: {
-      apikey: key,
-      Authorization: `Bearer ${key}`,
-      Accept: "application/json"
-    }
-  });
+async function tableExists(table, schema = "enochia") {
+  const headers = {
+    apikey: key,
+    Authorization: `Bearer ${key}`,
+    Accept: "application/json"
+  };
+  if (schema !== "public") {
+    headers["Accept-Profile"] = schema;
+    headers["Content-Profile"] = schema;
+  }
+  const res = await fetch(`${url}/rest/v1/${table}?select=*&limit=0`, { headers });
   return res.status === 200;
 }
 
@@ -52,10 +55,13 @@ async function main() {
     "celestial_profiles",
     "celestial_journal_entries",
     "celestial_user_progress",
-    "celestial_bookmarks"
+    "celestial_bookmarks",
+    "celestial_discoveries"
   ];
 
-  const results = await Promise.all(tables.map(async (t) => [t, await tableExists(t)]));
+  const results = await Promise.all(
+    tables.map(async (t) => [t, await tableExists(t, "enochia")])
+  );
   const missing = results.filter(([, ok]) => !ok).map(([t]) => t);
 
   if (missing.length === 0) {

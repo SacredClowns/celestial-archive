@@ -71,3 +71,15 @@ Lesson **content** stays in the repo (markdown / JSON), not in Supabase.
 ## 5. Vercel
 
 Add the same two `NEXT_PUBLIC_*` variables in the Vercel project settings for production.
+
+## 6. Instrumentarium (keepers only)
+
+Server allowlist for the sysadmin chamber:
+
+```env
+CELESTIAL_ADMIN_EMAILS=you@example.com
+```
+
+See `docs/ENOCHIA_ADMIN.md`. Routes: `/admin`, `/admin/gate`, `/grimoire`.
+
+Requires `SUPABASE_SERVICE_ROLE_KEY` for CRM, newsletter, and marketing analytics tables (`004` + `005` migrations).

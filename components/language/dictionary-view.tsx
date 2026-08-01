@@ -5,7 +5,12 @@ import { useEffect, useMemo, useState } from "react";
 import { EpistemicBadge } from "@/components/discernment/epistemic-badge";
 import { CandlelightCard } from "@/components/motion/candlelight-card";
 import { badgeKindToEpistemicTone } from "@/lib/language/language-badges";
-import type { DictionaryCorpusStatistics, DictionaryEntry } from "@/lib/language/language-types";
+import { BadgeProse } from "@/components/language/badge-prose";
+import type {
+  DictionaryCorpusStatistics,
+  DictionaryEntry,
+  LanguageChamberContent
+} from "@/lib/language/language-types";
 
 const PAGE_SIZE = 50;
 
@@ -84,13 +89,25 @@ function CorpusStatsPanel({ stats, totalWords, totalTokens }: {
   );
 }
 
+type DictionaryCopy = Pick<
+  LanguageChamberContent,
+  | "dictionarySearchPlaceholder"
+  | "dictionaryFilters"
+  | "dictionaryEntryLabels"
+  | "dictionaryEmptySearch"
+  | "numberSystemNote"
+  | "wordNotFound"
+  | "pronunciationUnavailable"
+>;
+
 export function DictionaryView({
   entries,
   corpusStats,
   totalWords,
   totalTokens,
   initialQuery = "",
-  initialHash = ""
+  initialHash = "",
+  copy
 }: {
   entries: DictionaryEntry[];
   corpusStats: DictionaryCorpusStatistics;
@@ -98,9 +115,11 @@ export function DictionaryView({
   totalTokens: number;
   initialQuery?: string;
   initialHash?: string;
+  copy: DictionaryCopy;
 }) {
   const [query, setQuery] = useState(initialQuery);
   const [debounced, setDebounced] = useState(initialQuery);
+  const [category, setCategory] = useState("all");
   const [pos, setPos] = useState<string>("all");
   const [freq, setFreq] = useState<FreqBand>("all");
   const [callFilter, setCallFilter] = useState<number | "all">("all");
@@ -119,7 +138,7 @@ export function DictionaryView({
 
   useEffect(() => {
     setPage(0);
-  }, [debounced, pos, freq, callFilter, sort]);
+  }, [debounced, category, pos, freq, callFilter, sort]);
 
   const filtered = useMemo(() => {
     const q = debounced.trim().toLowerCase();
@@ -132,6 +151,20 @@ export function DictionaryView({
           e.transliteration.toLowerCase().includes(q) ||
           (e.morphologicalNotes?.toLowerCase().includes(q) ?? false);
         return meaningMatch || wordMatch;
+      });
+    }
+    if (category === "calls") {
+      list = list.filter((e) => (e.callAppearances?.length ?? 0) > 0);
+    } else if (category === "angel") {
+      list = list.filter((e) => {
+        const p = (e.partOfSpeech ?? "").toLowerCase();
+        const src = e.sourceLocation.toLowerCase();
+        return p.includes("name") || src.includes("tablet") || src.includes("angel");
+      });
+    } else if (category !== "all") {
+      list = list.filter((e) => {
+        const p = (e.partOfSpeech ?? "unclassified").toLowerCase();
+        return p.includes(category);
       });
     }
     if (pos !== "all") {
@@ -152,7 +185,7 @@ export function DictionaryView({
       list = [...list].sort((a, b) => b.frequency - a.frequency);
     }
     return list;
-  }, [entries, debounced, pos, freq, callFilter, sort]);
+  }, [entries, debounced, category, pos, freq, callFilter, sort]);
 
   const pageCount = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const pageItems = filtered.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
@@ -161,6 +194,24 @@ export function DictionaryView({
     <div className="space-y-8">
       <CorpusStatsPanel stats={corpusStats} totalWords={totalWords} totalTokens={totalTokens} />
 
+      <div className="flex flex-wrap gap-2">
+        {copy.dictionaryFilters.map((f) => (
+          <button
+            key={f.id}
+            type="button"
+            title={f.description}
+            onClick={() => setCategory(f.id)}
+            className={`rounded-sm border px-3 py-1.5 font-display text-xs uppercase tracking-[0.1em] ${
+              category === f.id
+                ? "border-gold bg-gold/15 text-gold"
+                : "border-gold-dim/20 bg-ink/20 text-gold-dim hover:border-gold-dim/40"
+            }`}
+          >
+            {f.label}
+          </button>
+        ))}
+      </div>
+
       <div className="flex flex-col gap-4 lg:flex-row lg:flex-wrap lg:items-end">
         <label className="relative block flex-1 min-w-[200px]">
           <span className="sr-only">Search dictionary</span>
@@ -168,7 +219,7 @@ export function DictionaryView({
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search Enochian or English..."
+            placeholder={copy.dictionarySearchPlaceholder}
             className="w-full rounded-sm border border-gold-dim/30 bg-ink/20 py-3 pl-10 pr-4 text-gold-pale placeholder:text-gold-dim/40 focus:border-gold/50 focus:outline-none"
           />
           <span className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-gold-dim" aria-hidden>
@@ -231,9 +282,7 @@ export function DictionaryView({
       </p>
 
       {filtered.length === 0 ? (
-        <p className="py-16 text-center leading-[1.9] text-gold-dim">
-          No words match your search. The Enochian vocabulary is small (~631 attested unique words in the Calls).
-        </p>
+        <p className="py-16 text-center leading-[1.9] text-gold-dim">{copy.dictionaryEmptySearch}</p>
       ) : (
         <ul className="space-y-2">
           {pageItems.map((entry) => {
@@ -262,7 +311,7 @@ export function DictionaryView({
                       {entry.partOfSpeech}
                     </span>
                   ) : null}
-                  <span className="text-xs text-gold-dim" title="Frequency">
+                  <span className="text-xs text-gold-dim" title={copy.dictionaryEntryLabels.frequency}>
                     ×{entry.frequency}
                   </span>
                   <EpistemicBadge
@@ -285,7 +334,7 @@ export function DictionaryView({
                     ) : null}
                     {entry.callAppearances && entry.callAppearances.length > 0 ? (
                       <p className="mt-3 text-xs text-gold-dim">
-                        Appears in Calls:{" "}
+                        {copy.dictionaryEntryLabels.source}: Calls{" "}
                         {entry.callAppearances.map((n) => (
                           <Link
                             key={n}
@@ -299,7 +348,7 @@ export function DictionaryView({
                     ) : null}
                     {entry.relatedWords.length > 0 ? (
                       <p className="mt-2 text-xs text-gold-dim">
-                        Related:{" "}
+                        {copy.dictionaryEntryLabels.related}:{" "}
                         {entry.relatedWords.map((w) => (
                           <Link
                             key={w}
@@ -319,6 +368,10 @@ export function DictionaryView({
           })}
         </ul>
       )}
+
+      <CandlelightCard className="rounded-sm border border-gold-dim/20 bg-ink/15 p-5">
+        <BadgeProse text={copy.numberSystemNote} className="text-sm leading-[1.9] text-gold-dim" />
+      </CandlelightCard>
 
       {pageCount > 1 ? (
         <nav className="flex items-center justify-center gap-4">

@@ -26,7 +26,7 @@ export default function LanguageChamberPage() {
         </p>
       </ChamberPageHeader>
 
-      <LanguageChamberPanels />
+      <LanguageChamberPanels panels={content.chamberPanels} />
 
       <ChamberSourceNote>
         <p>{content.sourceNote}</p>

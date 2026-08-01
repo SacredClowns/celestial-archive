@@ -2,20 +2,35 @@
 
 import { useEffect, useState } from "react";
 import { DictionaryView } from "@/components/language/dictionary-view";
-import type { DictionaryCorpusStatistics, DictionaryEntry } from "@/lib/language/language-types";
+import type {
+  DictionaryCorpusStatistics,
+  DictionaryEntry,
+  LanguageChamberContent
+} from "@/lib/language/language-types";
 
 export function DictionaryPageClient({
   entries,
   corpusStats,
   totalWords,
   totalTokens,
-  initialQuery
+  initialQuery,
+  copy
 }: {
   entries: DictionaryEntry[];
   corpusStats: DictionaryCorpusStatistics;
   totalWords: number;
   totalTokens: number;
   initialQuery: string;
+  copy: Pick<
+    LanguageChamberContent,
+    | "dictionarySearchPlaceholder"
+    | "dictionaryFilters"
+    | "dictionaryEntryLabels"
+    | "dictionaryEmptySearch"
+    | "numberSystemNote"
+    | "wordNotFound"
+    | "pronunciationUnavailable"
+  >;
 }) {
   const [hash, setHash] = useState("");
   useEffect(() => {
@@ -33,6 +48,7 @@ export function DictionaryPageClient({
       totalTokens={totalTokens}
       initialQuery={initialQuery}
       initialHash={hash}
+      copy={copy}
     />
   );
 }

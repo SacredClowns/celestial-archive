@@ -198,6 +198,39 @@ export type CallCorpusStatistics = {
   wordsPerCall: { number: number; title: string; count: number }[];
 };
 
+export type LegendItem = { label: string; description: string };
+
+export type DictionaryFilterOption = { id: string; label: string; description: string };
+
+export type DictionaryEntryLabels = {
+  enochian: string;
+  transliteration: string;
+  pronunciation: string;
+  meaning: string;
+  partOfSpeech: string;
+  source: string;
+  frequency: string;
+  related: string;
+  notes: string;
+};
+
+export type CallSectionLabels = {
+  enochianText: string;
+  englishTranslation: string;
+  pronunciationGuide: string;
+  wordBreakdown: string;
+  historicalNotes: string;
+  scholarship: string;
+  association: string;
+};
+
+export type PronunciationTraditionLabel = {
+  key: PronunciationTradition;
+  label: string;
+  description: string;
+};
+
+/** Narrative copy from `content/phase-4-data/language-chamber-content.md` */
 export type LanguageChamberContent = {
   landingIntro: string[];
   landingSubtitle: string;
@@ -212,4 +245,38 @@ export type LanguageChamberContent = {
   traditionModern: string;
   pronunciationComparisonNote: string;
   digraphs: DigraphRow[];
+  alphabetLegend: LegendItem[];
+  traditionLabels: Record<PronunciationTradition, string>;
+  letterLabels: {
+    glyph: string;
+    name: string;
+    mapsTo: string;
+    pronunciation: string;
+    writingDirection: string;
+    historicalReception: string;
+    scholarlyObservation: string;
+    exampleWords: string;
+  };
+  writingDirectionNote: string;
+  fontNote: string;
+  dictionarySearchPlaceholder: string;
+  dictionaryFilters: DictionaryFilterOption[];
+  dictionaryEntryLabels: DictionaryEntryLabels;
+  dictionaryEmptySearch: string;
+  numberSystemNote: string;
+  callSectionLabels: CallSectionLabels;
+  pronunciationTraditions: PronunciationTraditionLabel[];
+  call19SpecialNote: string;
+  call19AethyrPrompt: string;
+  call19AethyrFootnote: string;
+  callsAssociationNote: string;
+  pronounsHeader: string;
+  verbConjugationHeader: string;
+  biblicalEchoesHeader: string;
+  wordNotFound: string;
+  pronunciationUnavailable: string;
+  callTextLoading: string;
+  noScholarlyNotes: string;
+  mobileGridWarning: string;
+  chamberPanels: Array<{ href: string; title: string; subtitle: string }>;
 };

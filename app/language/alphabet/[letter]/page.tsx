@@ -34,7 +34,14 @@ export default async function LetterPage({ params }: PageProps) {
 
   return (
     <section className="mx-auto w-full max-w-[980px] space-y-12">
-      <LetterDetail letter={adjacent.letter} prev={adjacent.prev} next={adjacent.next} />
+      <LetterDetail
+        letter={adjacent.letter}
+        prev={adjacent.prev}
+        next={adjacent.next}
+        labels={content.letterLabels}
+        traditionLabels={content.traditionLabels}
+        noScholarlyNotes={content.noScholarlyNotes}
+      />
       <ChamberSourceNote>
         <p>{content.sourceNote}</p>
       </ChamberSourceNote>

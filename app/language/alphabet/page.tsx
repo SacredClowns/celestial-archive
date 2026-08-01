@@ -1,5 +1,6 @@
 import { AlphabetFlashcards } from "@/components/language/alphabet-flashcards";
 import { AlphabetGrid } from "@/components/language/alphabet-grid";
+import { AlphabetLegend } from "@/components/language/alphabet-legend";
 import { QuestionsThisRaises } from "@/components/discernment/questions-this-raises";
 import { BadgeProse } from "@/components/language/badge-prose";
 import { ChamberPageHeader, ChamberSourceNote } from "@/components/language/chamber-page-header";
@@ -20,6 +21,13 @@ export default function AlphabetPage() {
       <ChamberPageHeader kicker="Language Chamber · Alphabet" title="The Alphabet">
         <BadgeProse text={content.alphabetHeader} className="max-w-[720px] leading-[1.9] text-gold-pale" />
       </ChamberPageHeader>
+
+      <AlphabetLegend
+        alphabetLegend={content.alphabetLegend}
+        writingDirectionNote={content.writingDirectionNote}
+        fontNote={content.fontNote}
+        mobileGridWarning={content.mobileGridWarning}
+      />
 
       <AlphabetFlashcards letters={letters} />
 

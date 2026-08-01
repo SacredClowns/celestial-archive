@@ -8,6 +8,7 @@ import { BookmarkProvider } from "@/lib/bookmarks/bookmark-context";
 import { DiscoveryProvider } from "@/lib/discovery/discovery-context";
 import { JournalProvider } from "@/lib/journal/journal-context";
 import { ProgressProvider } from "@/lib/progress/progress-context";
+import { FormulaeProvider } from "@/lib/grimoire/formulae-context";
 
 const cinzel = Cinzel({
   subsets: ["latin"],
@@ -43,7 +44,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <BookmarkProvider>
                 <DiscoveryProvider>
                   <JournalProvider>
-                    <AppChrome>{children}</AppChrome>
+                    <FormulaeProvider>
+                      <AppChrome>{children}</AppChrome>
+                    </FormulaeProvider>
                   </JournalProvider>
                 </DiscoveryProvider>
               </BookmarkProvider>

@@ -18,14 +18,21 @@ import type {
   AngelicCall,
   CallTextData,
   CallWordEntry,
+  LanguageChamberContent,
   PronunciationTradition
 } from "@/lib/language/language-types";
 
-const TRADITIONS: { key: PronunciationTradition; label: string }[] = [
-  { key: "dee", label: "Dee's Original" },
-  { key: "goldenDawn", label: "Golden Dawn" },
-  { key: "modern", label: "Modern" }
-];
+type CallViewerCopy = Pick<
+  LanguageChamberContent,
+  | "callSectionLabels"
+  | "pronunciationTraditions"
+  | "call19SpecialNote"
+  | "call19AethyrPrompt"
+  | "call19AethyrFootnote"
+  | "callTextLoading"
+  | "wordNotFound"
+  | "noScholarlyNotes"
+>;
 
 function pronunciationForWord(
   word: CallWordEntry,
@@ -44,15 +51,19 @@ export function CallViewer({
   call,
   callText,
   aethyrs,
-  initialAethyr = "LIL",
+  copy,
+  initialAethyr = "TEX",
   showAethyrSelector = true
 }: {
   call: AngelicCall;
   callText?: CallTextData;
   aethyrs: AethyrName[];
+  copy: CallViewerCopy;
   initialAethyr?: string;
   showAethyrSelector?: boolean;
 }) {
+  const labels = copy.callSectionLabels;
+  const traditions = copy.pronunciationTraditions;
   const [tradition, setTradition] = useState<PronunciationTradition>("dee");
   const [selectedAethyr, setSelectedAethyr] = useState(initialAethyr);
   const [highlightPos, setHighlightPos] = useState<string | null>(null);
@@ -84,7 +95,7 @@ export function CallViewer({
             <dd className="inline ml-1 text-gold-pale">{callText?.words.length ?? call.totalLines}</dd>
           </div>
           <div>
-            <dt className="inline uppercase tracking-wider">Association</dt>
+            <dt className="inline uppercase tracking-wider">{labels.association}</dt>
             <dd className="inline ml-1 text-gold-pale">{call.association.type}</dd>
           </div>
         </dl>
@@ -98,12 +109,12 @@ export function CallViewer({
       </header>
 
       <div className="flex flex-wrap gap-2">
-        {TRADITIONS.map((t) => (
+        {traditions.map((t) => (
           <button
             key={t.key}
             type="button"
             disabled={textPending}
-            title={textPending ? "Available when Call text is transcribed." : undefined}
+            title={textPending ? copy.callTextLoading : t.description}
             onClick={() => setTradition(t.key)}
             className={`rounded-sm border px-3 py-1.5 font-display text-xs uppercase tracking-[0.1em] ${
               textPending
@@ -120,10 +131,8 @@ export function CallViewer({
 
       {textPending ? (
         <CandlelightCard className="rounded-sm border border-amber/30 bg-ink/25 p-6">
-          <p className="font-display text-sm uppercase tracking-[0.16em] text-amber">Text Pending</p>
-          <p className="mt-3 leading-[1.9] text-gold-pale">
-            The Enochian text for this Call is being transcribed from Dee&apos;s manuscripts (Sloane MS
-            3191).
+          <p className="font-display text-sm uppercase tracking-[0.16em] text-amber">
+            {copy.callTextLoading}
           </p>
         </CandlelightCard>
       ) : (
@@ -138,7 +147,7 @@ export function CallViewer({
 
           <CandlelightCard className="rounded-sm border border-gold-dim/20 bg-ink/20 p-6">
             <p className="mb-4 font-display text-xs uppercase tracking-[0.14em] text-gold-dim">
-              Manuscript view
+              {labels.enochianText}
             </p>
             <p
               className="font-enochian font-mono text-lg leading-relaxed tracking-wide text-gold sm:text-xl"
@@ -182,7 +191,7 @@ export function CallViewer({
               </p>
               {(() => {
                 const dict = getDictionaryEntryForCallWord(tooltipWord.enochian);
-                if (!dict) return <p className="mt-2 text-xs text-gold-dim/60">No dictionary entry yet.</p>;
+                if (!dict) return <p className="mt-2 text-xs text-gold-dim/60">{copy.wordNotFound}</p>;
                 return (
                   <p className="mt-2 text-xs text-gold-pale">
                     Dictionary: {dict.meanings[0]?.english}{" "}
@@ -203,9 +212,9 @@ export function CallViewer({
               <thead>
                 <tr className="border-b border-gold-dim/30 text-left text-xs uppercase tracking-wider text-gold-dim">
                   <th className="py-2 pr-3">Pos</th>
-                  <th className="py-2 pr-3">Enochian</th>
-                  <th className="py-2 pr-3">Pronunciation</th>
-                  <th className="py-2">English</th>
+                  <th className="py-2 pr-3">{labels.enochianText}</th>
+                  <th className="py-2 pr-3">{labels.pronunciationGuide}</th>
+                  <th className="py-2">{labels.englishTranslation}</th>
                 </tr>
               </thead>
               <tbody>
@@ -249,15 +258,23 @@ export function CallViewer({
 
       {call.number === 19 && call.aethyrVariable && showAethyrSelector ? (
         <section className="space-y-4 border-t border-gold-dim/25 pt-8">
-          <h3 className="font-display text-lg text-gold">Call of the Aethyrs</h3>
-          <p className="text-sm leading-relaxed text-gold-dim">{call.aethyrVariable.note}</p>
-          <AethyrCallSelector aethyrs={aethyrs} selected={selectedAethyr} onSelect={setSelectedAethyr} />
+          <h3 className="font-display text-lg text-gold">{labels.association}</h3>
+          <p className="text-sm leading-relaxed text-gold-dim">{copy.call19SpecialNote}</p>
+          <AethyrCallSelector
+            aethyrs={aethyrs}
+            selected={selectedAethyr}
+            onSelect={setSelectedAethyr}
+            prompt={copy.call19AethyrPrompt}
+            footnote={copy.call19AethyrFootnote}
+          />
         </section>
       ) : null}
 
       {call.historicalNotes.length > 0 ? (
         <section className="space-y-3">
-          <h3 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">Historical Notes</h3>
+          <h3 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
+            {labels.historicalNotes}
+          </h3>
           {call.historicalNotes.map((note) => (
             <CandlelightCard
               key={note.text.slice(0, 40)}
@@ -273,7 +290,9 @@ export function CallViewer({
 
       {call.scholarlyNotes.length > 0 ? (
         <section className="space-y-3">
-          <h3 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">Scholarship</h3>
+          <h3 className="font-display text-sm uppercase tracking-[0.2em] text-gold-dim">
+            {labels.scholarship}
+          </h3>
           {call.scholarlyNotes.map((note) => (
             <CandlelightCard
               key={`${note.scholar}-${note.observation.slice(0, 24)}`}

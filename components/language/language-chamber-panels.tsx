@@ -2,31 +2,13 @@
 
 import Link from "next/link";
 import { Inscribe } from "@/components/motion/inscribe";
+import type { LanguageChamberContent } from "@/lib/language/language-types";
 
-const panels = [
-  {
-    href: "/language/alphabet",
-    title: "The Alphabet",
-    subtitle: "21 letters. One lost script."
-  },
-  {
-    href: "/language/dictionary",
-    title: "The Dictionary",
-    subtitle: "~250 words. One attested corpus."
-  },
-  {
-    href: "/language/calls",
-    title: "The Calls",
-    subtitle: "19 keys. 48 gates."
-  },
-  {
-    href: "/language/pronunciation",
-    title: "The Pronunciation Guide",
-    subtitle: "Three traditions. One uncertain voice."
-  }
-] as const;
-
-export function LanguageChamberPanels() {
+export function LanguageChamberPanels({
+  panels
+}: {
+  panels: LanguageChamberContent["chamberPanels"];
+}) {
   return (
     <div className="grid gap-4 sm:grid-cols-2">
       {panels.map((panel, index) => (

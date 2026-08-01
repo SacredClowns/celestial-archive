@@ -1,34 +1,101 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useCallback, useState } from "react";
 import { CallSelector } from "@/components/language/call-selector";
 import { CallViewer } from "@/components/language/call-viewer";
-import { getCallTextData } from "@/lib/language/language-data";
-import type { AethyrName, AngelicCall } from "@/lib/language/language-types";
+import type {
+  AngelicCall,
+  AethyrName,
+  CallTextData,
+  LanguageChamberContent
+} from "@/lib/language/language-types";
+
+type CallsCopy = Pick<
+  LanguageChamberContent,
+  | "callSectionLabels"
+  | "pronunciationTraditions"
+  | "call19SpecialNote"
+  | "call19AethyrPrompt"
+  | "call19AethyrFootnote"
+  | "callsAssociationNote"
+  | "callTextLoading"
+  | "wordNotFound"
+  | "noScholarlyNotes"
+>;
+
+type CallPayload = {
+  call: AngelicCall;
+  callText: CallTextData | null;
+};
 
 export function LanguageCallsShell({
-  calls,
-  aethyrs
+  callSummaries,
+  aethyrs,
+  copy,
+  initialCall = 1,
+  initialPayload
 }: {
-  calls: AngelicCall[];
+  callSummaries: Array<{ number: number; title: string }>;
   aethyrs: AethyrName[];
+  copy: CallsCopy;
+  initialCall?: number;
+  initialPayload: CallPayload;
 }) {
-  const searchParams = useSearchParams();
-  const initialCall = Number(searchParams.get("call")) || 1;
-  const [selected, setSelected] = useState(initialCall);
+  const router = useRouter();
+  const safeInitial = initialCall >= 1 && initialCall <= 19 ? initialCall : 1;
+  const [selected, setSelected] = useState(safeInitial);
+  const [payload, setPayload] = useState<CallPayload>(initialPayload);
+  const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    const n = Number(searchParams.get("call"));
-    if (n >= 1 && n <= 19) setSelected(n);
-  }, [searchParams]);
-  const call = calls.find((c) => c.number === selected) ?? calls[0];
-  const callText = getCallTextData(call.number);
+  const loadCall = useCallback(async (n: number) => {
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/language/call-text?call=${n}`);
+      if (!res.ok) throw new Error("Failed to load call");
+      const data = (await res.json()) as CallPayload;
+      setPayload(data);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  const handleSelect = (n: number) => {
+    setSelected(n);
+    router.replace(`/language/calls?call=${n}`, { scroll: false });
+    void loadCall(n);
+  };
+
+  const callsForSelector: AngelicCall[] = callSummaries.map(
+    ({ number, title }) =>
+      ({
+        number,
+        title,
+        totalLines: 0,
+        lines: "PENDING_TRANSCRIPTION",
+        association: payload.call.association,
+        historicalNotes: [],
+        scholarlyNotes: [],
+        receptionOrder: number
+      }) as AngelicCall
+  );
 
   return (
     <div className="space-y-8">
-      <CallSelector calls={calls} selected={call.number} onSelect={setSelected} />
-      <CallViewer key={call.number} call={call} callText={callText} aethyrs={aethyrs} />
+      <CallSelector calls={callsForSelector} selected={selected} onSelect={handleSelect} />
+      {loading ? (
+        <p className="py-12 text-center font-display text-xs uppercase tracking-[0.16em] text-gold-dim">
+          {copy.callTextLoading}
+        </p>
+      ) : (
+        <CallViewer
+          key={payload.call.number}
+          call={payload.call}
+          callText={payload.callText ?? undefined}
+          aethyrs={aethyrs}
+          copy={copy}
+        />
+      )}
     </div>
   );
 }

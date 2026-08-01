@@ -29,6 +29,13 @@ export function AccountMenu() {
 
   return (
     <div className="flex items-center gap-2">
+      <Link
+        href="/grimoire"
+        className="hidden font-display text-[10px] uppercase tracking-wider text-gold-dim/60 hover:text-gold sm:inline"
+        title="Your private Grimoire"
+      >
+        Grimoire
+      </Link>
       <span
         className="hidden max-w-[8rem] truncate font-display text-[10px] uppercase tracking-wider text-gold-dim/70 sm:inline"
         title={user.email ?? undefined}
