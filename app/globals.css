@@ -31,6 +31,24 @@
   animation: page-enter 0.4s ease-out;
 }
 
+/* Instrumentarium / Admin / Grimoire — private chambers */
+.instrumentarium-chamber,
+.admin-chamber,
+.grimoire-chamber {
+  background: radial-gradient(ellipse at 50% 0%, #1a1408 0%, var(--ink) 50%, #040302 100%);
+}
+
+.instrumentarium-sigil {
+  color: var(--gold);
+  animation: slow-spin 180s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .instrumentarium-sigil {
+    animation: none;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -254,3 +272,60 @@ body::before {
   0% { transform: translate(0, 0); }
   100% { transform: translate(-30px, -15px); }
 }
+/* ── Illumination pass (2026-08-01): hero shimmer, drop caps, folio reveal ── */
+@keyframes hero-shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.hero-shimmer {
+  background: linear-gradient(120deg, #7a6230 0%, #c9a84c 25%, #f5e8c0 50%, #c9a84c 75%, #7a6230 100%);
+  background-size: 250% 250%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: hero-shimmer 9s ease-in-out infinite;
+  text-shadow: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-shimmer { animation: none; }
+}
+
+/* Illuminated-manuscript drop cap on the first paragraph of a folio */
+.reading-column > p:first-of-type::first-letter,
+.lesson-body > p:first-of-type::first-letter {
+  font-family: var(--font-cinzel), serif;
+  font-size: 3.4em;
+  line-height: 0.85;
+  float: left;
+  padding: 0.06em 0.14em 0 0;
+  color: #e8cc7d;
+  text-shadow: 0 0 24px rgba(201, 168, 76, 0.35);
+}
+
+/* Folio sections breathe in as the reader descends */
+.folio-reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.folio-reveal.folio-in {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .folio-reveal { opacity: 1; transform: none; transition: none; }
+}
+
+/* Pillar card corner glow */
+.pillar-card { position: relative; }
+.pillar-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  background: radial-gradient(220px circle at 85% 12%, rgba(201, 168, 76, 0.12), transparent 70%);
+}
+.group:hover .pillar-card::after { opacity: 1; }

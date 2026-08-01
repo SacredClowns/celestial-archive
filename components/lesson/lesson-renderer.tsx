@@ -292,7 +292,7 @@ export function LessonRenderer({ lesson }: { lesson: LessonSchema }) {
         {lesson.contentMode === "markdown" ? (
           <>
             <Inscribe>
-              <div className="mb-8 space-y-4">
+              <div className="lesson-body mb-8 space-y-4">
                 {lensParts.before ? (
                   <LessonMarkdownBody
                     markdown={lensParts.before}

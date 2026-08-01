@@ -45,3 +45,5 @@ C:\Users\*
 
 # Next.js verify
 .next-verify/
+
+.tmp-*.html
