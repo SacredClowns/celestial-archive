@@ -47,8 +47,10 @@ export const observerLessonRegistry: ObserverLessonRecord[] = [
     order: 2,
     slug: "what-the-scryer-saw",
     title: "What the Scryer Saw",
+    subtitle: "The Session as Negotiation",
     lessonNumber: "Lesson 3.2",
-    status: "planned",
+    status: "open",
+    sourcePackId: "SOURCE_PACK_OBSERVER_3_2",
     theme: "Sessions as negotiation, not passive reception",
     previousLessonId: "observer-3-1",
     nextLessonId: "observer-3-3"

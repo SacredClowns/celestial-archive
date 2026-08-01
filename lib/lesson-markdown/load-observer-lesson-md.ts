@@ -10,7 +10,8 @@ import {
 } from "@/lib/lesson-markdown/split-body";
 
 const SLUG_TO_FILE: Record<string, string> = {
-  "the-ink-on-the-page": "STAGE_3_OBSERVER_LESSON_1.md"
+  "the-ink-on-the-page": "STAGE_3_OBSERVER_LESSON_1.md",
+  "what-the-scryer-saw": "STAGE_3_OBSERVER_LESSON_2.md"
 };
 
 export type LoadedObserverMarkdown = {
